@@ -42,6 +42,7 @@ export const text: text = {
   community: `コミュニティ`,
   confirmAccount: `アカウントを確認`,
   confirmPassword: `パスワードを認証する`,
+  copyLink: `(en) Copy link`,
   couldNotCreateANewRecord: `新しいレコードを作成できませんでした`,
   country: `国`,
   createANewAccountFailed: `新しいアカウントを作成できませんでした`,

@@ -42,6 +42,7 @@ export const text: text = {
   community: `Cộng đồng`,
   confirmAccount: `Xác nhận tài khoản`,
   confirmPassword: `Xác nhận mật khẩu`,
+  copyLink: `(en) Copy link`,
   couldNotCreateANewRecord: `Không thể tạo hồ sơ mới`,
   country: `Quốc gia`,
   createANewAccountFailed: `Tạo tài khoản mới không thành công`,

@@ -42,6 +42,7 @@ export const text: text = {
   community: `Komunitas`,
   confirmAccount: `Konfirmasi akun`,
   confirmPassword: `Konfirmasi Kata Sandi`,
+  copyLink: `(en) Copy link`,
   couldNotCreateANewRecord: `Tidak dapat membuat catatan baru`,
   country: `Negara`,
   createANewAccountFailed: `Gagal membuat akun baru`,

@@ -42,6 +42,7 @@ export const text: text = {
   community: `커뮤니티`,
   confirmAccount: `계정 확인`,
   confirmPassword: `비밀번호 확인`,
+  copyLink: `(en) Copy link`,
   couldNotCreateANewRecord: `새 레코드를 만들 수 없습니다.`,
   country: `국가`,
   createANewAccountFailed: `새 계정을 만들지 못했습니다.`,

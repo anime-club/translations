@@ -42,6 +42,7 @@ export const text: text = {
   community: `المجتمع`,
   confirmAccount: `تأكيد الحساب`,
   confirmPassword: `تأكيد كلمة السر`,
+  copyLink: `(en) Copy link`,
   couldNotCreateANewRecord: `تعذر إنشاء سجل جديد`,
   country: `الدولة`,
   createANewAccountFailed: `فشل إنشاء حساب جديد`,
