@@ -7,10 +7,10 @@ By making our translations available to everyone, we hope you could kindly help 
 
 ## Project structure
 
-- all languages are available in `/src` directory
+- all languages are available in [/src](/src) directory
 - if a translation phrase is **not translated yet**:
   - it has a prefix `"(en) "`
-    - for example if you see in `/src/japanese.ts`:
+    - for example if you see in [/src/japanese.ts](/src/japanese.ts):
 
       ```ts
       deleteArt: `(en) Delete art`,
