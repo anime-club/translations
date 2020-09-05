@@ -19,19 +19,19 @@ The process is easy as 1-2-3:
 2. Another page would open, make changes there
 3. Submit changes by pressing a green button at the bottom of the page where you edit
 
-- [🇸🇦Arabic (modern standard)](https://github.com/anime-club/translations/edit/master/src/arabic-standard.ts)
-- [🇨🇳Chinese (Simplified)](https://github.com/anime-club/translations/edit/master/src/chinese-simplified.ts)
-- [🇺🇸English](https://github.com/anime-club/translations/edit/master/src/english.ts)
-- [🇫🇷French](https://github.com/anime-club/translations/edit/master/src/french.ts)
-- [🇩🇪German](https://github.com/anime-club/translations/edit/master/src/german.ts)
-- [🇮🇳Hindi](https://github.com/anime-club/translations/edit/master/src/hindi.ts)
-- [🇮🇩Indonesian](https://github.com/anime-club/translations/edit/master/src/indonesian.ts)
-- [🇯🇵Japanese](https://github.com/anime-club/translations/edit/master/src/japanese.ts)
-- [🇰🇷Korean](https://github.com/anime-club/translations/edit/master/src/korean.ts)
-- [🇵🇹Portuguese](https://github.com/anime-club/translations/edit/master/src/portuguese.ts)
-- [🇷🇺Russian](https://github.com/anime-club/translations/edit/master/src/russian.ts)
-- [🇪🇸Spanish](https://github.com/anime-club/translations/edit/master/src/spanish.ts)
-- [🇻🇳Vietnamese](https://github.com/anime-club/translations/edit/master/src/vietnamese.ts)
+- [🇸🇦 Arabic (modern standard)](https://github.com/anime-club/translations/edit/master/src/arabic-standard.ts)
+- [🇨🇳 Chinese (Simplified)](https://github.com/anime-club/translations/edit/master/src/chinese-simplified.ts)
+- [🇺🇸 English](https://github.com/anime-club/translations/edit/master/src/english.ts)
+- [🇫🇷 French](https://github.com/anime-club/translations/edit/master/src/french.ts)
+- [🇩🇪 German](https://github.com/anime-club/translations/edit/master/src/german.ts)
+- [🇮🇳 Hindi](https://github.com/anime-club/translations/edit/master/src/hindi.ts)
+- [🇮🇩 Indonesian](https://github.com/anime-club/translations/edit/master/src/indonesian.ts)
+- [🇯🇵 Japanese](https://github.com/anime-club/translations/edit/master/src/japanese.ts)
+- [🇰🇷 Korean](https://github.com/anime-club/translations/edit/master/src/korean.ts)
+- [🇵🇹 Portuguese](https://github.com/anime-club/translations/edit/master/src/portuguese.ts)
+- [🇷🇺 Russian](https://github.com/anime-club/translations/edit/master/src/russian.ts)
+- [🇪🇸 Spanish](https://github.com/anime-club/translations/edit/master/src/spanish.ts)
+- [🇻🇳 Vietnamese](https://github.com/anime-club/translations/edit/master/src/vietnamese.ts)
 
 ## Project structure
 
