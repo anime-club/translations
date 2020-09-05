@@ -1,4 +1,4 @@
-type singleSourceOfTruth = import("./src/english").text
+type singleSourceOfTruth = import("./src/english").english
 
 /**
  * English language is our source of truth for the
