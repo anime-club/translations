@@ -1,0 +1,40 @@
+{
+  // Disable possible extensions DO NOT REMOVE
+  "tslint.enable": false,
+  "tslint.exclude": ["**/*"],
+  "npm.autoDetect": "off",
+  // General optimizations
+  "extensions.ignoreRecommendations": false,
+  "extensions.showRecommendationsOnlyOnDemand": false,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.codeActionsOnSave.mode": "all",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": true,
+    "source.organizeImports": false
+  },
+  "files.insertFinalNewline": true,
+  "files.associations": {
+    "tsconfig.json": "jsonc"
+  },
+  // Prettier
+  "prettier.disableLanguages": [],
+  // ESLint
+  "eslint.packageManager": "yarn",
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": ["typescript"],
+  // TypeScript
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "typescript.check.npmIsInstalled": false,
+  "typescript.tsserver.log": "off",
+  "typescript.tsserver.trace": "off",
+  "typescript.autoClosingTags": true,
+  "typescript.format.enable": false,
+  "typescript.surveys.enabled": false,
+  "typescript.tsserver.useSeparateSyntaxServer": true,
+  "typescript.validate.enable": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative"
+}
