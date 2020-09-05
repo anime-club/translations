@@ -7,7 +7,7 @@ By making our translations available to everyone, we hope you could kindly help 
 
 ## Quick links (Contents)
 
-- [How to edit translation](#how-to-edit-a-translation)
+- [How to edit a translation](#how-to-edit-a-translation)
 - [Project structure](#project-structure)
 - [Use of translations from this repository in your project](#use-of-translations-from-this-repository-in-your-project)
 
