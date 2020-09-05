@@ -1,5 +1,5 @@
 {
-  "name": "translations",
+  "name": "@anime-club/translations",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
