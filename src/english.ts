@@ -105,6 +105,7 @@ export const text = {
   newArt: `New art`,
   newBlog: `New blog`,
   newPassword: `New Password`,
+  newsFeed: `News feed`,
   no: `no`,
   noInternetConnection: `No Internet connection!`,
   nsfwContent18Plus: `NSFW Content (18+)`,
@@ -143,6 +144,7 @@ export const text = {
   skip: `Skip`,
   socialMedia: `Social media`,
   spaceCharacterIsNotAllowed: `Space character is not allowed`,
+  subscribeToTalentsToKeepUpWithTheirProgress: `Subscribe to talents to keep up with their progress`,
   successChangedPasswordPleaseSignIn: `Success! Changed password. Please sign in`,
   successCreatedRecord: `Success! Created record!`,
   successUpdatedRecord: `Success! Updated record!`,
@@ -180,6 +182,7 @@ export const text = {
   yourAvatar: `Your avatar`,
   yourBlog: `Your blog`,
   yourFansAreWaiting: `Your fans are waiting`,
+  yourFeedIsEmpty: `your feed is empty`,
   yourSessionHasExpiredPleaseSignInAgain: `Your session has expired, please sign in again`,
 }
 export type english = typeof text
