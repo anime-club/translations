@@ -182,7 +182,7 @@ export const text = {
   yourAvatar: `Your avatar`,
   yourBlog: `Your blog`,
   yourFansAreWaiting: `Your fans are waiting`,
-  yourFeedIsEmpty: `your feed is empty`,
+  yourFeedIsEmpty: `Your feed is empty`,
   yourSessionHasExpiredPleaseSignInAgain: `Your session has expired, please sign in again`,
 }
 export type english = typeof text
