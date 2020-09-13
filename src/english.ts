@@ -58,6 +58,7 @@ export const text = {
   editArt: `Edit art`,
   editPost: `Edit post`,
   editProfile: `Edit profile`,
+  editTranslations: `Edit translations`,
   email: `Email`,
   emailSubscription: `Email Subscription`,
   error404NotFound: `Error 404 - Not found`,
