@@ -5,6 +5,7 @@ export const text: text = {
   _exclamation: `! `,
   _question: `? `,
   about: `Сведения`,
+  accept: `Принять`,
   accountActivation: `Активация учетной записи`,
   accountAlreadyExists: `Учетная запись уже существует`,
   accountDoesNotExist: `Учетная запись не существует`,

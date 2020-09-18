@@ -48,7 +48,6 @@ export const text = {
   country: `Country`,
   createANewAccountFailed: `Create a new account failed`,
   createNewAccount: `Create new account`,
-  decline: `Decline`,
   delete: `Delete`,
   deleteArt: `Delete art`,
   deletePost: `Delete post`,
