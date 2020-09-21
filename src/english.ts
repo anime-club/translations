@@ -130,6 +130,8 @@ export const text = {
     `Please enter at least ${num} characters `,
   pleaseFillOutYourDetails: `Please fill out your details`,
   pleaseSignInToYourAccount: `Please sign in to your account`,
+  pleaseTryAgainOrClick: (buttonName: string) =>
+    `Please try again or click ${buttonName}`,
   pleaseVerifyYourAccount: `Please verify your account`,
   pressHereTo: `Press here to`,
   save: `Save`,
@@ -177,6 +179,7 @@ export const text = {
   weSentAnEmailTo: `We sent an email to:`,
   weSentYouANewVerificationEmailPleaseEnterTheCode: `We sent you a new verification email. Please enter the code`,
   weSupportOnlyTheFollowingFileExtensions: `We support only the following file extensions:`,
+  wrongEmailOrPassword: `Wrong email or password`,
   yes: `yes`,
   youAreAlreadyAuthenticated: `You are already authenticated`,
   youCanStillNavigateToThePreviouslyOpenedPages: `You can still navigate to the previously opened pages`,
