@@ -98,6 +98,7 @@ export const text: text = {
   minHeight: `Altura mínima`,
   minimumNChars: (n) => `Mínimo ${n} caracteres`,
   minWidth: `Ancho mínimo`,
+  moreFrom: (n) => `(en) More from ${n}`,
   mustBeNChars: (n) => `Debe tener ${n} caracteres`,
   need1Lowercase: `Necesita 1 minúscula`,
   need1Number: `Necesita 1 número`,

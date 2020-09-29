@@ -98,6 +98,7 @@ export const text: text = {
   minHeight: `최소 높이`,
   minimumNChars: (n) => `최소 ${n}개 문자`,
   minWidth: `최소 너비`,
+  moreFrom: (n) => `(en) More from ${n}`,
   mustBeNChars: (n) => `${n}개 문자 여야 합니다.`,
   need1Lowercase: `소문자 1 개 필요`,
   need1Number: `숫자 1 개 필요`,

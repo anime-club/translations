@@ -98,6 +98,7 @@ export const text: text = {
   minHeight: `Chiều cao tối thiểu`,
   minimumNChars: (n) => `Tối thiểu ${n} ký tự`,
   minWidth: `Chiều rộng tối thiểu`,
+  moreFrom: (n) => `(en) More from ${n}`,
   mustBeNChars: (n) => `Phải là ${n} ký tự`,
   need1Lowercase: `Cần 1 chữ thường`,
   need1Number: `Cần 1 số`,
