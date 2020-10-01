@@ -4,6 +4,7 @@ export const text: text = {
   _dot: `. `,
   _exclamation: `! `,
   _question: `؟ `,
+  _space: ` `,
   about: `حول المستخدم`,
   accept: `(en) Accept`,
   accountActivation: `تفعيل الحساب`,

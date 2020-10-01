@@ -4,6 +4,7 @@ export const text: text = {
   _dot: `| `,
   _exclamation: `! `,
   _question: `? `,
+  _space: ` `,
   about: `के बारे में`,
   accept: `(en) Accept`,
   accountActivation: `खाता सक्रियण`,
@@ -103,7 +104,8 @@ export const text: text = {
   need1Lowercase: `1 लोअरकेस की आवश्यकता है`,
   need1Number: `1 नंबर की आवश्यकता है`,
   need1Uppercase: `1 अपरकेस की आवश्यकता है`,
-  needAtLeast1CharacterFromN: (n) => `[${n}] से कम से कम 1 करेक्टर की आवश्यकता है`,
+  needAtLeast1CharacterFromN: (n) =>
+    `[${n}] से कम से कम 1 करेक्टर की आवश्यकता है`,
   needNCharacter: (n) => `${n} करेक्टर की आवश्यकता है`,
   newAccount: `नया खाता`,
   newArt: `नई चित्रकला`,

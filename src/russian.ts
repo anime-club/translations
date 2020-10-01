@@ -4,6 +4,7 @@ export const text: text = {
   _dot: `. `,
   _exclamation: `! `,
   _question: `? `,
+  _space: ` `,
   about: `Сведения`,
   accept: `Принять`,
   accountActivation: `Активация учетной записи`,
@@ -126,7 +127,8 @@ export const text: text = {
   payments: `Платежи`,
   pleaseCheckYour: `Пожалуйста, проверьте ваш`,
   pleaseDropOnlyOneImage: `Пожалуйста, поместите только одно изображение`,
-  pleaseEnterAtLeastNChars: (n) => `Пожалуйста, введите не менее ${n} символов `,
+  pleaseEnterAtLeastNChars: (n) =>
+    `Пожалуйста, введите не менее ${n} символов `,
   pleaseFillOutYourDetails: `Пожалуйста, заполните ваши данные`,
   pleaseSignInToYourAccount: `Пожалуйста, войдите в свою учетную запись`,
   pleaseTryAgainOrClick: (n) => `(en) Please try again or click ${n}`,

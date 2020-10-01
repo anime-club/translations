@@ -4,6 +4,7 @@ export const text: text = {
   _dot: `. `,
   _exclamation: `! `,
   _question: `? `,
+  _space: ` `,
   about: `Giới thiệu`,
   accept: `(en) Accept`,
   accountActivation: `Kích hoạt tài khoản`,

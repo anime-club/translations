@@ -4,6 +4,7 @@ export const text: text = {
   _dot: `. `,
   _exclamation: `! `,
   _question: `? `,
+  _space: ` `,
   about: `Tentang`,
   accept: `(en) Accept`,
   accountActivation: `Aktivasi Akun`,
@@ -103,7 +104,8 @@ export const text: text = {
   need1Lowercase: `Perlu 1 huruf kecil`,
   need1Number: `Perlu 1 angka`,
   need1Uppercase: `Perlu 1 huruf besar`,
-  needAtLeast1CharacterFromN: (n) => `Perlu paling tidak 1 karakter dari [${n}]`,
+  needAtLeast1CharacterFromN: (n) =>
+    `Perlu paling tidak 1 karakter dari [${n}]`,
   needNCharacter: (n) => `Perlu ${n} karakter`,
   newAccount: `Akun baru`,
   newArt: `Karya baru`,

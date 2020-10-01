@@ -4,6 +4,7 @@ export const text: text = {
   _dot: `. `,
   _exclamation: `! `,
   _question: `? `,
+  _space: ` `,
   about: `소개`,
   accept: `(en) Accept`,
   accountActivation: `계정 활성화`,

@@ -4,6 +4,7 @@ export const text: text = {
   _dot: `. `,
   _exclamation: `! `,
   _question: `? `,
+  _space: ` `,
   about: `Über`,
   accept: `(en) Accept`,
   accountActivation: `Kontoaktivierung`,
@@ -126,7 +127,8 @@ export const text: text = {
   payments: `Zahlungen`,
   pleaseCheckYour: `Bitte überprüfen Sie Ihre`,
   pleaseDropOnlyOneImage: `Bitte lassen Sie nur ein Bild fallen`,
-  pleaseEnterAtLeastNChars: (n) => `Bitte geben Sie mindestens ${n} Zeichen ein`,
+  pleaseEnterAtLeastNChars: (n) =>
+    `Bitte geben Sie mindestens ${n} Zeichen ein`,
   pleaseFillOutYourDetails: `Bitte füllen Sie Ihre Daten`,
   pleaseSignInToYourAccount: `Bitte melden Sie sich an Ihrem Konto`,
   pleaseTryAgainOrClick: (n) => `(en) Please try again or click ${n}`,

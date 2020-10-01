@@ -4,6 +4,7 @@ export const text: text = {
   _dot: `。`,
   _exclamation: `！`,
   _question: `？`,
+  _space: ``,
   about: `約`,
   accept: `(en) Accept`,
   accountActivation: `アカウント開設`,
