@@ -98,6 +98,7 @@ export const text: text = {
   minHeight: `الارتفاع الأدنى`,
   minimumNChars: (n) => `الحد الأدنى ${n} حرف`,
   minWidth: `العرض الأدنى`,
+  moreFrom: (n) => `(en) More from ${n}`,
   mustBeNChars: (n) => `لا بد أن تكون ${n} حرف`,
   need1Lowercase: `يلزم 1 حرف صغير`,
   need1Number: `يلزم 1 رقم`,
