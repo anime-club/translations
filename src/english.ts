@@ -136,6 +136,7 @@ export const text = {
     `Please try again or click ${buttonName}`,
   pleaseVerifyYourAccount: `Please verify your account`,
   pressHereTo: `Press here to`,
+  profile: `Profile`,
   save: `Save`,
   saveAvatar: `Save avatar`,
   saveChanges: `Save changes`,
