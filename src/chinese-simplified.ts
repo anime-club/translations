@@ -133,6 +133,7 @@ export const text: text = {
   pleaseTryAgainOrClick: (n) => `(en) Please try again or click ${n}`,
   pleaseVerifyYourAccount: `请验证您的帐户`,
   pressHereTo: `按这里`,
+  profile: `(en) Profile`,
   save: `保存`,
   saveAvatar: `保存头像`,
   saveChanges: `保存更改`,

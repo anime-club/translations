@@ -133,6 +133,7 @@ export const text: text = {
   pleaseTryAgainOrClick: (n) => `(en) Please try again or click ${n}`,
   pleaseVerifyYourAccount: `アカウントを確認してください`,
   pressHereTo: `ここを押して`,
+  profile: `(en) Profile`,
   save: `保存する`,
   saveAvatar: `アバターを保存`,
   saveChanges: `変更内容を保存`,

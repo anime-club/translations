@@ -133,6 +133,7 @@ export const text: text = {
   pleaseTryAgainOrClick: (n) => `(en) Please try again or click ${n}`,
   pleaseVerifyYourAccount: `계정을 확인하십시오`,
   pressHereTo: `여기를 눌러주세요`,
+  profile: `(en) Profile`,
   save: `저장`,
   saveAvatar: `아바타 저장`,
   saveChanges: `변경 사항 저장`,

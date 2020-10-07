@@ -133,6 +133,7 @@ export const text: text = {
   pleaseTryAgainOrClick: (n) => `(en) Please try again or click ${n}`,
   pleaseVerifyYourAccount: `Vui lòng xác nhận tài khoản của bạn`,
   pressHereTo: `Nhấn vào đây để`,
+  profile: `(en) Profile`,
   save: `Lưu`,
   saveAvatar: `Lưu hình đại diện`,
   saveChanges: `Lưu thay đổi`,
