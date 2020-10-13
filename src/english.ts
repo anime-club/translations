@@ -91,6 +91,7 @@ export const text = {
   invalidPartBeforeAt: `Invalid part before @`,
   joinChat: `Join Chat`,
   joinUsOnFacebook: `Join us on facebook`,
+  languages: `Languages`,
   livingIn: `Living in`,
   logout: `Logout`,
   maximumNChars: (num: number) => `Maximum ${num} chars`,

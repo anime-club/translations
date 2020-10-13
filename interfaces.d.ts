@@ -7,4 +7,4 @@ type singleSourceOfTruth = import("./src/english").english
  * Therefore:
  *   - no need to retype anything here as language structure can change
  */
-declare type text = singleSourceOfTruth
+declare type text = singleSourceOfTruth | any
