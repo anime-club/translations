@@ -31,6 +31,7 @@ export const text: text = {
   authenticationFailed: `Xác thực không thành công`,
   back: `Quay lại`,
   blog: `Blog`,
+  bookmarks: `Dấu trang`,
   browseArt: `Duyệt tác phẩm`,
   cancel: `hủy`,
   cannotStartWithChars: `Không thể bắt đầu bằng s{:"^$*[]{}()?-"!@#%&/,><':;|~\`"`,

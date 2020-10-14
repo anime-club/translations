@@ -31,6 +31,7 @@ export const text: text = {
   authenticationFailed: `認証に失敗しました`,
   back: `バック`,
   blog: `ブログ`,
+  bookmarks: `ブックマーク`,
   browseArt: `アートを閲覧する`,
   cancel: `キャンセル`,
   cannotStartWithChars: `で始めることはできません{:"^$*[]{}()?-"!@#%&/,><':;|~\`"`,

@@ -31,6 +31,7 @@ export const text: text = {
   authenticationFailed: `Аутентификация не прошла`,
   back: `Назад`,
   blog: `Блог`,
+  bookmarks: `Закладки`,
   browseArt: `Смотреть арты`,
   cancel: `отменить`,
   cannotStartWithChars: `Не может начинаться с s{:"^$*[]{}()?-"!@#%&/,><':;|~\`"`,
@@ -127,7 +128,8 @@ export const text: text = {
   payments: `Платежи`,
   pleaseCheckYour: `Пожалуйста, проверьте ваш`,
   pleaseDropOnlyOneImage: `Пожалуйста, поместите только одно изображение`,
-  pleaseEnterAtLeastNChars: (n) => `Пожалуйста, введите не менее ${n} символов `,
+  pleaseEnterAtLeastNChars: (n) =>
+    `Пожалуйста, введите не менее ${n} символов `,
   pleaseFillOutYourDetails: `Пожалуйста, заполните ваши данные`,
   pleaseSignInToYourAccount: `Пожалуйста, войдите в свою учетную запись`,
   pleaseTryAgainOrClick: (n) => `Пожалуйста, повторите или нажмите ${n}`,

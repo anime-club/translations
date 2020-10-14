@@ -31,6 +31,7 @@ export const text: text = {
   authenticationFailed: `Autentikasi gagal`,
   back: `Kembali`,
   blog: `Blog `,
+  bookmarks: `Markah`,
   browseArt: `Jelajahi karya`,
   cancel: `batalkan`,
   cannotStartWithChars: `Tidak dapat memulai dengan {:"^$*[]{}()?-"!@#%&/,><':;|~\`"`,
@@ -104,7 +105,8 @@ export const text: text = {
   need1Lowercase: `Perlu 1 huruf kecil`,
   need1Number: `Perlu 1 angka`,
   need1Uppercase: `Perlu 1 huruf besar`,
-  needAtLeast1CharacterFromN: (n) => `Perlu paling tidak 1 karakter dari [${n}]`,
+  needAtLeast1CharacterFromN: (n) =>
+    `Perlu paling tidak 1 karakter dari [${n}]`,
   needNCharacter: (n) => `Perlu ${n} karakter`,
   newAccount: `Akun baru`,
   newArt: `Karya baru`,

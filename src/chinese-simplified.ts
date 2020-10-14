@@ -31,6 +31,7 @@ export const text: text = {
   authenticationFailed: `验证失败`,
   back: `背部`,
   blog: `博客`,
+  bookmarks: `书签`,
   browseArt: `浏览艺术品`,
   cancel: `取消`,
   cannotStartWithChars: `无法以{:"^$*[]{}()?-"!@#%&/,><':;|~\`"`,

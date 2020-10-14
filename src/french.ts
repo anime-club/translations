@@ -31,6 +31,7 @@ export const text: text = {
   authenticationFailed: `Authentification échouée`,
   back: `Arrière`,
   blog: `Blog`,
+  bookmarks: `Signets`,
   browseArt: `Parcourir l'art`,
   cancel: `Annuler`,
   cannotStartWithChars: `Impossible de démarrer avec s{:"^$*[]{}()?-"!@#%&/,><':;|~\`"`,

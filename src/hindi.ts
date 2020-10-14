@@ -31,6 +31,7 @@ export const text: text = {
   authenticationFailed: `प्रमाणीकरण विफल हो गया`,
   back: `वापस`,
   blog: `ब्लॉग`,
+  bookmarks: `बुकमार्क`,
   browseArt: `चित्रकला ब्राउज़ करें`,
   cancel: `रद्द करें`,
   cannotStartWithChars: `इस के साथ शुरू नहीं कर सकते{:"^$*[]{}()?-"!@#%&/,><':;|~\`"        `,
@@ -104,7 +105,8 @@ export const text: text = {
   need1Lowercase: `1 लोअरकेस की आवश्यकता है`,
   need1Number: `1 नंबर की आवश्यकता है`,
   need1Uppercase: `1 अपरकेस की आवश्यकता है`,
-  needAtLeast1CharacterFromN: (n) => `[${n}] से कम से कम 1 करेक्टर की आवश्यकता है`,
+  needAtLeast1CharacterFromN: (n) =>
+    `[${n}] से कम से कम 1 करेक्टर की आवश्यकता है`,
   needNCharacter: (n) => `${n} करेक्टर की आवश्यकता है`,
   newAccount: `नया खाता`,
   newArt: `नई चित्रकला`,
