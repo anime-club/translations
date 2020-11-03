@@ -196,4 +196,5 @@ export const text: text = {
   yourFansAreWaiting: `Seus fãs estão esperando`,
   yourFeedIsEmpty: `seu feed está vazio`,
   yourSessionHasExpiredPleaseSignInAgain: `Sua sessão expirou, faça login novamente`,
+  emailAlreadyUsedByAnotherAccount: `(en) Email already used by another account`,
 }

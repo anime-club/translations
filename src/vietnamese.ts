@@ -196,4 +196,5 @@ export const text: text = {
   yourFansAreWaiting: `Người hâm mộ đang chờ bạn`,
   yourFeedIsEmpty: `bảng tin trống`,
   yourSessionHasExpiredPleaseSignInAgain: `Phiên của bạn đã hết hạn, vui lòng đăng nhập lại`,
+  emailAlreadyUsedByAnotherAccount: `(en) Email already used by another account`,
 }

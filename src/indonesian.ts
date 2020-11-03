@@ -196,4 +196,5 @@ export const text: text = {
   yourFansAreWaiting: `Penggemar anda sudah menunggu`,
   yourFeedIsEmpty: `Umpan anda kosong`,
   yourSessionHasExpiredPleaseSignInAgain: `Sesi anda sudah berakhir, silakan Login lagi`,
+  emailAlreadyUsedByAnotherAccount: `(en) Email already used by another account`,
 }

@@ -196,4 +196,5 @@ export const text: text = {
   yourFansAreWaiting: `अपके प्रशंसक इंतजार कर रहे हैं`,
   yourFeedIsEmpty: `आपका फ़ीड खाली है`,
   yourSessionHasExpiredPleaseSignInAgain: `आपका सेशन समाप्त हो गया है, कृपया फिर से साइन इन करें`,
+  emailAlreadyUsedByAnotherAccount: `(en) Email already used by another account`,
 }

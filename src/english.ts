@@ -66,6 +66,7 @@ export const text = {
   editProfile: `Edit profile`,
   editTranslations: `Edit translations`,
   email: `Email`,
+  emailAlreadyUsedByAnotherAccount: `Email already used by another account`,
   emailSubscription: `Email Subscription`,
   error404NotFound: `Error 404 - Not found`,
   errorPleaseContactCustomerSupport: `Error! Please contact customer support...`,

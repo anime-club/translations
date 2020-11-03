@@ -196,4 +196,5 @@ export const text: text = {
   yourFansAreWaiting: `معجبيك في انتظارك`,
   yourFeedIsEmpty: `شريطك الإخباري فارغ`,
   yourSessionHasExpiredPleaseSignInAgain: `انتهت جلستك, الرجاء تسجيل الدخول مجددًا`,
+  emailAlreadyUsedByAnotherAccount: `(en) Email already used by another account`,
 }

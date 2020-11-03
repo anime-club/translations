@@ -196,4 +196,5 @@ export const text: text = {
   yourFansAreWaiting: `팬들이 기다리고 있습니다`,
   yourFeedIsEmpty: `피드가 비었습니다`,
   yourSessionHasExpiredPleaseSignInAgain: `세션이 만료되었습니다. 다시 로그인하십시오.`,
+  emailAlreadyUsedByAnotherAccount: `(en) Email already used by another account`,
 }

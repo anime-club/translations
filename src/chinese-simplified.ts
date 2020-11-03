@@ -196,4 +196,5 @@ export const text: text = {
   yourFansAreWaiting: `您的粉丝正在等待`,
   yourFeedIsEmpty: `您的专线为空`,
   yourSessionHasExpiredPleaseSignInAgain: `您的会话已过期，请重新登录`,
+  emailAlreadyUsedByAnotherAccount: `(en) Email already used by another account`,
 }
