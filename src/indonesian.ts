@@ -66,6 +66,7 @@ export const text: text = {
   editProfile: `Edit profil`,
   editTranslations: `Rubah terjemahan`,
   email: `Email`,
+  emailAlreadyUsedByAnotherAccount: `(en) Email already used by another account`,
   emailSubscription: `Berlanggganan Email`,
   error404NotFound: `Error 404 - Tidak ditemukan`,
   errorPleaseContactCustomerSupport: `Error! Silakan hubungi layanan pelanggan...`,
@@ -196,5 +197,4 @@ export const text: text = {
   yourFansAreWaiting: `Penggemar anda sudah menunggu`,
   yourFeedIsEmpty: `Umpan anda kosong`,
   yourSessionHasExpiredPleaseSignInAgain: `Sesi anda sudah berakhir, silakan Login lagi`,
-  emailAlreadyUsedByAnotherAccount: `(en) Email already used by another account`,
 }

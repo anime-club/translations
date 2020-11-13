@@ -66,6 +66,7 @@ export const text: text = {
   editProfile: `Chỉnh sửa hồ sơ`,
   editTranslations: `Sửa bản dịch`,
   email: `Email`,
+  emailAlreadyUsedByAnotherAccount: `(en) Email already used by another account`,
   emailSubscription: `Đăng ký email`,
   error404NotFound: `Lỗi 404 - Không tìm thấy`,
   errorPleaseContactCustomerSupport: `Lỗi! Vui lòng liên hệ bộ phận hỗ trợ khách hàng...`,
@@ -196,5 +197,4 @@ export const text: text = {
   yourFansAreWaiting: `Người hâm mộ đang chờ bạn`,
   yourFeedIsEmpty: `bảng tin trống`,
   yourSessionHasExpiredPleaseSignInAgain: `Phiên của bạn đã hết hạn, vui lòng đăng nhập lại`,
-  emailAlreadyUsedByAnotherAccount: `(en) Email already used by another account`,
 }

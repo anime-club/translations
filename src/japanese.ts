@@ -66,6 +66,7 @@ export const text: text = {
   editProfile: `プロフィールを編集する`,
   editTranslations: `翻訳を編集する`,
   email: `メール`,
+  emailAlreadyUsedByAnotherAccount: `(en) Email already used by another account`,
   emailSubscription: `メール受信登録`,
   error404NotFound: `404エラー - お探しのページは見つかりませんでした`,
   errorPleaseContactCustomerSupport: `エラー！カスタマーサポートまでご連絡ください...`,
@@ -196,5 +197,4 @@ export const text: text = {
   yourFansAreWaiting: `ファンが待っています`,
   yourFeedIsEmpty: `フィードが空です`,
   yourSessionHasExpiredPleaseSignInAgain: `セッション切れになりました。もう一度ログインしてください`,
-  emailAlreadyUsedByAnotherAccount: `(en) Email already used by another account`,
 }

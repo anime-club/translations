@@ -66,6 +66,7 @@ export const text: text = {
   editProfile: `تعديل الملف الشخصي`,
   editTranslations: `تعديل الترجمات`,
   email: `البريد الإلكتروني`,
+  emailAlreadyUsedByAnotherAccount: `(en) Email already used by another account`,
   emailSubscription: `الاشتراك البريدي`,
   error404NotFound: `خطأ 404 - لم يتم العثور`,
   errorPleaseContactCustomerSupport: `خطأ! الرجاء التواصل مع دعم العملاء...`,
@@ -196,5 +197,4 @@ export const text: text = {
   yourFansAreWaiting: `معجبيك في انتظارك`,
   yourFeedIsEmpty: `شريطك الإخباري فارغ`,
   yourSessionHasExpiredPleaseSignInAgain: `انتهت جلستك, الرجاء تسجيل الدخول مجددًا`,
-  emailAlreadyUsedByAnotherAccount: `(en) Email already used by another account`,
 }

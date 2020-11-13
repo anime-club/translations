@@ -66,6 +66,7 @@ export const text: text = {
   editProfile: `प्रोफ़ाइल को संपादित करें`,
   editTranslations: `अनुवाद संपादित करें`,
   email: `ईमेल`,
+  emailAlreadyUsedByAnotherAccount: `(en) Email already used by another account`,
   emailSubscription: `ईमेल सदस्यता`,
   error404NotFound: `त्रुटि 404-नहीं मिला`,
   errorPleaseContactCustomerSupport: `त्रुटि! कृपया ग्राहक सहायता से संपर्क करें ...`,
@@ -196,5 +197,4 @@ export const text: text = {
   yourFansAreWaiting: `अपके प्रशंसक इंतजार कर रहे हैं`,
   yourFeedIsEmpty: `आपका फ़ीड खाली है`,
   yourSessionHasExpiredPleaseSignInAgain: `आपका सेशन समाप्त हो गया है, कृपया फिर से साइन इन करें`,
-  emailAlreadyUsedByAnotherAccount: `(en) Email already used by another account`,
 }

@@ -66,6 +66,7 @@ export const text: text = {
   editProfile: `编辑个人资料`,
   editTranslations: `编辑译文`,
   email: `电子邮件`,
+  emailAlreadyUsedByAnotherAccount: `(en) Email already used by another account`,
   emailSubscription: `电子邮件订阅`,
   error404NotFound: `错误404 - 未找到`,
   errorPleaseContactCustomerSupport: `错误！请联系客户支持...`,
@@ -196,5 +197,4 @@ export const text: text = {
   yourFansAreWaiting: `您的粉丝正在等待`,
   yourFeedIsEmpty: `您的专线为空`,
   yourSessionHasExpiredPleaseSignInAgain: `您的会话已过期，请重新登录`,
-  emailAlreadyUsedByAnotherAccount: `(en) Email already used by another account`,
 }

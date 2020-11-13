@@ -66,6 +66,7 @@ export const text: text = {
   editProfile: `프로필 편집`,
   editTranslations: `번역 편집`,
   email: `이메일`,
+  emailAlreadyUsedByAnotherAccount: `(en) Email already used by another account`,
   emailSubscription: `이메일 구독`,
   error404NotFound: `오류 404-찾을 수 없음`,
   errorPleaseContactCustomerSupport: `고객 지원에 문의하십시오 ...`,
@@ -196,5 +197,4 @@ export const text: text = {
   yourFansAreWaiting: `팬들이 기다리고 있습니다`,
   yourFeedIsEmpty: `피드가 비었습니다`,
   yourSessionHasExpiredPleaseSignInAgain: `세션이 만료되었습니다. 다시 로그인하십시오.`,
-  emailAlreadyUsedByAnotherAccount: `(en) Email already used by another account`,
 }

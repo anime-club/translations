@@ -66,6 +66,7 @@ export const text: text = {
   editProfile: `Редактировать профиль`,
   editTranslations: `Редактировать переводы`,
   email: `Email`,
+  emailAlreadyUsedByAnotherAccount: `(en) Email already used by another account`,
   emailSubscription: `Email подписка`,
   error404NotFound: `Ошибка 404 - не найдено`,
   errorPleaseContactCustomerSupport: `Ошибка! Пожалуйста, свяжитесь со службой поддержки...`,
@@ -196,5 +197,4 @@ export const text: text = {
   yourFansAreWaiting: `Ваши фанаты ждут`,
   yourFeedIsEmpty: `Ваша лента пуста`,
   yourSessionHasExpiredPleaseSignInAgain: `Ваш сеанс истёк, пожалуйста, войдите в систему ещё раз`,
-  emailAlreadyUsedByAnotherAccount: `(en) Email already used by another account`,
 }
