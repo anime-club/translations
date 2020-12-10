@@ -102,7 +102,7 @@ export const text: text = {
   maximumNChars: (n) => `最多${n}个字符`,
   maxSize: `最大尺寸`,
   menu: `菜单`,
-  messages: `(en) Messages`,
+  messages: `私信`,
   minHeight: `最小高度`,
   minimumNChars: (n) => `最少${n}个字符`,
   minWidth: `最小宽度`,

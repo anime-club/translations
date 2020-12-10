@@ -102,7 +102,7 @@ export const text: text = {
   maximumNChars: (n) => `Максимум ${n} символов`,
   maxSize: `Макс. размер`,
   menu: `Меню`,
-  messages: `(en) Messages`,
+  messages: `Сообщения`,
   minHeight: `Мин. высота`,
   minimumNChars: (n) => `Минимум ${n} символов`,
   minWidth: `Мин. ширина`,
@@ -134,7 +134,8 @@ export const text: text = {
   payments: `Платежи`,
   pleaseCheckYour: `Пожалуйста, проверьте ваш`,
   pleaseDropOnlyOneImage: `Пожалуйста, поместите только одно изображение`,
-  pleaseEnterAtLeastNChars: (n) => `Пожалуйста, введите не менее ${n} символов `,
+  pleaseEnterAtLeastNChars: (n) =>
+    `Пожалуйста, введите не менее ${n} символов `,
   pleaseFillOutYourDetails: `Пожалуйста, заполните ваши данные`,
   pleaseSignInToYourAccount: `Пожалуйста, войдите в свою учетную запись`,
   pleaseTryAgainOrClick: (n) => `Пожалуйста, повторите или нажмите ${n}`,

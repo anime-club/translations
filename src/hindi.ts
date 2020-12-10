@@ -102,7 +102,7 @@ export const text: text = {
   maximumNChars: (n) => `अधिकतम ${n} वर्ण`,
   maxSize: `अधिकतम साइज़`,
   menu: `मेन्यू`,
-  messages: `(en) Messages`,
+  messages: `संदेश`,
   minHeight: `न्यूनतम ऊँचाई`,
   minimumNChars: (n) => `न्यूनतम ${n} वर्ण`,
   minWidth: `न्यूनतम चौड़ाई`,
@@ -111,7 +111,8 @@ export const text: text = {
   need1Lowercase: `1 लोअरकेस की आवश्यकता है`,
   need1Number: `1 नंबर की आवश्यकता है`,
   need1Uppercase: `1 अपरकेस की आवश्यकता है`,
-  needAtLeast1CharacterFromN: (n) => `[${n}] से कम से कम 1 करेक्टर की आवश्यकता है`,
+  needAtLeast1CharacterFromN: (n) =>
+    `[${n}] से कम से कम 1 करेक्टर की आवश्यकता है`,
   needNCharacter: (n) => `${n} करेक्टर की आवश्यकता है`,
   newAccount: `नया खाता`,
   newArt: `नई चित्रकला`,

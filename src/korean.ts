@@ -102,7 +102,7 @@ export const text: text = {
   maximumNChars: (n) => `최대 ${n}개 문자`,
   maxSize: `최대 크기`,
   menu: `메뉴`,
-  messages: `(en) Messages`,
+  messages: `쪽지`,
   minHeight: `최소 높이`,
   minimumNChars: (n) => `최소 ${n}개 문자`,
   minWidth: `최소 너비`,

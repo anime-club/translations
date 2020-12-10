@@ -102,7 +102,7 @@ export const text: text = {
   maximumNChars: (n) => `Maximal ${n} Zeichen`,
   maxSize: `Maximale Größe`,
   menu: `Speisekarte`,
-  messages: `(en) Messages`,
+  messages: `Nachrichten`,
   minHeight: `Mindesthöhe`,
   minimumNChars: (n) => `Mindestens ${n} Zeichen`,
   minWidth: `Mindestbreite`,
@@ -134,10 +134,12 @@ export const text: text = {
   payments: `Zahlungen`,
   pleaseCheckYour: `Bitte überprüfen Sie Ihre`,
   pleaseDropOnlyOneImage: `Bitte lassen Sie nur ein Bild fallen`,
-  pleaseEnterAtLeastNChars: (n) => `Bitte geben Sie mindestens ${n} Zeichen ein`,
+  pleaseEnterAtLeastNChars: (n) =>
+    `Bitte geben Sie mindestens ${n} Zeichen ein`,
   pleaseFillOutYourDetails: `Bitte füllen Sie Ihre Daten`,
   pleaseSignInToYourAccount: `Bitte melden Sie sich an Ihrem Konto`,
-  pleaseTryAgainOrClick: (n) => `Bitte versuche es später noch einmal oder klicke auf ${n}`,
+  pleaseTryAgainOrClick: (n) =>
+    `Bitte versuche es später noch einmal oder klicke auf ${n}`,
   pleaseVerifyYourAccount: `Bitte verifizieren sie ihr Konto`,
   pressHereTo: `Drücken Sie hier um`,
   profile: `Profil`,

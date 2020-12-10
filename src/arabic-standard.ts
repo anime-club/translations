@@ -102,7 +102,7 @@ export const text: text = {
   maximumNChars: (n) => `الحد الأقصى للأحرف ${n}`,
   maxSize: `الحجم الأقصى`,
   menu: `القائمة`,
-  messages: `(en) Messages`,
+  messages: `الرسائل`,
   minHeight: `الارتفاع الأدنى`,
   minimumNChars: (n) => `الحد الأدنى ${n} حرف`,
   minWidth: `العرض الأدنى`,
