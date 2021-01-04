@@ -33,6 +33,7 @@ The process is easy as 1-2-3:
 - [🇵🇹 Portuguese](https://github.com/anime-club/translations/edit/master/src/portuguese.ts)
 - [🇷🇺 Russian](https://github.com/anime-club/translations/edit/master/src/russian.ts)
 - [🇪🇸 Spanish](https://github.com/anime-club/translations/edit/master/src/spanish.ts)
+- [🇹🇭 Thai](https://github.com/anime-club/translations/edit/master/src/thai.ts)
 - [🇻🇳 Vietnamese](https://github.com/anime-club/translations/edit/master/src/vietnamese.ts)
 
 ## Project structure
