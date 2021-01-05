@@ -128,7 +128,7 @@ export const text: text = {
   ohNoItIsNotHere: `โอ้ไม่นะ มันไม่มีอยู่ที่นี่!`,
   oldPassword: `รหัสผ่านเก่า`,
   online: `ออนไลน์`,
-  onlyHexNumbersStartsWithTChar: `Only hex numbers [0-9a-fA-F], starts with 't' char เฉพาะเลขฐานสิบหก [0-9a-fA-F] และขึ้นต้นด้วยตัวอักขระ`,
+  onlyHexNumbersStartsWithTChar: `เฉพาะเลขฐานสิบหก [0-9a-fA-F] และขึ้นต้นด้วยตัวอักขระ`,
   onlyLatinLettersNumbersOrSpecialSymbols: `เฉพาะตัวอักษรลาติน ตัวเลข หรือสัญลักษณ์พิเศษ`,
   onlyNumbers: `เฉพาะตัวเลข`,
   openGuestView: `เปิดโหมดดูแบบไม่ระบุตัวตน`,
