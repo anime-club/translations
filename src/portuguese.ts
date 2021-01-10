@@ -114,7 +114,8 @@ export const text: text = {
   need1Lowercase: `Precisa de 1 minúsculas`,
   need1Number: `Precisa de 1 número`,
   need1Uppercase: `Precisa de 1 maiúsculo`,
-  needAtLeast1CharacterFromN: (n) => `Precisa de pelo menos 1 caractere de [${n}]`,
+  needAtLeast1CharacterFromN: (n) =>
+    `Precisa de pelo menos 1 caractere de [${n}]`,
   needNCharacter: (n) => `Deve ter ${n} personagem`,
   newAccount: `Nova conta`,
   newArt: `Nova arte`,
@@ -138,7 +139,8 @@ export const text: text = {
   payments: `Pagamentos`,
   pleaseCheckYour: `Por favor, verifique o seu`,
   pleaseDropOnlyOneImage: `Por favor, solte apenas uma imagem`,
-  pleaseEnterAtLeastNChars: (n) => `Por favor, insira pelo menos ${n} caracteres`,
+  pleaseEnterAtLeastNChars: (n) =>
+    `Por favor, insira pelo menos ${n} caracteres`,
   pleaseFillOutYourDetails: `Por favor, preencha seus dados`,
   pleaseSignInToYourAccount: `Por favor entre em sua conta`,
   pleaseTryAgainOrClick: (n) => `Por favor, tente de novo e clique em ${n}`,
