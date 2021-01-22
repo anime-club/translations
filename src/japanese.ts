@@ -144,6 +144,7 @@ export const text: text = {
   pleaseTryAgainOrClick: (n) => `もう一度試すか、${n}をクリックしてください`,
   pleaseVerifyYourAccount: `アカウントを確認してください`,
   pressHereTo: `以下のためにはここを押します`,
+  privacyPolicy: `プライバシーポリシー`,
   profile: `プロフィール`,
   save: `保存する`,
   saveAvatar: `アバターを保存する`,

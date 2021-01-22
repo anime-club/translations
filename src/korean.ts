@@ -144,6 +144,7 @@ export const text: text = {
   pleaseTryAgainOrClick: (n) => `다시 시도하거나 ${n}을 클릭하세요`,
   pleaseVerifyYourAccount: `계정을 확인하십시오`,
   pressHereTo: `여기를 눌러주세요`,
+  privacyPolicy: `트위터 개인정보 처리방침`,
   profile: `프로필`,
   save: `저장`,
   saveAvatar: `아바타 저장`,

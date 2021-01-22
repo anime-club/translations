@@ -145,6 +145,7 @@ export const text: text = {
   pleaseTryAgainOrClick: (n) => `Silakan coba sekali lagi atau klik (${n})`,
   pleaseVerifyYourAccount: `Silakan verifikasi akun Anda`,
   pressHereTo: `Tekan di sini untuk`,
+  privacyPolicy: `Kebijakan kerahasiaan`,
   profile: `Profil`,
   save: `Simpan`,
   saveAvatar: `Simpan avatar`,

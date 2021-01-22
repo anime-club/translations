@@ -144,6 +144,7 @@ export const text: text = {
   pleaseTryAgainOrClick: (n) => `Vui lòng thử lại hoặc nhấn ${n}`,
   pleaseVerifyYourAccount: `Vui lòng xác nhận tài khoản của bạn`,
   pressHereTo: `Nhấn vào đây để`,
+  privacyPolicy: `Chính sách bảo mật`,
   profile: `Thông tin`,
   save: `Lưu`,
   saveAvatar: `Lưu hình đại diện`,

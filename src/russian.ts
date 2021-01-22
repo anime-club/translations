@@ -145,6 +145,7 @@ export const text: text = {
   pleaseTryAgainOrClick: (n) => `Пожалуйста, повторите или нажмите ${n}`,
   pleaseVerifyYourAccount: `Пожалуйста, подтвердите свою учетную запись`,
   pressHereTo: `Нажмите здесь, чтобы`,
+  privacyPolicy: `Политика конфиденциальности`,
   profile: `Профиль`,
   save: `Сохранить`,
   saveAvatar: `Сохранить аватар`,

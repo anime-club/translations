@@ -147,6 +147,7 @@ export const text = {
     `Please try again or click ${buttonName}`,
   pleaseVerifyYourAccount: `Please verify your account`,
   pressHereTo: `Press here to`,
+  privacyPolicy: `Privacy policy`,
   profile: `Profile`,
   save: `Save`,
   saveAvatar: `Save avatar`,

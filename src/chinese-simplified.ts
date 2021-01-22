@@ -144,6 +144,7 @@ export const text: text = {
   pleaseTryAgainOrClick: (n) => `请重复或者点击`,
   pleaseVerifyYourAccount: `请验证您的帐户`,
   pressHereTo: `按这里`,
+  privacyPolicy: `隐私政策`,
   profile: `账户`,
   save: `保存`,
   saveAvatar: `保存头像`,

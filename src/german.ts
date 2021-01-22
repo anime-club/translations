@@ -146,6 +146,7 @@ export const text: text = {
     `Bitte versuche es später noch einmal oder klicke auf ${n}`,
   pleaseVerifyYourAccount: `Bitte verifizieren sie ihr Konto`,
   pressHereTo: `Drücken Sie hier um`,
+  privacyPolicy: `Datenschutzrichtlinie`,
   profile: `Profil`,
   save: `Speichern`,
   saveAvatar: `Avatar speichern`,

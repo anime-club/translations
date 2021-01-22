@@ -145,6 +145,7 @@ export const text: text = {
   pleaseTryAgainOrClick: (n) => `कृपया पुनः प्रयास करें या ${n} पर क्लिक करें`,
   pleaseVerifyYourAccount: `कृपया अपने खाते को परखें`,
   pressHereTo: `यहाँ प्रेस करने से`,
+  privacyPolicy: `निजता नीति`,
   profile: `प्रोफ़ाइल`,
   save: `सेव`,
   saveAvatar: `अवतार सेव करें`,
