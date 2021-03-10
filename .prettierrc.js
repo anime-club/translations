@@ -1,1 +1,1 @@
-module.exports = require("@10stars/eslint-config/.prettierrc.js")
+module.exports = require("@10stars/config/.prettierrc.js")
