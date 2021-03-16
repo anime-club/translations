@@ -160,6 +160,8 @@ export const text: text = {
   settings: `Einstellungen`,
   shareYourStory: `Teile deine Geschichte!`,
   shop: `Geschäft`,
+  showLess: `(en) Show less`,
+  showMore: `(en) Show more`,
   signIn: `Einloggen`,
   skip: `Überspringen`,
   socialMedia: `Sozialen Medien`,

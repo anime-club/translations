@@ -159,6 +159,8 @@ export const text: text = {
   settings: `Настройки`,
   shareYourStory: `Поделитесь своей историей!`,
   shop: `Магазин`,
+  showLess: `(en) Show less`,
+  showMore: `(en) Show more`,
   signIn: `Войти в систему`,
   skip: `Пропустить`,
   socialMedia: `Социальные сети`,

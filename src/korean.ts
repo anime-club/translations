@@ -158,6 +158,8 @@ export const text: text = {
   settings: `설정`,
   shareYourStory: `당신의 이야기를 공유하세요!`,
   shop: `상점`,
+  showLess: `(en) Show less`,
+  showMore: `(en) Show more`,
   signIn: `로그인`,
   skip: `건너 뛰기`,
   socialMedia: `소셜 미디어`,

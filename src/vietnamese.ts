@@ -158,6 +158,8 @@ export const text: text = {
   settings: `Cài đặt`,
   shareYourStory: `Chia sẻ câu chuyện của bạn!`,
   shop: `Cửa hàng`,
+  showLess: `(en) Show less`,
+  showMore: `(en) Show more`,
   signIn: `Đăng nhập`,
   skip: `Bỏ qua`,
   socialMedia: `Mạng xã hội`,

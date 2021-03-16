@@ -159,6 +159,8 @@ export const text: text = {
   settings: `Pengaturan`,
   shareYourStory: `Bagikan kisah Anda!`,
   shop: `Belanja`,
+  showLess: `(en) Show less`,
+  showMore: `(en) Show more`,
   signIn: `Masuk`,
   skip: `Lewati`,
   socialMedia: `Media sosial`,

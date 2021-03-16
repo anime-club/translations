@@ -159,6 +159,8 @@ export const text: text = {
   settings: `सेटिंग्स`,
   shareYourStory: `अपनी कहानी शेयर करें!`,
   shop: `दुकान`,
+  showLess: `(en) Show less`,
+  showMore: `(en) Show more`,
   signIn: `साइन इन करें`,
   skip: `आगे बड़ें`,
   socialMedia: `सोशल मीडिया`,

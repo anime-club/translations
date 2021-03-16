@@ -158,6 +158,8 @@ export const text: text = {
   settings: `الإعدادات`,
   shareYourStory: `شارك قصتك!`,
   shop: `تسوق`,
+  showLess: `(en) Show less`,
+  showMore: `(en) Show more`,
   signIn: `تسجيل دخول`,
   skip: `تخطى`,
   socialMedia: `وسائل التواصل الاجتماعي`,

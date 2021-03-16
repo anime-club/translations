@@ -158,6 +158,8 @@ export const text: text = {
   settings: `设定值`,
   shareYourStory: `分享你的故事！`,
   shop: `店`,
+  showLess: `(en) Show less`,
+  showMore: `(en) Show more`,
   signIn: `登入`,
   skip: `跳跃`,
   socialMedia: `社交媒体`,

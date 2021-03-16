@@ -158,6 +158,8 @@ export const text: text = {
   settings: `設定`,
   shareYourStory: `物語を共有してください！`,
   shop: `ショップ`,
+  showLess: `(en) Show less`,
+  showMore: `(en) Show more`,
   signIn: `ログイン`,
   skip: `スキップ`,
   socialMedia: `ソーシャルメディア`,

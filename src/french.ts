@@ -158,6 +158,8 @@ export const text: text = {
   settings: `Paramètres`,
   shareYourStory: `Partagez votre histoire !`,
   shop: `Magasin`,
+  showLess: `(en) Show less`,
+  showMore: `(en) Show more`,
   signIn: `Se connecter`,
   skip: `Ignorer`,
   socialMedia: `Médias sociaux`,
