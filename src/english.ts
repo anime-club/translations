@@ -25,7 +25,7 @@ export const text = {
   animeCommunity: `Anime community`,
   animeOnly: `Anime only`,
   appsVersionIs: `App's version is`,
-  areYouSureYouWantTo: `Are you sure you want`,
+  areYouSureYouWantTo: `Are you sure you want to`,
   art: `Art`,
   artAssociatedWithAnime: `Art associated with anime`,
   artBy: `Art by`,
