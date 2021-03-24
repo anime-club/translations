@@ -99,6 +99,7 @@ export const text = {
   joinChat: `Join Chat`,
   joinUsOnFacebook: `Join us on facebook`,
   languages: `Languages`,
+  linkCopiedToClipboard: `Link copied to clipboard`,
   livingIn: `Living in`,
   logout: `Logout`,
   maximumNChars: (num: number) => `Maximum ${num} chars`,
