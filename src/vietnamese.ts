@@ -82,6 +82,8 @@ export const text: text = {
   filterBy: `Lọc theo`,
   findUser: `(en) Find user`,
   follow: `Theo dõi`,
+  followers: `(en) Followers`,
+  following: `(en) Following`,
   followMeOn: `Theo dõi tôi trên`,
   followUsOnTwitter: `Theo dõi chúng tôi trên Twitter`,
   forAllOtherInquiriesPleaseContactUsAt: `Đối với mọi thắc mắc khác, vui lòng liên hệ chúng tôi theo:`,

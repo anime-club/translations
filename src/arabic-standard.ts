@@ -82,6 +82,8 @@ export const text: text = {
   filterBy: `تصفية على حسب`,
   findUser: `(en) Find user`,
   follow: `متابعة`,
+  followers: `(en) Followers`,
+  following: `(en) Following`,
   followMeOn: `تابعني على`,
   followUsOnTwitter: `تابعنا على تويتر`,
   forAllOtherInquiriesPleaseContactUsAt: `لباقي الاستفسارات, اتصل بنا على:`,

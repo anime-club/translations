@@ -82,6 +82,8 @@ export const text: text = {
   filterBy: `Отфильтровать по`,
   findUser: `(en) Find user`,
   follow: `Подписаться`,
+  followers: `(en) Followers`,
+  following: `(en) Following`,
   followMeOn: `Подпишитесь на меня в`,
   followUsOnTwitter: `Подпишитесь на нас в твиттере`,
   forAllOtherInquiriesPleaseContactUsAt: `По всем остальным вопросам, пожалуйста, свяжитесь через:`,

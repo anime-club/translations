@@ -82,6 +82,8 @@ export const text: text = {
   filterBy: `过滤`,
   findUser: `(en) Find user`,
   follow: `跟随`,
+  followers: `(en) Followers`,
+  following: `(en) Following`,
   followMeOn: `跟我来`,
   followUsOnTwitter: `在Twitter上关注我们`,
   forAllOtherInquiriesPleaseContactUsAt: `任何其他问题，请联系我们：`,

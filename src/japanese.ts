@@ -82,6 +82,8 @@ export const text: text = {
   filterBy: `以下の条件で絞り込む`,
   findUser: `(en) Find user`,
   follow: `フォローする`,
+  followers: `(en) Followers`,
+  following: `(en) Following`,
   followMeOn: `以下でフォローしてください`,
   followUsOnTwitter: `Twitterでフォローしてください`,
   forAllOtherInquiriesPleaseContactUsAt: `その他ご不明な点がございましたら、当社までお問い合わせください。`,

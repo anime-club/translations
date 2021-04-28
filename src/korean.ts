@@ -82,6 +82,8 @@ export const text: text = {
   filterBy: `필터링`,
   findUser: `(en) Find user`,
   follow: `팔로우하세요`,
+  followers: `(en) Followers`,
+  following: `(en) Following`,
   followMeOn: `저를 팔로우하세요`,
   followUsOnTwitter: `Twitter에서 팔로우하세요`,
   forAllOtherInquiriesPleaseContactUsAt: `기타 모든 문의 사항은 다음 주소로 문의하십시오:`,
