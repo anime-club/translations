@@ -142,6 +142,7 @@ export const text = {
   onlyNumbers: `Only numbers`,
   openGuestView: `Open guest view`,
   openingSoon: `Opening Soon!`,
+  openToWork: `Open to work`,
   or: `or`,
   password: `Password`,
   payments: `Payments`,
