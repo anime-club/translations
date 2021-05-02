@@ -141,6 +141,7 @@ export const text: text = {
   onlyHexNumbersStartsWithTChar: `केवल हेक्स संख्या [0-9a-fA-F], ' टी ' चार के साथ शुरू होता है`,
   onlyLatinLettersNumbersOrSpecialSymbols: `केवल लैटिन अक्षर, संख्या, विशेष प्रतीक`,
   onlyNumbers: `केवल संख्या`,
+  open: `(en) Open`,
   openGuestView: `अतिथि दृश्य खोलें`,
   openingSoon: `जल्द ही खुल रहा है!`,
   openToWork: `(en) Open to work`,

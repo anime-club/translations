@@ -140,6 +140,7 @@ export const text: text = {
   onlyHexNumbersStartsWithTChar: `أرقام ست عشرية فقط [0-9a-fA-F], تبدأ بحرف "t"`,
   onlyLatinLettersNumbersOrSpecialSymbols: `أرقام لاتنية فقط وأرقام ورموز خاصة`,
   onlyNumbers: `أرقام فقط`,
+  open: `(en) Open`,
   openGuestView: `افتح وضع الضيف`,
   openingSoon: `قريبًا الافتتاح!`,
   openToWork: `(en) Open to work`,

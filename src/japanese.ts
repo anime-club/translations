@@ -140,6 +140,7 @@ export const text: text = {
   onlyHexNumbersStartsWithTChar: `16進数「0-9a-fA-F」のみ、「 t」文字で開始`,
   onlyLatinLettersNumbersOrSpecialSymbols: `英数字と特殊記号のみ`,
   onlyNumbers: `数字のみ`,
+  open: `(en) Open`,
   openGuestView: `ゲスト視聴を開く`,
   openingSoon: `近日公開！`,
   openToWork: `(en) Open to work`,

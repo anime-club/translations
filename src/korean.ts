@@ -140,6 +140,7 @@ export const text: text = {
   onlyHexNumbersStartsWithTChar: `16 진수 만 [0-9a-fA-F], 't'문자로 시작`,
   onlyLatinLettersNumbersOrSpecialSymbols: `라틴 문자, 숫자, 특수 기호 만`,
   onlyNumbers: `숫자 만`,
+  open: `(en) Open`,
   openGuestView: `게스트보기 열기`,
   openingSoon: `곧 오픈합니다!`,
   openToWork: `(en) Open to work`,

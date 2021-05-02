@@ -140,6 +140,7 @@ export const text: text = {
   onlyHexNumbersStartsWithTChar: `Solo números hexadecimales [0-9a-fA-F], comienzan con 't' char`,
   onlyLatinLettersNumbersOrSpecialSymbols: `Solo letras latinas, números, símbolos especiales`,
   onlyNumbers: `Sólo números`,
+  open: `(en) Open`,
   openGuestView: `Abrir la vista de invitados`,
   openingSoon: `¡Próxima apertura!`,
   openToWork: `(en) Open to work`,
