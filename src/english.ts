@@ -53,6 +53,7 @@ export const text = {
   community: `Community`,
   confirmAccount: `Confirm account`,
   confirmPassword: `Confirm Password`,
+  contactInformation: `Contact information`,
   contractTitle: `Contract Title`,
   copyLink: `Copy link`,
   couldNotCreateANewRecord: `Could not create a new record`,
