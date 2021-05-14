@@ -196,6 +196,7 @@ export const text = {
   tellUsAboutYourself: `Tell us about yourself`,
   termsAndConditions: `Terms and Conditions`,
   termsOfUse: `Terms of use`,
+  thisIsThePriceYouPropose: `This is the price you propose`,
   title: `Title`,
   typeYourTextHere: `Type your text here...`,
   uploadAnotherArt: `Upload another art`,
