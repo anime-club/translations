@@ -20,6 +20,7 @@ export const text = {
   advancedOptions: `Advanced options`,
   all: `All`,
   alreadySignedIn: `Already signed in`,
+  amount: `Amount`,
   amountShouldNotBeLessThan: (amount: number) =>
     `Amount should not be less than $${amount}`,
   animeArtByArtistsFromAllOverTheWorld: `Anime art by artists from all over the world. Art is curated to be related to anime. The art selection is an infinite list of best anime art`,
