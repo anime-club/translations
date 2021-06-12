@@ -203,6 +203,7 @@ export const text = {
   title: `Title`,
   toGetWorkRelatedNotifications: `To get work-related notifications`,
   typeYourTextHere: `Type your text here...`,
+  upload: `Upload`,
   uploadAnotherArt: `Upload another art`,
   uploadAnotherAvatar: `Upload another avatar`,
   uploadArtNow: `Upload art now!`,
