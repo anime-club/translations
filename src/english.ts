@@ -174,6 +174,7 @@ export const text = {
   pressHereTo: `Press here to`,
   privacyPolicy: `Privacy policy`,
   profile: `Profile`,
+  publishOn: (socialMedia: string) => `publish on ${socialMedia}`,
   save: `Save`,
   saveAvatar: `Save avatar`,
   saveChanges: `Save changes`,
