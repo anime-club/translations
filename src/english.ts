@@ -151,7 +151,6 @@ export const text = {
   ohNoItIsNotHere: `Oh no! It is not here!`,
   oldPassword: `Old Password`,
   online: `Online`,
-  onlyHexNumbersStartsWithTChar: `Only hex numbers [0-9a-fA-F], starts with 't' char`,
   onlyLatinLettersNumbersOrSpecialSymbols: `Only latin letters, numbers, special symbols`,
   onlyNumbers: `Only numbers`,
   open: `Open`,
