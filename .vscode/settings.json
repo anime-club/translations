@@ -19,10 +19,8 @@
   "files.associations": {
     "tsconfig.json": "jsonc"
   },
-  // Prettier
-  "prettier.disableLanguages": [],
   // ESLint
-  "eslint.packageManager": "yarn",
+  "eslint.packageManager": "pnpm",
   "eslint.alwaysShowStatus": true,
   "eslint.validate": ["typescript"],
   // TypeScript
