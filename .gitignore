@@ -16,3 +16,4 @@
 # lock files
 **/shrinkwrap.yaml
 **/package-lock.json
+**/yarn.lock
