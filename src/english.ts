@@ -13,7 +13,6 @@ export const text = {
   add: `Add`,
   addArt: `Add art`,
   addBlog: `Add blog`,
-  addedNAgo: (time: string) => `Added ${time} ago`,
   addMore: `Add more`,
   addNewArt: `Add new art`,
   addPreview: `Add preview`,
