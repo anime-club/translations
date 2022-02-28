@@ -82,6 +82,7 @@ export const text = {
   emailAlreadyUsedByAnotherAccount: `Email already used by another account`,
   emailSubscription: `Email Subscription`,
   enterOrPasteALink: `Enter or paste a link`,
+  enterTheAddressAssociatedWithYourAccount: `Enter the address associated with your account, and we'll email you a link to reset your password`,
   error404NotFound: `Error 404 - Not found`,
   errorPleaseContactCustomerSupport: `Error! Please contact customer support...`,
   exitEditor: `Exit editor`,
@@ -94,6 +95,11 @@ export const text = {
   followers: `Followers`,
   following: `Following`,
   followMeOn: `Follow me on`,
+  usernameAndOneMoreFollowYou: (username: string) =>
+    `<b>${username}</b> and one more follow you`,
+  usernameFollowsYou: (username: string) => `<b>${username}</b> follows you`,
+  usernameAndOthersFollowYou: (username: string, numberOfNotifiers: number) =>
+    `<b>${username}</b> and ${numberOfNotifiers} others follow you`,
   followUsOnTwitter: `Follow us on twitter`,
   forAllOtherInquiriesPleaseContactUsAt: `For all other inquiries, please contact us at:`,
   forgotPassword: `Forgot password`,
@@ -118,6 +124,12 @@ export const text = {
   joinUsOnFacebook: `Join us on facebook`,
   languages: `Languages`,
   likes: `Likes`,
+  usernameAndOneMoreLikeYourArt: (username: string) =>
+    `<b>${username}</b> and one more like your art`,
+  usernameLikesYourArt: (username: string) =>
+    `<b>${username}</b> likes your art`,
+  usernameAndOthersLikeYourArt: (username: string, numberOfNotifiers: number) =>
+    `<b>${username}</b> and ${numberOfNotifiers} others like your art`,
   linkCopiedToClipboard: `Link copied to clipboard`,
   livingIn: `Living in`,
   location: `Location`,
