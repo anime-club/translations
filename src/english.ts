@@ -83,7 +83,6 @@ export const text = {
   emailSubscription: `Email Subscription`,
   enterOrPasteALink: `Enter or paste a link`,
   enterTheAddressAssociatedWithYourAccount: `Enter the address associated with your account, and we'll email you a link to reset your password`,
-  error404NotFound: `Error 404 - Not found`,
   errorPleaseContactCustomerSupport: `Error! Please contact customer support...`,
   exitEditor: `Exit editor`,
   extensions: `Extensions`,
@@ -95,16 +94,10 @@ export const text = {
   followers: `Followers`,
   following: `Following`,
   followMeOn: `Follow me on`,
-  usernameAndOneMoreFollowYou: (username: string) =>
-    `<b>${username}</b> and one more follow you`,
-  usernameFollowsYou: (username: string) => `<b>${username}</b> follows you`,
-  usernameAndOthersFollowYou: (username: string, numberOfNotifiers: number) =>
-    `<b>${username}</b> and ${numberOfNotifiers} others follow you`,
   followUsOnTwitter: `Follow us on twitter`,
   forAllOtherInquiriesPleaseContactUsAt: `For all other inquiries, please contact us at:`,
   forgotPassword: `Forgot password`,
   forNewMasterpieces: `For new masterpieces`,
-  four04: `— 404! —`,
   getDetails: `Get details`,
   guestView: `Guest view`,
   hire: `Hire`,
@@ -124,12 +117,6 @@ export const text = {
   joinUsOnFacebook: `Join us on facebook`,
   languages: `Languages`,
   likes: `Likes`,
-  usernameAndOneMoreLikeYourArt: (username: string) =>
-    `<b>${username}</b> and one more like your art`,
-  usernameLikesYourArt: (username: string) =>
-    `<b>${username}</b> likes your art`,
-  usernameAndOthersLikeYourArt: (username: string, numberOfNotifiers: number) =>
-    `<b>${username}</b> and ${numberOfNotifiers} others like your art`,
   linkCopiedToClipboard: `Link copied to clipboard`,
   livingIn: `Living in`,
   location: `Location`,
@@ -161,7 +148,6 @@ export const text = {
   noInternetConnection: `No Internet connection!`,
   notifications: `Notifications`,
   nsfwContent18Plus: `NSFW Content (18+)`,
-  ohNoItIsNotHere: `Oh no! It is not here!`,
   oldPassword: `Old Password`,
   online: `Online`,
   onlyLatinLettersNumbersOrSpecialSymbols: `Only latin letters, numbers, special symbols`,
@@ -172,6 +158,7 @@ export const text = {
   openToWork: `Open to work`,
   optional: `Optional`,
   or: `or`,
+  pageNotFound: `Page not found`,
   password: `Password`,
   payments: `Payments`,
   pleaseCheckYour: `Please check your`,
@@ -213,6 +200,7 @@ export const text = {
   tellUsAboutYourself: `Tell us about yourself`,
   termsAndConditions: `Terms and Conditions`,
   termsOfUse: `Terms of use`,
+  theLinkIsBrokenOrPageHasBeenRemoved: `The link is broken or page has been removed`,
   thisIsThePriceYouPropose: `This is the price you propose`,
   title: `Title`,
   toGetWorkRelatedNotifications: `To get work-related notifications`,
@@ -226,6 +214,17 @@ export const text = {
   uploadNewPost: `Upload new post`,
   username: `Username`,
   usernameAlreadyExists: `Username already exists`,
+  usernameAndOneMoreFollowYou: (username: string) =>
+    `<b>${username}</b> and one more follow you`,
+  usernameAndOneMoreLikeYourArt: (username: string) =>
+    `<b>${username}</b> and one more like your art`,
+  usernameAndOthersFollowYou: (username: string, numberOfNotifiers: number) =>
+    `<b>${username}</b> and ${numberOfNotifiers} others follow you`,
+  usernameAndOthersLikeYourArt: (username: string, numberOfNotifiers: number) =>
+    `<b>${username}</b> and ${numberOfNotifiers} others like your art`,
+  usernameFollowsYou: (username: string) => `<b>${username}</b> follows you`,
+  usernameLikesYourArt: (username: string) =>
+    `<b>${username}</b> likes your art`,
   valueIsNotTheSame: `Value is not the same`,
   verificationCode: `Verification Code`,
   verifyCode: `Verify code`,
