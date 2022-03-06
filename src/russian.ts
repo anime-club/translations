@@ -82,7 +82,7 @@ export const text: text = {
   emailAlreadyUsedByAnotherAccount: `Имейл уже используется другой учётной записью`,
   emailSubscription: `Подписка по имейлу`,
   enterOrPasteALink: `Введите или вставьте ссылку`,
-  enterTheAddressAssociatedWithYourAccount: `Введите адрес, связанный с вашей учётной записью, и мы пришлём вам по электронной почте ссылку для сброса пароля`,
+  enterTheAddressAssociatedWithYourAccount: `Введите адрес, связанный с вашей учётной записью, и мы пришлём вам на имейл ссылку для сброса пароля`,
   errorPleaseContactCustomerSupport: `Ошибка! Свяжитесь со службой поддержки...`,
   exitEditor: `Выйти из редактора`,
   extensions: `Расширения`,
