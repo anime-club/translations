@@ -187,6 +187,7 @@ export const text = {
   selectThumbnail: `Select thumbnail`,
   sendEmail: `Send email`,
   settings: `Settings`,
+  share: `Share`,
   shareYourStory: `Share your story!`,
   shop: `Shop`,
   showLess: `Show less`,
