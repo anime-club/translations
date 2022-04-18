@@ -118,6 +118,7 @@ export const text = {
   jobDetails: `Job Details`,
   joinChat: `Join Chat`,
   joinUsOnFacebook: `Join us on facebook`,
+  language: `Language`,
   languages: `Languages`,
   likes: `Likes`,
   linkCopiedToClipboard: `Link copied to clipboard`,
