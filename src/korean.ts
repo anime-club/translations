@@ -118,7 +118,7 @@ export const text: text = {
   languages: `언어`,
   likes: `좋아요`,
   linkCopiedToClipboard: `링크가 클립보드에 복사되었습니다`,
-  livingIn: `입주`,
+  livesIn: `입주`,
   location: `(en) Location`,
   logout: `로그 아웃`,
   maximumNChars: (n) => `최대 ${n}개 문자`,

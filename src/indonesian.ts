@@ -118,7 +118,7 @@ export const text: text = {
   languages: `Bahasa`,
   likes: `Suka`,
   linkCopiedToClipboard: `Tautan disalin ke clipboard`,
-  livingIn: `Tinggal di`,
+  livesIn: `Tinggal di`,
   location: `(en) Location`,
   logout: `Keluar`,
   maximumNChars: (n) => `Paling banyak ${n} karakter`,

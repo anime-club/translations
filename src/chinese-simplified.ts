@@ -118,7 +118,7 @@ export const text: text = {
   languages: `语言`,
   likes: `喜欢`,
   linkCopiedToClipboard: `链接已复制到剪贴板`,
-  livingIn: `住在`,
+  livesIn: `住在`,
   location: `(en) Location`,
   logout: `登出`,
   maximumNChars: (n) => `最多${n}个字符`,

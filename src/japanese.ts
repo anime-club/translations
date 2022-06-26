@@ -118,7 +118,7 @@ export const text: text = {
   languages: `言語`,
   likes: `いいね`,
   linkCopiedToClipboard: `リンクがクリップボードにコピーされました`,
-  livingIn: `地域`,
+  livesIn: `地域`,
   location: `(en) Location`,
   logout: `ログアウト`,
   maximumNChars: (n) => `最大${n}文字`,

@@ -118,7 +118,7 @@ export const text: text = {
   languages: `Языки`,
   likes: `Нравится`,
   linkCopiedToClipboard: `Ссылка скопирована в буфер обмена`,
-  livingIn: `Проживает в`,
+  livesIn: `Проживает в`,
   location: `Местоположение`,
   logInOrSignUp: `Войдите или зарегистрируйтесь`,
   logout: `Выйти`,
@@ -214,9 +214,11 @@ export const text: text = {
   username: `Логин`,
   usernameAlreadyExists: `Такой логин уже используется`,
   usernameAndOneMoreFollowYou: (n) => `<b>${n}</b> и ещё один следят за тобой`,
-  usernameAndOneMoreLikeYourArt: (n) => `<b>${n}</b> и ещё одному нравится ваш арт`,
+  usernameAndOneMoreLikeYourArt: (n) =>
+    `<b>${n}</b> и ещё одному нравится ваш арт`,
   usernameAndOthersFollowYou: (n) => `<b>${n}</b> и ещё ${n} следят за тобой`,
-  usernameAndOthersLikeYourArt: (n) => `<b>${n}</b> и ещё ${n} нравится твой арт`,
+  usernameAndOthersLikeYourArt: (n) =>
+    `<b>${n}</b> и ещё ${n} нравится твой арт`,
   usernameFollowsYou: (n) => `<b>${n}</b> следит за тобой`,
   usernameLikesYourArt: (n) => `<b>${n}</b> нравится твой арт`,
   valueIsNotTheSame: `Значение не совпадает`,

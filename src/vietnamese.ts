@@ -118,7 +118,7 @@ export const text: text = {
   languages: `Ngôn ngữ`,
   likes: `Thích`,
   linkCopiedToClipboard: `Đã sao chép liên kết vào khay nhớ tạm`,
-  livingIn: `Sống tại`,
+  livesIn: `Sống tại`,
   location: `(en) Location`,
   logout: `Đăng xuất`,
   maximumNChars: (n) => `Tối đa ${n} ký tự`,

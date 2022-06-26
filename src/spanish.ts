@@ -118,7 +118,7 @@ export const text: text = {
   languages: `Idiomas`,
   likes: `Me gusta`,
   linkCopiedToClipboard: `Enlace copiado en el portapapeles`,
-  livingIn: `Viviendo en`,
+  livesIn: `Viviendo en`,
   location: `(en) Location`,
   logout: `Cerrar la sesión`,
   maximumNChars: (n) => `Máximo ${n} caracteres`,
