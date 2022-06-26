@@ -3,6 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "devDependencies": {
-    "@10stars/config": "^5.2.3"
+    "@10stars/config": "^5.2.8"
   }
 }
