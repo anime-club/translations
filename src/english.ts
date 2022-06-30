@@ -122,6 +122,7 @@ export const text = {
   language: `Language`,
   languages: `Languages`,
   letEveryoneKnowHowToDonateToYou: `Let everyone know how to donate to you`,
+  letOthersKnowAboutYou: `Let others know about you`,
   likes: `Likes`,
   linkCopiedToClipboard: `Link copied to clipboard`,
   livesIn: `Lives in`,
