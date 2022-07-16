@@ -2,6 +2,7 @@
   "name": "@anime-club/translations",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "devDependencies": {
     "@10stars/config": "^5.2.8"
   }
