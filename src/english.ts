@@ -232,14 +232,10 @@ export const text = {
   uploadNewPost: `Upload new post`,
   username: `Username`,
   usernameAlreadyExists: `Username already exists`,
-  usernameAndOneMoreFollowYou: (username: string) =>
-    `<b>${username}</b> and one more follow you`,
-  usernameAndOneMoreLikeYourArt: (username: string) =>
-    `<b>${username}</b> and one more like your art`,
-  usernameAndOthersFollowYou: (username: string, numberOfNotifiers: number) =>
-    `<b>${username}</b> and ${numberOfNotifiers} others follow you`,
-  usernameAndOthersLikeYourArt: (username: string, numberOfNotifiers: number) =>
-    `<b>${username}</b> and ${numberOfNotifiers} others like your art`,
+  usernameAndXMoreFollowYou: (username: string, numberOfNotifiers: number) =>
+    `<b>${username}</b> and ${numberOfNotifiers} more follow you`,
+  usernameAndXMoreLikeYourArtwork: (username: string, numberOfNotifiers: number) =>
+    `<b>${username}</b> and ${numberOfNotifiers} more like your artwork`,
   usernameFollowsYou: (username: string) => `<b>${username}</b> follows you`,
   usernameLikesYourArt: (username: string) =>
     `<b>${username}</b> likes your art`,
