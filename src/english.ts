@@ -136,7 +136,7 @@ export const text = {
   livesIn: `Lives in`,
   location: `Location`,
   logInOrSignUp: `Log in or sign up`,
-  logout: `Logout`,
+  logOut: `Log out`,
   maximumNChars: (num: number) => `Maximum ${num} chars`,
   maxSize: `Max size`,
   menu: `Menu`,
