@@ -159,6 +159,7 @@ export const text = {
   needNCharacter: (character: string) => `Need ${character} character`,
   newAccount: `New account`,
   newArt: `New art`,
+  newArtworks: `New artworks`,
   newBlog: `New blog`,
   newPassword: `New password`,
   newsFeed: `News feed`,
