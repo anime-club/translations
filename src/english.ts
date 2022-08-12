@@ -173,6 +173,7 @@ export const text = {
   no: `no`,
   noAddedFavoriteArts: `no added favorite arts`,
   noInternetConnection: `No Internet connection!`,
+  noNotifications: `No notifications`,
   notifications: `Notifications`,
   nsfwContent18Plus: `NSFW Content (18+)`,
   online: `Online`,
