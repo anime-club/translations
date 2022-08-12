@@ -206,6 +206,7 @@ export const text = {
   publicInformation: `Public information`,
   publishOn: (socialMedia: string) => `Publish on ${socialMedia}`,
   rankings: `Rankings`,
+  report: `Report`,
   save: `Save`,
   saveAvatar: `Save avatar`,
   saveChanges: `Save changes`,
