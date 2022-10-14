@@ -4,6 +4,6 @@
   "private": true,
   "type": "module",
   "devDependencies": {
-    "@10stars/config": "^6.0.1"
+    "@10stars/config": "^7.0.1"
   }
 }
