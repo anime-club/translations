@@ -1,8 +1,4 @@
 {
   "extends": "./node_modules/@10stars/config/tsconfig.json", // only relative paths and local node_modules are supported, see: https://github.com/Microsoft/TypeScript/issues/18865
-  "include": ["./src/**/*", "./interfaces.d.ts"],
-  "compilerOptions": {
-    "baseUrl": ".",
-    "rootDir": ".",
-  }
+  "include": ["src/**/*", "types/*.d.ts"]
 }

@@ -1,0 +1,39 @@
+name: Bump package version
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/on-translation-change.yml"
+      - "src/**"
+      - "types/**"
+
+jobs:
+  updateVersion:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Configure git
+        run: |
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
+      - run: |
+          npm version patch
+          git push
+          gh release create "v$(node -p -e "require('./package.json').version")"
+
+  publishPackage:
+    needs: updateVersion
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          registry-url: https://npm.pkg.github.com/
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
