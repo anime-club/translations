@@ -26,14 +26,6 @@ jobs:
           git push --tags --force
           gh release create "v$(node -p -e "require('./package.json').version")"
 
-  publishPackage:
-    needs: updateVersion
-    runs-on: ubuntu-latest
-    permissions:
-      packages: write
-      contents: read
-    steps:
-      - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
           node-version: 18
