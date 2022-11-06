@@ -197,7 +197,7 @@ export const text = {
   password: `Password`,
   payments: `Payments`,
   personal: `Personal`,
-  pleaseCheckYour: `Please check your`,
+  pleaseCheckYour: (value: string) => `Please check your ${value}`,
   pleaseDoNotShareYourPrivateInformationToOthers: `Please do not share your private information to others`,
   pleaseDropOnlyOneImage: `Please drop only one image`,
   pleaseEnterAtLeastNChars: (num: number) =>

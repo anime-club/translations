@@ -197,7 +197,7 @@ Social Network`,
   password: `Senha`,
   payments: `Pagamentos`,
   personal: `(en) Personal`,
-  pleaseCheckYour: `Por favor, verifique o seu`,
+  pleaseCheckYour: (n) => `(en) Please check your %VALUE_1`,
   pleaseDoNotShareYourPrivateInformationToOthers: `(en) Please do not share your private information to others`,
   pleaseDropOnlyOneImage: `Por favor, solte apenas uma imagem`,
   pleaseEnterAtLeastNChars: (n) =>
