@@ -15,7 +15,7 @@ By making our translations available to everyone, we hope you could kindly help 
 
 The process is easy as 1-2-3:
 
-![GIF on How to Edit a Translation](/.github/how-to-edit-a-translation.gif)
+![GIF on How to Edit a Translation](https://github.com/anime-club/translations/raw/main/.github/how-to-edit-a-translation.gif)
 
 1. Press on the language you would like to edit below
 2. Another page would open, make changes there
@@ -40,7 +40,9 @@ The process is easy as 1-2-3:
 
 - all languages are available in [/src](/src) directory
 - if a translation phrase is **not translated yet**:
+
   - it has a prefix `"(en) "`
+
     - for example if you see in [/src/japanese.ts](/src/japanese.ts):
 
       ```ts
@@ -50,6 +52,7 @@ The process is easy as 1-2-3:
       - it means we have **not** translated this phrase yet
 
 - the translation phrase might be either:
+
   - a static value:
 
     ```ts
