@@ -26,6 +26,6 @@ jobs:
           git push --tags --force
           gh release create "v$(node -p -e "require('./package.json').version")"
 
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+      - run: |
+          npm config set _authToken=${{ secrets.NPM_TOKEN }}
+          npm publish
