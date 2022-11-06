@@ -23,6 +23,7 @@ jobs:
       - run: |
           npm version patch
           git push
+          git push --tags --force
           gh release create "v$(node -p -e "require('./package.json').version")"
 
   publishPackage:
