@@ -1,5 +1,9 @@
 {
   "name": "@anime-club/translations",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "1.0.1",
   "type": "module",
   "devDependencies": {
