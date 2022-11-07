@@ -21,7 +21,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
 
       - run: |
-          npm version patch
+          npm version patch --allow-same-version
           git push
           git push --tags --force
           gh release create "v$(node -p -e "require('./package.json').version")"
