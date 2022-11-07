@@ -1,5 +1,4 @@
 name: Bump package version
-
 on:
   push:
     branches: [main]
