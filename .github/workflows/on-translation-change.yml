@@ -21,13 +21,11 @@ jobs:
 
       - run: |
           npm version patch --allow-same-version
+          npm config set _authToken=${{ secrets.NPM_TOKEN }}
+          npm publish
           git push
           git push --tags --force
           gh release create "v$(node -p -e "require('./package.json').version")"
-
-      - run: |
-          npm config set _authToken=${{ secrets.NPM_TOKEN }}
-          npm publish
 
       - uses: peter-evans/repository-dispatch@v2
         with:
