@@ -32,3 +32,9 @@ jobs:
           token: ${{ secrets.GH_TOKEN_REPOSITORY_DISPATCH }}
           repository: anime-club/common
           event-type: translation-version-bump
+
+      - uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.GH_TOKEN_REPOSITORY_DISPATCH }}
+          repository: anime-club/translations-automation
+          event-type: translation-version-bump

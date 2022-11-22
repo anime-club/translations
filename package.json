@@ -1,10 +1,10 @@
 {
-  "name": "@anime-club/translations",
+  "name": "@anime.club/translations",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.1.3",
+  "version": "1.1.4",
   "type": "module",
   "files": [
     "src",
