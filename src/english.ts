@@ -145,6 +145,7 @@ export const text = {
   likes: `Likes`,
   linkCopiedToClipboard: `Link copied to clipboard`,
   livesIn: `Lives in`,
+  loading: `Loading`,
   location: `Location`,
   logInOrSignUp: `Log in or sign up`,
   logOut: `Log out`,
