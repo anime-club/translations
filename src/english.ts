@@ -174,6 +174,7 @@ export const text = {
   newBlog: `New blog`,
   newPassword: `New password`,
   newsFeed: `News feed`,
+  next: `Next`,
   nextTimeYouAuthenticateYouCouldUseThe: `Next time you authenticate, you could use the connected account, instead of the login and password`,
   nightTheme: `Night theme`,
   no: `no`,
