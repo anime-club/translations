@@ -304,6 +304,7 @@ export const text = {
   youDoNotHaveAnyChats: `You do not have any chats`,
   youHaveNotSavedAnyChanges: `You have not saved any changes`,
   youHaveNotSetAPassword: `You have not set a password`,
+  youHaveReachedTheMaximumNumberOfFiles: `You have reached the maximum number of files`,
   yourAccountIsVerifiedPleaseSignIn: `Your account is verified. Please sign in`,
   yourArts: `Your arts`,
   yourAvatar: `Your avatar`,
