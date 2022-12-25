@@ -130,6 +130,7 @@ export const text = {
   introduction: `Introduction`,
   invalidCode: `Invalid code`,
   invalidDate: `Invalid date`,
+  invalidCurrentPassword: `Invalid current password`,
   invalidPartAfterAt: `Invalid part after @`,
   invalidPartBeforeAt: `Invalid part before @`,
   jobDetails: `Job Details`,
