@@ -124,6 +124,8 @@ Social Network`,
   fromAnimeDotClub: `(en) From anime.club`,
   getDetails: `세부 정보 보기`,
   guestView: `게스트보기`,
+  hasNotAddedADescriptionFor: (...v) =>
+    `(en) @${v[0]} has not added a description for "${v[1]}"`,
   hasNotSharedAnyPublicDetailsYet: (...v) =>
     `(en) @${v[0]} has not shared any public details yet`,
   hire: `(en) Hire`,

@@ -124,6 +124,8 @@ Social Network`,
   fromAnimeDotClub: `(en) From anime.club`,
   getDetails: `विवरण प्राप्त करें`,
   guestView: `अतिथि दृश्य`,
+  hasNotAddedADescriptionFor: (...v) =>
+    `(en) @${v[0]} has not added a description for "${v[1]}"`,
   hasNotSharedAnyPublicDetailsYet: (...v) =>
     `(en) @${v[0]} has not shared any public details yet`,
   hire: `(en) Hire`,

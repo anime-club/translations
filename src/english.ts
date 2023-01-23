@@ -123,7 +123,10 @@ export const text = {
   fromAnimeDotClub: `From anime.club`,
   getDetails: `Get details`,
   guestView: `Guest view`,
-  hasNotSharedAnyPublicDetailsYet: (username: string) => `@${username} has not shared any public details yet`,
+  hasNotAddedADescriptionFor: (username: string, title: string) =>
+    `@${username} has not added a description for "${title}"`,
+  hasNotSharedAnyPublicDetailsYet: (username: string) =>
+    `@${username} has not shared any public details yet`,
   hire: `Hire`,
   homepage: `Homepage`,
   howToContactYou: `How to contact you`,
