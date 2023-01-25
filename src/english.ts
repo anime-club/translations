@@ -151,6 +151,7 @@ export const text = {
   languages: `Languages`,
   letEveryoneKnowHowToDonateToYou: `Let everyone know how to donate to you`,
   letOthersKnowAboutYou: `Let others know about you`,
+  LicenseForForProfitBusinessUse: `License for for-profit business use`,
   lightDefault: `Light default`,
   lightHighContrast: `Light high contrast`,
   likes: `Likes`,
