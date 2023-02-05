@@ -11,6 +11,6 @@
     "types"
   ],
   "devDependencies": {
-    "@10stars/config": "^7.0.1"
+    "@10stars/config": "^8.0.2"
   }
 }
