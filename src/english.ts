@@ -89,6 +89,7 @@ export const text = {
   description: `Description`,
   details: `Details`,
   didntReceiveEmail: `Didn't receive email?`,
+  displayName: `Display name`,
   donations: `Donations`,
   done: `Done`,
   dragAndDropOrSelectFiles: `Drag & Drop or Select file(s)`,
