@@ -125,6 +125,7 @@ export const text = {
   forgotPassword: `Forgot password`,
   fromAnimeDotClub: `From anime.club`,
   getDetails: `Get details`,
+  getStarted: `Get started`,
   guestView: `Guest view`,
   hasNotAddedADescriptionFor: (username: string, title: string) =>
     `@${username} has not added a description for "${title}"`,
