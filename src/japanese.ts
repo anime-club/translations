@@ -126,6 +126,7 @@ Social Network`,
   forgotPassword: `パスワードを忘れた`,
   fromAnimeDotClub: `(en) From anime.club`,
   getDetails: `詳しく見る`,
+  getStarted: `(en) Get started`,
   guestView: `ゲスト視聴`,
   hasNotAddedADescriptionFor: (...v) =>
     `(en) @${v[0]} has not added a description for "${v[1]}"`,

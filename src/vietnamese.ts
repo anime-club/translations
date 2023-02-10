@@ -126,6 +126,7 @@ Social Network`,
   forgotPassword: `Quên mật khẩu`,
   fromAnimeDotClub: `(en) From anime.club`,
   getDetails: `Nhận chi tiết`,
+  getStarted: `(en) Get started`,
   guestView: `Dạng xem cho khách`,
   hasNotAddedADescriptionFor: (...v) =>
     `(en) @${v[0]} has not added a description for "${v[1]}"`,

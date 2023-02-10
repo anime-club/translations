@@ -126,6 +126,7 @@ Social Network`,
   forgotPassword: `Lupa kata sandi`,
   fromAnimeDotClub: `(en) From anime.club`,
   getDetails: `Dapatkan detail`,
+  getStarted: `(en) Get started`,
   guestView: `Tampilan Pengunjung`,
   hasNotAddedADescriptionFor: (...v) =>
     `(en) @${v[0]} has not added a description for "${v[1]}"`,

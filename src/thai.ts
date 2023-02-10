@@ -126,6 +126,7 @@ Social Network`,
   forgotPassword: `ลืมรหัสผ่าน`,
   fromAnimeDotClub: `(en) From anime.club`,
   getDetails: `ดูรายละเอียด`,
+  getStarted: `(en) Get started`,
   guestView: `ผู้เยี่ยมชมชั่วคราว`,
   hasNotAddedADescriptionFor: (...v) =>
     `(en) @${v[0]} has not added a description for "${v[1]}"`,

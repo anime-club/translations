@@ -126,6 +126,7 @@ Social Network`,
   forgotPassword: `忘记密码`,
   fromAnimeDotClub: `(en) From anime.club`,
   getDetails: `获得详细信息`,
+  getStarted: `(en) Get started`,
   guestView: `来宾视图`,
   hasNotAddedADescriptionFor: (...v) =>
     `(en) @${v[0]} has not added a description for "${v[1]}"`,

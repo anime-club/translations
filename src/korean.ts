@@ -126,6 +126,7 @@ Social Network`,
   forgotPassword: `비밀번호를 잊으 셨나요`,
   fromAnimeDotClub: `(en) From anime.club`,
   getDetails: `세부 정보 보기`,
+  getStarted: `(en) Get started`,
   guestView: `게스트보기`,
   hasNotAddedADescriptionFor: (...v) =>
     `(en) @${v[0]} has not added a description for "${v[1]}"`,

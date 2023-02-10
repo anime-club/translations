@@ -126,6 +126,7 @@ Social Network`,
   forgotPassword: `पासवर्ड भूल गए`,
   fromAnimeDotClub: `(en) From anime.club`,
   getDetails: `विवरण प्राप्त करें`,
+  getStarted: `(en) Get started`,
   guestView: `अतिथि दृश्य`,
   hasNotAddedADescriptionFor: (...v) =>
     `(en) @${v[0]} has not added a description for "${v[1]}"`,
