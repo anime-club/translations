@@ -5,12 +5,11 @@
     "access": "public"
   },
   "version": "1.1.33",
-  "type": "module",
   "files": [
     "src",
     "types"
   ],
   "devDependencies": {
-    "@10stars/config": "^8.0.2"
+    "@10stars/config": "^9.0.2"
   }
 }
