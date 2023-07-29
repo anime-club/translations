@@ -6,6 +6,7 @@ on:
       - ".github/workflows/on-translation-change.yml"
       - "src/**"
       - "types/**"
+      - "package.json"
 
 jobs:
   updateVersion:
