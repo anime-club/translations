@@ -10,6 +10,6 @@
     "types"
   ],
   "devDependencies": {
-    "@10stars/config": "^9.0.2"
+    "@10stars/config": "^9.1.4"
   }
 }

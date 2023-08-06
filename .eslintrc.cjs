@@ -1,9 +1,6 @@
-const { join } = require("path")
-
 module.exports = {
-  parserOptions: {
-    project: join(__dirname, "tsconfig.json"),
-  },
+  root: true,
+  parserOptions: { project: true, tsconfigRootDir: __dirname },
   extends: ["./node_modules/@10stars/config/.eslintrc"],
   overrides: [
     {

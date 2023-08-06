@@ -1,9 +1,9 @@
-name: Bump package version
+name: Release new version
 on:
   push:
     branches: [main]
     paths:
-      - ".github/workflows/on-translation-change.yml"
+      - ".github/workflows/release-new-version.yml"
       - "src/**"
       - "types/**"
       - "package.json"
@@ -28,14 +28,8 @@ jobs:
           git push --tags --force
           gh release create "v$(node -p -e "require('./package.json').version")"
 
-      - uses: peter-evans/repository-dispatch@v2
+      - uses: anime-club/gh-action-workflow-dispatch@v1
         with:
-          token: ${{ secrets.GH_TOKEN_REPOSITORY_DISPATCH }}
-          repository: anime-club/common
-          event-type: translation-version-bump
-
-      - uses: peter-evans/repository-dispatch@v2
-        with:
-          token: ${{ secrets.GH_TOKEN_REPOSITORY_DISPATCH }}
-          repository: anime-club/translations-automation
-          event-type: translation-version-bump
+          token: ${{ secrets.GH_TOKEN_WORKFLOW_DISPATCH }}
+          repo: "common"
+          workflow: ${{ vars.WORKFLOW_COMMON_RELEASE_NEW_VERSION }}
