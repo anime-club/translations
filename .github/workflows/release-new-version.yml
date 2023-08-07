@@ -28,8 +28,13 @@ jobs:
           git push --tags --force
           gh release create "v$(node -p -e "require('./package.json').version")"
 
-      - uses: anime-club/gh-action-workflow-dispatch@v1
+      - uses: actions/github-script@v6
         with:
-          token: ${{ secrets.GH_TOKEN_WORKFLOW_DISPATCH }}
-          repo: "common"
-          workflow: ${{ vars.WORKFLOW_COMMON_RELEASE_NEW_VERSION }}
+          github-token: ${{ secrets.GH_TOKEN_WORKFLOW_DISPATCH }}
+          script: |
+            github.rest.actions.createWorkflowDispatch({
+              owner: "anime-club",
+              repo: "common",
+              workflow_id: "${{ vars.WORKFLOW_COMMON_RELEASE_NEW_VERSION }}",
+              ref: "main",
+            })
