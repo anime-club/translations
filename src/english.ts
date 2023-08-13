@@ -82,7 +82,7 @@ export const text = {
   continue: `Continue`,
   contractTitle: `Contract Title`,
   completed: `Completed`,
-  cancelOffer: `Cancel order`,
+  cancelOrder: `Cancel order`,
   copyLink: `Copy link`,
   couldNotCreateANewRecord: `Could not create a new record`,
   country: `Country`,
