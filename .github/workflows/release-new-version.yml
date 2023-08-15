@@ -11,8 +11,6 @@ on:
 jobs:
   updateVersion:
     runs-on: ubuntu-latest
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v3
       - name: Configure git
@@ -20,21 +18,12 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
 
-      - run: |
+      - env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
           npm version patch --allow-same-version
           npm config set //registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}
           npm publish
           git push
           git push --tags --force
           gh release create "v$(node -p -e "require('./package.json').version")"
-
-      - uses: actions/github-script@v6
-        with:
-          github-token: ${{ secrets.GH_TOKEN_WORKFLOW_DISPATCH }}
-          script: |
-            github.rest.actions.createWorkflowDispatch({
-              owner: "anime-club",
-              repo: "common",
-              workflow_id: "${{ vars.WORKFLOW_COMMON_RELEASE_NEW_VERSION }}",
-              ref: "main",
-            })
