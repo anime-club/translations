@@ -313,6 +313,8 @@ export const text = {
   toGetWorkRelatedNotifications: `To get work-related notifications`,
   total: `Total`,
   typeYourTextHere: `Type your text here...`,
+  unblock: `Unblock`,
+  unblockUser: (username: string) => `Unblock @${username}`,
   unlimited: `Unlimited`,
   upload: `Upload`,
   uploadNew: `Upload new`,
