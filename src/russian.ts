@@ -310,6 +310,8 @@ Social Network`,
   today: `Сегодня`,
   toGetWorkRelatedNotifications: `Для получения уведомлений, связанных с работой`,
   total: `(en) Total`,
+  toViewThisDataYouNeedToUnblock: (...v) =>
+    `(en) To view this data, you need to unblock @${v[0]}`,
   typeYourTextHere: `Напечатайте здесь свой текст...`,
   unblock: `(en) Unblock`,
   unblockUser: (...v) => `(en) Unblock @${v[0]}`,

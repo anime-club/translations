@@ -310,6 +310,8 @@ Social Network`,
   today: `(en) Today`,
   toGetWorkRelatedNotifications: `(en) To get work-related notifications`,
   total: `(en) Total`,
+  toViewThisDataYouNeedToUnblock: (...v) =>
+    `(en) To view this data, you need to unblock @${v[0]}`,
   typeYourTextHere: `Nhập văn bản của bạn vào đây...`,
   unblock: `(en) Unblock`,
   unblockUser: (...v) => `(en) Unblock @${v[0]}`,

@@ -312,6 +312,8 @@ export const text = {
   today: `Today`,
   toGetWorkRelatedNotifications: `To get work-related notifications`,
   total: `Total`,
+  toViewThisDataYouNeedToUnblock: (username: string) =>
+    `To view this data, you need to unblock @${username}`,
   typeYourTextHere: `Type your text here...`,
   unblock: `Unblock`,
   unblockUser: (username: string) => `Unblock @${username}`,

@@ -310,6 +310,8 @@ Social Network`,
   today: `(en) Today`,
   toGetWorkRelatedNotifications: `(en) To get work-related notifications`,
   total: `(en) Total`,
+  toViewThisDataYouNeedToUnblock: (...v) =>
+    `(en) To view this data, you need to unblock @${v[0]}`,
   typeYourTextHere: `여기에 텍스트를 입력하세요 ...`,
   unblock: `(en) Unblock`,
   unblockUser: (...v) => `(en) Unblock @${v[0]}`,
