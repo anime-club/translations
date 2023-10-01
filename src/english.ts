@@ -317,6 +317,7 @@ export const text = {
   typeYourTextHere: `Type your text here...`,
   unblock: `Unblock`,
   unblockUser: (username: string) => `Unblock @${username}`,
+  unfollow: `Unfollow`,
   unlimited: `Unlimited`,
   upload: `Upload`,
   uploadNew: `Upload new`,

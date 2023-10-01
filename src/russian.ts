@@ -315,6 +315,7 @@ export const text: text = {
   typeYourTextHere: `Напечатайте здесь свой текст...`,
   unblock: `Разблокировать`,
   unblockUser: (...v) => `Разблокировать @${v[0]}`,
+  unfollow: `Отписаться`,
   unlimited: `Неограниченно`,
   upload: `Загрузить`,
   uploadNew: `Загрузить новый`,
