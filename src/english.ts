@@ -137,6 +137,7 @@ export const text = {
   filter: `Filter`,
   filterBy: `Filter by`,
   findUser: `Find user`,
+  finishSettingUpYourShop: `Finish setting up your shop`,
   follow: `Follow`,
   followers: `Followers`,
   following: `Following`,
