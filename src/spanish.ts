@@ -338,7 +338,7 @@ Social Network`,
   unlimited: `(en) Unlimited`,
   upload: `(en) Upload`,
   uploadNew: `Subir nuevo`,
-  uploadNewPost: `Subir nueva post`,
+  uploadNewPost: `Subir nueva publicación`,
   username: `Nombre de usuario`,
   usernameAlreadyExists: `Nombre de usuario ya existe`,
   usernameAndXMoreFollowYou: (...v) =>
