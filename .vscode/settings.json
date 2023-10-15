@@ -5,11 +5,9 @@
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
-    "source.fixAll": false,
-    "source.fixAll.eslint": true,
+    "source.fixAll": true,
     "source.organizeImports": false
   },
-  "files.maxMemoryForLargeFilesMB": 8192,
   "files.insertFinalNewline": true,
   "files.associations": {
     "tsconfig.json": "jsonc"
@@ -18,9 +16,7 @@
   "javascript.referencesCodeLens.enabled": true,
   "typescript.implementationsCodeLens.enabled": true,
   "typescript.referencesCodeLens.enabled": true,
-  "eslint.packageManager": "yarn",
   "eslint.codeActionsOnSave.mode": "problems",
-  "eslint.alwaysShowStatus": true,
   "eslint.validate": [
     "typescript",
     "typescriptreact",
@@ -32,11 +28,10 @@
   "typescript.disableAutomaticTypeAcquisition": true,
   "typescript.check.npmIsInstalled": false,
   "typescript.tsserver.log": "off",
-  "typescript.tsserver.trace": "off",
   "typescript.format.enable": false,
   "typescript.surveys.enabled": false,
   "typescript.tsserver.useSyntaxServer": "auto",
   "typescript.validate.enable": true,
   "typescript.preferences.importModuleSpecifier": "non-relative",
-  "typescript.preferences.importModuleSpecifierEnding": "minimal",
+  "typescript.preferences.importModuleSpecifierEnding": "minimal"
 }
