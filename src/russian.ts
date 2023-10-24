@@ -248,6 +248,8 @@ export const text: text = {
   optional: `Необязательно`,
   or: `или`,
   orderAgain: `Заказать снова`,
+  orderDetails: `(en) Order details`,
+  orderStatus: `(en) Order status`,
   orderOptions: `Варианты заказа`,
   pageNotFound: `Страница не найдена`,
   password: `Пароль`,

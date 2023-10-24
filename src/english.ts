@@ -248,6 +248,8 @@ export const text = {
   optional: `Optional`,
   or: `or`,
   orderAgain: `Order again`,
+  orderDetails: `Order details`,
+  orderStatus: `Order status`,
   orderOptions: `Order Options`,
   pageNotFound: `Page not found`,
   password: `Password`,
