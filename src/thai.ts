@@ -246,6 +246,7 @@ export const text: text = {
   openToWork: `เปิดรับงาน`,
   optional: `ไม่บังคับ`,
   or: `หรือ`,
+  ordered: (...v) => `(en) Ordered ${v[0]}`,
   orderAgain: `สั่งซื้ออีกครั้ง`,
   orderDetails: `รายละเอียดคำสั่งซื้อ`,
   orderStatus: `สถานะคำสั่งซื้อ`,

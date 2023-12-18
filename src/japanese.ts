@@ -246,6 +246,7 @@ export const text: text = {
   openToWork: `仕事に開かれています`,
   optional: `オプション`,
   or: `または`,
+  ordered: (...v) => `(en) Ordered ${v[0]}`,
   orderAgain: `再注文する`,
   orderDetails: `注文の詳細`,
   orderStatus: `注文ステータス`,

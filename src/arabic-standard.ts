@@ -245,6 +245,7 @@ export const text: text = {
   openToWork: `مفتوح للعمل`,
   optional: `اختياري`,
   or: `أو`,
+  ordered: (...v) => `(en) Ordered ${v[0]}`,
   orderAgain: `أعد الطلب مرة أخرى`,
   orderDetails: `تفاصيل الطلب`,
   orderStatus: `حالة الطلب`,

@@ -245,6 +245,7 @@ export const text: text = {
   openToWork: `일할 준비가 되어 있음`,
   optional: `선택 사항`,
   or: `또는`,
+  ordered: (...v) => `(en) Ordered ${v[0]}`,
   orderAgain: `다시 주문하기`,
   orderDetails: `주문 세부 정보`,
   orderStatus: `주문 상태`,

@@ -248,6 +248,7 @@ export const text: text = {
   openToWork: `Ouvert au travail`,
   optional: `Optionnel`,
   or: `OU`,
+  ordered: (...v) => `(en) Ordered ${v[0]}`,
   orderAgain: `Commander à nouveau`,
   orderDetails: `Détails de la commande`,
   orderStatus: `Statut de la commande`,

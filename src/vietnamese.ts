@@ -245,6 +245,7 @@ export const text: text = {
   openToWork: `Mở để làm việc`,
   optional: `Tùy chọn`,
   or: `HOẶC`,
+  ordered: (...v) => `(en) Ordered ${v[0]}`,
   orderAgain: `Đặt hàng lại`,
   orderDetails: `Chi tiết đơn hàng`,
   orderStatus: `Trạng thái đơn hàng`,

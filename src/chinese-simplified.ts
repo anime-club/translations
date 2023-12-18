@@ -243,6 +243,7 @@ export const text: text = {
   openToWork: `接受工作机会`,
   optional: `可选的`,
   or: `要么`,
+  ordered: (...v) => `(en) Ordered ${v[0]}`,
   orderAgain: `再次下单`,
   orderDetails: `订单详情`,
   orderStatus: `订单状态`,
