@@ -101,6 +101,7 @@ export const text: text = {
   darkHighContrast: `어두운 고대비`,
   dayTheme: `주간 테마`,
   delete: `삭제`,
+  deleteShop: `(en) Delete shop`,
   deleteAccount: `계정 삭제`,
   deleteArt: `아트 삭제`,
   decline: `(en) Decline`,

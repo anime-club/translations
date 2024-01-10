@@ -102,6 +102,7 @@ export const text: text = {
   darkHighContrast: `ダークハイコントラスト`,
   dayTheme: `デイテーマ`,
   delete: `削除する`,
+  deleteShop: `(en) Delete shop`,
   deleteAccount: `アカウントを削除する`,
   deleteArt: `アートを削除する`,
   decline: `(en) Decline`,

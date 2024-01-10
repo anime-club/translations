@@ -101,6 +101,7 @@ export const text: text = {
   darkHighContrast: `عالي التباين الداكن`,
   dayTheme: `موضوع النهار`,
   delete: `حذف`,
+  deleteShop: `(en) Delete shop`,
   deleteAccount: `حذف الحساب`,
   deleteArt: `حذف الرسم`,
   decline: `(en) Decline`,

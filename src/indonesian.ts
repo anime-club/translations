@@ -102,6 +102,7 @@ export const text: text = {
   darkHighContrast: `Tema gelap kontras tinggi`,
   dayTheme: `Tema siang`,
   delete: `Hapus`,
+  deleteShop: `(en) Delete shop`,
   deleteAccount: `Hapus akun`,
   deleteArt: `Hapus karya`,
   decline: `(en) Decline`,

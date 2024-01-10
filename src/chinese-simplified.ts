@@ -101,6 +101,7 @@ export const text: text = {
   darkHighContrast: `暗色高对比度`,
   dayTheme: `日间主题`,
   delete: `删除`,
+  deleteShop: `(en) Delete shop`,
   deleteAccount: `删除账户`,
   deleteArt: `删除作品`,
   decline: `(en) Decline`,

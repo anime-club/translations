@@ -103,6 +103,7 @@ export const text: text = {
   darkHighContrast: `Alto contraste escuro`,
   dayTheme: `Tema diurno`,
   delete: `Excluir`,
+  deleteShop: `(en) Delete shop`,
   deleteAccount: `Excluir conta`,
   deleteArt: `Apagar art`,
   decline: `(en) Decline`,

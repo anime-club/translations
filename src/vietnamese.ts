@@ -101,6 +101,7 @@ export const text: text = {
   darkHighContrast: `Chế độ tối cao cấp`,
   dayTheme: `Chủ đề ban ngày`,
   delete: `Xóa`,
+  deleteShop: `(en) Delete shop`,
   deleteAccount: `Xóa tài khoản`,
   deleteArt: `Xóa tranh`,
   decline: `(en) Decline`,
