@@ -5,8 +5,8 @@
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-    "source.organizeImports": false
+    "source.fixAll": "explicit",
+    "source.organizeImports": "never"
   },
   "files.insertFinalNewline": true,
   "files.associations": {
