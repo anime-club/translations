@@ -1,4 +1,5 @@
 export const text: text = {
+  leaveAReview: `(en) Leave a review`,
   _colon: `: `,
   _comma: `, `,
   _dot: `. `,
@@ -51,7 +52,7 @@ export const text: text = {
   awaitingReview: `Ожидает проверки`,
   awaitingSeller: `Ожидает продавца`,
   back: `Назад`,
-  basePrice: `Базовая цена`,
+  basePrice: `Исходная стоимость`,
   block: `Блокировать`,
   blockUser: (...v) => `Заблокировать @${v[0]}`,
   blog: `Блог`,
@@ -309,7 +310,7 @@ export const text: text = {
   sharingPersonalInformation: `Раскрытие личной информации`,
   shop: `Магазин`,
   shopOrders: `Заказы магазина`,
-  showLess: `Показать меньше`,
+  showLess: `Свернуть`,
   showMore: `Показать больше`,
   signIn: `Войти`,
   singleTheme: `Одна тема`,
@@ -340,7 +341,7 @@ export const text: text = {
   toHelpTheCreatorCompleteYourOrder: `Для того чтобы продавец мог выполнить ваш заказ в соответствии с вашими пожеланиями, пожалуйста, укажите подробно, что именно вы хотели бы получить: укажите тему, стиль, особенности персонажа и другие важные детали.`,
   today: `Сегодня`,
   toGetWorkRelatedNotifications: `Для получения уведомлений, связанных с работой`,
-  total: `Всего`,
+  total: `Итого`,
   toViewThisDataYouNeedToUnblock: (...v) =>
     `Чтобы посмотреть эти данные, вам нужно разблокировать @${v[0]}`,
   trademarkViolation: `Нарушение товарного знака`,

@@ -9,6 +9,7 @@ export const text: text = {
   theMaximumQuantityThatACustomerCanAdd: `(en) The maximum quantity that a customer can add`,
   toHelpTheCreatorCompleteYourOrder: `(en) To help the creator complete your order to your satisfaction, please provide a detailed description of what you want. Include the desired theme, style, and character features, as well as any other important specifications`,
   viewReview: `(en) View review`,
+  leaveAReview: `(en) Leave a review`,
   youHaveSuccessfullyCreatedYourShop: `(en) You have successfully created your shop`,
   _colon: `：`,
   _comma: `、`,

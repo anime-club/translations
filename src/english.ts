@@ -386,6 +386,7 @@ export const text = {
   weSupportOnlyTheFollowingFileExtensions: `We support only the following file extensions:`,
   work: `Work`,
   workDescription: `Work description`,
+  leaveAReview: `Leave a review`,
   wrongEmailOrPassword: `Wrong email or password`,
   yes: `yes`,
   yesterday: `Yesterday`,
