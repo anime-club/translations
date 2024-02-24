@@ -1,4 +1,5 @@
 export const text: text = {
+  accountDeleted: `(en) Account deleted`,
   checkOrderStatus: `(en) Check order status`,
   congratulations: `(en) Congratulations!`,
   deleteShop: `(en) Delete shop`,

@@ -9,6 +9,7 @@ export const text = {
   accept: `Accept`,
   acceptOrder: `Accept order`,
   account: `Account`,
+  accountDeleted: `Account deleted`,
   accountActivation: `Account activation`,
   accountAlreadyExists: `Account already exists`,
   accountDoesNotExist: `Account does not exist`,

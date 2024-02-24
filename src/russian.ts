@@ -1,4 +1,5 @@
 export const text: text = {
+  accountDeleted: `(en) Account deleted`,
   leaveAReview: `(en) Leave a review`,
   _colon: `: `,
   _comma: `, `,
