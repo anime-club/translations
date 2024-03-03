@@ -254,6 +254,7 @@ export const text = {
   openToWork: `Open to work`,
   optional: `Optional`,
   or: `or`,
+  order: `Order`,
   ordered: (relativeTime: string) => `Ordered ${relativeTime}`,
   orderAgain: `Order again`,
   orderDetails: `Order details`,
