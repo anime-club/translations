@@ -83,7 +83,6 @@ export const text = {
   confirmOrder: `Confirm order`,
   confirmPassword: `Confirm password`,
   connectWithUsOn: `Connect with us on`,
-  contactCustomer: `Contact customer`,
   contactInformation: `Contact information`,
   contactSeller: `Contact seller`,
   contactSupport: `Contact support`,

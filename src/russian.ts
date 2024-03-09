@@ -1,5 +1,6 @@
 export const text: text = {
   accountDeleted: `(en) Account deleted`,
+  order: `(en) Order`,
   leaveAReview: `(en) Leave a review`,
   _colon: `: `,
   _comma: `, `,
@@ -84,7 +85,6 @@ export const text: text = {
   confirmOrder: `Подтвердить заказ`,
   confirmPassword: `Подтвердить пароль`,
   connectWithUsOn: `Свяжитесь с нами в`,
-  contactCustomer: `Связаться с клиентом`,
   contactInformation: `Контактная информация`,
   contactSeller: `Связаться с продавцом`,
   contactSupport: `Связаться со службой поддержки`,
