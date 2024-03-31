@@ -11,6 +11,7 @@ export const text: text = {
   order: `(en) Order`,
   outOfStock: `(en) Out of stock`,
   ordered: (...v) => `(en) Ordered ${v[0]}`,
+  otherReason: `(en) Other reason`,
   personalCircumstances: `(en) Personal circumstances`,
   timeConstraints: `(en) Time constraints`,
   theMaximumQuantityThatACustomerCanAdd: `(en) The maximum quantity that a customer can add`,

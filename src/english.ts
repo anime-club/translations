@@ -262,6 +262,7 @@ export const text = {
   orderDetails: `Order details`,
   orderStatus: `Order status`,
   orderOptions: `Order Options`,
+  otherReason: `Other reason`,
   pageNotFound: `Page not found`,
   password: `Password`,
   payments: `Payments`,

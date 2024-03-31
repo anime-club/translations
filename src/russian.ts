@@ -1,4 +1,5 @@
 export const text: text = {
+  otherReason: `Другая причина`,
   _colon: `: `,
   _comma: `, `,
   _dot: `. `,
