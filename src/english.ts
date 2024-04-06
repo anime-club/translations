@@ -277,6 +277,7 @@ export const text = {
     `Please enter at least ${num} characters `,
   pleaseFillOutYourDetails: `Please fill out your details`,
   pleaseSignInToYourAccount: `Please sign in to your account`,
+  pleaseStartTyping: `Please start typing`,
   pleaseTryAgainOrClick: (buttonName: string) =>
     `Please try again or click ${buttonName}`,
   pleaseVerifyYourAccount: `Please verify your account`,

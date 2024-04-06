@@ -1,5 +1,5 @@
 export const text: text = {
-  otherReason: `Другая причина`,
+  pleaseStartTyping: `(en) Please start typing`,
   _colon: `: `,
   _comma: `, `,
   _dot: `. `,
@@ -263,6 +263,7 @@ export const text: text = {
   orderDetails: `Детали заказа`,
   orderStatus: `Статус заказа`,
   orderOptions: `Варианты заказа`,
+  otherReason: `Другая причина`,
   pageNotFound: `Страница не найдена`,
   password: `Пароль`,
   payments: `Платежи`,

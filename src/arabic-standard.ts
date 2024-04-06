@@ -13,6 +13,7 @@ export const text: text = {
   ordered: (...v) => `(en) Ordered ${v[0]}`,
   otherReason: `(en) Other reason`,
   personalCircumstances: `(en) Personal circumstances`,
+  pleaseStartTyping: `(en) Please start typing`,
   timeConstraints: `(en) Time constraints`,
   theMaximumQuantityThatACustomerCanAdd: `(en) The maximum quantity that a customer can add`,
   toHelpTheCreatorCompleteYourOrder: `(en) To help the creator complete your order to your satisfaction, please provide a detailed description of what you want. Include the desired theme, style, and character features, as well as any other important specifications`,
