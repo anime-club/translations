@@ -63,6 +63,8 @@ export const text = {
   cancel: `Cancel`,
   canceled: `Canceled`,
   cancelOrder: `Cancel order`,
+  cancellationReason: `Cancellation reason`,
+  cancellationInitiator: `Cancellation initiator`,
   cannotStartWithChars: `Cannot start with {:"^$*[]{}()?-"!@#%&/\\,><':;|~\`"`,
   change: `Change`,
   checkOrderStatus: `Check order status`,

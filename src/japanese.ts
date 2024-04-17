@@ -1,6 +1,8 @@
 export const text: text = {
   accountDeleted: `(en) Account deleted`,
   buyer: `(en) Buyer`,
+  cancellationReason: `(en) Cancellation reason`,
+  cancellationInitiator: `(en) Cancellation initiator`,
   checkOrderStatus: `(en) Check order status`,
   congratulations: `(en) Congratulations!`,
   deleteShop: `(en) Delete shop`,
