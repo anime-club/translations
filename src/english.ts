@@ -59,6 +59,7 @@ export const text = {
   bookmarks: `Bookmarks`,
   browseArt: `Browse art`,
   browseShop: `Browse shop`,
+  buyer: `Buyer`,
   cancel: `Cancel`,
   canceled: `Canceled`,
   cancelOrder: `Cancel order`,
@@ -277,6 +278,7 @@ export const text = {
     `Please enter at least ${num} characters `,
   pleaseFillOutYourDetails: `Please fill out your details`,
   pleaseSignInToYourAccount: `Please sign in to your account`,
+  platform: `Platform`,
   pleaseStartTyping: `Please start typing`,
   pleaseTryAgainOrClick: (buttonName: string) =>
     `Please try again or click ${buttonName}`,
@@ -305,6 +307,7 @@ export const text = {
   selectASingleThemeOrSyncWithYourSystemAndAutomaticallySwitchBetweenDayAndNightThemes: `Select a single theme, or sync with your system and automatically switch between day and night themes`,
   selectAvatar: `Select avatar`,
   selectCharacters: `Select Character(s)`,
+  seller: `Seller`,
   selectFile: `Select file`,
   selectTheme: `Select theme`,
   selectThumbnail: `Select thumbnail`,

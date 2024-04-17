@@ -1,5 +1,8 @@
 export const text: text = {
+  buyer: `(en) Buyer`,
+  platform: `(en) Platform`,
   pleaseStartTyping: `(en) Please start typing`,
+  seller: `(en) Seller`,
   _colon: `: `,
   _comma: `, `,
   _dot: `. `,
