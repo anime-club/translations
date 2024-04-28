@@ -1,6 +1,7 @@
 export const text: text = {
-  cancellationReason: `Причина отмены`,
-  cancellationInitiator: `Инициатор отмены`,
+  contactUs: `Свяжитесь с нами`,
+  haveAnyQuestions: `У Вас есть вопросы?`,
+  weWouldLoveToHearFromYou: `Будем рады обратной связи от вас`,
   _colon: `: `,
   _comma: `, `,
   _dot: `. `,
@@ -65,6 +66,8 @@ export const text: text = {
   cancel: `отмена`,
   canceled: `Отменен`,
   cancelOrder: `Отменить заказ`,
+  cancellationReason: `Причина отмены`,
+  cancellationInitiator: `Инициатор отмены`,
   cannotStartWithChars: `Не может начинаться с s{:"^$*[]{}()?-"!@#%&/,><':;|~\`"`,
   change: `Изменить`,
   checkOrderStatus: `Проверить статус заказа`,

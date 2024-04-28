@@ -89,6 +89,7 @@ export const text = {
   contactInformation: `Contact information`,
   contactSeller: `Contact seller`,
   contactSupport: `Contact support`,
+  contactUs: `Contact us`,
   continue: `Continue`,
   contractTitle: `Contract Title`,
   copyLink: `Copy link`,
@@ -159,6 +160,7 @@ export const text = {
   getStarted: `Get started`,
   guestView: `Guest view`,
   harassment: `Harassment`,
+  haveAnyQuestions: `Have any questions?`,
   hasNotAddedADescriptionFor: (username: string, title: string) =>
     `@${username} has not added a description for "${title}"`,
   hasNotSharedAnyPublicDetailsYet: (username: string) =>
@@ -398,6 +400,7 @@ export const text = {
   weSentYouANewVerificationEmailPleaseEnterTheCode: `We sent you a new verification email. Please enter the code`,
   weSupportOnlyTheFollowingFileExtensions: `We support only the following file extensions:`,
   work: `Work`,
+  weWouldLoveToHearFromYou: `We would love to hear from you`,
   workDescription: `Work description`,
   leaveAReview: `Leave a review`,
   wrongEmailOrPassword: `Wrong email or password`,
