@@ -161,6 +161,8 @@ export const text = {
   guestView: `Guest view`,
   harassment: `Harassment`,
   haveAnyQuestions: `Have any questions?`,
+  usernameHasCanceledTheOrder: (username: string) =>
+    `${username} has canceled the order`,
   hasNotAddedADescriptionFor: (username: string, title: string) =>
     `@${username} has not added a description for "${title}"`,
   hasNotSharedAnyPublicDetailsYet: (username: string) =>
@@ -406,6 +408,8 @@ export const text = {
   wrongEmailOrPassword: `Wrong email or password`,
   yes: `yes`,
   yesterday: `Yesterday`,
+  youReceivedANewOrderFrom: (username: string) =>
+    `You received a new order from <b>${username}</b>`,
   youHaveSuccessfullyCreatedYourShop: `You have successfully created your shop`,
   youAreAlreadyAuthenticated: `You are already authenticated`,
   youCanAutoPublishToYourSocialMediaAccount: `You can auto publish to your social media account`,

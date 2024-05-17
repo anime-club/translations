@@ -1,7 +1,7 @@
 export const text: text = {
-  contactUs: `Свяжитесь с нами`,
-  haveAnyQuestions: `У Вас есть вопросы?`,
-  weWouldLoveToHearFromYou: `Будем рады обратной связи от вас`,
+  usernameHasCanceledTheOrder: (...v) => `(en) ${v[0]} has canceled the order`,
+  youReceivedANewOrderFrom: (...v) =>
+    `(en) You received a new order from <b>${v[0]}</b>`,
   _colon: `: `,
   _comma: `, `,
   _dot: `. `,
@@ -92,6 +92,7 @@ export const text: text = {
   contactInformation: `Контактная информация`,
   contactSeller: `Связаться с продавцом`,
   contactSupport: `Связаться со службой поддержки`,
+  contactUs: `Свяжитесь с нами`,
   continue: `Продолжить`,
   contractTitle: `Название контракта`,
   copyLink: `Скопировать ссылку`,
@@ -162,6 +163,7 @@ export const text: text = {
   getStarted: `Начать`,
   guestView: `Гостевой просмотр`,
   harassment: `Домогательство`,
+  haveAnyQuestions: `У Вас есть вопросы?`,
   hasNotAddedADescriptionFor: (...v) =>
     `@${v[0]} не добавил описание для "${v[1]}"`,
   hasNotSharedAnyPublicDetailsYet: (...v) =>
@@ -396,6 +398,7 @@ export const text: text = {
   weSentYouANewVerificationEmailPleaseEnterTheCode: `Мы отправили вам новый email с подтверждением. Введите код`,
   weSupportOnlyTheFollowingFileExtensions: `Мы поддерживаем только следующие расширения файлов:`,
   work: `Работа`,
+  weWouldLoveToHearFromYou: `Будем рады обратной связи от вас`,
   workDescription: `Описание работы`,
   leaveAReview: `Оставить отзыв`,
   wrongEmailOrPassword: `Неправильный email или пароль`,

@@ -9,6 +9,7 @@ export const text: text = {
   deleteShop: `(en) Delete shop`,
   decline: `(en) Decline`,
   haveAnyQuestions: `(en) Have any questions?`,
+  usernameHasCanceledTheOrder: (...v) => `(en) ${v[0]} has canceled the order`,
   lackOfInformation: `(en) Lack of information`,
   letsUploadYourFirstProduct: `(en) Let's upload your first product`,
   notAcceptingOrders: `(en) Not accepting orders`,
@@ -27,6 +28,8 @@ export const text: text = {
   viewReview: `(en) View review`,
   weWouldLoveToHearFromYou: `(en) We would love to hear from you`,
   leaveAReview: `(en) Leave a review`,
+  youReceivedANewOrderFrom: (...v) =>
+    `(en) You received a new order from <b>${v[0]}</b>`,
   youHaveSuccessfullyCreatedYourShop: `(en) You have successfully created your shop`,
   couldYouPleaseProvideTheReasonForTheCancellation: `(en) Could you please provide the reason for the cancellation`,
   yourFeedbackWouldBeGreatlyAppreciated: `(en) Your feedback would be greatly appreciated`,
