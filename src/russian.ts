@@ -1,7 +1,15 @@
 export const text: text = {
-  usernameHasCanceledTheOrder: (...v) => `(en) ${v[0]} has canceled the order`,
+  attentionYourOrderHasBeenDisputed: `Внимание! Ваш заказ оспорен. Пожалуйста, ознакомьтесь с деталями`,
+  greatNewsYourOrderIsNowInProgress: `Отличные новости! Ваш заказ в работе`,
+  usernameHasCanceledTheOrder: (...v) => `<b>${v[0]}</b> отменил заказ`,
+  ifTheresNoResponseByTimeLimit: (...v) =>
+    `Если до ${v[0]} не будет ответа, заказ будет автоматически отмечен как выполненный`,
+  theReviewPeriodIsLimitedtoNdays: (...v) =>
+    `Период проверки ограничен ${v[0]} днями`,
+  wellDoneYourWorkHasBeenSuccessfullyCompleted: `Отлично! Ваша работа успешно завершена`,
   youReceivedANewOrderFrom: (...v) =>
     `(en) You received a new order from <b>${v[0]}</b>`,
+  kindlyHoldOnForTheBuyersReview: `Пожалуйста, подождите, пока покупатель оставит отзыв`,
   _colon: `: `,
   _comma: `, `,
   _dot: `. `,

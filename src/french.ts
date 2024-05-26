@@ -1,5 +1,6 @@
 export const text: text = {
   accountDeleted: `(en) Account deleted`,
+  attentionYourOrderHasBeenDisputed: `(en) Attention! Your order has been disputed. Please check the details`,
   buyer: `(en) Buyer`,
   cancellationReason: `(en) Cancellation reason`,
   cancellationInitiator: `(en) Cancellation initiator`,
@@ -8,8 +9,12 @@ export const text: text = {
   congratulations: `(en) Congratulations!`,
   deleteShop: `(en) Delete shop`,
   decline: `(en) Decline`,
+  greatNewsYourOrderIsNowInProgress: `(en) Great news! Your order is now in progress`,
   haveAnyQuestions: `(en) Have any questions?`,
-  usernameHasCanceledTheOrder: (...v) => `(en) ${v[0]} has canceled the order`,
+  usernameHasCanceledTheOrder: (...v) =>
+    `(en) <b>${v[0]}</b> has canceled the order`,
+  ifTheresNoResponseByTimeLimit: (...v) =>
+    `(en) If there's no response by ${v[0]}, the order will be marked as completed automatically`,
   lackOfInformation: `(en) Lack of information`,
   letsUploadYourFirstProduct: `(en) Let's upload your first product`,
   notAcceptingOrders: `(en) Not accepting orders`,
@@ -24,13 +29,17 @@ export const text: text = {
   seller: `(en) Seller`,
   timeConstraints: `(en) Time constraints`,
   theMaximumQuantityThatACustomerCanAdd: `(en) The maximum quantity that a customer can add`,
+  theReviewPeriodIsLimitedtoNdays: (...v) =>
+    `(en) The review period is limited to ${v[0]} days`,
   toHelpTheCreatorCompleteYourOrder: `(en) To help the creator complete your order to your satisfaction, please provide a detailed description of what you want. Include the desired theme, style, and character features, as well as any other important specifications`,
   viewReview: `(en) View review`,
+  wellDoneYourWorkHasBeenSuccessfullyCompleted: `(en) Well done! Your work has been successfully completed`,
   weWouldLoveToHearFromYou: `(en) We would love to hear from you`,
   leaveAReview: `(en) Leave a review`,
   youReceivedANewOrderFrom: (...v) =>
     `(en) You received a new order from <b>${v[0]}</b>`,
   youHaveSuccessfullyCreatedYourShop: `(en) You have successfully created your shop`,
+  kindlyHoldOnForTheBuyersReview: `(en) Kindly hold on for the buyer's review of the order.`,
   couldYouPleaseProvideTheReasonForTheCancellation: `(en) Could you please provide the reason for the cancellation`,
   yourFeedbackWouldBeGreatlyAppreciated: `(en) Your feedback would be greatly appreciated`,
   _colon: ` : `,

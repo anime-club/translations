@@ -49,6 +49,7 @@ export const text = {
   artworksAvailableToView: (num: number) => `${num} artworks available to view`,
   authenticationFailed: `Authentication failed`,
   autoPublishingToInstagramIsOnlyAvailableToInstagramBusinessAccounts: `Auto publishing to Instagram is only available to Instagram business accounts`,
+  attentionYourOrderHasBeenDisputed: `Attention! Your order has been disputed. Please check the details`,
   awaitingReview: `Awaiting review`,
   awaitingSeller: `Awaiting seller`,
   back: `Back`,
@@ -159,10 +160,11 @@ export const text = {
   getDetails: `Get details`,
   getStarted: `Get started`,
   guestView: `Guest view`,
+  greatNewsYourOrderIsNowInProgress: `Great news! Your order is now in progress`,
   harassment: `Harassment`,
   haveAnyQuestions: `Have any questions?`,
   usernameHasCanceledTheOrder: (username: string) =>
-    `${username} has canceled the order`,
+    `<b>${username}</b> has canceled the order`,
   hasNotAddedADescriptionFor: (username: string, title: string) =>
     `@${username} has not added a description for "${title}"`,
   hasNotSharedAnyPublicDetailsYet: (username: string) =>
@@ -173,6 +175,8 @@ export const text = {
   howToContactYou: `How to contact you`,
   howToFindYouOnOtherSocialNetworks: `How to find you on other social networks`,
   iAgreeWith: `I agree with`,
+  ifTheresNoResponseByTimeLimit: (reviewTimeLimit: string | number) =>
+    `If there's no response by ${reviewTimeLimit}, the order will be marked as completed automatically`,
   id: `ID`,
   imgHeightNeedsToBeBiggerThanOrEqualTo: `Img height needs to be bigger than or equal to`,
   imgWidthNeedsToBeBiggerThanOrEqualTo: `Img width needs to be bigger than or equal to`,
@@ -356,6 +360,8 @@ export const text = {
   timeConstraints: `Time constraints`,
   titleYourExtraService: `Title your extra service`,
   theMaximumQuantityThatACustomerCanAdd: `The maximum quantity that a customer can add`,
+  theReviewPeriodIsLimitedtoNdays: (numOfDays: number | string) =>
+    `The review period is limited to ${numOfDays} days`,
   toHelpTheCreatorCompleteYourOrder: `To help the creator complete your order to your satisfaction, please provide a detailed description of what you want. Include the desired theme, style, and character features, as well as any other important specifications`,
   today: `Today`,
   toGetWorkRelatedNotifications: `To get work-related notifications`,
@@ -393,6 +399,7 @@ export const text = {
   visitOurDiscordChannelToGetMoreDetails: `Visit our discord channel to get more details`,
   weAreOnInstagram: `We are on Instagram`,
   weAreWorkingOnIt: `We are working on it`,
+  wellDoneYourWorkHasBeenSuccessfullyCompleted: `Well done! Your work has been successfully completed`,
   weDoNotDisplayNSFWContentYet: `We do not display NSFW content yet`,
   weekly: `Weekly`,
   whenYouPurchaseSomethingItWillAppearHere: `When you purchase something, it will appear here`,
@@ -422,6 +429,7 @@ export const text = {
   youHaveNotSetAPassword: `You have not set a password`,
   youHaveNotSharedAnythingYet: `You have not shared anything yet`,
   youHaveReachedTheMaximumNumberOfFiles: `You have reached the maximum number of files`,
+  kindlyHoldOnForTheBuyersReview: `Kindly hold on for the buyer's review of the order.`,
   yourAccountIsVerifiedPleaseSignIn: `Your account is verified. Please sign in`,
   yourAccountWillBeRemoved: (time: string) =>
     `Your account will be removed ${time}`,
