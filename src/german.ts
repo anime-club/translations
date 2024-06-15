@@ -22,6 +22,7 @@ export const text: text = {
   order: `(en) Order`,
   outOfStock: `(en) Out of stock`,
   ordered: (...v) => `(en) Ordered ${v[0]}`,
+  orderConfirmed: `(en) Order confirmed`,
   otherReason: `(en) Other reason`,
   personalCircumstances: `(en) Personal circumstances`,
   platform: `(en) Platform`,
@@ -34,6 +35,7 @@ export const text: text = {
   toHelpTheCreatorCompleteYourOrder: `(en) To help the creator complete your order to your satisfaction, please provide a detailed description of what you want. Include the desired theme, style, and character features, as well as any other important specifications`,
   viewReview: `(en) View review`,
   wellDoneYourWorkHasBeenSuccessfullyCompleted: `(en) Well done! Your work has been successfully completed`,
+  weAreExcitedToSeeYourProgressKeepItUp: `(en) We are excited to see your progress. Keep it up!`,
   weWouldLoveToHearFromYou: `(en) We would love to hear from you`,
   leaveAReview: `(en) Leave a review`,
   youReceivedANewOrderFrom: (...v) =>

@@ -1,15 +1,8 @@
 export const text: text = {
-  attentionYourOrderHasBeenDisputed: `Внимание! Ваш заказ оспорен. Пожалуйста, ознакомьтесь с деталями`,
-  greatNewsYourOrderIsNowInProgress: `Отличные новости! Ваш заказ в работе`,
-  usernameHasCanceledTheOrder: (...v) => `<b>${v[0]}</b> отменил заказ`,
-  ifTheresNoResponseByTimeLimit: (...v) =>
-    `Если до ${v[0]} не будет ответа, заказ будет автоматически отмечен как выполненный`,
-  theReviewPeriodIsLimitedtoNdays: (...v) =>
-    `Период проверки ограничен ${v[0]} днями`,
-  wellDoneYourWorkHasBeenSuccessfullyCompleted: `Отлично! Ваша работа успешно завершена`,
+  orderConfirmed: `Заказ подтверждён`,
+  weAreExcitedToSeeYourProgressKeepItUp: `Мы с нетерпением ждем вашего прогресса. Так держать!`,
   youReceivedANewOrderFrom: (...v) =>
     `(en) You received a new order from <b>${v[0]}</b>`,
-  kindlyHoldOnForTheBuyersReview: `Пожалуйста, подождите, пока покупатель оставит отзыв`,
   _colon: `: `,
   _comma: `, `,
   _dot: `. `,
@@ -60,6 +53,7 @@ export const text: text = {
   artworksAvailableToView: (...v) => `${v[0]} артов доступно для просмотра`,
   authenticationFailed: `Ошибка аутентификации`,
   autoPublishingToInstagramIsOnlyAvailableToInstagramBusinessAccounts: `Автопубликация в Instagram доступна только для бизнес-аккаунтов Instagram`,
+  attentionYourOrderHasBeenDisputed: `Внимание! Ваш заказ оспорен. Пожалуйста, ознакомьтесь с деталями`,
   awaitingReview: `Ожидает проверки`,
   awaitingSeller: `Ожидает продавца`,
   back: `Назад`,
@@ -170,8 +164,10 @@ export const text: text = {
   getDetails: `Подробнее`,
   getStarted: `Начать`,
   guestView: `Гостевой просмотр`,
+  greatNewsYourOrderIsNowInProgress: `Отличные новости! Ваш заказ в работе`,
   harassment: `Домогательство`,
   haveAnyQuestions: `У Вас есть вопросы?`,
+  usernameHasCanceledTheOrder: (...v) => `<b>${v[0]}</b> отменил заказ`,
   hasNotAddedADescriptionFor: (...v) =>
     `@${v[0]} не добавил описание для "${v[1]}"`,
   hasNotSharedAnyPublicDetailsYet: (...v) =>
@@ -182,6 +178,8 @@ export const text: text = {
   howToContactYou: `Как с вами связаться`,
   howToFindYouOnOtherSocialNetworks: `Как найти вас в других социальных сетях`,
   iAgreeWith: `Я согласен с`,
+  ifTheresNoResponseByTimeLimit: (...v) =>
+    `Если до ${v[0]} не будет ответа, заказ будет автоматически отмечен как выполненный`,
   id: `ID`,
   imgHeightNeedsToBeBiggerThanOrEqualTo: `Высота изображения должна быть больше или равна`,
   imgWidthNeedsToBeBiggerThanOrEqualTo: `Ширина изображения должна быть больше или равна`,
@@ -363,6 +361,8 @@ export const text: text = {
   timeConstraints: `Ограничения по времени`,
   titleYourExtraService: `Назовите вашу дополнительную услугу`,
   theMaximumQuantityThatACustomerCanAdd: `Максимальное количество, которое покупатель может добавить`,
+  theReviewPeriodIsLimitedtoNdays: (...v) =>
+    `Период проверки ограничен ${v[0]} днями`,
   toHelpTheCreatorCompleteYourOrder: `Для того чтобы продавец мог выполнить ваш заказ в соответствии с вашими пожеланиями, пожалуйста, укажите подробно, что именно вы хотели бы получить: укажите тему, стиль, особенности персонажа и другие важные детали.`,
   today: `Сегодня`,
   toGetWorkRelatedNotifications: `Для получения уведомлений, связанных с работой`,
@@ -397,6 +397,7 @@ export const text: text = {
   visitOurDiscordChannelToGetMoreDetails: `Посетите наш канал Discord для получения более подробной информации`,
   weAreOnInstagram: `Мы в Instagram`,
   weAreWorkingOnIt: `Мы работаем над этим`,
+  wellDoneYourWorkHasBeenSuccessfullyCompleted: `Отлично! Ваша работа успешно завершена`,
   weDoNotDisplayNSFWContentYet: `Мы пока не показываем материалы для взрослых`,
   weekly: `Еженедельно`,
   whenYouPurchaseSomethingItWillAppearHere: `Когда вы что-то купите, оно появится здесь`,
@@ -424,6 +425,7 @@ export const text: text = {
   youHaveNotSetAPassword: `Вы не добавили пароль`,
   youHaveNotSharedAnythingYet: `Вы ещё ничем не поделились`,
   youHaveReachedTheMaximumNumberOfFiles: `Вы достигли максимального количества файлов`,
+  kindlyHoldOnForTheBuyersReview: `Пожалуйста, подождите, пока покупатель оставит отзыв`,
   yourAccountIsVerifiedPleaseSignIn: `Ваш аккаунт подтвержден. Теперь вы можете войти`,
   yourAccountWillBeRemoved: (...v) =>
     `Ваша учетная запись будет удалена ${v[0]}`,
