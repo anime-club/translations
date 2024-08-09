@@ -1,8 +1,4 @@
 export const text: text = {
-  orderConfirmed: `Заказ подтверждён`,
-  weAreExcitedToSeeYourProgressKeepItUp: `Мы с нетерпением ждем вашего прогресса. Так держать!`,
-  youReceivedANewOrderFrom: (...v) =>
-    `(en) You received a new order from <b>${v[0]}</b>`,
   _colon: `: `,
   _comma: `, `,
   _dot: `. `,
@@ -149,6 +145,7 @@ export const text: text = {
   extensions: `Расширения`,
   extras: `Дополнительные услуги`,
   fileSizeIsTooBig: `Размер файла слишком большой`,
+  fileSizeIsTooSmall: `Размер файла слишком мал`,
   filter: `Фильтр`,
   filterBy: `Фильтровать по`,
   findUser: `Найти пользователя`,
@@ -207,6 +204,7 @@ export const text: text = {
   lightDefault: `Светлая тема`,
   lightHighContrast: `Светлая тема высокого контраста`,
   likes: `Нравится`,
+  limit: `Лимит`,
   linkCopiedToClipboard: `Ссылка скопирована в буфер обмена`,
   livesIn: `Проживает в`,
   loading: `Загрузка`,
@@ -274,6 +272,7 @@ export const text: text = {
   ordered: (...v) => `Заказано ${v[0]}`,
   orderAgain: `Заказать снова`,
   orderDetails: `Детали заказа`,
+  orderConfirmed: `Заказ подтверждён`,
   orderStatus: `Статус заказа`,
   orderOptions: `Варианты заказа`,
   otherReason: `Другая причина`,
@@ -284,7 +283,6 @@ export const text: text = {
   personalCircumstances: `Личные обстоятельства`,
   pleaseCheckYour: (...v) => `Проверьте ваш ${v[0]}`,
   pleaseDoNotShareYourPrivateInformationToOthers: `Пожалуйста, не сообщайте свою личную информацию другим`,
-  pleaseDropOnlyOneImage: `Перетащите сюда только одно изображение`,
   pleaseEnterANumberBetweenXandX: (...v) =>
     `Введите число от ${v[0]} до ${v[1]}`,
   pleaseEnterAtLeastNChars: (...v) => `Введите символов, не менее ${v[0]} `,
@@ -405,6 +403,7 @@ export const text: text = {
   welcomeToAnimeClub: `Добро пожаловать в Anime.club!`,
   weSentAnEmailTo: `Мы отправили email на:`,
   weSentYouANewVerificationEmailPleaseEnterTheCode: `Мы отправили вам новый email с подтверждением. Введите код`,
+  weAreExcitedToSeeYourProgressKeepItUp: `Мы с нетерпением ждем вашего прогресса. Так держать!`,
   weSupportOnlyTheFollowingFileExtensions: `Мы поддерживаем только следующие расширения файлов:`,
   work: `Работа`,
   weWouldLoveToHearFromYou: `Будем рады обратной связи от вас`,
@@ -413,6 +412,8 @@ export const text: text = {
   wrongEmailOrPassword: `Неправильный email или пароль`,
   yes: `да`,
   yesterday: `Вчера`,
+  youReceivedANewOrderFrom: (...v) =>
+    `Вы получили новый заказ от <b>${v[0]}</b>`,
   youHaveSuccessfullyCreatedYourShop: `Вы успешно создали свой магазин`,
   youAreAlreadyAuthenticated: `Вы уже авторизованы`,
   youCanAutoPublishToYourSocialMediaAccount: `Вы можете автопубликовать информацию в своих социальных сетях`,

@@ -145,6 +145,7 @@ export const text = {
   extensions: `Extensions`,
   extras: `Extras`,
   fileSizeIsTooBig: `File size is too big`,
+  fileSizeIsTooSmall: `File size is too small`,
   filter: `Filter`,
   filterBy: `Filter by`,
   findUser: `Find user`,
@@ -204,6 +205,7 @@ export const text = {
   lightDefault: `Light default`,
   lightHighContrast: `Light high contrast`,
   likes: `Likes`,
+  limit: `Limit`,
   linkCopiedToClipboard: `Link copied to clipboard`,
   livesIn: `Lives in`,
   loading: `Loading`,
@@ -282,7 +284,6 @@ export const text = {
   personalCircumstances: `Personal circumstances`,
   pleaseCheckYour: (value: string) => `Please check your ${value}`,
   pleaseDoNotShareYourPrivateInformationToOthers: `Please do not share your private information to others`,
-  pleaseDropOnlyOneImage: `Please drop only one image`,
   pleaseEnterANumberBetweenXandX: (min: number, max: number) =>
     `Please enter a number between ${min} and ${max}`,
   pleaseEnterAtLeastNChars: (num: number) =>
