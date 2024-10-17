@@ -9,7 +9,10 @@
     "src",
     "types"
   ],
+  "scripts": {
+    "config": "tsx node_modules/.bin/config"
+  },
   "devDependencies": {
-    "@10stars/config": "^11.0.0"
+    "@10stars/config": "^11.4.0"
   }
 }
