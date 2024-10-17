@@ -12,7 +12,21 @@ jobs:
   updateVersion:
     runs-on: ubuntu-latest
     steps:
-      - uses: anime-club/gh-action-setup@v1
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: "npm"
+
+      - name: Configure git
+        run: |
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
+      - run: npm ci
 
       - name: Typecheck
         run: npm run config typecheckOnce
