@@ -1,4 +1,5 @@
 export const text: text = {
+  pleaseFeelFreeToShareYourReference: `(en) Please feel free to share your reference images and supporting materials to guide the artist in creating your piece`,
   _colon: `: `,
   _comma: `، `,
   _dot: `. `,
