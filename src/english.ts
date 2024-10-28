@@ -378,6 +378,7 @@ export const text = {
   unfollow: `Unfollow`,
   unlimited: `Unlimited`,
   upload: `Upload`,
+  uploadFiles: `Upload files`,
   uploadNew: `Upload new`,
   uploadNewPost: `Upload new post`,
   uploadNewProduct: `Upload new product`,
