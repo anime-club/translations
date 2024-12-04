@@ -1,5 +1,7 @@
 export const text: text = {
+  makeSureToIncludeClearInstructions: `(en) Make sure to include clear instructions on how each reference should be used`,
   pleaseFeelFreeToShareYourReference: `(en) Please feel free to share your reference images and supporting materials to guide the artist in creating your piece`,
+  pleaseReviewTheBuyersReferenceFiles: `(en) Please review the buyer's reference files and follow them as specified in the order's description`,
   uploadFiles: `(en) Upload files`,
   _colon: `: `,
   _comma: `، `,

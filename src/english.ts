@@ -222,6 +222,7 @@ export const text = {
   minHeight: `Min height`,
   minimumNChars: (num: number) => `Minimum ${num} chars`,
   minorAbuseOrSexualization: `Minor abuse or sexualization`,
+  makeSureToIncludeClearInstructions: `Make sure to include clear instructions on how each reference should be used`,
   minWidth: `Min width`,
   monthly: `Monthly`,
   moreFrom: (username: string) => `More from ${username}`,
@@ -293,6 +294,7 @@ export const text = {
   pleaseSignInToYourAccount: `Please sign in to your account`,
   platform: `Platform`,
   pleaseStartTyping: `Please start typing`,
+  pleaseReviewTheBuyersReferenceFiles: `Please review the buyer's reference files and follow them as specified in the order's description`,
   pleaseTryAgainOrClick: (buttonName: string) =>
     `Please try again or click ${buttonName}`,
   pleaseVerifyYourAccount: `Please verify your account`,
