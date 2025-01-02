@@ -1,11 +1,15 @@
 export const text: text = {
+  commercialUseAllowed: `(en) Commercial use allowed`,
   commercialUseAllowsBuyersToUseYourProduct: `(en) Commercial use allows buyers to use your product for business purposes, like selling or promoting their services`,
   describeTheDetailsOfYourExtra: `(en) Describe the details of your extra`,
   extrasAreOptionalAddOnsToEnhanceYourProduct: `(en) Extras are optional add-ons to enhance your product`,
   makeSureToIncludeClearInstructions: `(en) Make sure to include clear instructions on how each reference should be used`,
   NSFWIndicatesAdultContent: `(en) 18+ NSFW indicates adult content. Check this field only if your product is intended for mature audiences`,
+  requestDetails: `(en) Request details`,
   pleaseFeelFreeToShareYourReference: `(en) Please feel free to share your reference images and supporting materials to guide the artist in creating your piece`,
   pleaseReviewTheBuyersReferenceFiles: `(en) Please review the buyer's reference files and follow them as specified in the order's description`,
+  yourOrderIncludesXRevisionS: (...v) =>
+    `(en) Your order includes ${v[0]} revision(s)`,
   thisFieldIsOptional: `(en) This field is optional`,
   uploadFiles: `(en) Upload files`,
   _colon: `：`,
@@ -89,7 +93,6 @@ export const text: text = {
   close: `閉じる`,
   colorTheme: `カラーテーマ`,
   comingSoon: `近日公開...`,
-  commercialUse: `商用利用`,
   community: `コミュニティ`,
   completed: `完了`,
   confirmAccount: `アカウントを確認する`,
