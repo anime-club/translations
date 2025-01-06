@@ -20,6 +20,7 @@ export const text: text = {
   shareYourShopOnSocialMedia: `(en) Share your shop on social media`,
   shareYourFavoritePiecesOn: (...v) =>
     `(en) Share your favorite pieces on ${v[0]}`,
+  tellTheBuyerWhatTheyWillGetWithThisProduct: `(en) Tell the buyer what they will get with this product`,
   thisFieldIsOptional: `(en) This field is optional`,
   uploadFiles: `(en) Upload files`,
   _colon: `：`,
@@ -137,7 +138,6 @@ export const text: text = {
   deletePost: `删除贴文`,
   deleteProduct: `删除产品`,
   deliveryTime: `交货时间`,
-  describeTheDetailsOfYourProduct: `描述您的产品细节`,
   description: `描述`,
   details: `细节`,
   didntReceiveEmail: `没有收到邮件吗？`,

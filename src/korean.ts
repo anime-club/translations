@@ -20,6 +20,7 @@ export const text: text = {
   shareYourShopOnSocialMedia: `(en) Share your shop on social media`,
   shareYourFavoritePiecesOn: (...v) =>
     `(en) Share your favorite pieces on ${v[0]}`,
+  tellTheBuyerWhatTheyWillGetWithThisProduct: `(en) Tell the buyer what they will get with this product`,
   thisFieldIsOptional: `(en) This field is optional`,
   uploadFiles: `(en) Upload files`,
   _colon: `: `,
@@ -137,7 +138,6 @@ export const text: text = {
   deletePost: `포스트 삭제`,
   deleteProduct: `제품 삭제`,
   deliveryTime: `배송 시간`,
-  describeTheDetailsOfYourProduct: `제품의 세부 정보 설명`,
   description: `서술`,
   details: `세부 사항`,
   didntReceiveEmail: `이메일을 받지 못하셨습니까?`,

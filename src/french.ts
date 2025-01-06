@@ -20,6 +20,7 @@ export const text: text = {
   shareYourShopOnSocialMedia: `(en) Share your shop on social media`,
   shareYourFavoritePiecesOn: (...v) =>
     `(en) Share your favorite pieces on ${v[0]}`,
+  tellTheBuyerWhatTheyWillGetWithThisProduct: `(en) Tell the buyer what they will get with this product`,
   thisFieldIsOptional: `(en) This field is optional`,
   uploadFiles: `(en) Upload files`,
   _colon: ` : `,
@@ -139,7 +140,6 @@ export const text: text = {
   deletePost: `Supprimer le message`,
   deleteProduct: `Supprimer le produit`,
   deliveryTime: `Délai de livraison`,
-  describeTheDetailsOfYourProduct: `Décrire les détails de votre produit`,
   description: `Description`,
   details: `Détails`,
   didntReceiveEmail: `Vous n'avez pas reçu le courriel ?`,

@@ -20,6 +20,7 @@ export const text: text = {
   shareYourShopOnSocialMedia: `(en) Share your shop on social media`,
   shareYourFavoritePiecesOn: (...v) =>
     `(en) Share your favorite pieces on ${v[0]}`,
+  tellTheBuyerWhatTheyWillGetWithThisProduct: `(en) Tell the buyer what they will get with this product`,
   thisFieldIsOptional: `(en) This field is optional`,
   uploadFiles: `(en) Upload files`,
   _colon: `：`,
@@ -138,7 +139,6 @@ export const text: text = {
   deletePost: `投稿を削除する`,
   deleteProduct: `製品を削除する`,
   deliveryTime: `配達時間`,
-  describeTheDetailsOfYourProduct: `製品の詳細を説明する`,
   description: `内容`,
   details: `詳細`,
   didntReceiveEmail: `メールが届きませんでしたか？`,

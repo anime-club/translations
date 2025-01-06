@@ -121,7 +121,6 @@ export const text = {
   deletePost: `Delete post`,
   deleteProduct: `Delete product`,
   deliveryTime: `Delivery time`,
-  describeTheDetailsOfYourProduct: `Describe the details of your product`,
   describeTheDetailsOfYourExtra: `Describe the details of your extra`,
   description: `Description`,
   details: `Details`,
@@ -344,6 +343,7 @@ export const text = {
   settings: `Settings`,
   settingUpAShopIsFreeAndOnlyTakesAFewMinutes: `Setting up a shop is free and only takes a few minutes`,
   share: `Share`,
+  shareYourRulesAndTheTypesOfRequestsYouDontAccept: `Share your rules and the types of requests you don’t accept`,
   shareYourShopOnSocialMedia: `Share your shop on social media`,
   shareYourFavoritePiecesOn: (url: string) =>
     `Share your favorite pieces on ${url}`,
@@ -372,6 +372,7 @@ export const text = {
   tellUsAboutYourself: `Tell us about yourself`,
   termsAndConditions: `Terms and Conditions`,
   termsOfUse: `Terms of use`,
+  tellTheBuyerWhatTheyWillGetWithThisProduct: `Tell the buyer what they will get with this product`,
   thankYouForReport: `Thank you for helping to maintain a safe and respectful online community`,
   theLinkIsBrokenOrPageHasBeenRemoved: `The link is broken or page has been removed`,
   themeMode: `Theme mode`,
