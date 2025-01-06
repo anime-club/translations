@@ -17,6 +17,7 @@ export const text: text = {
   pleaseReviewTheBuyersReferenceFiles: `(en) Please review the buyer's reference files and follow them as specified in the order's description`,
   yourOrderIncludesXRevisionS: (...v) =>
     `(en) Your order includes ${v[0]} revision(s)`,
+  shareYourRulesAndTheTypesOfRequestsYouDontAccept: `(en) Share your rules and the types of requests you don’t accept`,
   shareYourShopOnSocialMedia: `(en) Share your shop on social media`,
   shareYourFavoritePiecesOn: (...v) =>
     `(en) Share your favorite pieces on ${v[0]}`,
