@@ -1,5 +1,6 @@
 export const text: text = {
   _dash: `(en) - `,
+  aiGeneratedImagesAndNeuralNetworkFiltersAreProhibited: `(en) AI-generated images and neural network filters are prohibited`,
   addMoreProductsToYourShop: `(en) Add more products to your shop`,
   checkOutMyShop: `(en) Check out my shop`,
   commercialUseAllowed: `(en) Commercial use allowed`,

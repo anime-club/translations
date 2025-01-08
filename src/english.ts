@@ -11,6 +11,7 @@ export const text = {
   acceptOrder: `Accept order`,
   account: `Account`,
   accountDeleted: `Account deleted`,
+  aiGeneratedImagesAndNeuralNetworkFiltersAreProhibited: `AI-generated images and neural network filters are prohibited`,
   accountActivation: `Account activation`,
   accountAlreadyExists: `Account already exists`,
   accountDoesNotExist: `Account does not exist`,
