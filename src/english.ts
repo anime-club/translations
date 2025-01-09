@@ -107,7 +107,7 @@ export const text = {
   createANewAccountFailed: `Create a new account failed`,
   createExtrasForYourProduct: `Create extras for your product`,
   createNewAccount: `Create new account`,
-  createYourShop: `Create your shop`,
+  createAShopWithStripe: `Create a shop with Stripe`,
   createdBy: `Created by`,
   currentPassword: `Current password`,
   daily: `Daily`,
