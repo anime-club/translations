@@ -302,6 +302,7 @@ export const text = {
   pleaseEnterAtLeastNChars: (num: number) =>
     `Please enter at least ${num} characters `,
   pleaseFillOutYourDetails: `Please fill out your details`,
+  pleaseFixTheErrorsBeforeSubmitting: `Please fix the errors before submitting`,
   pleaseSignInToYourAccount: `Please sign in to your account`,
   platform: `Platform`,
   pleaseStartTyping: `Please start typing`,
