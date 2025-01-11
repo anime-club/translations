@@ -15,7 +15,7 @@ export const text: text = {
   noSalesYetNoWorries: `(en) No sales yet? No worries, you're just starting out`,
   NSFWIndicatesAdultContent: `(en) 18+ NSFW indicates adult content. Check this field only if your product is intended for mature audiences`,
   requestDetails: `(en) Request details`,
-  pleaseFeelFreeToShareYourReference: `(en) Please feel free to share your reference images and supporting materials to guide the artist in creating your piece`,
+  feelFreeToShareReferenceImagesAndMaterials: `(en) Feel free to share reference images and materials to help the artist create your piece`,
   pleaseFixTheErrorsBeforeSubmitting: `(en) Please fix the errors before submitting`,
   pleaseReviewTheBuyersReferenceFiles: `(en) Please review the buyer's reference files and follow them as specified in the order's description`,
   yourOrderIncludesXRevisionS: (...v) =>

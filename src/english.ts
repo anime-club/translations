@@ -295,7 +295,7 @@ export const text = {
   personal: `Personal`,
   personalCircumstances: `Personal circumstances`,
   pleaseCheckYour: (value: string) => `Please check your ${value}`,
-  pleaseFeelFreeToShareYourReference: `Please feel free to share your reference images and supporting materials to guide the artist in creating your piece`,
+  feelFreeToShareReferenceImagesAndMaterials: `Feel free to share reference images and materials to help the artist create your piece`,
   pleaseDoNotShareYourPrivateInformationToOthers: `Please do not share your private information to others`,
   pleaseEnterANumberBetweenXandX: (min: number, max: number) =>
     `Please enter a number between ${min} and ${max}`,
