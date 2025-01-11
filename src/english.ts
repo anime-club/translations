@@ -100,6 +100,7 @@ export const text = {
   contractTitle: `Contract Title`,
   copyLink: `Copy link`,
   congratulations: `Congratulations!`,
+  congratulationsOnSuccessfullyCompletingYourOrder: `Congratulations on successfully completing your order!`,
   copyrightViolation: `Copyright violation`,
   couldNotCreateANewRecord: `Could not create a new record`,
   country: `Country`,
@@ -295,6 +296,7 @@ export const text = {
   personal: `Personal`,
   personalCircumstances: `Personal circumstances`,
   pleaseCheckYour: (value: string) => `Please check your ${value}`,
+  pleaseRateYourOrder: `Please rate your order`,
   feelFreeToShareReferenceImagesAndMaterials: `Feel free to share reference images and materials to help the artist create your piece`,
   pleaseDoNotShareYourPrivateInformationToOthers: `Please do not share your private information to others`,
   pleaseEnterANumberBetweenXandX: (min: number, max: number) =>
@@ -307,6 +309,8 @@ export const text = {
   platform: `Platform`,
   pleaseStartTyping: `Please start typing`,
   pleaseReviewTheBuyersReferenceFiles: `Please review the buyer's reference files and follow them as specified in the order's description`,
+  pleaseRespondToTheOrderBy: (date: string) =>
+    `Please respond to the order by ${date}`,
   pleaseTryAgainOrClick: (buttonName: string) =>
     `Please try again or click ${buttonName}`,
   pleaseVerifyYourAccount: `Please verify your account`,
@@ -449,6 +453,7 @@ export const text = {
   youCanAutoPublishToYourSocialMediaAccount: `You can auto publish to your social media account`,
   youCanModifyTheTypesOfNotificationsYouReceiveViaEmail: `You can modify the types of notifications you receive via email`,
   youCanRequestRemovalOfYourAccount: `You can request removal of your account with all your data`,
+  yourFeedbackGuidesBuyersAndHelpsSellersOfferBetterProducts: `Your feedback guides buyers and helps sellers offer better products`,
   youCanStillNavigateToThePreviouslyOpenedPages: `You can still navigate to the previously opened pages`,
   youDidNotSelectAnyChats: `You did not select any chats`,
   youDidNotUpdateAnyValues: `You did not update any values`,

@@ -5,6 +5,7 @@ export const text: text = {
   checkOutMyShop: `(en) Check out my shop`,
   commercialUseAllowed: `(en) Commercial use allowed`,
   commercialUseAllowsBuyersToUseYourProduct: `(en) Commercial use allows buyers to use your product for business purposes, like selling or promoting their services`,
+  congratulationsOnSuccessfullyCompletingYourOrder: `(en) Congratulations on successfully completing your order!`,
   createAShopWithStripe: `(en) Create a shop with Stripe`,
   createdBy: `(en) Created by`,
   describeTheDetailsOfYourExtra: `(en) Describe the details of your extra`,
@@ -15,9 +16,12 @@ export const text: text = {
   noSalesYetNoWorries: `(en) No sales yet? No worries, you're just starting out`,
   NSFWIndicatesAdultContent: `(en) 18+ NSFW indicates adult content. Check this field only if your product is intended for mature audiences`,
   requestDetails: `(en) Request details`,
+  pleaseRateYourOrder: `(en) Please rate your order`,
   feelFreeToShareReferenceImagesAndMaterials: `(en) Feel free to share reference images and materials to help the artist create your piece`,
   pleaseFixTheErrorsBeforeSubmitting: `(en) Please fix the errors before submitting`,
   pleaseReviewTheBuyersReferenceFiles: `(en) Please review the buyer's reference files and follow them as specified in the order's description`,
+  pleaseRespondToTheOrderBy: (...v) =>
+    `(en) Please respond to the order by ${v[0]}`,
   yourOrderIncludesXRevisionS: (...v) =>
     `(en) Your order includes ${v[0]} revision(s)`,
   shareYourRulesAndTheTypesOfRequestsYouDontAccept: `(en) Share your rules and the types of requests you don’t accept`,
@@ -27,6 +31,7 @@ export const text: text = {
   tellTheBuyerWhatTheyWillGetWithThisProduct: `(en) Tell the buyer what they will get with this product`,
   thisFieldIsOptional: `(en) This field is optional`,
   uploadFiles: `(en) Upload files`,
+  yourFeedbackGuidesBuyersAndHelpsSellersOfferBetterProducts: `(en) Your feedback guides buyers and helps sellers offer better products`,
   _colon: `: `,
   _comma: `, `,
   _dot: `| `,
