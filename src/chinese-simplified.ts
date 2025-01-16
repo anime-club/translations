@@ -15,6 +15,7 @@ export const text: text = {
   makeSureYourProductsArePricedCompetitively: `(en) Make sure your products are priced competitively`,
   noSalesYetNoWorries: `(en) No sales yet? No worries, you're just starting out`,
   NSFWIndicatesAdultContent: `(en) 18+ NSFW indicates adult content. Check this field only if your product is intended for mature audiences`,
+  onlyYouCanSeeWhatYouveSaved: `(en) Only you can see what you've saved`,
   requestDetails: `(en) Request details`,
   pleaseRateYourOrder: `(en) Please rate your order`,
   feelFreeToShareReferenceImagesAndMaterials: `(en) Feel free to share reference images and materials to help the artist create your piece`,
@@ -28,6 +29,7 @@ export const text: text = {
   shareYourShopOnSocialMedia: `(en) Share your shop on social media`,
   shareYourFavoritePiecesOn: (...v) =>
     `(en) Share your favorite pieces on ${v[0]}`,
+  startAddingFavoritesToSeeThemHere: `(en) Start adding favorites to see them here`,
   tellTheBuyerWhatTheyWillGetWithThisProduct: `(en) Tell the buyer what they will get with this product`,
   thisFieldIsOptional: `(en) This field is optional`,
   uploadFiles: `(en) Upload files`,
@@ -271,7 +273,6 @@ export const text: text = {
   nextTimeYouAuthenticateYouCouldUseThe: `下次验证时，您可以使用连接的帐户，而不是登录和密码`,
   nightTheme: `夜间主题`,
   no: `没有`,
-  noAddedFavoriteArts: `无添加的精选作品`,
   noInternetConnection: `没有网络连接！`,
   nonConsensualIntimateContent: `非自愿亲密内容`,
   none: `无`,

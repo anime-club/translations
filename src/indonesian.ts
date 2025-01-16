@@ -15,6 +15,7 @@ export const text: text = {
   makeSureYourProductsArePricedCompetitively: `(en) Make sure your products are priced competitively`,
   noSalesYetNoWorries: `(en) No sales yet? No worries, you're just starting out`,
   NSFWIndicatesAdultContent: `(en) 18+ NSFW indicates adult content. Check this field only if your product is intended for mature audiences`,
+  onlyYouCanSeeWhatYouveSaved: `(en) Only you can see what you've saved`,
   requestDetails: `(en) Request details`,
   pleaseRateYourOrder: `(en) Please rate your order`,
   feelFreeToShareReferenceImagesAndMaterials: `(en) Feel free to share reference images and materials to help the artist create your piece`,
@@ -28,6 +29,7 @@ export const text: text = {
   shareYourShopOnSocialMedia: `(en) Share your shop on social media`,
   shareYourFavoritePiecesOn: (...v) =>
     `(en) Share your favorite pieces on ${v[0]}`,
+  startAddingFavoritesToSeeThemHere: `(en) Start adding favorites to see them here`,
   tellTheBuyerWhatTheyWillGetWithThisProduct: `(en) Tell the buyer what they will get with this product`,
   thisFieldIsOptional: `(en) This field is optional`,
   uploadFiles: `(en) Upload files`,
@@ -276,7 +278,6 @@ export const text: text = {
   nextTimeYouAuthenticateYouCouldUseThe: `Kali berikutnya saat Anda mengautentikasi, Anda dapat menggunakan akun terhubung, bukan login dan kata sandi`,
   nightTheme: `Tema malam`,
   no: `tidak`,
-  noAddedFavoriteArts: `Belum ada karya favorit yang ditambahkan`,
   noInternetConnection: `Tidak ada koneksi internet!`,
   nonConsensualIntimateContent: `Konten intim tanpa persetujuan`,
   none: `Tidak ada`,
