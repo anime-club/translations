@@ -24,6 +24,7 @@ export const text: text = {
   pleaseReviewTheBuyersReferenceFiles: `(en) Please review the buyer's reference files and follow them as specified in the order's description`,
   pleaseRespondToTheOrderBy: (...v) =>
     `(en) Please respond to the order by ${v[0]}`,
+  reason: `(en) Reason`,
   yourOrderIncludesXRevisionS: (...v) =>
     `(en) Your order includes ${v[0]} revision(s)`,
   shareYourRulesAndTheTypesOfRequestsYouDontAccept: `(en) Share your rules and the types of requests you don’t accept`,
@@ -36,7 +37,9 @@ export const text: text = {
   thisFieldIsOptional: `(en) This field is optional`,
   pleaseUploadOnlyFinishedWorkHereMaximumFiles: `(en) Please upload only finished work here`,
   allWIPRelatedFilesShouldBeUploadedInMessages: `(en) All WIP-related files should be uploaded in messages`,
+  unfortunatelyTheSellerHadToCancelThisOrder: `(en) Unfortunately, the seller had to cancel this order`,
   yourFeedbackGuidesBuyersAndHelpsSellersOfferBetterProducts: `(en) Your feedback guides buyers and helps sellers offer better products`,
+  youCanceledTheOrder: `(en) You canceled the order`,
   _colon: `: `,
   _comma: `, `,
   _dot: `. `,
@@ -101,8 +104,6 @@ export const text: text = {
   cancel: `취소`,
   canceled: `취소됨`,
   cancelOrder: `주문 취소`,
-  cancellationReason: `취소 이유`,
-  cancellationInitiator: `취소 발기인`,
   cannotStartWithChars: `s{:"^$*[]{}()?-"!@#%&/,><':;|~\`"로 시작할 수 없습니다.`,
   change: `변경`,
   checkOrderStatus: `주문 상태 확인`,

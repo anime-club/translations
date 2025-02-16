@@ -24,6 +24,7 @@ export const text: text = {
   pleaseReviewTheBuyersReferenceFiles: `(en) Please review the buyer's reference files and follow them as specified in the order's description`,
   pleaseRespondToTheOrderBy: (...v) =>
     `(en) Please respond to the order by ${v[0]}`,
+  reason: `(en) Reason`,
   yourOrderIncludesXRevisionS: (...v) =>
     `(en) Your order includes ${v[0]} revision(s)`,
   shareYourRulesAndTheTypesOfRequestsYouDontAccept: `(en) Share your rules and the types of requests you don’t accept`,
@@ -36,7 +37,9 @@ export const text: text = {
   thisFieldIsOptional: `(en) This field is optional`,
   pleaseUploadOnlyFinishedWorkHereMaximumFiles: `(en) Please upload only finished work here`,
   allWIPRelatedFilesShouldBeUploadedInMessages: `(en) All WIP-related files should be uploaded in messages`,
+  unfortunatelyTheSellerHadToCancelThisOrder: `(en) Unfortunately, the seller had to cancel this order`,
   yourFeedbackGuidesBuyersAndHelpsSellersOfferBetterProducts: `(en) Your feedback guides buyers and helps sellers offer better products`,
+  youCanceledTheOrder: `(en) You canceled the order`,
   _colon: `: `,
   _comma: `, `,
   _dot: `. `,
@@ -101,8 +104,6 @@ export const text: text = {
   cancel: `hủy`,
   canceled: `Đã hủy`,
   cancelOrder: `Hủy đơn hàng`,
-  cancellationReason: `Lý do hủy`,
-  cancellationInitiator: `Người khởi xướng hủy`,
   cannotStartWithChars: `Không thể bắt đầu bằng s{:"^$*[]{}()?-"!@#%&/,><':;|~\`"`,
   change: `Thay đổi`,
   checkOrderStatus: `Kiểm tra trạng thái đơn hàng`,

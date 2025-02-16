@@ -67,8 +67,6 @@ export const text = {
   cancel: `Cancel`,
   canceled: `Canceled`,
   cancelOrder: `Cancel order`,
-  cancellationReason: `Cancellation reason`,
-  cancellationInitiator: `Cancellation initiator`,
   cannotStartWithChars: `Cannot start with {:"^$*[]{}()?-"!@#%&/\\,><':;|~\`"`,
   change: `Change`,
   checkOutMyShop: `Check out my shop`,
@@ -330,6 +328,7 @@ export const text = {
   rankings: `Rankings`,
   reorderFiles: `Reorder files`,
   report: `Report`,
+  reason: `Reason`,
   revisions: `Revisions`,
   yourOrderIncludesXRevisionS: (num: number) =>
     `Your order includes ${num} revision(s)`,
@@ -424,6 +423,7 @@ export const text = {
   usernameLikesYourArt: (username: string) =>
     `<b>${username}</b> likes your art`,
   useThisEmailTo: `Use this email to: authenticate, receive notifications`,
+  unfortunatelyTheSellerHadToCancelThisOrder: `Unfortunately, the seller had to cancel this order`,
   valueIsNotTheSame: `Value is not the same`,
   verificationCode: `Verification Code`,
   verifyCode: `Verify code`,
@@ -473,6 +473,7 @@ export const text = {
   couldYouPleaseProvideTheReasonForTheCancellation: `Could you please provide the reason for the cancellation`,
   yourFeedbackWouldBeGreatlyAppreciated: `Your feedback would be greatly appreciated`,
   yourArts: `Your arts`,
+  youCanceledTheOrder: `You canceled the order`,
   yourAvatar: `Your avatar`,
   yourBlog: `Your blog`,
   yourFansAreWaiting: `Your fans are waiting`,
