@@ -423,7 +423,8 @@ export const text = {
   usernameLikesYourArt: (username: string) =>
     `<b>${username}</b> likes your art`,
   useThisEmailTo: `Use this email to: authenticate, receive notifications`,
-  unfortunatelyTheSellerHadToCancelThisOrder: `Unfortunately, the seller had to cancel this order`,
+  unfortunatelyTheSellerHadToCancelThisOrder: (user: unknown) =>
+    `Unfortunately, ${user} had to cancel this order`,
   valueIsNotTheSame: `Value is not the same`,
   verificationCode: `Verification Code`,
   verifyCode: `Verify code`,

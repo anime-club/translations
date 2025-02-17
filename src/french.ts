@@ -37,7 +37,8 @@ export const text: text = {
   thisFieldIsOptional: `(en) This field is optional`,
   pleaseUploadOnlyFinishedWorkHereMaximumFiles: `(en) Please upload only finished work here`,
   allWIPRelatedFilesShouldBeUploadedInMessages: `(en) All WIP-related files should be uploaded in messages`,
-  unfortunatelyTheSellerHadToCancelThisOrder: `(en) Unfortunately, the seller had to cancel this order`,
+  unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
+    `(en) Unfortunately, ${v[0]} had to cancel this order`,
   yourFeedbackGuidesBuyersAndHelpsSellersOfferBetterProducts: `(en) Your feedback guides buyers and helps sellers offer better products`,
   youCanceledTheOrder: `(en) You canceled the order`,
   _colon: ` : `,
