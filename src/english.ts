@@ -29,6 +29,7 @@ export const text = {
   addToCart: `Add to cart`,
   advancedOptions: `Advanced options`,
   all: `All`,
+  allFilesYouUploadHereWillBeAvailableToTheBuyer: `All files you upload here will be available to the buyer`,
   alreadySignedIn: `Already signed in`,
   amount: `Amount`,
   amountShouldNotBeLessThan: (amount: number) =>
@@ -386,6 +387,7 @@ export const text = {
   themeMode: `Theme mode`,
   thisIsThePriceYouPropose: `This is the price you propose`,
   thisFieldIsOptional: `This field is optional`,
+  thisCannotBeUndoneEnsureYouveUploaded: `This cannot be undone. Ensure you've uploaded the final version before submitting`,
   threateningViolence: `Threatening violence`,
   title: `Title`,
   timeConstraints: `Time constraints`,
@@ -401,6 +403,7 @@ export const text = {
     `To view this data, you need to unblock @${username}`,
   trademarkViolation: `Trademark violation`,
   typeYourTextHere: `Type your text here...`,
+  theSellerHasUploadedTheseFilesForYou: `The seller has uploaded these files for you. Download them below!`,
   unblock: `Unblock`,
   unblockUser: (username: string) => `Unblock @${username}`,
   unfollow: `Unfollow`,

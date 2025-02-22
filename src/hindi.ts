@@ -2,6 +2,7 @@ export const text: text = {
   _dash: `(en) - `,
   aiGeneratedImagesAndNeuralNetworkFiltersAreProhibited: `(en) AI-generated images and neural network filters are prohibited`,
   addMoreProductsToYourShop: `(en) Add more products to your shop`,
+  allFilesYouUploadHereWillBeAvailableToTheBuyer: `(en) All files you upload here will be available to the buyer`,
   checkOutMyShop: `(en) Check out my shop`,
   commercialUseAllowed: `(en) Commercial use allowed`,
   commercialUseAllowsBuyersToUseYourProduct: `(en) Commercial use allows buyers to use your product for business purposes, like selling or promoting their services`,
@@ -35,6 +36,8 @@ export const text: text = {
   successfullyDownloaded: `(en) Successfully downloaded!`,
   tellTheBuyerWhatTheyWillGetWithThisProduct: `(en) Tell the buyer what they will get with this product`,
   thisFieldIsOptional: `(en) This field is optional`,
+  thisCannotBeUndoneEnsureYouveUploaded: `(en) This cannot be undone. Ensure you've uploaded the final version before submitting`,
+  theSellerHasUploadedTheseFilesForYou: `(en) The seller has uploaded these files for you. Download them below!`,
   pleaseUploadOnlyFinishedWorkHereMaximumFiles: `(en) Please upload only finished work here`,
   allWIPRelatedFilesShouldBeUploadedInMessages: `(en) All WIP-related files should be uploaded in messages`,
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
