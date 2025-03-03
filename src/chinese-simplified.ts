@@ -1,8 +1,10 @@
 export const text: text = {
   _dash: `(en) - `,
+  acceptTheOrder: `(en) Accept the order`,
   aiGeneratedImagesAndNeuralNetworkFiltersAreProhibited: `(en) AI-generated images and neural network filters are prohibited`,
   addMoreProductsToYourShop: `(en) Add more products to your shop`,
   allFilesYouUploadHereWillBeAvailableToTheBuyer: `(en) All files you upload here will be available to the buyer`,
+  beforeAcceptingPleaseReviewTheBuyersRequestCarefully: `(en) Before accepting, please review the buyer's request carefully`,
   checkOutMyShop: `(en) Check out my shop`,
   commercialUseAllowed: `(en) Commercial use allowed`,
   commercialUseAllowsBuyersToUseYourProduct: `(en) Commercial use allows buyers to use your product for business purposes, like selling or promoting their services`,
@@ -12,8 +14,11 @@ export const text: text = {
   download: `(en) Dowload`,
   describeTheDetailsOfYourExtra: `(en) Describe the details of your extra`,
   extrasAreOptionalAddOnsToEnhanceYourProduct: `(en) Extras are optional add-ons to enhance your product`,
+  usernameHasSubmittedTheWork: (...v) =>
+    `(en) <b>${v[0]}</b> has submitted the work`,
   hereAreAFewWaysToGetThingsRolling: `(en) Here are a few ways to get things rolling`,
   makeSureToIncludeClearInstructions: `(en) Make sure to include clear instructions on how each reference should be used`,
+  makeSureYouFullyUnderstandTheRequirements: `(en) Make sure you fully understand the requirements and can complete the order by the deadline`,
   makeSureYourProductsArePricedCompetitively: `(en) Make sure your products are priced competitively`,
   noSalesYetNoWorries: `(en) No sales yet? No worries, you're just starting out`,
   NSFWIndicatesAdultContent: `(en) 18+ NSFW indicates adult content. Check this field only if your product is intended for mature audiences`,
@@ -22,6 +27,7 @@ export const text: text = {
   pleaseRateYourOrder: `(en) Please rate your order`,
   feelFreeToShareReferenceImagesAndMaterials: `(en) Feel free to share reference images and materials to help the artist create your piece`,
   pleaseFixTheErrorsBeforeSubmitting: `(en) Please fix the errors before submitting`,
+  pleaseTakeAMomentToReviewTheOrder: `(en) 🎉 Please take a moment to review the order`,
   pleaseReviewTheBuyersReferenceFiles: `(en) Please review the buyer's reference files and follow them as specified in the order's description`,
   pleaseRespondToTheOrderBy: (...v) =>
     `(en) Please respond to the order by ${v[0]}`,

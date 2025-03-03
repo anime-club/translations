@@ -9,6 +9,7 @@ export const text = {
   about: `About`,
   accept: `Accept`,
   acceptOrder: `Accept order`,
+  acceptTheOrder: `Accept the order`,
   account: `Account`,
   accountDeleted: `Account deleted`,
   aiGeneratedImagesAndNeuralNetworkFiltersAreProhibited: `AI-generated images and neural network filters are prohibited`,
@@ -60,6 +61,7 @@ export const text = {
   basePrice: `Base Price`,
   block: `Block`,
   blockUser: (username: string) => `Block @${username}`,
+  beforeAcceptingPleaseReviewTheBuyersRequestCarefully: `Before accepting, please review the buyer's request carefully`,
   blog: `Blog`,
   bookmarks: `Bookmarks`,
   browseArt: `Browse art`,
@@ -174,6 +176,8 @@ export const text = {
   haveAnyQuestions: `Have any questions?`,
   usernameHasCanceledTheOrder: (username: string) =>
     `<b>${username}</b> has canceled the order`,
+  usernameHasSubmittedTheWork: (username: string) =>
+    `<b>${username}</b> has submitted the work`,
   hasNotAddedADescriptionFor: (username: string, title: string) =>
     `@${username} has not added a description for "${title}"`,
   hasNotSharedAnyPublicDetailsYet: (username: string) =>
@@ -231,6 +235,7 @@ export const text = {
   minimumNChars: (num: number) => `Minimum ${num} chars`,
   minorAbuseOrSexualization: `Minor abuse or sexualization`,
   makeSureToIncludeClearInstructions: `Make sure to include clear instructions on how each reference should be used`,
+  makeSureYouFullyUnderstandTheRequirements: `Make sure you fully understand the requirements and can complete the order by the deadline`,
   makeSureYourProductsArePricedCompetitively: `Make sure your products are priced competitively`,
   minWidth: `Min width`,
   monthly: `Monthly`,
@@ -308,6 +313,7 @@ export const text = {
   pleaseSignInToYourAccount: `Please sign in to your account`,
   platform: `Platform`,
   pleaseStartTyping: `Please start typing`,
+  pleaseTakeAMomentToReviewTheOrder: `🎉 Please take a moment to review the order`,
   pleaseReviewTheBuyersReferenceFiles: `Please review the buyer's reference files and follow them as specified in the order's description`,
   pleaseRespondToTheOrderBy: (date: string) =>
     `Please respond to the order by ${date}`,
@@ -469,7 +475,7 @@ export const text = {
   youHaveNotSetAPassword: `You have not set a password`,
   youHaveNotSharedAnythingYet: `You have not shared anything yet`,
   youHaveReachedTheMaximumNumberOfFiles: `You have reached the maximum number of files`,
-  kindlyHoldOnForTheBuyersReview: `Kindly hold on for the buyer's review of the order.`,
+  kindlyHoldOnForTheBuyersReview: `Kindly hold on for the buyer's review of the order`,
   yourAccountIsVerifiedPleaseSignIn: `Your account is verified. Please sign in`,
   yourAccountWillBeRemoved: (time: string) =>
     `Your account will be removed ${time}`,
