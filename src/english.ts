@@ -339,6 +339,8 @@ export const text = {
   rankings: `Rankings`,
   reorderFiles: `Reorder files`,
   report: `Report`,
+  review: `Review`,
+  reviewTitle: `Review title`,
   reason: `Reason`,
   revisions: `Revisions`,
   yourOrderIncludesXRevisionS: (num: number) =>

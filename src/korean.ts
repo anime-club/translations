@@ -35,6 +35,8 @@ export const text: text = {
   pleaseReviewTheDetailsCarefullyBeforeProceeding: `(en) Please review the details carefully before proceeding`,
   pleaseRespondToTheOrderBy: (...v) =>
     `(en) Please respond to the order by ${v[0]}`,
+  review: `(en) Review`,
+  reviewTitle: `(en) Review title`,
   reason: `(en) Reason`,
   yourOrderIncludesXRevisionS: (...v) =>
     `(en) Your order includes ${v[0]} revision(s)`,
