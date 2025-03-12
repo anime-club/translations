@@ -5,6 +5,7 @@ export const text: text = {
   addMoreProductsToYourShop: `(en) Add more products to your shop`,
   allFilesYouUploadHereWillBeAvailableToTheBuyer: `(en) All files you upload here will be available to the buyer`,
   bigAppreciationToTheSellerForTheirHardWork: `(en) Big appreciation to the seller for their hard work`,
+  buyerReviewedTheOrder: `(en) Buyer reviewed the order`,
   beforeAcceptingPleaseReviewTheBuyersRequestCarefully: `(en) Before accepting, please review the buyer's request carefully`,
   checkOutMyShop: `(en) Check out my shop`,
   commercialUseAllowed: `(en) Commercial use allowed`,
@@ -47,6 +48,7 @@ export const text: text = {
   startAddingFavoritesToSeeThemHere: `(en) Start adding favorites to see them here`,
   successfullyDownloaded: `(en) Successfully downloaded!`,
   tellTheBuyerWhatTheyWillGetWithThisProduct: `(en) Tell the buyer what they will get with this product`,
+  thankYouForYourReview: `(en) Thank you for your review!`,
   thankForYourSupport: `(en) Thank you for your support!`,
   thisFieldIsOptional: `(en) This field is optional`,
   thisCannotBeUndone: `(en) This cannot be undone`,
@@ -56,6 +58,7 @@ export const text: text = {
   allWIPRelatedFilesShouldBeUploadedInMessages: `(en) All WIP-related files should be uploaded in messages`,
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `(en) Unfortunately, ${v[0]} had to cancel this order`,
+  youReceivedAReview: `(en) ⭐ You received a review`,
   yourFeedbackGuidesBuyersAndHelpsSellersOfferBetterProducts: `(en) Your feedback guides buyers and helps sellers offer better products`,
   youCanceledTheOrder: `(en) You canceled the order`,
   _colon: `: `,

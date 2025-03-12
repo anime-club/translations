@@ -61,6 +61,7 @@ export const text = {
   basePrice: `Base Price`,
   bigAppreciationToTheSellerForTheirHardWork: `Big appreciation to the seller for their hard work`,
   block: `Block`,
+  buyerReviewedTheOrder: `Buyer reviewed the order`,
   blockUser: (username: string) => `Block @${username}`,
   beforeAcceptingPleaseReviewTheBuyersRequestCarefully: `Before accepting, please review the buyer's request carefully`,
   blog: `Blog`,
@@ -395,6 +396,7 @@ export const text = {
   termsOfUse: `Terms of use`,
   tellTheBuyerWhatTheyWillGetWithThisProduct: `Tell the buyer what they will get with this product`,
   thankYouForReport: `Thank you for helping to maintain a safe and respectful online community`,
+  thankYouForYourReview: `Thank you for your review!`,
   thankForYourSupport: `Thank you for your support!`,
   theLinkIsBrokenOrPageHasBeenRemoved: `The link is broken or page has been removed`,
   themeMode: `Theme mode`,
@@ -470,6 +472,7 @@ export const text = {
   yesterday: `Yesterday`,
   youReceivedANewOrderFrom: (username: string) =>
     `You received a new order from <b>${username}</b>`,
+  youReceivedAReview: `⭐ You received a review`,
   youHaveSuccessfullyCreatedYourShop: `You have successfully created your shop`,
   youAreAlreadyAuthenticated: `You are already authenticated`,
   youCanAutoPublishToYourSocialMediaAccount: `You can auto publish to your social media account`,
