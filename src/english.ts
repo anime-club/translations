@@ -457,7 +457,7 @@ export const text = {
   visitOurDiscordChannelToGetMoreDetails: `Visit our discord channel to get more details`,
   weAreOnInstagram: `We are on Instagram`,
   weAreWorkingOnIt: `We are working on it`,
-  wellDoneYourWorkHasBeenSuccessfullyCompleted: `Well done! Your work has been successfully completed`,
+  wellDoneWorkHasBeenSuccessfullyCompleted: `Well done! Work has been successfully completed`,
   weDoNotDisplayNSFWContentYet: `We do not display NSFW content yet`,
   weekly: `Weekly`,
   whenYouPurchaseSomethingItWillAppearHere: `When you purchase something, it will appear here`,

@@ -62,6 +62,7 @@ export const text: text = {
   allWIPRelatedFilesShouldBeUploadedInMessages: `(en) All WIP-related files should be uploaded in messages`,
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `(en) Unfortunately, ${v[0]} had to cancel this order`,
+  wellDoneWorkHasBeenSuccessfullyCompleted: `(en) Well done! Work has been successfully completed`,
   youReceivedAReview: `(en) ⭐ You received a review`,
   yourFeedbackGuidesBuyersAndHelpsSellersOfferBetterProducts: `(en) Your feedback guides buyers and helps sellers offer better products`,
   youCanceledTheOrder: `(en) You canceled the order`,
@@ -453,7 +454,6 @@ export const text: text = {
   visitOurDiscordChannelToGetMoreDetails: `저희의 디스코드 채널을 방문하시면 자세한 내용을 보실 수 있습니다`,
   weAreOnInstagram: `우리는 인스타그램에 있습니다`,
   weAreWorkingOnIt: `열심히 준비를 하고 있습니다.`,
-  wellDoneYourWorkHasBeenSuccessfullyCompleted: `잘 했습니다! 작업이 성공적으로 완료되었습니다`,
   weDoNotDisplayNSFWContentYet: `NSFW 콘텐츠는 아직 표시하지 않습니다.`,
   weekly: `주간`,
   whenYouPurchaseSomethingItWillAppearHere: `무언가를 구매하면 여기에 표시됩니다.`,

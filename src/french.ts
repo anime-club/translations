@@ -62,6 +62,7 @@ export const text: text = {
   allWIPRelatedFilesShouldBeUploadedInMessages: `(en) All WIP-related files should be uploaded in messages`,
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `(en) Unfortunately, ${v[0]} had to cancel this order`,
+  wellDoneWorkHasBeenSuccessfullyCompleted: `(en) Well done! Work has been successfully completed`,
   youReceivedAReview: `(en) ⭐ You received a review`,
   yourFeedbackGuidesBuyersAndHelpsSellersOfferBetterProducts: `(en) Your feedback guides buyers and helps sellers offer better products`,
   youCanceledTheOrder: `(en) You canceled the order`,
@@ -456,7 +457,6 @@ export const text: text = {
   visitOurDiscordChannelToGetMoreDetails: `Pour plus d'informations, visitez notre chaîne Discord`,
   weAreOnInstagram: `Nous sommes sur Instagram`,
   weAreWorkingOnIt: `Nous y travaillons`,
-  wellDoneYourWorkHasBeenSuccessfullyCompleted: `Bien joué ! Votre travail a été complété avec succès`,
   weDoNotDisplayNSFWContentYet: `Nous n'affichons pas encore de contenu NSFW`,
   weekly: `Hebdomadaire`,
   whenYouPurchaseSomethingItWillAppearHere: `Lorsque vous achetez quelque chose, cela apparaîtra ici`,

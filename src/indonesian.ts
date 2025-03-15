@@ -62,6 +62,7 @@ export const text: text = {
   allWIPRelatedFilesShouldBeUploadedInMessages: `(en) All WIP-related files should be uploaded in messages`,
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `(en) Unfortunately, ${v[0]} had to cancel this order`,
+  wellDoneWorkHasBeenSuccessfullyCompleted: `(en) Well done! Work has been successfully completed`,
   youReceivedAReview: `(en) ⭐ You received a review`,
   yourFeedbackGuidesBuyersAndHelpsSellersOfferBetterProducts: `(en) Your feedback guides buyers and helps sellers offer better products`,
   youCanceledTheOrder: `(en) You canceled the order`,
@@ -457,7 +458,6 @@ export const text: text = {
   visitOurDiscordChannelToGetMoreDetails: `Gabung dengan Discord untuk mendapatkan info lebih lanjut`,
   weAreOnInstagram: `Kami ada di Instagram`,
   weAreWorkingOnIt: `Kami sedang mengatasinya`,
-  wellDoneYourWorkHasBeenSuccessfullyCompleted: `Kerja bagus! Pekerjaan Anda telah berhasil diselesaikan`,
   weDoNotDisplayNSFWContentYet: `Kami belum menampilkan konten NSFW`,
   weekly: `Mingguan`,
   whenYouPurchaseSomethingItWillAppearHere: `Ketika Anda membeli sesuatu, itu akan muncul di sini`,
