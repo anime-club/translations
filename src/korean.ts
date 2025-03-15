@@ -6,6 +6,8 @@ export const text: text = {
   allFilesYouUploadHereWillBeAvailableToTheBuyer: `(en) All files you upload here will be available to the buyer`,
   bigAppreciationToTheSellerForTheirHardWork: `(en) Big appreciation to the seller for their hard work`,
   buyerReviewedTheOrder: `(en) Buyer reviewed the order`,
+  buyerHasNotLeftAReviewYet: `(en) Buyer has not left a review yet`,
+  feedbackReceived: `(en) Feedback received!`,
   beforeAcceptingPleaseReviewTheBuyersRequestCarefully: `(en) Before accepting, please review the buyer's request carefully`,
   checkOutMyShop: `(en) Check out my shop`,
   commercialUseAllowed: `(en) Commercial use allowed`,
@@ -14,6 +16,7 @@ export const text: text = {
   createAShopWithStripe: `(en) Create a shop with Stripe`,
   createdBy: `(en) Created by`,
   download: `(en) Dowload`,
+  downloadThemBelow: `(en) Download them below`,
   describeTheDetailsOfYourExtra: `(en) Describe the details of your extra`,
   enjoyYourPurchase: `(en) Enjoy your purchase! 😊`,
   extrasAreOptionalAddOnsToEnhanceYourProduct: `(en) Extras are optional add-ons to enhance your product`,
@@ -37,6 +40,7 @@ export const text: text = {
   pleaseRespondToTheOrderBy: (...v) =>
     `(en) Please respond to the order by ${v[0]}`,
   review: `(en) Review`,
+  reviewed: `(en) Reviewed`,
   reviewTitle: `(en) Review title`,
   reason: `(en) Reason`,
   yourOrderIncludesXRevisionS: (...v) =>
@@ -53,7 +57,7 @@ export const text: text = {
   thisFieldIsOptional: `(en) This field is optional`,
   thisCannotBeUndone: `(en) This cannot be undone`,
   ensureYouveUploadedTheFinalVersion: `(en)  Ensure you've uploaded the final version before submitting`,
-  theSellerHasUploadedTheseFilesForYou: `(en) The seller has uploaded these files for you. Download them below!`,
+  theSellerHasUploadedTheseFilesForYou: `(en) The seller has uploaded these files for you`,
   pleaseUploadOnlyFinishedWorkHereMaximumFiles: `(en) Please upload only finished work here`,
   allWIPRelatedFilesShouldBeUploadedInMessages: `(en) All WIP-related files should be uploaded in messages`,
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
