@@ -34,12 +34,13 @@ export const text: text = {
   pleaseRateYourOrder: `(en) Please rate your order`,
   feelFreeToShareReferenceImagesAndMaterials: `(en) Feel free to share reference images and materials to help the artist create your piece`,
   pleaseFixTheErrorsBeforeSubmitting: `(en) Please fix the errors before submitting`,
-  pleaseTakeAMomentToReviewTheOrder: `(en) 🎉 Please take a moment to review the order`,
+  pleaseTakeAMomentToReviewTheOrder: `(en) 🙏 Please take a moment to review the order`,
   pleaseReviewTheBuyersReferenceFiles: `(en) Please review the buyer's reference files and follow them as specified in the order's description`,
   pleaseReviewTheDetailsCarefullyBeforeProceeding: `(en) Please review the details carefully before proceeding`,
   pleaseRespondToTheOrderBy: (...v) =>
     `(en) Please respond to the order by ${v[0]}`,
   review: `(en) Review`,
+  reviews: `(en) Reviews`,
   reviewed: `(en) Reviewed`,
   reviewTitle: `(en) Review title`,
   reason: `(en) Reason`,
@@ -49,6 +50,7 @@ export const text: text = {
   shareYourShopOnSocialMedia: `(en) Share your shop on social media`,
   shareYourFavoritePiecesOn: (...v) =>
     `(en) Share your favorite pieces on ${v[0]}`,
+  shopReviews: `(en) Shop reviews`,
   startAddingFavoritesToSeeThemHere: `(en) Start adding favorites to see them here`,
   successfullyDownloaded: `(en) Successfully downloaded!`,
   tellTheBuyerWhatTheyWillGetWithThisProduct: `(en) Tell the buyer what they will get with this product`,
