@@ -34,7 +34,7 @@ export const text: text = {
   pleaseRateYourOrder: `(en) Please rate your order`,
   feelFreeToShareReferenceImagesAndMaterials: `(en) Feel free to share reference images and materials to help the artist create your piece`,
   pleaseFixTheErrorsBeforeSubmitting: `(en) Please fix the errors before submitting`,
-  pleaseTakeAMomentToReviewTheOrder: `(en) 🙏 Please take a moment to review the order`,
+  pleaseTakeAMomentToReviewTheOrder: `(en) Please take a moment to review the order 🙏 `,
   pleaseReviewTheBuyersReferenceFiles: `(en) Please review the buyer's reference files and follow them as specified in the order's description`,
   pleaseReviewTheDetailsCarefullyBeforeProceeding: `(en) Please review the details carefully before proceeding`,
   pleaseRespondToTheOrderBy: (...v) =>
@@ -65,7 +65,7 @@ export const text: text = {
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `(en) Unfortunately, ${v[0]} had to cancel this order`,
   wellDoneWorkHasBeenSuccessfullyCompleted: `(en) Well done! Work has been successfully completed`,
-  youReceivedAReview: `(en) ⭐ You received a review`,
+  youReceivedAReview: `(en) You received a review`,
   yourFeedbackGuidesBuyersAndHelpsSellersOfferBetterProducts: `(en) Your feedback guides buyers and helps sellers offer better products`,
   youCanceledTheOrder: `(en) You canceled the order`,
   _colon: `: `,

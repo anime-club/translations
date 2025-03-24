@@ -320,7 +320,7 @@ export const text = {
   pleaseSignInToYourAccount: `Please sign in to your account`,
   platform: `Platform`,
   pleaseStartTyping: `Please start typing`,
-  pleaseTakeAMomentToReviewTheOrder: `🙏 Please take a moment to review the order`,
+  pleaseTakeAMomentToReviewTheOrder: `Please take a moment to review the order 🙏 `,
   pleaseReviewTheBuyersReferenceFiles: `Please review the buyer's reference files and follow them as specified in the order's description`,
   pleaseReviewTheDetailsCarefullyBeforeProceeding: `Please review the details carefully before proceeding`,
   pleaseRespondToTheOrderBy: (date: string) =>
@@ -478,7 +478,7 @@ export const text = {
   yesterday: `Yesterday`,
   youReceivedANewOrderFrom: (username: string) =>
     `You received a new order from <b>${username}</b>`,
-  youReceivedAReview: `⭐ You received a review`,
+  youReceivedAReview: `You received a review`,
   youHaveSuccessfullyCreatedYourShop: `You have successfully created your shop`,
   youAreAlreadyAuthenticated: `You are already authenticated`,
   youCanAutoPublishToYourSocialMediaAccount: `You can auto publish to your social media account`,
