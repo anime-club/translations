@@ -26,6 +26,7 @@ export const text: text = {
   makeSureToIncludeClearInstructions: `(en) Make sure to include clear instructions on how each reference should be used`,
   makeSureYouFullyUnderstandTheRequirements: `(en) Make sure you fully understand the requirements and can complete the order by the deadline`,
   makeSureYourProductsArePricedCompetitively: `(en) Make sure your products are priced competitively`,
+  noReviewsJustYet: `(en) No reviews just yet`,
   noSalesYetNoWorries: `(en) No sales yet? No worries, you're just starting out`,
   NSFWIndicatesAdultContent: `(en) 18+ NSFW indicates adult content. Check this field only if your product is intended for mature audiences`,
   onlyYouCanSeeWhatYouveSaved: `(en) Only you can see what you've saved`,
@@ -40,6 +41,7 @@ export const text: text = {
   pleaseRespondToTheOrderBy: (...v) =>
     `(en) Please respond to the order by ${v[0]}`,
   review: `(en) Review`,
+  rules: `(en) Rules`,
   reviews: `(en) Reviews`,
   reviewed: `(en) Reviewed`,
   reviewTitle: `(en) Review title`,
@@ -68,6 +70,7 @@ export const text: text = {
   wellDoneWorkHasBeenSuccessfullyCompleted: `(en) Well done! Work has been successfully completed`,
   youReceivedAReview: `(en) You received a review`,
   yourFeedbackGuidesBuyersAndHelpsSellersOfferBetterProducts: `(en) Your feedback guides buyers and helps sellers offer better products`,
+  youllSeeReviewsHereOnceBuyersShareTheirExperience: `(en) You’ll see reviews here once buyers share their experience`,
   youCanceledTheOrder: `(en) You canceled the order`,
   _colon: `：`,
   _comma: `、`,
