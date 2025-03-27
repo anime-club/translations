@@ -395,6 +395,7 @@ export const text = {
   successCreatedRecord: `Success! Created record!`,
   successUpdatedRecord: `Success! Updated record!`,
   successfullyDownloaded: `Successfully downloaded!`,
+  successfullyUploaded: `Successfully uploaded!`,
   supportMeOn: `Support me on`,
   syncWithSystem: `Sync with system`,
   tellUsAboutYourself: `Tell us about yourself`,

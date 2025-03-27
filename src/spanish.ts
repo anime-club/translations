@@ -53,6 +53,7 @@ export const text: text = {
   shopReviews: `(en) Shop reviews`,
   startAddingFavoritesToSeeThemHere: `(en) Start adding favorites to see them here`,
   successfullyDownloaded: `(en) Successfully downloaded!`,
+  successfullyUploaded: `(en) Successfully uploaded!`,
   tellTheBuyerWhatTheyWillGetWithThisProduct: `(en) Tell the buyer what they will get with this product`,
   thankYouForYourReview: `(en) Thank you for your review!`,
   thankForYourSupport: `(en) Thank you for your support!`,
