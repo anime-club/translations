@@ -321,7 +321,7 @@ export const text = {
   pleaseSignInToYourAccount: `Please sign in to your account`,
   platform: `Platform`,
   pleaseStartTyping: `Please start typing`,
-  pleaseTakeAMomentToReviewTheOrder: `Please take a moment to review the order 🙏 `,
+  pleaseTakeAMomentToReviewTheOrder: `Please take a moment to review the order`,
   pleaseReviewTheBuyersReferenceFiles: `Please review the buyer's reference files and follow them as specified in the order's description`,
   pleaseReviewTheDetailsCarefullyBeforeProceeding: `Please review the details carefully before proceeding`,
   pleaseRespondToTheOrderBy: (date: string) =>
@@ -419,7 +419,7 @@ export const text = {
   titleYourExtraService: `Title your extra service`,
   theMaximumQuantityThatACustomerCanAdd: `The maximum quantity that a customer can add`,
   theReviewPeriodIsLimitedtoNdays: (numOfDays: number | string) =>
-    `The review period is limited to ${numOfDays} days`,
+    `The review period is limited to <b>${numOfDays}</b> days`,
   toHelpTheCreatorCompleteYourOrder: `To help the creator complete your order to your satisfaction, please provide a detailed description of what you want. Include the desired theme, style, and character features, as well as any other important specifications`,
   today: `Today`,
   toGetWorkRelatedNotifications: `To get work-related notifications`,
