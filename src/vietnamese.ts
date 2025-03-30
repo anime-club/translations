@@ -1,6 +1,7 @@
 export const text: text = {
   _dash: `(en) - `,
   acceptTheOrder: `(en) Accept the order`,
+  accountManagment: `(en) Account management`,
   aiGeneratedImagesAndNeuralNetworkFiltersAreProhibited: `(en) AI-generated images and neural network filters are prohibited`,
   addMoreProductsToYourShop: `(en) Add more products to your shop`,
   allFilesYouUploadHereWillBeAvailableToTheBuyer: `(en) All files you upload here will be available to the buyer`,
@@ -40,6 +41,7 @@ export const text: text = {
   pleaseReviewTheDetailsCarefullyBeforeProceeding: `(en) Please review the details carefully before proceeding`,
   pleaseRespondToTheOrderBy: (...v) =>
     `(en) Please respond to the order by ${v[0]}`,
+  payouts: `(en) Payouts`,
   review: `(en) Review`,
   rules: `(en) Rules`,
   reviews: `(en) Reviews`,
