@@ -2,6 +2,7 @@ export const text: text = {
   _dash: `(en) - `,
   acceptTheOrder: `(en) Accept the order`,
   accountManagment: `(en) Account management`,
+  animeShopBuyAndSellProducts: `(en) Anime shop - buy and sell products`,
   aiGeneratedImagesAndNeuralNetworkFiltersAreProhibited: `(en) AI-generated images and neural network filters are prohibited`,
   addMoreProductsToYourShop: `(en) Add more products to your shop`,
   allFilesYouUploadHereWillBeAvailableToTheBuyer: `(en) All files you upload here will be available to the buyer`,
@@ -27,6 +28,7 @@ export const text: text = {
   makeSureToIncludeClearInstructions: `(en) Make sure to include clear instructions on how each reference should be used`,
   makeSureYouFullyUnderstandTheRequirements: `(en) Make sure you fully understand the requirements and can complete the order by the deadline`,
   makeSureYourProductsArePricedCompetitively: `(en) Make sure your products are priced competitively`,
+  newProducts: `(en) New products`,
   noReviewsJustYet: `(en) No reviews just yet`,
   noSalesYetNoWorries: `(en) No sales yet? No worries, you're just starting out`,
   NSFWIndicatesAdultContent: `(en) 18+ NSFW indicates adult content. Check this field only if your product is intended for mature audiences`,
@@ -42,6 +44,7 @@ export const text: text = {
   pleaseRespondToTheOrderBy: (...v) =>
     `(en) Please respond to the order by ${v[0]}`,
   payouts: `(en) Payouts`,
+  portfolio: `(en) Portfolio`,
   review: `(en) Review`,
   rules: `(en) Rules`,
   reviews: `(en) Reviews`,
