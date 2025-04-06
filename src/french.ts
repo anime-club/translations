@@ -44,10 +44,12 @@ export const text: text = {
   pleaseRespondToTheOrderBy: (...v) =>
     `(en) Please respond to the order by ${v[0]}`,
   payouts: `(en) Payouts`,
+  itemReviews: `(en) Item reviews`,
   portfolio: `(en) Portfolio`,
   review: `(en) Review`,
   rules: `(en) Rules`,
   reviews: `(en) Reviews`,
+  numOfReviews: (...v) => `(en) ${v[0]} reviews`,
   reviewed: `(en) Reviewed`,
   reviewTitle: `(en) Review title`,
   reason: `(en) Reason`,
