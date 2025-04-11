@@ -353,7 +353,7 @@ export const text = {
   review: `Review`,
   rules: `Rules`,
   reviews: `Reviews`,
-  numOfReviews: (num: number | string) => `${num} reviews`,
+  numOfReviews: (num: number | string) => `Reviews: ${num} `,
   reviewed: `Reviewed`,
   reviewTitle: `Review title`,
   reason: `Reason`,
