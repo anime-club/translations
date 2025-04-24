@@ -25,6 +25,7 @@ export const text: text = {
   usernameHasSubmittedTheWork: (...v) =>
     `(en) <b>${v[0]}</b> has submitted the work`,
   hereAreAFewWaysToGetThingsRolling: `(en) Here are a few ways to get things rolling`,
+  includes: `(en) Includes`,
   makeSureToIncludeClearInstructions: `(en) Make sure to include clear instructions on how each reference should be used`,
   makeSureYouFullyUnderstandTheRequirements: `(en) Make sure you fully understand the requirements and can complete the order by the deadline`,
   makeSureYourProductsArePricedCompetitively: `(en) Make sure your products are priced competitively`,
@@ -53,14 +54,13 @@ export const text: text = {
   reviewed: `(en) Reviewed`,
   reviewTitle: `(en) Review title`,
   reason: `(en) Reason`,
-  yourOrderIncludesXRevisionS: (...v) =>
-    `(en) Your order includes ${v[0]} revision(s)`,
+  includesXRevisionS: (...v) => `(en) Includes ${v[0]} revision(s)`,
   shareYourRulesAndTheTypesOfRequestsYouDontAccept: `(en) Share your rules and the types of requests you don’t accept`,
   shareYourShopOnSocialMedia: `(en) Share your shop on social media`,
   shareYourFavoritePiecesOn: (...v) =>
     `(en) Share your favorite pieces on ${v[0]}`,
   shopReviews: `(en) Shop reviews`,
-  startAddingFavoritesToSeeThemHere: `(en) Start adding favorites to see them here`,
+  yourFavoritesWillShowUpHereAddSome: `(en) Your favorites will show up here. Add some!`,
   successfullyDownloaded: `(en) Successfully downloaded!`,
   successfullyUploaded: `(en) Successfully uploaded!`,
   tellTheBuyerWhatTheyWillGetWithThisProduct: `(en) Tell the buyer what they will get with this product`,
