@@ -4,7 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.1.117",
+  "version": "1.1.118",
   "files": [
     "src",
     "types"
