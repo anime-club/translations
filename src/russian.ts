@@ -49,7 +49,7 @@ export const text: text = {
   review: `(en) Review`,
   rules: `(en) Rules`,
   reviews: `(en) Reviews`,
-  numOfReviews: (...v) => `(en) ${v[0]} reviews`,
+  numOfReviews: (...v) => `(en) Reviews: ${v[0]} `,
   reviewed: `(en) Reviewed`,
   reviewTitle: `(en) Review title`,
   reason: `(en) Reason`,
@@ -454,10 +454,10 @@ export const text: text = {
   usernameAlreadyExists: `Такой логин уже используется`,
   usernameAndXMoreFollowYou: (...v) =>
     `<b>${v[0]}</b> и ещё ${v[1]} подписаны на вас`,
-  usernameAndXMoreLikeYourArtwork: (...v) =>
-    `<b>${v[0]}</b> и ещё ${v[1]} нравится ваш арт`,
+  usernameAndXMoreReacted: (...v) =>
+    `<b>${v[0]}</b> и ещё ${v[1]} отреагировали`,
   usernameFollowsYou: (...v) => `<b>${v[0]}</b> подписан на вас`,
-  usernameLikesYourArt: (...v) => `<b>${v[0]}</b> нравится ваш арт`,
+  usernameReacted: (...v) => `<b>${v[0]}</b> отреагировал`,
   useThisEmailTo: `Используйте этот email для: аутентификации, получения уведомлений`,
   valueIsNotTheSame: `Значение не совпадает`,
   verificationCode: `Проверочный код`,

@@ -450,13 +450,10 @@ export const text = {
   usernameAlreadyExists: `Username already exists`,
   usernameAndXMoreFollowYou: (username: string, numberOfNotifiers: number) =>
     `<b>${username}</b> and ${numberOfNotifiers} more follow you`,
-  usernameAndXMoreLikeYourArtwork: (
-    username: string,
-    numberOfNotifiers: number,
-  ) => `<b>${username}</b> and ${numberOfNotifiers} more like your artwork`,
+  usernameAndXMoreReacted: (username: string, numberOfNotifiers: number) =>
+    `<b>${username}</b> and ${numberOfNotifiers} more reacted`,
   usernameFollowsYou: (username: string) => `<b>${username}</b> follows you`,
-  usernameLikesYourArt: (username: string) =>
-    `<b>${username}</b> likes your art`,
+  usernameReacted: (username: string) => `<b>${username}</b> reacted`,
   useThisEmailTo: `Use this email to: authenticate, receive notifications`,
   unfortunatelyTheSellerHadToCancelThisOrder: (user: unknown) =>
     `Unfortunately, ${user} had to cancel this order`,

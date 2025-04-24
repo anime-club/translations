@@ -49,7 +49,7 @@ export const text: text = {
   review: `(en) Review`,
   rules: `(en) Rules`,
   reviews: `(en) Reviews`,
-  numOfReviews: (...v) => `(en) ${v[0]} reviews`,
+  numOfReviews: (...v) => `(en) Reviews: ${v[0]} `,
   reviewed: `(en) Reviewed`,
   reviewTitle: `(en) Review title`,
   reason: `(en) Reason`,
@@ -72,6 +72,9 @@ export const text: text = {
   theSellerHasUploadedTheseFilesForYou: `(en) The seller has uploaded these files for you`,
   pleaseUploadOnlyFinishedWorkHereMaximumFiles: `(en) Please upload only finished work here`,
   allWIPRelatedFilesShouldBeUploadedInMessages: `(en) All WIP-related files should be uploaded in messages`,
+  usernameAndXMoreReacted: (...v) =>
+    `(en) <b>${v[0]}</b> and ${v[1]} more reacted`,
+  usernameReacted: (...v) => `(en) <b>${v[0]}</b> reacted`,
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `(en) Unfortunately, ${v[0]} had to cancel this order`,
   wellDoneWorkHasBeenSuccessfullyCompleted: `(en) Well done! Work has been successfully completed`,
@@ -452,10 +455,7 @@ export const text: text = {
   username: `اسم المستخدم`,
   usernameAlreadyExists: `اسم المستخدم مستخدم من قبل`,
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> و ${v[1]} يتابعونك`,
-  usernameAndXMoreLikeYourArtwork: (...v) =>
-    `<b>${v[0]}</b> و ${v[1]} يعجبون بعملك الفني`,
   usernameFollowsYou: (...v) => `<b>${v[0]}</b> يتابعك`,
-  usernameLikesYourArt: (...v) => `<b>${v[0]}</b> يعجب بعملك الفني`,
   useThisEmailTo: `استخدم هذا البريد الإلكتروني للمصادقة وتلقي الإشعارات`,
   valueIsNotTheSame: `القيمة ليست هي نفسها`,
   verificationCode: `رمز التأكيد`,

@@ -49,7 +49,7 @@ export const text: text = {
   review: `(en) Review`,
   rules: `(en) Rules`,
   reviews: `(en) Reviews`,
-  numOfReviews: (...v) => `(en) ${v[0]} reviews`,
+  numOfReviews: (...v) => `(en) Reviews: ${v[0]} `,
   reviewed: `(en) Reviewed`,
   reviewTitle: `(en) Review title`,
   reason: `(en) Reason`,
@@ -72,6 +72,9 @@ export const text: text = {
   theSellerHasUploadedTheseFilesForYou: `(en) The seller has uploaded these files for you`,
   pleaseUploadOnlyFinishedWorkHereMaximumFiles: `(en) Please upload only finished work here`,
   allWIPRelatedFilesShouldBeUploadedInMessages: `(en) All WIP-related files should be uploaded in messages`,
+  usernameAndXMoreReacted: (...v) =>
+    `(en) <b>${v[0]}</b> and ${v[1]} more reacted`,
+  usernameReacted: (...v) => `(en) <b>${v[0]}</b> reacted`,
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `(en) Unfortunately, ${v[0]} had to cancel this order`,
   wellDoneWorkHasBeenSuccessfullyCompleted: `(en) Well done! Work has been successfully completed`,
@@ -452,10 +455,7 @@ export const text: text = {
   username: `ชื่อผู้ใช้`,
   usernameAlreadyExists: `ชื่อผู้ใช้นี้มีอยู่แล้ว`,
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> และ ${v[1]} คนติดตามคุณ`,
-  usernameAndXMoreLikeYourArtwork: (...v) =>
-    `<b>${v[0]}</b> และ ${v[1]} คนถูกใจงานศิลปะของคุณ`,
   usernameFollowsYou: (...v) => `<b>${v[0]}</b> ติดตามคุณ`,
-  usernameLikesYourArt: (...v) => `<b>${v[0]}</b> ถูกใจงานศิลปะของคุณ`,
   useThisEmailTo: `ใช้อีเมลนี้เพื่อ: ยืนยันตัวตน, รับการแจ้งเตือน`,
   valueIsNotTheSame: `ค่าไม่เหมือนกัน`,
   verificationCode: `รหัสยืนยัน`,

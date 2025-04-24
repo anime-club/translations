@@ -49,7 +49,7 @@ export const text: text = {
   review: `(en) Review`,
   rules: `(en) Rules`,
   reviews: `(en) Reviews`,
-  numOfReviews: (...v) => `(en) ${v[0]} reviews`,
+  numOfReviews: (...v) => `(en) Reviews: ${v[0]} `,
   reviewed: `(en) Reviewed`,
   reviewTitle: `(en) Review title`,
   reason: `(en) Reason`,
@@ -72,6 +72,9 @@ export const text: text = {
   theSellerHasUploadedTheseFilesForYou: `(en) The seller has uploaded these files for you`,
   pleaseUploadOnlyFinishedWorkHereMaximumFiles: `(en) Please upload only finished work here`,
   allWIPRelatedFilesShouldBeUploadedInMessages: `(en) All WIP-related files should be uploaded in messages`,
+  usernameAndXMoreReacted: (...v) =>
+    `(en) <b>${v[0]}</b> and ${v[1]} more reacted`,
+  usernameReacted: (...v) => `(en) <b>${v[0]}</b> reacted`,
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `(en) Unfortunately, ${v[0]} had to cancel this order`,
   wellDoneWorkHasBeenSuccessfullyCompleted: `(en) Well done! Work has been successfully completed`,
@@ -456,10 +459,7 @@ export const text: text = {
   username: `Nombre de usuario`,
   usernameAlreadyExists: `Nombre de usuario ya existe`,
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> y ${v[1]} más te siguen`,
-  usernameAndXMoreLikeYourArtwork: (...v) =>
-    `<b>${v[0]}</b> y ${v[1]} más les gusta tu obra de arte`,
   usernameFollowsYou: (...v) => `<b>${v[0]}</b> te sigue`,
-  usernameLikesYourArt: (...v) => `<b>${v[0]}</b> le gusta tu arte`,
   useThisEmailTo: `Usa este correo electrónico para: autenticarte, recibir notificaciones`,
   valueIsNotTheSame: `Valor no es el mismo`,
   verificationCode: `Código de verificación`,

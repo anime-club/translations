@@ -49,7 +49,7 @@ export const text: text = {
   review: `(en) Review`,
   rules: `(en) Rules`,
   reviews: `(en) Reviews`,
-  numOfReviews: (...v) => `(en) ${v[0]} reviews`,
+  numOfReviews: (...v) => `(en) Reviews: ${v[0]} `,
   reviewed: `(en) Reviewed`,
   reviewTitle: `(en) Review title`,
   reason: `(en) Reason`,
@@ -72,6 +72,9 @@ export const text: text = {
   theSellerHasUploadedTheseFilesForYou: `(en) The seller has uploaded these files for you`,
   pleaseUploadOnlyFinishedWorkHereMaximumFiles: `(en) Please upload only finished work here`,
   allWIPRelatedFilesShouldBeUploadedInMessages: `(en) All WIP-related files should be uploaded in messages`,
+  usernameAndXMoreReacted: (...v) =>
+    `(en) <b>${v[0]}</b> and ${v[1]} more reacted`,
+  usernameReacted: (...v) => `(en) <b>${v[0]}</b> reacted`,
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `(en) Unfortunately, ${v[0]} had to cancel this order`,
   wellDoneWorkHasBeenSuccessfullyCompleted: `(en) Well done! Work has been successfully completed`,
@@ -452,10 +455,7 @@ export const text: text = {
   usernameAlreadyExists: `Tên người dùng đã tồn tại`,
   usernameAndXMoreFollowYou: (...v) =>
     `<b>${v[0]}</b> và ${v[1]} người khác đang theo dõi bạn`,
-  usernameAndXMoreLikeYourArtwork: (...v) =>
-    `<b>${v[0]}</b> và ${v[1]} người khác thích tác phẩm của bạn`,
   usernameFollowsYou: (...v) => `<b>${v[0]}</b> đang theo dõi bạn`,
-  usernameLikesYourArt: (...v) => `<b>${v[0]}</b> thích tác phẩm của bạn`,
   useThisEmailTo: `Sử dụng email này để: xác thực, nhận thông báo`,
   valueIsNotTheSame: `Giá trị không trùng khớp`,
   verificationCode: `Mã xác minh`,

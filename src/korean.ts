@@ -49,7 +49,7 @@ export const text: text = {
   review: `(en) Review`,
   rules: `(en) Rules`,
   reviews: `(en) Reviews`,
-  numOfReviews: (...v) => `(en) ${v[0]} reviews`,
+  numOfReviews: (...v) => `(en) Reviews: ${v[0]} `,
   reviewed: `(en) Reviewed`,
   reviewTitle: `(en) Review title`,
   reason: `(en) Reason`,
@@ -72,6 +72,9 @@ export const text: text = {
   theSellerHasUploadedTheseFilesForYou: `(en) The seller has uploaded these files for you`,
   pleaseUploadOnlyFinishedWorkHereMaximumFiles: `(en) Please upload only finished work here`,
   allWIPRelatedFilesShouldBeUploadedInMessages: `(en) All WIP-related files should be uploaded in messages`,
+  usernameAndXMoreReacted: (...v) =>
+    `(en) <b>${v[0]}</b> and ${v[1]} more reacted`,
+  usernameReacted: (...v) => `(en) <b>${v[0]}</b> reacted`,
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `(en) Unfortunately, ${v[0]} had to cancel this order`,
   wellDoneWorkHasBeenSuccessfullyCompleted: `(en) Well done! Work has been successfully completed`,
@@ -453,10 +456,7 @@ export const text: text = {
   usernameAlreadyExists: `사용자 이름이 이미 존재합니다`,
   usernameAndXMoreFollowYou: (...v) =>
     `<b>${v[0]}</b>님과 ${v[1]}명이 팔로우합니다.`,
-  usernameAndXMoreLikeYourArtwork: (...v) =>
-    `<b>${v[0]}</b>님과 ${v[1]}명이 작품을 좋아합니다.`,
   usernameFollowsYou: (...v) => `<b>${v[0]}</b>님이 팔로우합니다.`,
-  usernameLikesYourArt: (...v) => `<b>${v[0]}</b>님이 작품을 좋아합니다.`,
   useThisEmailTo: `이 이메일을 사용하여 인증하고 알림을 받습니다.`,
   valueIsNotTheSame: `값이 같지 않습니다`,
   verificationCode: `확인 코드`,

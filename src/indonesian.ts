@@ -49,7 +49,7 @@ export const text: text = {
   review: `(en) Review`,
   rules: `(en) Rules`,
   reviews: `(en) Reviews`,
-  numOfReviews: (...v) => `(en) ${v[0]} reviews`,
+  numOfReviews: (...v) => `(en) Reviews: ${v[0]} `,
   reviewed: `(en) Reviewed`,
   reviewTitle: `(en) Review title`,
   reason: `(en) Reason`,
@@ -72,6 +72,9 @@ export const text: text = {
   theSellerHasUploadedTheseFilesForYou: `(en) The seller has uploaded these files for you`,
   pleaseUploadOnlyFinishedWorkHereMaximumFiles: `(en) Please upload only finished work here`,
   allWIPRelatedFilesShouldBeUploadedInMessages: `(en) All WIP-related files should be uploaded in messages`,
+  usernameAndXMoreReacted: (...v) =>
+    `(en) <b>${v[0]}</b> and ${v[1]} more reacted`,
+  usernameReacted: (...v) => `(en) <b>${v[0]}</b> reacted`,
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `(en) Unfortunately, ${v[0]} had to cancel this order`,
   wellDoneWorkHasBeenSuccessfullyCompleted: `(en) Well done! Work has been successfully completed`,
@@ -457,10 +460,7 @@ export const text: text = {
   usernameAlreadyExists: `Nama pengguna sudah ada`,
   usernameAndXMoreFollowYou: (...v) =>
     `<b>${v[0]}</b> dan ${v[1]} lagi mengikuti Anda`,
-  usernameAndXMoreLikeYourArtwork: (...v) =>
-    `<b>${v[0]}</b> dan ${v[1]} lagi menyukai karya seni Anda`,
   usernameFollowsYou: (...v) => `<b>${v[0]}</b> mengikuti Anda`,
-  usernameLikesYourArt: (...v) => `<b>${v[0]}</b> menyukai karya seni Anda`,
   useThisEmailTo: `Gunakan email ini untuk: mengautentikasi, menerima notifikasi`,
   valueIsNotTheSame: `Isian tidak sama`,
   verificationCode: `Verifikasi Kode`,

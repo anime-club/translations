@@ -49,7 +49,7 @@ export const text: text = {
   review: `(en) Review`,
   rules: `(en) Rules`,
   reviews: `(en) Reviews`,
-  numOfReviews: (...v) => `(en) ${v[0]} reviews`,
+  numOfReviews: (...v) => `(en) Reviews: ${v[0]} `,
   reviewed: `(en) Reviewed`,
   reviewTitle: `(en) Review title`,
   reason: `(en) Reason`,
@@ -72,6 +72,9 @@ export const text: text = {
   theSellerHasUploadedTheseFilesForYou: `(en) The seller has uploaded these files for you`,
   pleaseUploadOnlyFinishedWorkHereMaximumFiles: `(en) Please upload only finished work here`,
   allWIPRelatedFilesShouldBeUploadedInMessages: `(en) All WIP-related files should be uploaded in messages`,
+  usernameAndXMoreReacted: (...v) =>
+    `(en) <b>${v[0]}</b> and ${v[1]} more reacted`,
+  usernameReacted: (...v) => `(en) <b>${v[0]}</b> reacted`,
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `(en) Unfortunately, ${v[0]} had to cancel this order`,
   wellDoneWorkHasBeenSuccessfullyCompleted: `(en) Well done! Work has been successfully completed`,
@@ -456,10 +459,7 @@ export const text: text = {
   usernameAlreadyExists: ` उपयोगकर्ता नाम पहले से ही मौजूद है`,
   usernameAndXMoreFollowYou: (...v) =>
     `<b>${v[0]}</b> और ${v[1]} अन्य आपका अनुसरण करते हैं`,
-  usernameAndXMoreLikeYourArtwork: (...v) =>
-    `<b>${v[0]}</b> और ${v[1]} अन्य आपकी कला को पसंद करते हैं`,
   usernameFollowsYou: (...v) => `<b>${v[0]}</b> आपका अनुसरण करता है`,
-  usernameLikesYourArt: (...v) => `<b>${v[0]}</b> आपकी कला को पसंद करता है`,
   useThisEmailTo: `इस ईमेल का उपयोग करें: प्रमाणित करने के लिए, सूचनाएं प्राप्त करने के लिए`,
   valueIsNotTheSame: `दर्ज चीज़े सामान्य नहीं है `,
   verificationCode: `वेरीफिकेशन कोड`,
