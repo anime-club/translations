@@ -1,98 +1,20 @@
 export const text: text = {
-  _dash: `(en) - `,
-  acceptTheOrder: `(en) Accept the order`,
-  accountManagment: `(en) Account management`,
-  animeShopBuyAndSellProducts: `(en) Anime shop - buy and sell products`,
-  aiGeneratedImagesAndNeuralNetworkFiltersAreProhibited: `(en) AI-generated images and neural network filters are prohibited`,
-  addMoreProductsToYourShop: `(en) Add more products to your shop`,
-  allFilesYouUploadHereWillBeAvailableToTheBuyer: `(en) All files you upload here will be available to the buyer`,
-  bigAppreciationToTheSellerForTheirHardWork: `(en) Big appreciation to the seller for their hard work`,
-  buyerReviewedTheOrder: `(en) Buyer reviewed the order`,
-  buyerHasNotLeftAReviewYet: `(en) Buyer has not left a review yet`,
-  feedbackReceived: `(en) Feedback received!`,
-  beforeAcceptingPleaseReviewTheBuyersRequestCarefully: `(en) Before accepting, please review the buyer's request carefully`,
-  checkOutMyShop: `(en) Check out my shop`,
-  commercialUseAllowed: `(en) Commercial use allowed`,
-  commercialUseAllowsBuyersToUseYourProduct: `(en) Commercial use allows buyers to use your product for business purposes, like selling or promoting their services`,
-  congratulationsOnSuccessfullyCompletingYourOrder: `(en) Congratulations on successfully completing your order!`,
-  createAShopWithStripe: `(en) Create a shop with Stripe`,
-  createdBy: `(en) Created by`,
-  download: `(en) Dowload`,
-  downloadThemBelow: `(en) Download them below`,
-  describeTheDetailsOfYourExtra: `(en) Describe the details of your extra`,
-  enjoyYourPurchase: `(en) Enjoy your purchase! 😊`,
-  extrasAreOptionalAddOnsToEnhanceYourProduct: `(en) Extras are optional add-ons to enhance your product`,
-  usernameHasSubmittedTheWork: (...v) =>
-    `(en) <b>${v[0]}</b> has submitted the work`,
-  hereAreAFewWaysToGetThingsRolling: `(en) Here are a few ways to get things rolling`,
-  includes: `(en) Includes`,
-  makeSureToIncludeClearInstructions: `(en) Make sure to include clear instructions on how each reference should be used`,
-  makeSureYouFullyUnderstandTheRequirements: `(en) Make sure you fully understand the requirements and can complete the order by the deadline`,
-  makeSureYourProductsArePricedCompetitively: `(en) Make sure your products are priced competitively`,
-  newProducts: `(en) New products`,
-  noReviewsJustYet: `(en) No reviews just yet`,
-  noSalesYetNoWorries: `(en) No sales yet? No worries, you're just starting out`,
-  NSFWIndicatesAdultContent: `(en) 18+ NSFW indicates adult content. Check this field only if your product is intended for mature audiences`,
-  onlyYouCanSeeWhatYouveSaved: `(en) Only you can see what you've saved`,
-  requestDetails: `(en) Request details`,
-  orderCompleted: `(en) Order Completed 🎉`,
-  pleaseRateYourOrder: `(en) Please rate your order`,
-  feelFreeToShareReferenceImagesAndMaterials: `(en) Feel free to share reference images and materials to help the artist create your piece`,
-  pleaseFixTheErrorsBeforeSubmitting: `(en) Please fix the errors before submitting`,
-  pleaseTakeAMomentToReviewTheOrder: `(en) Please take a moment to review the order`,
-  pleaseReviewTheBuyersReferenceFiles: `(en) Please review the buyer's reference files and follow them as specified in the order's description`,
-  pleaseReviewTheDetailsCarefullyBeforeProceeding: `(en) Please review the details carefully before proceeding`,
-  pleaseRespondToTheOrderBy: (...v) =>
-    `(en) Please respond to the order by ${v[0]}`,
-  payouts: `(en) Payouts`,
-  itemReviews: `(en) Item reviews`,
-  portfolio: `(en) Portfolio`,
-  review: `(en) Review`,
-  rules: `(en) Rules`,
-  reviews: `(en) Reviews`,
-  numOfReviews: (...v) => `(en) Reviews: ${v[0]} `,
-  reviewed: `(en) Reviewed`,
-  reviewTitle: `(en) Review title`,
-  reason: `(en) Reason`,
-  includesXRevisionS: (...v) => `(en) Includes ${v[0]} revision(s)`,
-  shareYourRulesAndTheTypesOfRequestsYouDontAccept: `(en) Share your rules and the types of requests you don’t accept`,
-  shareYourShopOnSocialMedia: `(en) Share your shop on social media`,
-  shareYourFavoritePiecesOn: (...v) =>
-    `(en) Share your favorite pieces on ${v[0]}`,
-  shopReviews: `(en) Shop reviews`,
-  yourFavoritesWillShowUpHereAddSome: `(en) Your favorites will show up here. Add some!`,
-  successfullyDownloaded: `(en) Successfully downloaded!`,
-  successfullyUploaded: `(en) Successfully uploaded!`,
-  tellTheBuyerWhatTheyWillGetWithThisProduct: `(en) Tell the buyer what they will get with this product`,
-  thankYouForYourReview: `(en) Thank you for your review!`,
-  thankForYourSupport: `(en) Thank you for your support!`,
-  thisFieldIsOptional: `(en) This field is optional`,
-  thisCannotBeUndone: `(en) This cannot be undone`,
-  ensureYouveUploadedTheFinalVersion: `(en)  Ensure you've uploaded the final version before submitting`,
-  theSellerHasUploadedTheseFilesForYou: `(en) The seller has uploaded these files for you`,
-  pleaseUploadOnlyFinishedWorkHereMaximumFiles: `(en) Please upload only finished work here`,
-  allWIPRelatedFilesShouldBeUploadedInMessages: `(en) All WIP-related files should be uploaded in messages`,
-  usernameAndXMoreReacted: (...v) =>
-    `(en) <b>${v[0]}</b> and ${v[1]} more reacted`,
-  usernameReacted: (...v) => `(en) <b>${v[0]}</b> reacted`,
-  unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
-    `(en) Unfortunately, ${v[0]} had to cancel this order`,
-  wellDoneWorkHasBeenSuccessfullyCompleted: `(en) Well done! Work has been successfully completed`,
-  youReceivedAReview: `(en) You received a review`,
-  yourFeedbackGuidesBuyersAndHelpsSellersOfferBetterProducts: `(en) Your feedback guides buyers and helps sellers offer better products`,
-  youllSeeReviewsHereOnceBuyersShareTheirExperience: `(en) You’ll see reviews here once buyers share their experience`,
-  youCanceledTheOrder: `(en) You canceled the order`,
   _colon: `: `,
   _comma: `، `,
   _dot: `. `,
   _exclamation: `! `,
   _question: `؟ `,
   _space: ` `,
+  _hyphen: `- `,
   about: `حول المستخدم`,
   accept: `قبول`,
   acceptOrder: `قبول الطلب`,
+  acceptTheOrder: `قبول الطلب`,
+  accountManagment: `إدارة الحساب`,
   account: `الحساب`,
   accountDeleted: `تم حذف الحساب`,
+  animeShopBuyAndSellProducts: `متجر الأنمي - بيع وشراء المنتجات`,
+  aiGeneratedImagesAndNeuralNetworkFiltersAreProhibited: `الصور المولدة بالذكاء الاصطناعي وفلاتر الشبكات العصبية محظورة`,
   accountActivation: `تفعيل الحساب`,
   accountAlreadyExists: `يوجد حساب مسجّل بالفعل`,
   accountDoesNotExist: `الحساب غير مسجّل`,
@@ -102,6 +24,7 @@ export const text: text = {
   addBlog: `اضف منشور كتابي`,
   addFile: `إضافة ملف`,
   additionalResources: `موارد إضافية`,
+  addMoreProductsToYourShop: `أضف المزيد من المنتجات إلى متجرك`,
   addMore: `إضافة المزيد`,
   addNewArt: `أضف عمل فني جديد`,
   addPreview: `أضف معاينة`,
@@ -109,6 +32,7 @@ export const text: text = {
   addToCart: `إضافة إلى السلة`,
   advancedOptions: `خيارات متقدمة`,
   all: `الكل`,
+  allFilesYouUploadHereWillBeAvailableToTheBuyer: `جميع الملفات التي ترفعها هنا ستكون متاحة للمشتري`,
   alreadySignedIn: `تم تسجيل الدخول بالفعل`,
   amount: `المبلغ`,
   amountShouldNotBeLessThan: (...v) => `المبلغ لا يجب أن يكون أقل من ${v[0]}`,
@@ -136,8 +60,13 @@ export const text: text = {
   awaitingSeller: `في انتظار البائع`,
   back: `الرجوع`,
   basePrice: `السعر الأساسي`,
+  bigAppreciationToTheSellerForTheHardWork: `تقدير كبير للبائع على العمل الجاد`,
   block: `حظر`,
+  buyerReviewedTheOrder: `قام المشتري بمراجعة الطلب`,
+  buyerHasNotLeftAReviewYet: `لم يترك المشتري مراجعة بعد`,
+  feedbackReceived: `تم استلام الملاحظات!`,
   blockUser: (...v) => `حظر @${v[0]}`,
+  beforeAcceptingPleaseReviewTheBuyersRequestCarefully: `قبل القبول، يرجى مراجعة طلب المشتري بعناية`,
   blog: `المدونة`,
   bookmarks: `العلامات المرجعية`,
   browseArt: `تصفح الأعمال`,
@@ -148,6 +77,7 @@ export const text: text = {
   cancelOrder: `إلغاء الطلب`,
   cannotStartWithChars: `لا يمكن البدء بـs{:"^$*[]{}()?-"!@#%&/,><':;|~\`"`,
   change: `تغيير`,
+  checkOutMyShop: `تفضل بزيارة متجري`,
   checkOrderStatus: `تحقق من حالة الطلب`,
   changeArt: `تغيير العمل الفني`,
   changeAvatar: `تغيير الصورة الشخصية`,
@@ -160,6 +90,8 @@ export const text: text = {
   close: `أغلق`,
   colorTheme: `موضوع اللون`,
   comingSoon: `قريبًا...`,
+  commercialUseAllowed: `الاستخدام التجاري مسموح`,
+  commercialUseAllowsBuyersToUseYourProduct: `الاستخدام التجاري يسمح للمشترين باستخدام منتجك لأغراض تجارية مثل البيع أو الترويج لخدماتهم`,
   community: `المجتمع`,
   completed: `تم الانتهاء`,
   confirmAccount: `تأكيد الحساب`,
@@ -174,6 +106,7 @@ export const text: text = {
   contractTitle: `عنوان العقد`,
   copyLink: `نسخ الرابط`,
   congratulations: `تهانينا!`,
+  congratulationsOnSuccessfullyCompletingYourOrder: `تهانينا على إكمال طلبك بنجاح!`,
   copyrightViolation: `انتهاك حقوق النشر`,
   couldNotCreateANewRecord: `تعذر إنشاء سجل جديد`,
   country: `الدولة`,
@@ -181,6 +114,8 @@ export const text: text = {
   createANewAccountFailed: `فشل إنشاء حساب جديد`,
   createExtrasForYourProduct: `إنشاء إضافات لمنتجك`,
   createNewAccount: `إنشاء حساب جديد`,
+  createAShopWithStripe: `أنشئ متجرك عبر Stripe`,
+  createdBy: `أنشئ بواسطة`,
   currentPassword: `كلمة المرور الحالية`,
   daily: `يوميًا`,
   darkDefault: `الافتراضي الداكن`,
@@ -193,7 +128,10 @@ export const text: text = {
   decline: `رفض`,
   deletePost: `حذف المنشور`,
   deleteProduct: `حذف المنتج`,
+  download: `تحميل`,
+  downloadThemBelow: `قم بتحميلها أدناه`,
   deliveryTime: `وقت التسليم`,
+  describeTheDetailsOfYourExtra: `صف تفاصيل الإضافة الخاصة بك`,
   description: `الوصف`,
   details: `التفاصيل`,
   didntReceiveEmail: `لم تتلقى البريد؟`,
@@ -214,6 +152,7 @@ export const text: text = {
   emailAlreadyUsedByAnotherAccount: `البريد الإلكتروني قيد الاستخدام من قبل حساب آخر`,
   emailNotifications: `إشعارات البريد الإلكتروني`,
   enterOrPasteALink: `أدخل أو ألصق رابطًا`,
+  enjoyYourPurchase: `استمتع بمشتراك! 😊`,
   enterTheAddressAssociatedWithYourAccount: `أدخل العنوان المرتبط بحسابك، وسنرسل لك رابطًا لإعادة تعيين كلمة المرور`,
   enterYourPassword: `أدخل كلمة المرور الخاصة بك`,
   error: `خطأ`,
@@ -221,6 +160,7 @@ export const text: text = {
   exitWithoutSaving: `الخروج بدون حفظ`,
   extensions: `امتدادات الملف`,
   extras: `إضافات`,
+  extrasAreOptionalAddOnsToEnhanceYourProduct: `الإضافات هي ميزات اختيارية لتعزيز منتجك`,
   fileSizeIsTooBig: `حجم الملف أكبر من المطلوب`,
   fileSizeIsTooSmall: `حجم الملف صغير جدًا`,
   filter: `تصفية`,
@@ -242,10 +182,12 @@ export const text: text = {
   harassment: `التحرش`,
   haveAnyQuestions: `هل لديك أي أسئلة؟`,
   usernameHasCanceledTheOrder: (...v) => `<b>${v[0]}</b> قد ألغى الطلب`,
+  usernameHasSubmittedTheWork: (...v) => `<b>${v[0]}</b> قام بتسليم العمل`,
   hasNotAddedADescriptionFor: (...v) => `@${v[0]} لم يضف وصفًا لـ "${v[1]}"`,
   hasNotSharedAnyPublicDetailsYet: (...v) =>
     `@${v[0]} لم يشارك أي تفاصيل عامة حتى الآن`,
   hate: `الكراهية`,
+  hereAreAFewWaysToGetThingsRolling: `إليك بعض الطرق للبدء`,
   hire: `توظيف`,
   homepage: `الصفحة الرئيسية`,
   howToContactYou: `كيفية الاتصال بك`,
@@ -260,6 +202,7 @@ export const text: text = {
   includeKeywordsThatBuyersWouldLikelyUseToSearchForAProductLikeYours: `تضمين الكلمات الرئيسية التي قد يستخدمها المشترون للبحث عن منتج مثل منتجك`,
   inProgress: `قيد التقدم`,
   introduction: `مقدمة`,
+  includes: `يتضمن`,
   invalidCode: `رمز غير صحيح`,
   invalidCurrentPassword: `كلمة المرور الحالية غير صالحة`,
   invalidDate: `تاريخ غير صالح`,
@@ -296,6 +239,9 @@ export const text: text = {
   minHeight: `الارتفاع الأدنى`,
   minimumNChars: (...v) => `الحد الأدنى ${v[0]} حرف`,
   minorAbuseOrSexualization: `إساءة أو جنسنة طفيفة`,
+  makeSureToIncludeClearInstructions: `تأكد من تضمين تعليمات واضحة حول كيفية استخدام كل مرجع`,
+  makeSureYouFullyUnderstandTheRequirements: `تأكد من فهمك الكامل للمتطلبات وقدرتك على إكمال الطلب في الموعد`,
+  makeSureYourProductsArePricedCompetitively: `تأكد من أن أسعار منتجاتك تنافسية`,
   minWidth: `العرض الأدنى`,
   monthly: `شهريًا`,
   moreFrom: (...v) => `المزيد من خلال ${v[0]}`,
@@ -316,6 +262,7 @@ export const text: text = {
   newOrder: `طلب جديد`,
   newPassword: `كلمة سر جديدة`,
   newProduct: `منتج جديد`,
+  newProducts: `منتجات جديدة`,
   newsFeed: `شريط الأخبار`,
   next: `التالي`,
   nextTimeYouAuthenticateYouCouldUseThe: `في المرة القادمة التي تقوم فيها بالمصادقة، يمكنك استخدام الحساب المتصل بدلاً من تسجيل الدخول وكلمة المرور`,
@@ -326,20 +273,25 @@ export const text: text = {
   none: `لا شيء`,
   noNotifications: `لا توجد إشعارات`,
   noResults: `لا توجد نتائج`,
+  noReviewsJustYet: `لا توجد مراجعات بعد`,
   notifications: `الإشعارات`,
   noActiveOrdersToShow: `لا توجد طلبات نشطة للعرض`,
   notAcceptingOrders: `لا يقبل الطلبات`,
+  noSalesYetNoWorries: `لا توجد مبيعات بعد؟ لا تقلق، أنت في البداية فقط`,
   nsfwContent18Plus: `محتوى للبالغين (18+)`,
+  NSFWIndicatesAdultContent: `18+ يشير NSFW إلى محتوى للبالغين. اختر هذا الحقل فقط إذا كان منتجك مخصصًا للبالغين`,
   numberOfAdjustmentsAClientCouldRequest: `عدد التعديلات التي يمكن للعميل طلبها`,
   online: `متصل`,
   onlyLatinLettersNumbersHyphen: `فقط الأحرف اللاتينية والأرقام والشرطة والشرطة السفلية والنقطة`,
   onlyNumbers: `أرقام فقط`,
+  onlyYouCanSeeWhatYouveSaved: `فقط أنت يمكنك رؤية ما حفظته`,
   open: `مفتوح`,
   openDispute: `فتح نزاع`,
   openGuestView: `افتح وضع الضيف`,
   openingSoon: `قريبًا الافتتاح!`,
   openToWork: `مفتوح للعمل`,
   optional: `اختياري`,
+  requestDetails: `تفاصيل الطلب`,
   or: `أو`,
   order: `طلب`,
   outOfStock: `غير متوفر`,
@@ -347,6 +299,7 @@ export const text: text = {
   orderAgain: `أعد الطلب مرة أخرى`,
   orderDetails: `تفاصيل الطلب`,
   orderConfirmed: `تم تأكيد الطلب`,
+  orderCompleted: `تم إكمال الطلب 🎉`,
   orderStatus: `حالة الطلب`,
   orderOptions: `خيارات الطلب`,
   otherReason: `سبب آخر`,
@@ -356,23 +309,33 @@ export const text: text = {
   personal: `شخصي`,
   personalCircumstances: `ظروف شخصية`,
   pleaseCheckYour: (...v) => `يرجى التحقق من ${v[0]} الخاص بك`,
+  pleaseRateYourOrder: `يرجى تقييم طلبك`,
+  feelFreeToShareReferenceImagesAndMaterials: `لا تتردد في مشاركة الصور المرجعية والمواد لمساعدة الفنان في إنشاء عملك`,
   pleaseDoNotShareYourPrivateInformationToOthers: `يرجى عدم مشاركة معلوماتك الخاصة مع الآخرين`,
   pleaseEnterANumberBetweenXandX: (...v) =>
     `يرجى إدخال رقم بين ${v[0]} و ${v[1]}`,
   pleaseEnterAtLeastNChars: (...v) => `الرجاء إدخال ${v[0]} أحرف على الأقل`,
   pleaseFillOutYourDetails: `الرجاء تعبئة بياناتك`,
+  pleaseFixTheErrorsBeforeSubmitting: `يرجى تصحيح الأخطاء قبل الإرسال`,
   pleaseSignInToYourAccount: `الرجاء تسجيل الدخول لحسابك`,
   platform: `منصة`,
   pleaseStartTyping: `يرجى البدء في الكتابة`,
+  pleaseTakeAMomentToReviewTheOrder: `يرجى أخذ لحظة لمراجعة الطلب`,
+  pleaseReviewTheBuyersReferenceFiles: `يرجى مراجعة ملفات المراجع الخاصة بالمشتري واتباعها كما هو موضح في وصف الطلب`,
+  pleaseReviewTheDetailsCarefullyBeforeProceeding: `يرجى مراجعة التفاصيل بعناية قبل المتابعة`,
+  pleaseRespondToTheOrderBy: (...v) => `يرجى الرد على الطلب قبل ${v[0]}`,
   pleaseTryAgainOrClick: (...v) =>
     `يرجى المحاولة مرة أخرى أو النقر فوق ${v[0]}`,
   pleaseVerifyYourAccount: `الرجاء تأكيد حسابك`,
   pressHereTo: `أضغط هنا من أجل`,
   price: `السعر`,
+  payouts: `المدفوعات`,
   privacyPolicy: `سياسة الخصوصية`,
   privateInformation: `المعلومات الخاصة`,
   proceedToCheckout: `المتابعة للدفع`,
   product: `المنتج`,
+  itemReviews: `مراجعات المنتج`,
+  portfolio: `معرض الأعمال`,
   profile: `ملف التعريف`,
   prohibitedTransaction: `المعاملة المحظورة`,
   promotions: `العروض الترويجية`,
@@ -382,7 +345,15 @@ export const text: text = {
   rankings: `التصنيفات`,
   reorderFiles: `إعادة ترتيب الملفات`,
   report: `الإبلاغ`,
+  review: `مراجعة`,
+  rules: `القواعد`,
+  reviews: `المراجعات`,
+  numOfReviews: (...v) => `المراجعات: ${v[0]} `,
+  reviewed: `تمت المراجعة`,
+  reviewTitle: `عنوان المراجعة`,
+  reason: `السبب`,
   revisions: `المراجعات`,
+  includesXRevisionS: (...v) => `يتضمن ${v[0]} مراجعة/مراجعات`,
   sales: `المبيعات`,
   save: `حفظ`,
   saveAvatar: `حفظ الصورة الشخصية`,
@@ -400,10 +371,14 @@ export const text: text = {
   settings: `الإعدادات`,
   settingUpAShopIsFreeAndOnlyTakesAFewMinutes: `إعداد متجر مجاني ويستغرق بضع دقائق فقط`,
   share: `مشاركة`,
+  shareYourRulesAndTheTypesOfRequestsYouDontAccept: `شارك قواعدك وأنواع الطلبات التي لا تقبلها`,
+  shareYourShopOnSocialMedia: `شارك متجرك على وسائل التواصل الاجتماعي`,
+  shareYourFavoritePiecesOn: (...v) => `شارك أعمالك المفضلة على ${v[0]}`,
   shareYourArtWithTheWorld: `شارك فنك مع العالم`,
   shareYourStory: `شارك قصتك!`,
   sharingPersonalInformation: `مشاركة المعلومات الشخصية`,
   shop: `تسوق`,
+  shopReviews: `مراجعات المتجر`,
   shopOrders: `طلبات المتجر`,
   showLess: `عرض أقل`,
   showMore: `عرض أكثر`,
@@ -414,21 +389,30 @@ export const text: text = {
   socialMedia: `وسائل التواصل الاجتماعي`,
   spaceCharacterIsNotAllowed: `غير مسموح بالمسافة`,
   spam: `البريد المزعج`,
+  yourFavoritesWillShowUpHereAddSome: `مفضلاتك ستظهر هنا. أضف بعضها!`,
   submitAReport: `إرسال تقرير`,
   submitWork: `إرسال العمل`,
   subscribeToTalentsToKeepUpWithTheirProgress: `اشترك في صفحات المواهب لمتابعة إنجازاتهم`,
   successChangedPasswordPleaseSignIn: `تم بنجاح تم تغيير كلمة السر. الرجاء تسجيل الدخول`,
   successCreatedRecord: `تم بنجاح إنشاء السجل!`,
   successUpdatedRecord: `تم بنجاح تحديث السجل!`,
+  successfullyDownloaded: `تم التحميل بنجاح!`,
+  successfullyUploaded: `تم الرفع بنجاح!`,
   supportMeOn: `ادعمني على`,
   syncWithSystem: `مزامنة مع النظام`,
   tellUsAboutYourself: `اخبرنا عن نفسك`,
   termsAndConditions: `الأحكام والشروط`,
   termsOfUse: `شروط الاستخدام`,
+  tellTheBuyerWhatTheyWillGetWithThisProduct: `أخبر المشتري بما سيحصل عليه مع هذا المنتج`,
   thankYouForReport: `شكرًا لمساعدتك في الحفاظ على مجتمع آمن ومحترم عبر الإنترنت`,
+  thankYouForYourReview: `شكرًا لمراجعتك!`,
+  thankForYourSupport: `شكرًا لدعمك!`,
   theLinkIsBrokenOrPageHasBeenRemoved: `الرابط معطل أو تمت إزالة الصفحة`,
   themeMode: `وضع الموضوع`,
   thisIsThePriceYouPropose: `هذا هو السعر الذي تقترحه`,
+  thisFieldIsOptional: `هذا الحقل اختياري`,
+  thisCannotBeUndone: `لا يمكن التراجع عن هذا`,
+  ensureYouveUploadedTheFinalVersion: `تأكد من رفع النسخة النهائية قبل الإرسال`,
   threateningViolence: `تهديد العنف`,
   title: `العنوان`,
   timeConstraints: `قيود الوقت`,
@@ -444,6 +428,7 @@ export const text: text = {
     `لعرض هذه البيانات، تحتاج إلى إلغاء حظر @${v[0]}`,
   trademarkViolation: `انتهاك العلامة التجارية`,
   typeYourTextHere: `ادخل النص هنا...`,
+  theSellerHasUploadedTheseFilesForYou: `قام البائع برفع هذه الملفات لك`,
   unblock: `إلغاء الحظر`,
   unblockUser: (...v) => `إلغاء حظر @${v[0]}`,
   unfollow: `إلغاء المتابعة`,
@@ -453,10 +438,16 @@ export const text: text = {
   uploadNewPost: `تحميل منشور جديد`,
   uploadNewProduct: `تحميل منتج جديد`,
   username: `اسم المستخدم`,
+  pleaseUploadOnlyFinishedWorkHere: `يرجى رفع الأعمال المنتهية فقط هنا`,
+  allWIPRelatedFilesShouldBeUploadedInMessages: `يجب رفع جميع ملفات العمل قيد التنفيذ في الرسائل`,
   usernameAlreadyExists: `اسم المستخدم مستخدم من قبل`,
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> و ${v[1]} يتابعونك`,
+  usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b> و${v[1]} آخرين تفاعلوا`,
   usernameFollowsYou: (...v) => `<b>${v[0]}</b> يتابعك`,
+  usernameReacted: (...v) => `<b>${v[0]}</b> تفاعل`,
   useThisEmailTo: `استخدم هذا البريد الإلكتروني للمصادقة وتلقي الإشعارات`,
+  unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
+    `للأسف، اضطر ${v[0]} لإلغاء هذا الطلب`,
   valueIsNotTheSame: `القيمة ليست هي نفسها`,
   verificationCode: `رمز التأكيد`,
   verifyCode: `أكد الرمز`,
@@ -466,6 +457,7 @@ export const text: text = {
   visitOurDiscordChannelToGetMoreDetails: `قم بزيارة قناتنا في ديسكورد للحصول على مزيد من التفاصيل`,
   weAreOnInstagram: `تجدنا على انستقرام`,
   weAreWorkingOnIt: `نعمل على الأمر`,
+  wellDoneWorkHasBeenSuccessfullyCompleted: `عمل رائع! تم إكمال العمل بنجاح`,
   weDoNotDisplayNSFWContentYet: `لا نعرض محتوى للبالغين بعد`,
   weekly: `أسبوعيًا`,
   whenYouPurchaseSomethingItWillAppearHere: `عند شراء شيء ما، سيظهر هنا`,
@@ -484,13 +476,16 @@ export const text: text = {
   yesterday: `أمس`,
   youReceivedANewOrderFrom: (...v) =>
     `لقد تلقيت طلبًا جديدًا من <b>${v[0]}</b>`,
+  youReceivedAReview: `لقد استلمت مراجعة`,
   youHaveSuccessfullyCreatedYourShop: `لقد أنشأت متجرك بنجاح`,
   youAreAlreadyAuthenticated: `سبق وقمنا بالتحقق من حسابك`,
   youCanAutoPublishToYourSocialMediaAccount: `يمكنك النشر التلقائي على حسابات التواصل الاجتماعي الخاصة بك`,
   youCanModifyTheTypesOfNotificationsYouReceiveViaEmail: `يمكنك تعديل أنواع الإشعارات التي تتلقاها عبر البريد الإلكتروني`,
   youCanRequestRemovalOfYourAccount: `يمكنك طلب إزالة حسابك مع جميع بياناتك`,
+  yourFeedbackGuidesBuyersAndHelpsSellersOfferBetterProducts: `ملاحظاتك ترشد المشترين وتساعد البائعين على تقديم منتجات أفضل`,
   youCanStillNavigateToThePreviouslyOpenedPages: `لا يزال بإمكانك التنقل للصفحات المفتوحة مسبقًا`,
   youDidNotSelectAnyChats: `لم تُحدد أي محادثات`,
+  youllSeeReviewsHereOnceBuyersShareTheirExperience: `سترى المراجعات هنا بمجرد أن يشارك المشترون تجربتهم`,
   youDidNotUpdateAnyValues: `لم تقم بتحديث أي قيم`,
   youDoNotHaveAnyChats: `ليس لديك أي محادثات`,
   youHaveNotSetAPassword: `لم تقم بتعيين كلمة مرور`,
@@ -503,6 +498,7 @@ export const text: text = {
   couldYouPleaseProvideTheReasonForTheCancellation: `هل يمكنك تقديم سبب الإلغاء من فضلك`,
   yourFeedbackWouldBeGreatlyAppreciated: `سيكون تقديرنا لملاحظاتك كبيرًا`,
   yourArts: `أعمالك الفنية`,
+  youCanceledTheOrder: `لقد ألغيت الطلب`,
   yourAvatar: `صورتك الشخصية`,
   yourBlog: `مدونتك`,
   yourFansAreWaiting: `معجبيك في انتظارك`,
