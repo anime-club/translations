@@ -1,4 +1,6 @@
 export const text: text = {
+  theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
+  youCanChooseFromTheListOrEnterACustomReason: `(en) You can choose from the list or enter a custom reason`,
   _colon: `：`,
   _comma: `、`,
   _dot: `。`,
@@ -502,7 +504,6 @@ export const text: text = {
   yourAccountWillBeRemoved: (...v) => `アカウントは${v[0]}に削除されます`,
   youHaveNoPurchases: `購入履歴がありません`,
   couldYouPleaseProvideTheReasonForTheCancellation: `キャンセルの理由を教えてください`,
-  yourFeedbackWouldBeGreatlyAppreciated: `あなたのフィードバックは大変ありがたいです`,
   yourArts: `自分のアート`,
   youCanceledTheOrder: `注文をキャンセルしました`,
   yourAvatar: `自分のアバター`,

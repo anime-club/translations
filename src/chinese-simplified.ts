@@ -1,4 +1,6 @@
 export const text: text = {
+  theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
+  youCanChooseFromTheListOrEnterACustomReason: `(en) You can choose from the list or enter a custom reason`,
   _colon: `：`,
   _comma: `、`,
   _dot: `。`,
@@ -490,7 +492,6 @@ export const text: text = {
   yourAccountWillBeRemoved: (...v) => `您的帐户将在${v[0]}被删除`,
   youHaveNoPurchases: `您没有购买记录`,
   couldYouPleaseProvideTheReasonForTheCancellation: `请提供取消的原因`,
-  yourFeedbackWouldBeGreatlyAppreciated: `我们非常感谢您的反馈`,
   yourArts: `您的艺术`,
   youCanceledTheOrder: `您已取消订单`,
   yourAvatar: `您的头像`,

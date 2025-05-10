@@ -1,4 +1,6 @@
 export const text: text = {
+  theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
+  youCanChooseFromTheListOrEnterACustomReason: `(en) You can choose from the list or enter a custom reason`,
   _colon: `: `,
   _comma: `, `,
   _dot: `. `,
@@ -499,7 +501,6 @@ export const text: text = {
   yourAccountWillBeRemoved: (...v) => `계정이 ${v[0]}에 삭제됩니다.`,
   youHaveNoPurchases: `구매 내역이 없습니다.`,
   couldYouPleaseProvideTheReasonForTheCancellation: `취소 이유를 제공해 주시겠습니까`,
-  yourFeedbackWouldBeGreatlyAppreciated: `귀하의 피드백은 매우 감사하겠습니다`,
   yourArts: `귀하의 아트`,
   youCanceledTheOrder: `주문을 취소하셨습니다`,
   yourAvatar: `귀하의 아바타`,
