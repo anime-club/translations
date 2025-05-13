@@ -1,4 +1,6 @@
 export const text: text = {
+  needsYourReview: `(en) Needs Your Review`,
+  awaitingClientReview: `(en) Awaiting Client Review`,
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   youCanChooseFromTheListOrEnterACustomReason: `(en) You can choose from the list or enter a custom reason`,
   _colon: `：`,
@@ -58,7 +60,6 @@ export const text: text = {
   authenticationFailed: `验证失败`,
   autoPublishingToInstagramIsOnlyAvailableToInstagramBusinessAccounts: `自动发布到Instagram仅适用于Instagram商业账户`,
   attentionYourOrderHasBeenDisputed: `注意！您的订单已被争议。请检查详情`,
-  awaitingReview: `等待审核`,
   awaitingSeller: `等待卖家`,
   back: `背部`,
   basePrice: `基础价格`,
@@ -88,7 +89,6 @@ export const text: text = {
   chooseExistingChatOrStartANewOne: `选择现有的聊天或开始新的聊天`,
   city: `市`,
   clearAll: `全部清除`,
-  clientReview: `客户评价`,
   close: `关`,
   colorTheme: `颜色主题`,
   comingSoon: `快来了…`,

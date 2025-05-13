@@ -1,4 +1,6 @@
 export const text: text = {
+  needsYourReview: `(en) Needs Your Review`,
+  awaitingClientReview: `(en) Awaiting Client Review`,
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   youCanChooseFromTheListOrEnterACustomReason: `(en) You can choose from the list or enter a custom reason`,
   _colon: `: `,
@@ -59,7 +61,6 @@ export const text: text = {
   authenticationFailed: `Ошибка аутентификации`,
   autoPublishingToInstagramIsOnlyAvailableToInstagramBusinessAccounts: `Автопубликация в Instagram доступна только для бизнес-аккаунтов Instagram`,
   attentionYourOrderHasBeenDisputed: `Внимание! Ваш заказ оспорен. Пожалуйста, ознакомьтесь с деталями`,
-  awaitingReview: `Ожидает проверки`,
   awaitingSeller: `Ожидает продавца`,
   back: `Назад`,
   basePrice: `Исходная стоимость`,
@@ -89,7 +90,6 @@ export const text: text = {
   chooseExistingChatOrStartANewOne: `Выберите существующий чат или начните новый`,
   city: `Город`,
   clearAll: `Очистить всё`,
-  clientReview: `Отзыв клиента`,
   close: `Закрыть`,
   colorTheme: `Цветовая тема`,
   comingSoon: `Скоро...`,

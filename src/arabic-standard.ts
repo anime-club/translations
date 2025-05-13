@@ -1,4 +1,6 @@
 export const text: text = {
+  needsYourReview: `(en) Needs Your Review`,
+  awaitingClientReview: `(en) Awaiting Client Review`,
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   youCanChooseFromTheListOrEnterACustomReason: `(en) You can choose from the list or enter a custom reason`,
   _colon: `: `,
@@ -58,7 +60,6 @@ export const text: text = {
   authenticationFailed: `فشلت المصادقة`,
   autoPublishingToInstagramIsOnlyAvailableToInstagramBusinessAccounts: `النشر التلقائي على إنستغرام متاح فقط لحسابات الأعمال على إنستغرام`,
   attentionYourOrderHasBeenDisputed: `انتباه! تم الاعتراض على طلبك. يرجى التحقق من التفاصيل`,
-  awaitingReview: `في انتظار المراجعة`,
   awaitingSeller: `في انتظار البائع`,
   back: `الرجوع`,
   basePrice: `السعر الأساسي`,
@@ -88,7 +89,6 @@ export const text: text = {
   chooseExistingChatOrStartANewOne: `اختر محادثةً موجودة أو ابدأ دردشة جديدة`,
   city: `المدينة`,
   clearAll: `امسح الكل`,
-  clientReview: `مراجعة العميل`,
   close: `أغلق`,
   colorTheme: `موضوع اللون`,
   comingSoon: `قريبًا...`,

@@ -1,4 +1,6 @@
 export const text: text = {
+  needsYourReview: `(en) Needs Your Review`,
+  awaitingClientReview: `(en) Awaiting Client Review`,
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   youCanChooseFromTheListOrEnterACustomReason: `(en) You can choose from the list or enter a custom reason`,
   _colon: `: `,
@@ -58,7 +60,6 @@ export const text: text = {
   authenticationFailed: `인증 실패`,
   autoPublishingToInstagramIsOnlyAvailableToInstagramBusinessAccounts: `Instagram 자동 게시 기능은 Instagram 비즈니스 계정에서만 사용할 수 있습니다.`,
   attentionYourOrderHasBeenDisputed: `주의! 주문에 이의가 제기되었습니다. 세부 사항을 확인하십시오`,
-  awaitingReview: `검토 대기 중`,
   awaitingSeller: `판매자 대기 중`,
   back: `뒤로`,
   basePrice: `기본 가격`,
@@ -88,7 +89,6 @@ export const text: text = {
   chooseExistingChatOrStartANewOne: `기존 채팅창 선택 또는 새로운 채팅 시작`,
   city: `도시`,
   clearAll: `모두 지우기`,
-  clientReview: `클라이언트 리뷰`,
   close: `닫기`,
   colorTheme: `색상 테마`,
   comingSoon: `곧 출시됩니다…`,

@@ -1,4 +1,6 @@
 export const text: text = {
+  needsYourReview: `(en) Needs Your Review`,
+  awaitingClientReview: `(en) Awaiting Client Review`,
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   youCanChooseFromTheListOrEnterACustomReason: `(en) You can choose from the list or enter a custom reason`,
   _colon: `：`,
@@ -59,7 +61,6 @@ export const text: text = {
   authenticationFailed: `認証できませんでした`,
   autoPublishingToInstagramIsOnlyAvailableToInstagramBusinessAccounts: `Instagramへの自動投稿はInstagramビジネスアカウントのみ利用可能です`,
   attentionYourOrderHasBeenDisputed: `注意！ご注文に異議が申し立てられました。詳細を確認してください`,
-  awaitingReview: `レビュー待ち`,
   awaitingSeller: `出品者待ち`,
   back: `戻る`,
   basePrice: `基本価格`,
@@ -89,7 +90,6 @@ export const text: text = {
   chooseExistingChatOrStartANewOne: `既存のチャットを選択するか、新しいチャットを開始します`,
   city: `市町村`,
   clearAll: `すべてクリアにする`,
-  clientReview: `クライアントレビュー`,
   close: `閉じる`,
   colorTheme: `カラーテーマ`,
   comingSoon: `近日公開...`,

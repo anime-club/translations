@@ -1,4 +1,6 @@
 export const text: text = {
+  needsYourReview: `(en) Needs Your Review`,
+  awaitingClientReview: `(en) Awaiting Client Review`,
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   youCanChooseFromTheListOrEnterACustomReason: `(en) You can choose from the list or enter a custom reason`,
   _colon: `: `,
@@ -58,7 +60,6 @@ export const text: text = {
   authenticationFailed: `การยืนยันตัวตนล้มเหลว`,
   autoPublishingToInstagramIsOnlyAvailableToInstagramBusinessAccounts: `การเผยแพร่อัตโนมัติไปยัง Instagram สามารถใช้ได้เฉพาะบัญชีธุรกิจ Instagram เท่านั้น`,
   attentionYourOrderHasBeenDisputed: `โปรดทราบ! คำสั่งซื้อของคุณถูกโต้แย้ง โปรดตรวจสอบรายละเอียด`,
-  awaitingReview: `รอการตรวจสอบ`,
   awaitingSeller: `รอผู้ขาย`,
   back: `กลับ`,
   basePrice: `ราคาฐาน`,
@@ -88,7 +89,6 @@ export const text: text = {
   chooseExistingChatOrStartANewOne: `เลือกห้องแชทเดิมหรือสร้างใหม่`,
   city: `เมือง`,
   clearAll: `ลบออกทั้งหมด`,
-  clientReview: `รีวิวลูกค้า`,
   close: `ปิด`,
   colorTheme: `ธีมสี`,
   comingSoon: `เร็วๆ นี้...`,

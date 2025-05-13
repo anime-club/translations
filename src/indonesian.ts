@@ -1,4 +1,6 @@
 export const text: text = {
+  needsYourReview: `(en) Needs Your Review`,
+  awaitingClientReview: `(en) Awaiting Client Review`,
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   youCanChooseFromTheListOrEnterACustomReason: `(en) You can choose from the list or enter a custom reason`,
   _colon: `: `,
@@ -59,7 +61,6 @@ export const text: text = {
   authenticationFailed: `Autentikasi gagal`,
   autoPublishingToInstagramIsOnlyAvailableToInstagramBusinessAccounts: `Penerbitan otomatis ke Instagram hanya tersedia untuk akun bisnis Instagram`,
   attentionYourOrderHasBeenDisputed: `Perhatian! Pesanan Anda telah dipersengketakan. Silakan periksa detailnya`,
-  awaitingReview: `Menunggu ulasan`,
   awaitingSeller: `Menunggu penjual`,
   back: `Kembali`,
   basePrice: `Harga dasar`,
@@ -89,7 +90,6 @@ export const text: text = {
   chooseExistingChatOrStartANewOne: `Pilih obrolan yang ada atau mulai baru`,
   city: `Kota`,
   clearAll: `Bersihkan semua`,
-  clientReview: `Ulasan klien`,
   close: `Tutup`,
   colorTheme: `Tema warna`,
   comingSoon: `Segera...`,

@@ -1,4 +1,6 @@
 export const text: text = {
+  needsYourReview: `(en) Needs Your Review`,
+  awaitingClientReview: `(en) Awaiting Client Review`,
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   youCanChooseFromTheListOrEnterACustomReason: `(en) You can choose from the list or enter a custom reason`,
   _colon: `: `,
@@ -59,7 +61,6 @@ export const text: text = {
   authenticationFailed: `प्रमाणीकरण विफल हो गया`,
   autoPublishingToInstagramIsOnlyAvailableToInstagramBusinessAccounts: `ऑटो प्रकाशन इंस्टाग्राम केवल इंस्टाग्राम व्यवसाय खातों के लिए ही उपलब्ध है`,
   attentionYourOrderHasBeenDisputed: `ध्यान दें! आपके आदेश पर विवाद किया गया है। कृपया विवरण जांचें`,
-  awaitingReview: `समीक्षा के लिए प्रतीक्षा कर रहा है`,
   awaitingSeller: `विक्रेता की प्रतीक्षा कर रहा है`,
   back: `वापस`,
   basePrice: `बेस मूल्य`,
@@ -89,7 +90,6 @@ export const text: text = {
   chooseExistingChatOrStartANewOne: `मौजूदा चैट चुनें या एक नई शुरू करें`,
   city: `शहर`,
   clearAll: `सभी को साफ़ करें`,
-  clientReview: `ग्राहक समीक्षा`,
   close: `बंद करें`,
   colorTheme: `रंग थीम`,
   comingSoon: `जल्द ही आ रहा…`,
