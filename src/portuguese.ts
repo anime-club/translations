@@ -1,6 +1,11 @@
 export const text: text = {
+  animeClubUsesToPayYouQuicklyAndKeepYourInfoSecure: (...v) =>
+    `(en) Anime club uses ${v[0]} to get you paid quickly and keep your personal and payment information secure`,
   needsYourReview: `(en) Needs Your Review`,
+  awaitingSellerResponse: `(en) Awaiting seller response`,
   awaitingClientReview: `(en) Awaiting Client Review`,
+  noOrders: `(en) No orders`,
+  setUpStripeAccountToGetPaidWithAnimeClub: `(en) Set up a Stripe account to get paid with Anime club`,
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   youCanChooseFromTheListOrEnterACustomReason: `(en) You can choose from the list or enter a custom reason`,
   _colon: `: `,
@@ -62,7 +67,6 @@ export const text: text = {
   authenticationFailed: `Autenticação falhou`,
   autoPublishingToInstagramIsOnlyAvailableToInstagramBusinessAccounts: `A publicação automática no Instagram está disponível apenas para contas comerciais do Instagram`,
   attentionYourOrderHasBeenDisputed: `Atenção! Seu pedido foi contestado. Por favor, verifique os detalhes`,
-  awaitingSeller: `Aguardando vendedor`,
   back: `Costas`,
   basePrice: `Preço base`,
   bigAppreciationToTheSellerForTheHardWork: `Grande agradecimento ao vendedor pelo trabalho árduo`,
