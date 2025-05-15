@@ -75,6 +75,7 @@ export const text = {
   browseArt: `Browse art`,
   browseShop: `Browse shop`,
   buyer: `Buyer`,
+  buyersRequest: `Buyer's request`,
   cancel: `Cancel`,
   canceled: `Canceled`,
   cancelOrder: `Cancel order`,

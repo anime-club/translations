@@ -1,5 +1,6 @@
 export const text: text = {
   needsYourReview: `(en) Needs Your Review`,
+  buyersRequest: `(en) Buyer's request`,
   awaitingClientReview: `(en) Awaiting Client Review`,
   noOrders: `(en) No orders`,
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
@@ -397,7 +398,7 @@ export const text: text = {
   socialMedia: `Социальные сети`,
   spaceCharacterIsNotAllowed: `Пробел не допускается`,
   spam: `Спам`,
-  yourFavoritesWillShowUpHereAddSome: `Ваши избранные появятся здесь. Добавьте что-нибудь!`,
+  yourFavoritesWillShowUpHereAddSome: `Здесь будут отображаться ваши закладки. Добавьте что-нибудь!`,
   submitAReport: `Отправить жалобу`,
   submitWork: `Отправить работу`,
   subscribeToTalentsToKeepUpWithTheirProgress: `Подпишитесь на художников, чтобы отслеживать их успехи`,
