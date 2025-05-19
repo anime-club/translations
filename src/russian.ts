@@ -5,6 +5,8 @@ export const text: text = {
   hideListing: `(en) Hide listing`,
   thisListingWontBeVisibleToBuyersAnymore: `(en) This listing won’t be visible to buyers anymore — but you can show it again whenever you’re ready`,
   buyersWillBeAbleToSeeThisListingYouCanHideItAgainAnytime: `(en) Buyers will be able to see this listing. You can hide it again anytime`,
+  listingHiddenFromBuyers: `(en) Listing hidden from buyers`,
+  listingIsNowVisibleToBuyers: `(en) Listing is now visible to buyers`,
   showListing: `(en) Show listing`,
   noOrders: `(en) No orders`,
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
