@@ -24,7 +24,6 @@ export const text = {
   add: `Add`,
   addArt: `Add art`,
   addBlog: `Add blog`,
-  addFile: `Add file`,
   additionalResources: `Additional resources`,
   addMoreProductsToYourShop: `Add more products to your shop`,
   addMore: `Add more`,
@@ -197,6 +196,13 @@ export const text = {
   hereAreAFewWaysToGetThingsRolling: `Here are a few ways to get things rolling`,
   hire: `Hire`,
   hideListing: `Hide listing`,
+  uploadUpToNumberImages: (limit: number) =>
+    `Upload up to <b>${limit}</b> images`,
+  supportedFormats: `Supported formats:`,
+  minimumDimensions: (width: number, height: number) =>
+    `Minimum size: ${width}×${height} pixels`,
+  maximumFileSize: (sizeMB: string) =>
+    `Maximum file size: <b>${sizeMB}</b> per image`,
   thisListingWontBeVisibleToBuyersAnymore: `This listing won’t be visible to buyers anymore — but you can show it again whenever you’re ready`,
   buyersWillBeAbleToSeeThisListingYouCanHideItAgainAnytime: `Buyers will be able to see this listing. You can hide it again anytime`,
   listingHiddenFromBuyers: `Listing hidden from buyers`,
@@ -296,7 +302,7 @@ export const text = {
   notAcceptingOrders: `Not accepting orders`,
   noSalesYetNoWorries: `No sales yet? No worries, you're just starting out`,
   nsfwContent18Plus: `NSFW Content (18+)`,
-  NSFWIndicatesAdultContent: `18+ NSFW indicates adult content. Check this field only if your product is intended for mature audiences`,
+  NSFWIndicatesAdultContent: `18+ NSFW indicates adult content. Check this field only if the content is intended for mature audiences`,
   numberOfAdjustmentsAClientCouldRequest: `Number of adjustments a client could request`,
   online: `Online`,
   onlyLatinLettersNumbersHyphen: `Only latin letters, numbers, hyphen, underscore, and dot characters`,
