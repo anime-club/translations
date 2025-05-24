@@ -1,4 +1,5 @@
 export const text: text = {
+  files: `(en) Files`,
   needsYourReview: `(en) Needs Your Review`,
   buyersRequest: `(en) Buyer's request`,
   awaitingClientReview: `(en) Awaiting Client Review`,
@@ -15,6 +16,7 @@ export const text: text = {
   theseRulesAreProvidedByTheSellerAndApplyOnlyToThisItem: `(en) These rules are provided by the seller and apply only to this item`,
   ifYouHaveQuestionsOrConcernsPleaseContactTheSellerDirectly: `(en) If you have questions or concerns, please contact the seller directly`,
   platformPoliciesMayStillApply: `(en) Platform policies may still apply`,
+  uploadedFilesLocked: `(en) You uploaded these files when you created the post. They're now locked but still visible below`,
   noOrders: `(en) No orders`,
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   optionallyYouCanAddADescriptionToShareMoreAboutYourCreation: `(en) Optionally, you can add a description to share more about your creation`,
@@ -359,7 +361,6 @@ export const text: text = {
   itemReviews: `Отзывы о товаре`,
   portfolio: `Портфолио`,
   profile: `Профиль`,
-  prohibitedTransaction: `Запрещенная транзакция`,
   promotions: `Акции`,
   publicInformation: `Публичная информация`,
   publishOn: (...v) => `Опубликовать на ${v[0]}`,

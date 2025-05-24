@@ -1,6 +1,7 @@
 export const text: text = {
   animeClubUsesToPayYouQuicklyAndKeepYourInfoSecure: (...v) =>
     `(en) Anime club uses ${v[0]} to get you paid quickly and keep your personal and payment information secure`,
+  files: `(en) Files`,
   needsYourReview: `(en) Needs Your Review`,
   awaitingSellerResponse: `(en) Awaiting seller response`,
   buyersRequest: `(en) Buyer's request`,
@@ -18,6 +19,7 @@ export const text: text = {
   theseRulesAreProvidedByTheSellerAndApplyOnlyToThisItem: `(en) These rules are provided by the seller and apply only to this item`,
   ifYouHaveQuestionsOrConcernsPleaseContactTheSellerDirectly: `(en) If you have questions or concerns, please contact the seller directly`,
   platformPoliciesMayStillApply: `(en) Platform policies may still apply`,
+  uploadedFilesLocked: `(en) You uploaded these files when you created the post. They're now locked but still visible below`,
   noOrders: `(en) No orders`,
   setUpStripeAccountToGetPaidWithAnimeClub: `(en) Set up a Stripe account to get paid with Anime club`,
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
@@ -358,7 +360,6 @@ export const text: text = {
   itemReviews: `รีวิวสินค้า`,
   portfolio: `ผลงาน`,
   profile: `โปรไฟล์`,
-  prohibitedTransaction: `ธุรกรรมที่ห้าม`,
   promotions: `โปรโมชั่น`,
   publicInformation: `ข้อมูลสาธารณะ`,
   publishOn: (...v) => `เผยแพร่บน ${v[0]}`,
