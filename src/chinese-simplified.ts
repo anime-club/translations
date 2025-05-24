@@ -2,6 +2,7 @@ export const text: text = {
   animeClubUsesToPayYouQuicklyAndKeepYourInfoSecure: (...v) =>
     `(en) Anime club uses ${v[0]} to get you paid quickly and keep your personal and payment information secure`,
   files: `(en) Files`,
+  prohibitedTransaction: `(en) Prohibited transaction`,
   needsYourReview: `(en) Needs Your Review`,
   awaitingSellerResponse: `(en) Awaiting seller response`,
   buyersRequest: `(en) Buyer's request`,
@@ -22,6 +23,7 @@ export const text: text = {
   uploadedFilesLocked: `(en) You uploaded these files when you created the post. They're now locked but still visible below`,
   noOrders: `(en) No orders`,
   setUpStripeAccountToGetPaidWithAnimeClub: `(en) Set up a Stripe account to get paid with Anime club`,
+  describeWhatsIncludedAndWhatTheBuyerCanExpectAfterPurchase: `(en) Describe what’s included and what the buyer can expect after purchase`,
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   optionallyYouCanAddADescriptionToShareMoreAboutYourCreation: `(en) Optionally, you can add a description to share more about your creation`,
   pleaseProvideATitleForYourArtwork: `(en) Please provide a title for your artwork`,
@@ -421,7 +423,6 @@ export const text: text = {
   tellUsAboutYourself: `向我们介绍你自己`,
   termsAndConditions: `条款和条件`,
   termsOfUse: `使用条款`,
-  tellTheBuyerWhatTheyWillGetWithThisProduct: `告诉买家他们将获得哪些内容`,
   thankYouForReport: `感谢您帮助维护安全和尊重的在线社区`,
   thankYouForYourReview: `感谢您的评价！`,
   thankForYourSupport: `感谢您的支持！`,

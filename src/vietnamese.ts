@@ -2,6 +2,7 @@ export const text: text = {
   animeClubUsesToPayYouQuicklyAndKeepYourInfoSecure: (...v) =>
     `(en) Anime club uses ${v[0]} to get you paid quickly and keep your personal and payment information secure`,
   files: `(en) Files`,
+  prohibitedTransaction: `(en) Prohibited transaction`,
   needsYourReview: `(en) Needs Your Review`,
   awaitingSellerResponse: `(en) Awaiting seller response`,
   buyersRequest: `(en) Buyer's request`,
@@ -22,6 +23,7 @@ export const text: text = {
   uploadedFilesLocked: `(en) You uploaded these files when you created the post. They're now locked but still visible below`,
   noOrders: `(en) No orders`,
   setUpStripeAccountToGetPaidWithAnimeClub: `(en) Set up a Stripe account to get paid with Anime club`,
+  describeWhatsIncludedAndWhatTheBuyerCanExpectAfterPurchase: `(en) Describe what’s included and what the buyer can expect after purchase`,
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   optionallyYouCanAddADescriptionToShareMoreAboutYourCreation: `(en) Optionally, you can add a description to share more about your creation`,
   pleaseProvideATitleForYourArtwork: `(en) Please provide a title for your artwork`,
@@ -426,7 +428,6 @@ export const text: text = {
   tellUsAboutYourself: `Cho chúng tôi biết về bạn`,
   termsAndConditions: `Điều khoản và Điều kiện`,
   termsOfUse: `Điều khoản sử dụng`,
-  tellTheBuyerWhatTheyWillGetWithThisProduct: `Hãy cho người mua biết họ sẽ nhận được gì với sản phẩm này`,
   thankYouForReport: `Cảm ơn bạn đã giúp duy trì một cộng đồng trực tuyến an toàn và tôn trọng`,
   thankYouForYourReview: `Cảm ơn bạn đã đánh giá!`,
   thankForYourSupport: `Cảm ơn bạn đã ủng hộ!`,

@@ -1,5 +1,6 @@
 export const text: text = {
   files: `(en) Files`,
+  prohibitedTransaction: `(en) Prohibited transaction`,
   needsYourReview: `(en) Needs Your Review`,
   buyersRequest: `(en) Buyer's request`,
   awaitingClientReview: `(en) Awaiting Client Review`,
@@ -18,6 +19,7 @@ export const text: text = {
   platformPoliciesMayStillApply: `(en) Platform policies may still apply`,
   uploadedFilesLocked: `(en) You uploaded these files when you created the post. They're now locked but still visible below`,
   noOrders: `(en) No orders`,
+  describeWhatsIncludedAndWhatTheBuyerCanExpectAfterPurchase: `(en) Describe what’s included and what the buyer can expect after purchase`,
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   optionallyYouCanAddADescriptionToShareMoreAboutYourCreation: `(en) Optionally, you can add a description to share more about your creation`,
   pleaseProvideATitleForYourArtwork: `(en) Please provide a title for your artwork`,
@@ -428,7 +430,6 @@ export const text: text = {
   tellUsAboutYourself: `Расскажите нам о себе`,
   termsAndConditions: `Правила и условия`,
   termsOfUse: `Условия использования`,
-  tellTheBuyerWhatTheyWillGetWithThisProduct: `Сообщите покупателю, что он получит с этим продуктом`,
   thankYouForReport: `Спасибо за помощь в поддержании безопасного и уважительного онлайн-сообщества`,
   thankYouForYourReview: `Спасибо за ваш отзыв!`,
   thankForYourSupport: `Спасибо за вашу поддержку!`,
