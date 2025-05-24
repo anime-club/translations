@@ -442,6 +442,8 @@ export const text = {
   thisFieldIsOptional: `This field is optional`,
   thisCannotBeUndone: `This cannot be undone`,
   ensureYouveUploadedTheFinalVersion: ` Ensure you've uploaded the final version before submitting`,
+  optionallyYouCanAddADescriptionToShareMoreAboutYourCreation: `Optionally, you can add a description to share more about your creation`,
+  pleaseProvideATitleForYourArtwork: `Please provide a title for your artwork`,
   threateningViolence: `Threatening violence`,
   title: `Title`,
   timeConstraints: `Time constraints`,

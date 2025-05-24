@@ -17,6 +17,8 @@ export const text: text = {
   platformPoliciesMayStillApply: `(en) Platform policies may still apply`,
   noOrders: `(en) No orders`,
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
+  optionallyYouCanAddADescriptionToShareMoreAboutYourCreation: `(en) Optionally, you can add a description to share more about your creation`,
+  pleaseProvideATitleForYourArtwork: `(en) Please provide a title for your artwork`,
   youCanChooseFromTheListOrEnterACustomReason: `(en) You can choose from the list or enter a custom reason`,
   _colon: `: `,
   _comma: `, `,
