@@ -30,10 +30,13 @@ export const text = {
   addMoreProductsToYourShop: `Add more products to your shop`,
   addMore: `Add more`,
   addNewArt: `Add new art`,
-  addPreview: `Add preview`,
   addSignInVia: `Add sign in via`,
   addToCart: `Add to cart`,
   advancedOptions: `Advanced options`,
+  uploadTheFilesYourBuyerWillGet: `Upload the files your buyer will get`,
+  makeSureEverythingIsReadyToGoNoEditsAfterPublishing: `Make sure everything is ready to go — no edits after publishing`,
+  addFilesForTheBuyer: `Add files for the buyer`,
+  selectFilesForPreview: `Select files for preview`,
   all: `All`,
   allFilesYouUploadHereWillBeAvailableToTheBuyer: `All files you upload here will be available to the buyer`,
   alreadySignedIn: `Already signed in`,
@@ -198,13 +201,13 @@ export const text = {
   hereAreAFewWaysToGetThingsRolling: `Here are a few ways to get things rolling`,
   hire: `Hire`,
   hideListing: `Hide listing`,
-  uploadUpToNumberImages: (limit: number) =>
-    `Upload up to <b>${limit}</b> images`,
+  uploadUpToNumberFiles: (limit: number) =>
+    `Upload up to <b>${limit}</b> files`,
   supportedFormats: `Supported formats:`,
   minimumDimensions: (width: number, height: number) =>
     `Minimum size: ${width}×${height} pixels`,
   maximumFileSize: (sizeMB: string) =>
-    `Maximum file size: <b>${sizeMB}</b> per image`,
+    `Maximum file size: <b>${sizeMB}</b> per file`,
   thisListingWontBeVisibleToBuyersAnymore: `This listing won’t be visible to buyers anymore — but you can show it again whenever you’re ready`,
   buyersWillBeAbleToSeeThisListingYouCanHideItAgainAnytime: `Buyers will be able to see this listing. You can hide it again anytime`,
   listingHiddenFromBuyers: `Listing hidden from buyers`,
