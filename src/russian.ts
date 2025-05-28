@@ -1,7 +1,7 @@
 export const text: text = {
   files: `(en) Files`,
   prohibitedTransaction: `(en) Prohibited transaction`,
-  uploadTheFilesYourBuyerWillGet: `(en) Upload the files your buyer will get`,
+  uploadTheFilesYourBuyerWillGet: `(en) Upload the files your <b>buyer will get</b>`,
   makeSureEverythingIsReadyToGoNoEditsAfterPublishing: `(en) Make sure everything is ready to go — no edits after publishing`,
   addFilesForTheBuyer: `(en) Add files for the buyer`,
   selectFilesForPreview: `(en) Select files for preview`,
@@ -27,6 +27,7 @@ export const text: text = {
   offerDigitalProducts: `(en) Offer digital products that buyers can access right away`,
   instantDownload: `(en) Instant Download`,
   customWork: `(en) Custom Work`,
+  newCommission: `(en) New commission`,
   noOrders: `(en) No orders`,
   tellTheBuyersWhatTheyWillGet: `(en) Tell buyers exactly what they will get — for example, the number of illustrations, file formats, or canvas specs like resolution and DPI`,
   beSpecificAboutTheContent: `(en) Be specific about the content (e.g. number of files, formats, canvas resolution)`,
