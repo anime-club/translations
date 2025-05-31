@@ -36,7 +36,7 @@ export const text = {
   uploadTheFilesYourBuyerWillGet: `Upload the files your <b>buyer will get</b>`,
   makeSureEverythingIsReadyToGoNoEditsAfterPublishing: `Make sure everything is ready to go — no edits after publishing`,
   filesForTheBuyer: `Files for the buyer`,
-  selectFilesForPreview: `Select files for preview`,
+  filesForPreview: `Files for preview`,
   all: `All`,
   allFilesYouUploadHereWillBeAvailableToTheBuyer: `All files you upload here will be available to the buyer`,
   alreadySignedIn: `Already signed in`,

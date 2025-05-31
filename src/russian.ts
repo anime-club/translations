@@ -4,7 +4,7 @@ export const text: text = {
   uploadTheFilesYourBuyerWillGet: `(en) Upload the files your <b>buyer will get</b>`,
   makeSureEverythingIsReadyToGoNoEditsAfterPublishing: `(en) Make sure everything is ready to go — no edits after publishing`,
   filesForTheBuyer: `(en) Files for the buyer`,
-  selectFilesForPreview: `(en) Select files for preview`,
+  filesForPreview: `(en) Files for preview`,
   needsYourReview: `(en) Needs Your Review`,
   buyersRequest: `(en) Buyer's request`,
   awaitingClientReview: `(en) Awaiting Client Review`,
