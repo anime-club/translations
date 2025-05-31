@@ -35,7 +35,7 @@ export const text = {
   advancedOptions: `Advanced options`,
   uploadTheFilesYourBuyerWillGet: `Upload the files your <b>buyer will get</b>`,
   makeSureEverythingIsReadyToGoNoEditsAfterPublishing: `Make sure everything is ready to go — no edits after publishing`,
-  addFilesForTheBuyer: `Add files for the buyer`,
+  filesForTheBuyer: `Files for the buyer`,
   selectFilesForPreview: `Select files for preview`,
   all: `All`,
   allFilesYouUploadHereWillBeAvailableToTheBuyer: `All files you upload here will be available to the buyer`,

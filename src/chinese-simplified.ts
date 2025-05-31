@@ -5,7 +5,7 @@ export const text: text = {
   prohibitedTransaction: `(en) Prohibited transaction`,
   uploadTheFilesYourBuyerWillGet: `(en) Upload the files your <b>buyer will get</b>`,
   makeSureEverythingIsReadyToGoNoEditsAfterPublishing: `(en) Make sure everything is ready to go — no edits after publishing`,
-  addFilesForTheBuyer: `(en) Add files for the buyer`,
+  filesForTheBuyer: `(en) Files for the buyer`,
   selectFilesForPreview: `(en) Select files for preview`,
   needsYourReview: `(en) Needs Your Review`,
   awaitingSellerResponse: `(en) Awaiting seller response`,
