@@ -356,6 +356,7 @@ export const text = {
   listAnyContentOrRequestsYouDontAccept: `List any content or requests you <b>don't accept</b> (e.g. NSFW, political, religious, or offensive material)`,
   offerOptionalExtras: `Offer optional extras like <b>rush delivery</b>, an <b>extra character</b>, or a <b>detailed background</b>`,
   extrasHelpBoostIncome: `Extras help buyers customize their order and can boost your income`,
+  pleaseAllowPopups: `Please allow popups`,
   pleaseCheckYour: (value: string) => `Please check your ${value}`,
   pleaseRateYourOrder: `Please rate your order`,
   feelFreeToShareReferenceImagesAndMaterials: `Feel free to share reference images and materials to help the artist create your piece`,

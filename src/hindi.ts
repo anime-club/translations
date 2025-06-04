@@ -45,6 +45,7 @@ export const text: text = {
   listAnyContentOrRequestsYouDontAccept: `(en) List any content or requests you <b>don't accept</b> (e.g. NSFW, political, religious, or offensive material)`,
   offerOptionalExtras: `(en) Offer optional extras like <b>rush delivery</b>, an <b>extra character</b>, or a <b>detailed background</b>`,
   extrasHelpBoostIncome: `(en) Extras help buyers customize their order and can boost your income`,
+  pleaseAllowPopups: `(en) Please allow popups`,
   artGallery: `(en) Art Gallery`,
   commission: `(en) Commission`,
   digitalStore: `(en) Digital Store`,
