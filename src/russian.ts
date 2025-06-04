@@ -8,6 +8,10 @@ export const text: text = {
   needsYourReview: `(en) Needs Your Review`,
   buyersRequest: `(en) Buyer's request`,
   awaitingClientReview: `(en) Awaiting Client Review`,
+  usernameHasntListedAnyProductsForSaleYet: (...v) =>
+    `(en) @${v[0]} hasn't listed any products for sale yet`,
+  usernameHasntAddedAnythingToTheirPortfolioYet: (...v) =>
+    `(en) @${v[0]} hasn’t added anything to their portfolio yet`,
   hideListing: `(en) Hide listing`,
   uploadUpToNumberFiles: (...v) => `(en) Upload up to <b>${v[0]}</b> files`,
   supportedFormats: `(en) Supported formats:`,

@@ -197,6 +197,10 @@ export const text = {
     `@${username} has not added a description for "${title}"`,
   hasNotSharedAnyPublicDetailsYet: (username: string) =>
     `@${username} has not shared any public details yet`,
+  usernameHasntListedAnyProductsForSaleYet: (username: string) =>
+    `@${username} hasn't listed any products for sale yet`,
+  usernameHasntAddedAnythingToTheirPortfolioYet: (username: string) =>
+    `@${username} hasn’t added anything to their portfolio yet`,
   hate: `Hate`,
   hereAreAFewWaysToGetThingsRolling: `Here are a few ways to get things rolling`,
   hire: `Hire`,
