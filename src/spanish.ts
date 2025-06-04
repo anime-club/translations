@@ -1,6 +1,8 @@
 export const text: text = {
   animeClubUsesToPayYouQuicklyAndKeepYourInfoSecure: (...v) =>
     `(en) Anime.club uses ${v[0]} to get you paid quickly and keep your personal and payment information secure`,
+  manageYourAccountInformationAndViewMoreDetails: `(en) Manage your account information and view more details`,
+  visitStripeDashboard: `(en) Visit Stripe dashboard`,
   files: `(en) Files`,
   prohibitedTransaction: `(en) Prohibited transaction`,
   uploadTheFilesYourBuyerWillGet: `(en) Upload the files your <b>buyer will get</b>`,

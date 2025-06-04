@@ -1,4 +1,6 @@
 export const text: text = {
+  manageYourAccountInformationAndViewMoreDetails: `(en) Manage your account information and view more details`,
+  visitStripeDashboard: `(en) Visit Stripe dashboard`,
   files: `(en) Files`,
   prohibitedTransaction: `(en) Prohibited transaction`,
   uploadTheFilesYourBuyerWillGet: `(en) Upload the files your <b>buyer will get</b>`,
