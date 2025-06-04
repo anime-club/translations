@@ -12,7 +12,7 @@ export const text = {
   acceptTheOrder: `Accept the order`,
   accountManagment: `Account management`,
   animeClubUsesToPayYouQuicklyAndKeepYourInfoSecure: (providerName: string) =>
-    `Anime club uses ${providerName} to get you paid quickly and keep your personal and payment information secure`,
+    `Anime.club uses ${providerName} to get you paid quickly and keep your personal and payment information secure`,
   account: `Account`,
   accountDeleted: `Account deleted`,
   animeShopBuyAndSellProducts: `Anime shop - buy and sell products`,
@@ -450,7 +450,7 @@ export const text = {
   successfullyDownloaded: `Successfully downloaded!`,
   successfullyUploaded: `Successfully uploaded!`,
   setUpStripeAccountToGetPaidWithAnimeClub:
-    "Set up a Stripe account to get paid with Anime club",
+    "Set up a Stripe account to get paid with Anime.club",
   supportMeOn: `Support me on`,
   syncWithSystem: `Sync with system`,
   tellUsAboutYourself: `Tell us about yourself`,

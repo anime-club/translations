@@ -62,7 +62,7 @@ export const text: text = {
   acceptTheOrder: `Принять заказ`,
   accountManagment: `Управление аккаунтом`,
   animeClubUsesToPayYouQuicklyAndKeepYourInfoSecure: (...v) =>
-    `Anime club использует ${v[0]} , чтобы быстро переводить вам деньги и обеспечивать безопасность ваших личных и платежных данных`,
+    `Anime.club использует ${v[0]} , чтобы быстро переводить вам деньги и обеспечивать безопасность ваших личных и платежных данных`,
   account: `Аккаунт`,
   accountDeleted: `Учетная запись удалена`,
   animeShopBuyAndSellProducts: `Магазин аниме - покупайте и продавайте товары`,
@@ -448,7 +448,7 @@ export const text: text = {
   successUpdatedRecord: `Запись успешно обновлена!`,
   successfullyDownloaded: `Успешно загружено!`,
   successfullyUploaded: `Успешно загружено!`,
-  setUpStripeAccountToGetPaidWithAnimeClub: `Создайте аккаунт в Stripe, чтобы получать выплаты через Anime club`,
+  setUpStripeAccountToGetPaidWithAnimeClub: `Создайте аккаунт в Stripe, чтобы получать выплаты через Anime.club`,
   supportMeOn: `Поддержите меня на`,
   syncWithSystem: `Синхронизировать с системой`,
   tellUsAboutYourself: `Расскажите нам о себе`,

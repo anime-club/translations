@@ -1,6 +1,6 @@
 export const text: text = {
   animeClubUsesToPayYouQuicklyAndKeepYourInfoSecure: (...v) =>
-    `(en) Anime club uses ${v[0]} to get you paid quickly and keep your personal and payment information secure`,
+    `(en) Anime.club uses ${v[0]} to get you paid quickly and keep your personal and payment information secure`,
   files: `(en) Files`,
   prohibitedTransaction: `(en) Prohibited transaction`,
   uploadTheFilesYourBuyerWillGet: `(en) Upload the files your <b>buyer will get</b>`,
@@ -46,7 +46,7 @@ export const text: text = {
   artGallery: `(en) Art Gallery`,
   commission: `(en) Commission`,
   digitalStore: `(en) Digital Store`,
-  setUpStripeAccountToGetPaidWithAnimeClub: `(en) Set up a Stripe account to get paid with Anime club`,
+  setUpStripeAccountToGetPaidWithAnimeClub: `(en) Set up a Stripe account to get paid with Anime.club`,
   describeWhatsIncludedAndWhatTheBuyerCanExpectAfterPurchase: `(en) Describe what’s included and what the buyer can expect after purchase`,
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   optionallyYouCanAddADescriptionToShareMoreAboutYourCreation: `(en) Optionally, you can add a description to share more about your creation`,
