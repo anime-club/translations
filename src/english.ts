@@ -349,7 +349,7 @@ export const text = {
   password: `Password`,
   payments: `Payments`,
   attachedFiles: `Attached files`,
-  numFilesIncluded: (num: number) => `${num} file(s) included`,
+  numFilesIncluded: (num: number) => `<b>${num}</b> file(s) included`,
   personal: `Personal`,
   personalCircumstances: `Personal circumstances`,
   tellTheBuyersWhatTheyWillGet: `Tell buyers exactly what they will get — for example, the number of illustrations, file formats, or canvas specs like resolution and DPI`,
