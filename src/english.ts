@@ -116,6 +116,7 @@ export const text = {
   contractTitle: `Contract Title`,
   copyLink: `Copy link`,
   congratulations: `Congratulations!`,
+  thankYouForYourPurchase: `Thank you for your purchase!`,
   congratulationsOnSuccessfullyCompletingYourOrder: `Congratulations on successfully completing your order!`,
   copyrightViolation: `Copyright violation`,
   couldNotCreateANewRecord: `Could not create a new record`,
@@ -189,6 +190,8 @@ export const text = {
   getStarted: `Get started`,
   guestView: `Guest view`,
   greatNewsYourOrderIsNowInProgress: `Great news! Your order is now in progress`,
+  greatNewsBuyerPurchasedYourItemTimeToCelebrate: (buyerUsername: string) =>
+    `Great news! ${buyerUsername} purchased your item. Time to celebrate!`,
   harassment: `Harassment`,
   haveAnyQuestions: `Have any questions?`,
   usernameHasCanceledTheOrder: (username: string) =>
@@ -204,6 +207,7 @@ export const text = {
   usernameHasntAddedAnythingToTheirPortfolioYet: (username: string) =>
     `@${username} hasn’t added anything to their portfolio yet`,
   hate: `Hate`,
+
   hereAreAFewWaysToGetThingsRolling: `Here are a few ways to get things rolling`,
   hire: `Hire`,
   hideListing: `Hide listing`,

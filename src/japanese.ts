@@ -13,6 +13,9 @@ export const text: text = {
   awaitingSellerResponse: `(en) Awaiting seller response`,
   buyersRequest: `(en) Buyer's request`,
   awaitingClientReview: `(en) Awaiting Client Review`,
+  thankYouForYourPurchase: `(en) Thank you for your purchase!`,
+  greatNewsBuyerPurchasedYourItemTimeToCelebrate: (...v) =>
+    `(en) Great news! ${v[0]} purchased your item. Time to celebrate!`,
   usernameHasntListedAnyProductsForSaleYet: (...v) =>
     `(en) @${v[0]} hasn't listed any products for sale yet`,
   usernameHasntAddedAnythingToTheirPortfolioYet: (...v) =>
