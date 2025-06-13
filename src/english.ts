@@ -468,7 +468,6 @@ export const text = {
   describeWhatsIncludedAndWhatTheBuyerCanExpectAfterPurchase: `Describe what’s included and what the buyer can expect after purchase`,
   thankYouForReport: `Thank you for helping to maintain a safe and respectful online community`,
   thankYouForYourReview: `Thank you for your review!`,
-  thankForYourSupport: `Thank you for your support!`,
   theLinkIsBrokenOrPageHasBeenRemoved: `The link is broken or page has been removed`,
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `The reason you provide for cancelling this order will be shared with the buyer`,
   themeMode: `Theme mode`,
