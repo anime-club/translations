@@ -61,10 +61,14 @@ export const text: text = {
   commissions: `(en) Commissions`,
   digitalDownloads: `(en) Digital Downloads`,
   setUpStripeAccountToGetPaidWithAnimeClub: `(en) Set up a Stripe account to get paid with Anime.club`,
+  sellerTermsOfService: `(en) Seller Terms of Service`,
   describeWhatsIncludedAndWhatTheBuyerCanExpectAfterPurchase: `(en) Describe what’s included and what the buyer can expect after purchase`,
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   optionallyYouCanAddADescriptionToShareMoreAboutYourCreation: `(en) Optionally, you can add a description to share more about your creation`,
   pleaseProvideATitleForYourArtwork: `(en) Please provide a title for your artwork`,
+  usernameStartedFollowingYou: (...v) =>
+    `(en) <b>${v[0]}</b> started following you`,
+  usernameLeftAReaction: (...v) => `(en) <b>${v[0]}</b> left a reaction`,
   tapAddToCreateOne: `(en) Tap “Add” to create one`,
   youCanChooseFromTheListOrEnterACustomReason: `(en) You can choose from the list or enter a custom reason`,
   _colon: `: `,
@@ -503,8 +507,6 @@ export const text: text = {
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> และ ${v[1]} คนติดตามคุณ`,
   usernameAndXMoreReacted: (...v) =>
     `<b>${v[0]}</b> และอีก ${v[1]} คนแสดงปฏิกิริยา`,
-  usernameFollowsYou: (...v) => `<b>${v[0]}</b> ติดตามคุณ`,
-  usernameReacted: (...v) => `<b>${v[0]}</b> แสดงปฏิกิริยา`,
   useThisEmailTo: `ใช้อีเมลนี้เพื่อ: ยืนยันตัวตน, รับการแจ้งเตือน`,
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `น่าเสียดายที่ ${v[0]} ต้องยกเลิกคำสั่งซื้อนี้`,

@@ -61,10 +61,14 @@ export const text: text = {
   commissions: `(en) Commissions`,
   digitalDownloads: `(en) Digital Downloads`,
   setUpStripeAccountToGetPaidWithAnimeClub: `(en) Set up a Stripe account to get paid with Anime.club`,
+  sellerTermsOfService: `(en) Seller Terms of Service`,
   describeWhatsIncludedAndWhatTheBuyerCanExpectAfterPurchase: `(en) Describe what’s included and what the buyer can expect after purchase`,
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   optionallyYouCanAddADescriptionToShareMoreAboutYourCreation: `(en) Optionally, you can add a description to share more about your creation`,
   pleaseProvideATitleForYourArtwork: `(en) Please provide a title for your artwork`,
+  usernameStartedFollowingYou: (...v) =>
+    `(en) <b>${v[0]}</b> started following you`,
+  usernameLeftAReaction: (...v) => `(en) <b>${v[0]}</b> left a reaction`,
   tapAddToCreateOne: `(en) Tap “Add” to create one`,
   youCanChooseFromTheListOrEnterACustomReason: `(en) You can choose from the list or enter a custom reason`,
   _colon: `: `,
@@ -509,8 +513,6 @@ export const text: text = {
     `<b>${v[0]}</b> और ${v[1]} अन्य आपका अनुसरण करते हैं`,
   usernameAndXMoreReacted: (...v) =>
     `<b>${v[0]}</b> और ${v[1]} अन्य ने प्रतिक्रिया दी`,
-  usernameFollowsYou: (...v) => `<b>${v[0]}</b> आपका अनुसरण करता है`,
-  usernameReacted: (...v) => `<b>${v[0]}</b> ने प्रतिक्रिया दी`,
   useThisEmailTo: `इस ईमेल का उपयोग करें: प्रमाणित करने के लिए, सूचनाएं प्राप्त करने के लिए`,
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `दुर्भाग्यवश, ${v[0]} को यह आदेश रद्द करना पड़ा`,

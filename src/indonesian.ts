@@ -61,10 +61,14 @@ export const text: text = {
   commissions: `(en) Commissions`,
   digitalDownloads: `(en) Digital Downloads`,
   setUpStripeAccountToGetPaidWithAnimeClub: `(en) Set up a Stripe account to get paid with Anime.club`,
+  sellerTermsOfService: `(en) Seller Terms of Service`,
   describeWhatsIncludedAndWhatTheBuyerCanExpectAfterPurchase: `(en) Describe what’s included and what the buyer can expect after purchase`,
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   optionallyYouCanAddADescriptionToShareMoreAboutYourCreation: `(en) Optionally, you can add a description to share more about your creation`,
   pleaseProvideATitleForYourArtwork: `(en) Please provide a title for your artwork`,
+  usernameStartedFollowingYou: (...v) =>
+    `(en) <b>${v[0]}</b> started following you`,
+  usernameLeftAReaction: (...v) => `(en) <b>${v[0]}</b> left a reaction`,
   tapAddToCreateOne: `(en) Tap “Add” to create one`,
   youCanChooseFromTheListOrEnterACustomReason: `(en) You can choose from the list or enter a custom reason`,
   _colon: `: `,
@@ -509,8 +513,6 @@ export const text: text = {
     `<b>${v[0]}</b> dan ${v[1]} lagi mengikuti Anda`,
   usernameAndXMoreReacted: (...v) =>
     `<b>${v[0]}</b> dan ${v[1]} lainnya bereaksi`,
-  usernameFollowsYou: (...v) => `<b>${v[0]}</b> mengikuti Anda`,
-  usernameReacted: (...v) => `<b>${v[0]}</b> bereaksi`,
   useThisEmailTo: `Gunakan email ini untuk: mengautentikasi, menerima notifikasi`,
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `Sayangnya, ${v[0]} harus membatalkan pesanan ini`,

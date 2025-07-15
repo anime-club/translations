@@ -468,6 +468,7 @@ export const text = {
   supportMeOn: `Support me on`,
   syncWithSystem: `Sync with system`,
   tellUsAboutYourself: `Tell us about yourself`,
+  sellerTermsOfService: `Seller Terms of Service`,
   termsAndConditions: `Terms and Conditions`,
   termsOfUse: `Terms of use`,
   describeWhatsIncludedAndWhatTheBuyerCanExpectAfterPurchase: `Describe what’s included and what the buyer can expect after purchase`,
@@ -511,11 +512,13 @@ export const text = {
   allWIPRelatedFilesShouldBeUploadedInMessages: `All WIP-related files should be uploaded in messages`,
   usernameAlreadyExists: `Username already exists`,
   usernameAndXMoreFollowYou: (username: string, numberOfNotifiers: number) =>
-    `<b>${username}</b> and ${numberOfNotifiers} more follow you`,
+    `<b>${username}</b> and ${numberOfNotifiers} more just followed you`,
   usernameAndXMoreReacted: (username: string, numberOfNotifiers: number) =>
     `<b>${username}</b> and ${numberOfNotifiers} more reacted`,
-  usernameFollowsYou: (username: string) => `<b>${username}</b> follows you`,
-  usernameReacted: (username: string) => `<b>${username}</b> reacted`,
+  usernameStartedFollowingYou: (username: string) =>
+    `<b>${username}</b> started following you`,
+  usernameLeftAReaction: (username: string) =>
+    `<b>${username}</b> left a reaction`,
   useThisEmailTo: `Use this email to: authenticate, receive notifications`,
   unfortunatelyTheSellerHadToCancelThisOrder: (user: unknown) =>
     `Unfortunately, ${user} had to cancel this order`,
