@@ -8,6 +8,7 @@ export const text: text = {
   filesForTheBuyer: `(en) Files for the buyer`,
   filesForPreview: `(en) Files for preview`,
   needsYourReview: `(en) Needs Your Review`,
+  awaitingSellersResponse: `(en) Awaiting seller's response`,
   buyersRequest: `(en) Buyer's request`,
   awaitingClientReview: `(en) Awaiting Client Review`,
   thankYouForYourPurchase: `(en) Thank you for your purchase!`,
@@ -27,6 +28,11 @@ export const text: text = {
   listingHiddenFromBuyers: `(en) Listing hidden from buyers`,
   listingIsNowVisibleToBuyers: `(en) Listing is now visible to buyers`,
   showListing: `(en) Show listing`,
+  ifTheresNoResponseByTimeLimitOrderWillBeCanceled: (...v) =>
+    `(en) If there's no response by ${v[0]}, the order will be canceled automatically`,
+  ifNoReplyIsReceivedByTimeLimitYouWillReceiveFullRefund: (...v) =>
+    `(en) If no reply is received by ${v[0]}, you'll automatically receive a full refund`,
+  ifYouMissTheDeadlineBuyerCanCancelForFullRefund: `(en) If you miss the deadline, the buyer can cancel the order for a full refund, and any associated Stripe fees will be deducted from your payout.`,
   theseRulesAreProvidedByTheSellerAndApplyOnlyToThisItem: `(en) These rules are provided by the seller and apply only to this item`,
   ifYouHaveQuestionsOrConcernsPleaseContactTheSellerDirectly: `(en) If you have questions or concerns, please contact the seller directly`,
   platformPoliciesMayStillApply: `(en) Platform policies may still apply`,
@@ -125,7 +131,6 @@ export const text: text = {
   authenticationFailed: `Ошибка аутентификации`,
   autoPublishingToInstagramIsOnlyAvailableToInstagramBusinessAccounts: `Автопубликация в Instagram доступна только для бизнес-аккаунтов Instagram`,
   attentionYourOrderHasBeenDisputed: `Внимание! Ваш заказ оспорен. Пожалуйста, ознакомьтесь с деталями`,
-  awaitingSellerResponse: `Ожидается ответ продавца`,
   back: `Назад`,
   basePrice: `Исходная стоимость`,
   bigAppreciationToTheSellerForTheHardWork: `Большая благодарность продавцу за проделанную работу`,

@@ -66,7 +66,7 @@ export const text = {
   autoPublishingToInstagramIsOnlyAvailableToInstagramBusinessAccounts: `Auto publishing to Instagram is only available to Instagram business accounts`,
   attentionYourOrderHasBeenDisputed: `Attention! Your order has been disputed. Please check the details`,
   needsYourReview: "Needs Your Review",
-  awaitingSellerResponse: `Awaiting seller response`,
+  awaitingSellersResponse: `Awaiting seller's response`,
   back: `Back`,
   basePrice: `Base Price`,
   bigAppreciationToTheSellerForTheHardWork: `Big appreciation to the seller for the hard work`,
@@ -229,6 +229,15 @@ export const text = {
   iAgreeWith: `I agree with`,
   ifTheresNoResponseByTimeLimit: (reviewTimeLimit: string | number) =>
     `If there's no response by ${reviewTimeLimit}, the order will be marked as completed automatically`,
+  ifTheresNoResponseByTimeLimitOrderWillBeCanceled: (
+    timeLimit: string | number,
+  ) =>
+    `If there's no response by ${timeLimit}, the order will be canceled automatically`,
+  ifNoReplyIsReceivedByTimeLimitYouWillReceiveFullRefund: (
+    timeLimit: string | number,
+  ) =>
+    `If no reply is received by ${timeLimit}, you'll automatically receive a full refund`,
+  ifYouMissTheDeadlineBuyerCanCancelForFullRefund: `If you miss the deadline, the buyer can cancel the order for a full refund, and any associated Stripe fees will be deducted from your payout.`,
   id: `ID`,
   imgHeightNeedsToBeBiggerThanOrEqualTo: `Img height needs to be bigger than or equal to`,
   imgWidthNeedsToBeBiggerThanOrEqualTo: `Img width needs to be bigger than or equal to`,
