@@ -469,7 +469,7 @@ export const text = {
   subscribeToTalentsToKeepUpWithTheirProgress: `Subscribe to talents to keep up with their progress`,
   successChangedPasswordPleaseSignIn: `Success! Changed password. Please sign in`,
   successCreatedRecord: `Success! Created record!`,
-  successUpdatedRecord: `Success! Updated record!`,
+  changesSaved: `Changes saved!`,
   successfullyDownloaded: `Successfully downloaded!`,
   successfullyUploaded: `Successfully uploaded!`,
   setUpStripeAccountToGetPaidWithAnimeClub:
