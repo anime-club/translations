@@ -34,6 +34,7 @@ export const text: text = {
   ifNoReplyIsReceivedByTimeLimitYouWillReceiveFullRefund: (...v) =>
     `(en) If no reply is received by ${v[0]}, you'll automatically receive a full refund`,
   ifYouMissTheDeadlineBuyerCanCancelForFullRefund: `(en) If you miss the deadline, the buyer can cancel the order for a full refund, and any associated Stripe fees will be deducted from your payout.`,
+  addAComment: `(en) Add a comment`,
   theseRulesAreProvidedByTheSellerAndApplyOnlyToThisItem: `(en) These rules are provided by the seller and apply only to this item`,
   ifYouHaveQuestionsOrConcernsPleaseContactTheSellerDirectly: `(en) If you have questions or concerns, please contact the seller directly`,
   platformPoliciesMayStillApply: `(en) Platform policies may still apply`,

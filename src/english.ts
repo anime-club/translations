@@ -239,6 +239,7 @@ export const text = {
     `If no reply is received by ${timeLimit}, you'll automatically receive a full refund`,
   ifYouMissTheDeadlineBuyerCanCancelForFullRefund: `If you miss the deadline, the buyer can cancel the order for a full refund, and any associated Stripe fees will be deducted from your payout.`,
   id: `ID`,
+  addAComment: `Add a comment`,
   imgHeightNeedsToBeBiggerThanOrEqualTo: `Img height needs to be bigger than or equal to`,
   imgWidthNeedsToBeBiggerThanOrEqualTo: `Img width needs to be bigger than or equal to`,
   impersonation: `Impersonation`,
