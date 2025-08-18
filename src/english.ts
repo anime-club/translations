@@ -563,6 +563,8 @@ export const text = {
     `You received a new order from <b>${username}</b>`,
   youReceivedAReview: `You received a review`,
   youHaveSuccessfullyCreatedYourShop: `You have successfully created your shop`,
+  replyToUsername: (username: string) => `Reply to ${username}`,
+  numOfReplies: (count: number) => `${count} replies`,
   youAreAlreadyAuthenticated: `You are already authenticated`,
   youCanAutoPublishToYourSocialMediaAccount: `You can auto publish to your social media account`,
   youCanModifyTheTypesOfNotificationsYouReceiveViaEmail: `You can modify the types of notifications you receive via email`,

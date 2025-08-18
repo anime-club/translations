@@ -76,6 +76,8 @@ export const text: text = {
     `(en) <b>${v[0]}</b> started following you`,
   usernameLeftAReaction: (...v) => `(en) <b>${v[0]}</b> left a reaction`,
   tapAddToCreateOne: `(en) Tap “Add” to create one`,
+  replyToUsername: (...v) => `(en) Reply to ${v[0]}`,
+  numOfReplies: (...v) => `(en) ${v[0]} replies`,
   youCanChooseFromTheListOrEnterACustomReason: `(en) You can choose from the list or enter a custom reason`,
   _colon: `: `,
   _comma: `, `,
