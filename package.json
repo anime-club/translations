@@ -13,6 +13,6 @@
     "config": "tsx node_modules/.bin/config"
   },
   "devDependencies": {
-    "@10stars/config": "^13.0.6"
+    "@10stars/config": "^13.5.5"
   }
 }
