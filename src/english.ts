@@ -562,6 +562,7 @@ export const text = {
   youReceivedANewOrderFrom: (username: string) =>
     `You received a new order from <b>${username}</b>`,
   youReceivedAReview: `You received a review`,
+  reply: `Reply`,
   youHaveSuccessfullyCreatedYourShop: `You have successfully created your shop`,
   replyToUsername: (username: string) => `Reply to ${username}`,
   numOfReplies: (count: number) => `${count} replies`,
