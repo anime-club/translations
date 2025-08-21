@@ -78,6 +78,7 @@ export const text: text = {
   usernameStartedFollowingYou: (...v) =>
     `(en) <b>${v[0]}</b> started following you`,
   usernameLeftAReaction: (...v) => `(en) <b>${v[0]}</b> left a reaction`,
+  vote: `(en) Vote`,
   tapAddToCreateOne: `(en) Tap “Add” to create one`,
   reply: `(en) Reply`,
   replyToUsername: (...v) => `(en) Reply to ${v[0]}`,

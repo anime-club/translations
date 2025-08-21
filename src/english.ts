@@ -533,6 +533,7 @@ export const text = {
   unfortunatelyTheSellerHadToCancelThisOrder: (user: unknown) =>
     `Unfortunately, ${user} had to cancel this order`,
   valueIsNotTheSame: `Value is not the same`,
+  vote: `Vote`,
   tapAddToCreateOne: `Tap “Add” to create one`,
   verificationCode: `Verification Code`,
   verifyCode: `Verify code`,
