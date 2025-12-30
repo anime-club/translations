@@ -5,14 +5,11 @@
     "access": "public"
   },
   "version": "1.1.154",
-  "files": [
-    "src",
-    "types"
-  ],
+  "files": ["src", "types"],
   "scripts": {
     "config": "tsx node_modules/.bin/config"
   },
   "devDependencies": {
-    "@10stars/config": "^13.5.5"
+    "@10stars/config": "^15.0.2"
   }
 }

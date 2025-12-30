@@ -14,7 +14,7 @@ test-libraries/
 test/manualtest.js
 
 # lock files
-bun.*
+package-lock.json
 shrinkwrap.yaml
 pnpm-lock.yaml
 yarn.lock

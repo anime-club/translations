@@ -1,0 +1,8 @@
+{
+  "arrowParentheses": "always",
+  "trailingCommas": "all",
+  "indentWidth": 2,
+  "semi": false,
+  "useTabs": false,
+  "bracketSpacing": true
+}
