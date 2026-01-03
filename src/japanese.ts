@@ -83,6 +83,7 @@ export const text: text = {
   reply: `(en) Reply`,
   replyToUsername: (...v) => `(en) Reply to ${v[0]}`,
   numOfReplies: (...v) => `(en) ${v[0]} replies`,
+  replies: `(en) Replies`,
   youCanChooseFromTheListOrEnterACustomReason: `(en) You can choose from the list or enter a custom reason`,
   _colon: `：`,
   _comma: `、`,
