@@ -13,6 +13,6 @@
     "config": "bun node_modules/.bin/config"
   },
   "devDependencies": {
-    "@10stars/config": "^15.0.2"
+    "@10stars/config": "^15.0.12"
   }
 }
