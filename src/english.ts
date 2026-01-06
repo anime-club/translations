@@ -84,6 +84,7 @@ export const text = {
   buyersRequest: `Buyer's request`,
   cancel: `Cancel`,
   canceled: `Canceled`,
+  comments: `Comments`,
   cancelOrder: `Cancel order`,
   cannotStartWithChars: `Cannot start with {:"^$*[]{}()?-"!@#%&/\\,><':;|~\`"`,
   change: `Change`,
@@ -230,11 +231,11 @@ export const text = {
   ifTheresNoResponseByTimeLimit: (reviewTimeLimit: string | number) =>
     `If there's no response by ${reviewTimeLimit}, the order will be marked as completed automatically`,
   ifTheresNoResponseByTimeLimitOrderWillBeCanceled: (
-    timeLimit: string | number,
+    timeLimit: string | number
   ) =>
     `If there's no response by ${timeLimit}, the order will be canceled automatically`,
   ifNoReplyIsReceivedByTimeLimitYouWillReceiveFullRefund: (
-    timeLimit: string | number,
+    timeLimit: string | number
   ) =>
     `If no reply is received by ${timeLimit}, you'll automatically receive a full refund`,
   ifYouMissTheDeadlineBuyerCanCancelForFullRefund: `If you miss the deadline, the buyer can cancel the order for a full refund, and any associated Stripe fees will be deducted from your payout.`,
@@ -595,5 +596,5 @@ export const text = {
   yourFansAreWaiting: `Your fans are waiting`,
   yourFeedIsEmpty: `your feed is empty`,
   yourSessionHasExpiredPleaseSignInAgain: `Your session has expired, please sign in again`,
-}
-export type english = typeof text
+};
+export type english = typeof text;
