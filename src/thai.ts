@@ -76,8 +76,7 @@ export const text: text = {
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   optionallyYouCanAddADescriptionToShareMoreAboutYourCreation: `(en) Optionally, you can add a description to share more about your creation`,
   pleaseProvideATitleForYourArtwork: `(en) Please provide a title for your artwork`,
-  usernameStartedFollowingYou: (...v) =>
-    `(en) <b>${v[0]}</b> started following you`,
+  usernameStartedFollowingYou: (...v) => `(en) <b>${v[0]}</b> started following you`,
   usernameLeftAReaction: (...v) => `(en) <b>${v[0]}</b> left a reaction`,
   vote: `(en) Vote`,
   tapAddToCreateOne: `(en) Tap “Add” to create one`,
@@ -264,10 +263,8 @@ export const text: text = {
   haveAnyQuestions: `มีคำถามหรือไม่?`,
   usernameHasCanceledTheOrder: (...v) => `<b>${v[0]}</b> ได้ยกเลิกคำสั่งซื้อ`,
   usernameHasSubmittedTheWork: (...v) => `<b>${v[0]}</b> ได้ส่งงานแล้ว`,
-  hasNotAddedADescriptionFor: (...v) =>
-    `@${v[0]} ยังไม่ได้เพิ่มคำอธิบายสำหรับ "${v[1]}"`,
-  hasNotSharedAnyPublicDetailsYet: (...v) =>
-    `@${v[0]} ยังไม่ได้เผยแพร่รายละเอียดสาธารณะใด ๆ อีกเลย`,
+  hasNotAddedADescriptionFor: (...v) => `@${v[0]} ยังไม่ได้เพิ่มคำอธิบายสำหรับ "${v[1]}"`,
+  hasNotSharedAnyPublicDetailsYet: (...v) => `@${v[0]} ยังไม่ได้เผยแพร่รายละเอียดสาธารณะใด ๆ อีกเลย`,
   hate: `เกลียด`,
   hereAreAFewWaysToGetThingsRolling: `นี่คือวิธีเริ่มต้นบางส่วน`,
   hire: `จ้าง`,
@@ -333,8 +330,7 @@ export const text: text = {
   need1Lowercase: `ต้องมี 1 ตัวพิมพ์เล็ก`,
   need1Number: `ต้องมี 1 ตัวเลข`,
   need1Uppercase: `ต้องมี 1 ตัวพิมพ์ใหญ่`,
-  needAtLeast1CharacterFromN: (...v) =>
-    `ต้องมีอย่างน้อย 1 ตัวอักษรจาก  [${v[0]}]`,
+  needAtLeast1CharacterFromN: (...v) => `ต้องมีอย่างน้อย 1 ตัวอักษรจาก  [${v[0]}]`,
   needNCharacter: (...v) => `ต้องมี ${v[0]} ตัวอักษร`,
   newAccount: `บัญชีใหม่`,
   newArt: `ผลงานใหม่`,
@@ -392,8 +388,7 @@ export const text: text = {
   pleaseRateYourOrder: `โปรดให้คะแนนคำสั่งซื้อของคุณ`,
   feelFreeToShareReferenceImagesAndMaterials: `คุณสามารถแชร์ภาพอ้างอิงและเอกสารเพื่อช่วยศิลปินสร้างผลงานของคุณได้อย่างอิสระ`,
   pleaseDoNotShareYourPrivateInformationToOthers: `โปรดอย่าแชร์ข้อมูลส่วนตัวของคุณกับผู้อื่น`,
-  pleaseEnterANumberBetweenXandX: (...v) =>
-    `โปรดป้อนตัวเลขระหว่าง ${v[0]} และ ${v[1]}`,
+  pleaseEnterANumberBetweenXandX: (...v) => `โปรดป้อนตัวเลขระหว่าง ${v[0]} และ ${v[1]}`,
   pleaseEnterAtLeastNChars: (...v) => `โปรดใส่ตัวอักษรอย่างน้อย ${v[0]} ตัว`,
   pleaseFillOutYourDetails: `โปรดใส่รายละเอียดเพิ่มเติม`,
   pleaseFixTheErrorsBeforeSubmitting: `โปรดแก้ไขข้อผิดพลาดก่อนส่ง`,
@@ -493,14 +488,12 @@ export const text: text = {
   timeConstraints: `ข้อจำกัดด้านเวลา`,
   titleYourExtraService: `ตั้งชื่อบริการเสริมของคุณ`,
   theMaximumQuantityThatACustomerCanAdd: `ปริมาณสูงสุดที่ลูกค้าสามารถเพิ่มได้`,
-  theReviewPeriodIsLimitedtoNdays: (...v) =>
-    `ระยะเวลาการตรวจสอบจำกัดที่ ${v[0]} วัน`,
+  theReviewPeriodIsLimitedtoNdays: (...v) => `ระยะเวลาการตรวจสอบจำกัดที่ ${v[0]} วัน`,
   toHelpTheCreatorCompleteYourOrder: `เพื่อช่วยให้ผู้สร้างทำคำสั่งซื้อของคุณให้เสร็จสมบูรณ์ โปรดให้รายละเอียดเกี่ยวกับสิ่งที่คุณต้องการ รวมถึงธีม สไตล์ และคุณลักษณะของตัวละครที่ต้องการ รวมถึงข้อกำหนดสำคัญอื่น ๆ`,
   today: `วันนี้`,
   toGetWorkRelatedNotifications: `เพื่อรับการแจ้งเตือนที่เกี่ยวข้องกับงาน`,
   total: `รวม`,
-  toViewThisDataYouNeedToUnblock: (...v) =>
-    `เพื่อดูข้อมูลนี้ คุณต้องยกเลิกการบล็อก @${v[0]}`,
+  toViewThisDataYouNeedToUnblock: (...v) => `เพื่อดูข้อมูลนี้ คุณต้องยกเลิกการบล็อก @${v[0]}`,
   trademarkViolation: `การละเมิดสิทธิ์การค้า`,
   typeYourTextHere: `พิมพ์ข้อความที่นี่...`,
   theSellerHasUploadedTheseFilesForYou: `ผู้ขายได้อัปโหลดไฟล์เหล่านี้ให้คุณ`,
@@ -517,11 +510,9 @@ export const text: text = {
   allWIPRelatedFilesShouldBeUploadedInMessages: `ไฟล์ที่อยู่ระหว่างดำเนินการควรอัปโหลดในข้อความ`,
   usernameAlreadyExists: `ชื่อผู้ใช้นี้มีอยู่แล้ว`,
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> และ ${v[1]} คนติดตามคุณ`,
-  usernameAndXMoreReacted: (...v) =>
-    `<b>${v[0]}</b> และอีก ${v[1]} คนแสดงปฏิกิริยา`,
+  usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b> และอีก ${v[1]} คนแสดงปฏิกิริยา`,
   useThisEmailTo: `ใช้อีเมลนี้เพื่อ: ยืนยันตัวตน, รับการแจ้งเตือน`,
-  unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
-    `น่าเสียดายที่ ${v[0]} ต้องยกเลิกคำสั่งซื้อนี้`,
+  unfortunatelyTheSellerHadToCancelThisOrder: (...v) => `น่าเสียดายที่ ${v[0]} ต้องยกเลิกคำสั่งซื้อนี้`,
   valueIsNotTheSame: `ค่าไม่เหมือนกัน`,
   verificationCode: `รหัสยืนยัน`,
   verifyCode: `ตรวจสอบรหัส`,
@@ -548,8 +539,7 @@ export const text: text = {
   wrongEmailOrPassword: `อีเมลหรือรหัสผ่านไม่ถูกต้อง`,
   yes: `ใช่`,
   yesterday: `เมื่อวานนี้`,
-  youReceivedANewOrderFrom: (...v) =>
-    `คุณได้รับคำสั่งซื้อใหม่จาก <b>${v[0]}</b>`,
+  youReceivedANewOrderFrom: (...v) => `คุณได้รับคำสั่งซื้อใหม่จาก <b>${v[0]}</b>`,
   youReceivedAReview: `คุณได้รับรีวิว`,
   youHaveSuccessfullyCreatedYourShop: `คุณได้สร้างร้านค้าของคุณเรียบร้อยแล้ว`,
   youAreAlreadyAuthenticated: `คุณได้ทำการยืนยันตัวตนแล้ว`,
@@ -577,4 +567,4 @@ export const text: text = {
   yourFansAreWaiting: `แฟนๆ กำลังรอคุณอยู่นะ`,
   yourFeedIsEmpty: `ฟีดของคุณยังว่างเปล่าอยู่นะ`,
   yourSessionHasExpiredPleaseSignInAgain: `เซสชันของคุณหมดอายุแล้ว โปรดลองใหม่อีกครั้ง`,
-};
+}

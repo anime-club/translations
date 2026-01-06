@@ -76,8 +76,7 @@ export const text: text = {
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   optionallyYouCanAddADescriptionToShareMoreAboutYourCreation: `(en) Optionally, you can add a description to share more about your creation`,
   pleaseProvideATitleForYourArtwork: `(en) Please provide a title for your artwork`,
-  usernameStartedFollowingYou: (...v) =>
-    `(en) <b>${v[0]}</b> started following you`,
+  usernameStartedFollowingYou: (...v) => `(en) <b>${v[0]}</b> started following you`,
   usernameLeftAReaction: (...v) => `(en) <b>${v[0]}</b> left a reaction`,
   vote: `(en) Vote`,
   tapAddToCreateOne: `(en) Tap “Add” to create one`,
@@ -137,8 +136,7 @@ export const text: text = {
   artAssociatedWithAnime: `आनिमे के साथ जुड़ी कला`,
   artBy: (...v) => `कला द्वारा ${v[0]}`,
   artCannotBeChanged: `चित्रकला को बदला नहीं जा सकता`,
-  artworksAvailableToView: (...v) =>
-    `${v[0]} कलाकृतियाँ देखने के लिए उपलब्ध हैं`,
+  artworksAvailableToView: (...v) => `${v[0]} कलाकृतियाँ देखने के लिए उपलब्ध हैं`,
   authenticationFailed: `प्रमाणीकरण विफल हो गया`,
   autoPublishingToInstagramIsOnlyAvailableToInstagramBusinessAccounts: `ऑटो प्रकाशन इंस्टाग्राम केवल इंस्टाग्राम व्यवसाय खातों के लिए ही उपलब्ध है`,
   attentionYourOrderHasBeenDisputed: `ध्यान दें! आपके आदेश पर विवाद किया गया है। कृपया विवरण जांचें`,
@@ -263,14 +261,10 @@ export const text: text = {
   greatNewsYourOrderIsNowInProgress: `अच्छी खबर! आपका आदेश अब प्रगति पर है`,
   harassment: `उत्पीड़न`,
   haveAnyQuestions: `कोई प्रश्न है?`,
-  usernameHasCanceledTheOrder: (...v) =>
-    `<b>${v[0]}</b> ने आदेश रद्द कर दिया है`,
-  usernameHasSubmittedTheWork: (...v) =>
-    `<b>${v[0]}</b> ने कार्य प्रस्तुत किया है`,
-  hasNotAddedADescriptionFor: (...v) =>
-    `@${v[0]} ने "${v[1]}" के लिए कोई विवरण नहीं जोड़ा है`,
-  hasNotSharedAnyPublicDetailsYet: (...v) =>
-    `@${v[0]} ने अभी तक कोई सार्वजनिक विवरण साझा नहीं किए हैं`,
+  usernameHasCanceledTheOrder: (...v) => `<b>${v[0]}</b> ने आदेश रद्द कर दिया है`,
+  usernameHasSubmittedTheWork: (...v) => `<b>${v[0]}</b> ने कार्य प्रस्तुत किया है`,
+  hasNotAddedADescriptionFor: (...v) => `@${v[0]} ने "${v[1]}" के लिए कोई विवरण नहीं जोड़ा है`,
+  hasNotSharedAnyPublicDetailsYet: (...v) => `@${v[0]} ने अभी तक कोई सार्वजनिक विवरण साझा नहीं किए हैं`,
   hate: `नफ़रत`,
   hereAreAFewWaysToGetThingsRolling: `शुरू करने के कुछ तरीके यहां दिए गए हैं`,
   hire: `नौकरी दें`,
@@ -336,8 +330,7 @@ export const text: text = {
   need1Lowercase: `1 लोअरकेस की आवश्यकता है`,
   need1Number: `1 नंबर की आवश्यकता है`,
   need1Uppercase: `1 अपरकेस की आवश्यकता है`,
-  needAtLeast1CharacterFromN: (...v) =>
-    `[${v[0]}] से कम से कम 1 करेक्टर की आवश्यकता है`,
+  needAtLeast1CharacterFromN: (...v) => `[${v[0]}] से कम से कम 1 करेक्टर की आवश्यकता है`,
   needNCharacter: (...v) => `${v[0]} करेक्टर की आवश्यकता है`,
   newAccount: `नया खाता`,
   newArt: `नई चित्रकला`,
@@ -395,8 +388,7 @@ export const text: text = {
   pleaseRateYourOrder: `कृपया अपने आदेश को रेट करें`,
   feelFreeToShareReferenceImagesAndMaterials: `कलाकार को आपकी कृति बनाने में मदद के लिए संदर्भ चित्र और सामग्री साझा करने के लिए स्वतंत्र महसूस करें`,
   pleaseDoNotShareYourPrivateInformationToOthers: `कृपया अपनी निजी जानकारी किसी और से साझा न करें`,
-  pleaseEnterANumberBetweenXandX: (...v) =>
-    `कृपया ${v[0]} और ${v[1]} के बीच एक संख्या दर्ज करें`,
+  pleaseEnterANumberBetweenXandX: (...v) => `कृपया ${v[0]} और ${v[1]} के बीच एक संख्या दर्ज करें`,
   pleaseEnterAtLeastNChars: (...v) => `कृपया कम से कम एन वर्ण दर्ज करें`,
   pleaseFillOutYourDetails: `कृपया अपना विवरण भरें`,
   pleaseFixTheErrorsBeforeSubmitting: `सबमिट करने से पहले कृपया त्रुटियों को ठीक करें`,
@@ -407,8 +399,7 @@ export const text: text = {
   pleaseReviewTheBuyersReferenceFiles: `कृपया खरीदार की संदर्भ फाइलों की समीक्षा करें और आदेश के विवरण के अनुसार उनका पालन करें`,
   pleaseReviewTheDetailsCarefullyBeforeProceeding: `आगे बढ़ने से पहले कृपया विवरण ध्यान से देखें`,
   pleaseRespondToTheOrderBy: (...v) => `कृपया आदेश का उत्तर ${v[0]} तक दें`,
-  pleaseTryAgainOrClick: (...v) =>
-    `कृपया पुनः प्रयास करें या ${v[0]} पर क्लिक करें`,
+  pleaseTryAgainOrClick: (...v) => `कृपया पुनः प्रयास करें या ${v[0]} पर क्लिक करें`,
   pleaseVerifyYourAccount: `कृपया अपने खाते को परखें`,
   pressHereTo: `यहाँ प्रेस करने से`,
   price: `मूल्य`,
@@ -455,8 +446,7 @@ export const text: text = {
   share: `शेयर`,
   shareYourRulesAndTheTypesOfRequestsYouDontAccept: `अपने नियम और वे अनुरोध साझा करें जिन्हें आप स्वीकार नहीं करते`,
   shareYourShopOnSocialMedia: `अपने दुकान को सोशल मीडिया पर साझा करें`,
-  shareYourFavoritePiecesOn: (...v) =>
-    `${v[0]} पर अपनी पसंदीदा कृतियां साझा करें`,
+  shareYourFavoritePiecesOn: (...v) => `${v[0]} पर अपनी पसंदीदा कृतियां साझा करें`,
   shareYourArtWithTheWorld: `अपनी कला को दुनिया के साथ साझा करें`,
   shareYourStory: `अपनी कहानी शेयर करें!`,
   sharingPersonalInformation: `व्यक्तिगत जानकारी साझा करना`,
@@ -498,8 +488,7 @@ export const text: text = {
   timeConstraints: `समय की बाधाएं`,
   titleYourExtraService: `अपनी अतिरिक्त सेवा का शीर्षक दें`,
   theMaximumQuantityThatACustomerCanAdd: `ग्राहक द्वारा जोड़ी जा सकने वाली अधिकतम मात्रा`,
-  theReviewPeriodIsLimitedtoNdays: (...v) =>
-    `समीक्षा अवधि ${v[0]} दिनों तक सीमित है`,
+  theReviewPeriodIsLimitedtoNdays: (...v) => `समीक्षा अवधि ${v[0]} दिनों तक सीमित है`,
   toHelpTheCreatorCompleteYourOrder: `निर्माता को आपका आदेश संतोषजनक रूप से पूरा करने में मदद करने के लिए, कृपया अपनी इच्छाओं का विस्तृत विवरण प्रदान करें। वांछित विषय, शैली, और चरित्र विशेषताओं के साथ-साथ अन्य महत्वपूर्ण विनिर्देश शामिल करें`,
   today: `आज`,
   toGetWorkRelatedNotifications: `काम से संबंधित अधिसूचनाएं प्राप्त करने के लिए`,
@@ -521,13 +510,10 @@ export const text: text = {
   pleaseUploadOnlyFinishedWorkHere: `कृपया यहां केवल पूर्ण कार्य अपलोड करें`,
   allWIPRelatedFilesShouldBeUploadedInMessages: `सभी प्रगति से संबंधित फाइलें संदेशों में अपलोड की जानी चाहिए`,
   usernameAlreadyExists: ` उपयोगकर्ता नाम पहले से ही मौजूद है`,
-  usernameAndXMoreFollowYou: (...v) =>
-    `<b>${v[0]}</b> और ${v[1]} अन्य आपका अनुसरण करते हैं`,
-  usernameAndXMoreReacted: (...v) =>
-    `<b>${v[0]}</b> और ${v[1]} अन्य ने प्रतिक्रिया दी`,
+  usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> और ${v[1]} अन्य आपका अनुसरण करते हैं`,
+  usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b> और ${v[1]} अन्य ने प्रतिक्रिया दी`,
   useThisEmailTo: `इस ईमेल का उपयोग करें: प्रमाणित करने के लिए, सूचनाएं प्राप्त करने के लिए`,
-  unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
-    `दुर्भाग्यवश, ${v[0]} को यह आदेश रद्द करना पड़ा`,
+  unfortunatelyTheSellerHadToCancelThisOrder: (...v) => `दुर्भाग्यवश, ${v[0]} को यह आदेश रद्द करना पड़ा`,
   valueIsNotTheSame: `दर्ज चीज़े सामान्य नहीं है `,
   verificationCode: `वेरीफिकेशन कोड`,
   verifyCode: `कोड वेरिफाए करें`,
@@ -554,8 +540,7 @@ export const text: text = {
   wrongEmailOrPassword: `गलत ईमेल या पासवर्ड`,
   yes: `हाँ`,
   yesterday: `कल`,
-  youReceivedANewOrderFrom: (...v) =>
-    `आपको <b>${v[0]}</b> से एक नया आदेश प्राप्त हुआ है`,
+  youReceivedANewOrderFrom: (...v) => `आपको <b>${v[0]}</b> से एक नया आदेश प्राप्त हुआ है`,
   youReceivedAReview: `आपको एक समीक्षा प्राप्त हुई है`,
   youHaveSuccessfullyCreatedYourShop: `आपने सफलतापूर्वक अपनी दुकान बनाई है`,
   youAreAlreadyAuthenticated: `आप पहले से ही प्रमाणीकृत हैं`,
@@ -583,4 +568,4 @@ export const text: text = {
   yourFansAreWaiting: `अपके प्रशंसक इंतजार कर रहे हैं`,
   yourFeedIsEmpty: `आपका फ़ीड खाली है`,
   yourSessionHasExpiredPleaseSignInAgain: `आपका सेशन समाप्त हो गया है, कृपया फिर से साइन इन करें`,
-};
+}

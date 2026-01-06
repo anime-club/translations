@@ -76,8 +76,7 @@ export const text: text = {
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   optionallyYouCanAddADescriptionToShareMoreAboutYourCreation: `(en) Optionally, you can add a description to share more about your creation`,
   pleaseProvideATitleForYourArtwork: `(en) Please provide a title for your artwork`,
-  usernameStartedFollowingYou: (...v) =>
-    `(en) <b>${v[0]}</b> started following you`,
+  usernameStartedFollowingYou: (...v) => `(en) <b>${v[0]}</b> started following you`,
   usernameLeftAReaction: (...v) => `(en) <b>${v[0]}</b> left a reaction`,
   vote: `(en) Vote`,
   tapAddToCreateOne: `(en) Tap “Add” to create one`,
@@ -273,8 +272,7 @@ export const text: text = {
   howToContactYou: `如何联系您`,
   howToFindYouOnOtherSocialNetworks: `如何在其他社交网络上找到您`,
   iAgreeWith: `我同意`,
-  ifTheresNoResponseByTimeLimit: (...v) =>
-    `如果在 ${v[0]} 之前没有回应，订单将自动标记为已完成`,
+  ifTheresNoResponseByTimeLimit: (...v) => `如果在 ${v[0]} 之前没有回应，订单将自动标记为已完成`,
   id: `账号`,
   imgHeightNeedsToBeBiggerThanOrEqualTo: `图片高度必须大于或等于`,
   imgWidthNeedsToBeBiggerThanOrEqualTo: `图片宽度必须大于或等于`,
@@ -494,8 +492,7 @@ export const text: text = {
   today: `今天`,
   toGetWorkRelatedNotifications: `获取与工作相关的通知`,
   total: `总计`,
-  toViewThisDataYouNeedToUnblock: (...v) =>
-    `查看此数据，您需要解除对 @${v[0]} 的屏蔽`,
+  toViewThisDataYouNeedToUnblock: (...v) => `查看此数据，您需要解除对 @${v[0]} 的屏蔽`,
   trademarkViolation: `商标侵权`,
   typeYourTextHere: `在此输入文字...`,
   theSellerHasUploadedTheseFilesForYou: `卖家已为您上传这些文件`,
@@ -514,8 +511,7 @@ export const text: text = {
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b>和${v[1]}个人关注了你`,
   usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b>和${v[1]}人有反应`,
   useThisEmailTo: `使用此电子邮件进行身份验证、接收通知`,
-  unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
-    `很遗憾，${v[0]}不得不取消此订单`,
+  unfortunatelyTheSellerHadToCancelThisOrder: (...v) => `很遗憾，${v[0]}不得不取消此订单`,
   valueIsNotTheSame: `两次输入不一致`,
   verificationCode: `验证码`,
   verifyCode: `验证码`,
@@ -570,4 +566,4 @@ export const text: text = {
   yourFansAreWaiting: `您的粉丝正在等待`,
   yourFeedIsEmpty: `您的专线为空`,
   yourSessionHasExpiredPleaseSignInAgain: `您的会话已过期，请重新登录`,
-};
+}

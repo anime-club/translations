@@ -76,8 +76,7 @@ export const text: text = {
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   optionallyYouCanAddADescriptionToShareMoreAboutYourCreation: `(en) Optionally, you can add a description to share more about your creation`,
   pleaseProvideATitleForYourArtwork: `(en) Please provide a title for your artwork`,
-  usernameStartedFollowingYou: (...v) =>
-    `(en) <b>${v[0]}</b> started following you`,
+  usernameStartedFollowingYou: (...v) => `(en) <b>${v[0]}</b> started following you`,
   usernameLeftAReaction: (...v) => `(en) <b>${v[0]}</b> left a reaction`,
   vote: `(en) Vote`,
   tapAddToCreateOne: `(en) Tap “Add” to create one`,
@@ -120,8 +119,7 @@ export const text: text = {
   allFilesYouUploadHereWillBeAvailableToTheBuyer: `Alle hier hochgeladenen Dateien sind für den Käufer verfügbar`,
   alreadySignedIn: `Bereits angemeldet`,
   amount: `Menge`,
-  amountShouldNotBeLessThan: (...v) =>
-    `Menge sollte nicht weniger als ${v[0]} sein`,
+  amountShouldNotBeLessThan: (...v) => `Menge sollte nicht weniger als ${v[0]} sein`,
   animeArtByArtistsFromAllOverTheWorld: `Kunst des Anime von Künstlern aus aller Welt. Kunst ist kuratiert, um mit Anime in Verbindung zu stehen. Die Kunstauswahl ist eine unendliche Liste der besten Anime-Kunst`,
   animeArtSubscribeToArtistsLikeAndCreate: `Kunst des Anime - Abonnieren Sie Künstler wie und erstellen Sie eine Sammlung`,
   animeClubTheFirstPlatformToOfferArtistsPaymentsFromViews: `Anime.club - die erste Plattform, die Künstlern Zahlungen aus Ansichten über Google AdSense anbietet. Unterstützen Sie Künstler, indem Sie ihre Inhalte anzeigen oder mit Ansichten verdienen`,
@@ -263,14 +261,10 @@ export const text: text = {
   greatNewsYourOrderIsNowInProgress: `Gute Nachrichten! Ihre Bestellung wird jetzt bearbeitet`,
   harassment: `Belästigung`,
   haveAnyQuestions: `Haben Sie Fragen?`,
-  usernameHasCanceledTheOrder: (...v) =>
-    `<b>${v[0]}</b> hat die Bestellung storniert`,
-  usernameHasSubmittedTheWork: (...v) =>
-    `<b>${v[0]}</b> hat die Arbeit eingereicht`,
-  hasNotAddedADescriptionFor: (...v) =>
-    `@${v[0]} hat keine Beschreibung für "${v[1]}" hinzugefügt`,
-  hasNotSharedAnyPublicDetailsYet: (...v) =>
-    `@${v[0]} hat noch keine öffentlichen Details geteilt`,
+  usernameHasCanceledTheOrder: (...v) => `<b>${v[0]}</b> hat die Bestellung storniert`,
+  usernameHasSubmittedTheWork: (...v) => `<b>${v[0]}</b> hat die Arbeit eingereicht`,
+  hasNotAddedADescriptionFor: (...v) => `@${v[0]} hat keine Beschreibung für "${v[1]}" hinzugefügt`,
+  hasNotSharedAnyPublicDetailsYet: (...v) => `@${v[0]} hat noch keine öffentlichen Details geteilt`,
   hate: `Hass`,
   hereAreAFewWaysToGetThingsRolling: `Hier sind einige Möglichkeiten, um loszulegen`,
   hire: `Einstellen`,
@@ -336,8 +330,7 @@ export const text: text = {
   need1Lowercase: `Benötigen Sie 1 Kleinbuchstaben`,
   need1Number: `Benötigen Sie 1 Nummer`,
   need1Uppercase: `Benötigen Sie 1 Großbuchstaben`,
-  needAtLeast1CharacterFromN: (...v) =>
-    `Benötige mindestens 1 Zeichen aus [${v[0]}]`,
+  needAtLeast1CharacterFromN: (...v) => `Benötige mindestens 1 Zeichen aus [${v[0]}]`,
   needNCharacter: (...v) => `Muss ${v[0]} Zeichen haben`,
   newAccount: `Neues Konto`,
   newArt: `Neue Kunst`,
@@ -397,8 +390,7 @@ export const text: text = {
   pleaseDoNotShareYourPrivateInformationToOthers: `Bitte teilen Sie Ihre privaten Informationen nicht mit anderen`,
   pleaseEnterANumberBetweenXandX: (...v) =>
     `Bitte geben Sie eine Zahl zwischen ${v[0]} und ${v[1]} ein`,
-  pleaseEnterAtLeastNChars: (...v) =>
-    `Bitte geben Sie mindestens ${v[0]} Zeichen ein`,
+  pleaseEnterAtLeastNChars: (...v) => `Bitte geben Sie mindestens ${v[0]} Zeichen ein`,
   pleaseFillOutYourDetails: `Bitte füllen Sie Ihre Daten`,
   pleaseFixTheErrorsBeforeSubmitting: `Bitte beheben Sie die Fehler vor dem Absenden`,
   pleaseSignInToYourAccount: `Bitte melden Sie sich an Ihrem Konto`,
@@ -407,10 +399,8 @@ export const text: text = {
   pleaseTakeAMomentToReviewTheOrder: `Bitte nehmen Sie sich einen Moment Zeit, um die Bestellung zu überprüfen`,
   pleaseReviewTheBuyersReferenceFiles: `Bitte überprüfen Sie die Referenzdateien des Käufers und befolgen Sie die Angaben in der Bestellbeschreibung`,
   pleaseReviewTheDetailsCarefullyBeforeProceeding: `Bitte überprüfen Sie die Details sorgfältig, bevor Sie fortfahren`,
-  pleaseRespondToTheOrderBy: (...v) =>
-    `Bitte antworten Sie auf die Bestellung bis zum ${v[0]}`,
-  pleaseTryAgainOrClick: (...v) =>
-    `Bitte versuche es später noch einmal oder klicke auf ${v[0]}`,
+  pleaseRespondToTheOrderBy: (...v) => `Bitte antworten Sie auf die Bestellung bis zum ${v[0]}`,
+  pleaseTryAgainOrClick: (...v) => `Bitte versuche es später noch einmal oder klicke auf ${v[0]}`,
   pleaseVerifyYourAccount: `Bitte verifizieren sie ihr Konto`,
   pressHereTo: `Drücken Sie hier um`,
   price: `Preis`,
@@ -457,8 +447,7 @@ export const text: text = {
   share: `Teilen`,
   shareYourRulesAndTheTypesOfRequestsYouDontAccept: `Teilen Sie Ihre Regeln und die Arten von Anfragen, die Sie nicht akzeptieren`,
   shareYourShopOnSocialMedia: `Teilen Sie Ihren Shop in sozialen Medien`,
-  shareYourFavoritePiecesOn: (...v) =>
-    `Teilen Sie Ihre Lieblingsstücke auf ${v[0]}`,
+  shareYourFavoritePiecesOn: (...v) => `Teilen Sie Ihre Lieblingsstücke auf ${v[0]}`,
   shareYourArtWithTheWorld: `Teilen Sie Ihre Kunst mit der Welt`,
   shareYourStory: `Teile deine Geschichte!`,
   sharingPersonalInformation: `Teilen persönlicher Informationen`,
@@ -500,8 +489,7 @@ export const text: text = {
   timeConstraints: `Zeitbeschränkungen`,
   titleYourExtraService: `Benennen Sie Ihren zusätzlichen Service`,
   theMaximumQuantityThatACustomerCanAdd: `Die maximale Menge, die ein Kunde hinzufügen kann`,
-  theReviewPeriodIsLimitedtoNdays: (...v) =>
-    `Die Überprüfungsfrist ist auf ${v[0]} Tage begrenzt`,
+  theReviewPeriodIsLimitedtoNdays: (...v) => `Die Überprüfungsfrist ist auf ${v[0]} Tage begrenzt`,
   toHelpTheCreatorCompleteYourOrder: `Um dem Ersteller zu helfen, Ihre Bestellung zu Ihrer Zufriedenheit abzuschließen, geben Sie bitte eine detaillierte Beschreibung dessen, was Sie möchten. Geben Sie das gewünschte Thema, den Stil und die Charaktereigenschaften sowie alle anderen wichtigen Spezifikationen an`,
   today: `Heute`,
   toGetWorkRelatedNotifications: `Um arbeitsbezogene Benachrichtigungen zu erhalten`,
@@ -523,10 +511,8 @@ export const text: text = {
   pleaseUploadOnlyFinishedWorkHere: `Bitte laden Sie hier nur fertige Arbeiten hoch`,
   allWIPRelatedFilesShouldBeUploadedInMessages: `Alle WIP-bezogenen Dateien sollten in Nachrichten hochgeladen werden`,
   usernameAlreadyExists: `Benutzername existiert bereits`,
-  usernameAndXMoreFollowYou: (...v) =>
-    `<b>${v[0]}</b> und ${v[1]} weitere folgen dir`,
-  usernameAndXMoreReacted: (...v) =>
-    `<b>${v[0]}</b> und ${v[1]} weitere haben reagiert`,
+  usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> und ${v[1]} weitere folgen dir`,
+  usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b> und ${v[1]} weitere haben reagiert`,
   useThisEmailTo: `Verwenden Sie diese E-Mail-Adresse, um sich zu authentifizieren und Benachrichtigungen zu erhalten`,
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `Leider musste ${v[0]} diese Bestellung stornieren`,
@@ -556,8 +542,7 @@ export const text: text = {
   wrongEmailOrPassword: `Falsche E-Mail oder falsches Passwort`,
   yes: `Ja`,
   yesterday: `Gestern`,
-  youReceivedANewOrderFrom: (...v) =>
-    `Sie haben eine neue Bestellung von <b>${v[0]}</b> erhalten`,
+  youReceivedANewOrderFrom: (...v) => `Sie haben eine neue Bestellung von <b>${v[0]}</b> erhalten`,
   youReceivedAReview: `Sie haben eine Bewertung erhalten`,
   youHaveSuccessfullyCreatedYourShop: `Sie haben Ihren Shop erfolgreich erstellt`,
   youAreAlreadyAuthenticated: `Sie sind bereits authentifiziert`,
@@ -585,4 +570,4 @@ export const text: text = {
   yourFansAreWaiting: `Ihre Fans warten`,
   yourFeedIsEmpty: `Dein Feed ist leer`,
   yourSessionHasExpiredPleaseSignInAgain: `Ihre Sitzung ist abgelaufen. Bitte melden Sie sich erneut an`,
-};
+}

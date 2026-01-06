@@ -76,8 +76,7 @@ export const text: text = {
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   optionallyYouCanAddADescriptionToShareMoreAboutYourCreation: `(en) Optionally, you can add a description to share more about your creation`,
   pleaseProvideATitleForYourArtwork: `(en) Please provide a title for your artwork`,
-  usernameStartedFollowingYou: (...v) =>
-    `(en) <b>${v[0]}</b> started following you`,
+  usernameStartedFollowingYou: (...v) => `(en) <b>${v[0]}</b> started following you`,
   usernameLeftAReaction: (...v) => `(en) <b>${v[0]}</b> left a reaction`,
   vote: `(en) Vote`,
   tapAddToCreateOne: `(en) Tap “Add” to create one`,
@@ -265,8 +264,7 @@ export const text: text = {
   usernameHasCanceledTheOrder: (...v) => `<b>${v[0]}</b> قد ألغى الطلب`,
   usernameHasSubmittedTheWork: (...v) => `<b>${v[0]}</b> قام بتسليم العمل`,
   hasNotAddedADescriptionFor: (...v) => `@${v[0]} لم يضف وصفًا لـ "${v[1]}"`,
-  hasNotSharedAnyPublicDetailsYet: (...v) =>
-    `@${v[0]} لم يشارك أي تفاصيل عامة حتى الآن`,
+  hasNotSharedAnyPublicDetailsYet: (...v) => `@${v[0]} لم يشارك أي تفاصيل عامة حتى الآن`,
   hate: `الكراهية`,
   hereAreAFewWaysToGetThingsRolling: `إليك بعض الطرق للبدء`,
   hire: `توظيف`,
@@ -332,8 +330,7 @@ export const text: text = {
   need1Lowercase: `يلزم 1 حرف صغير`,
   need1Number: `يلزم 1 رقم`,
   need1Uppercase: `يلزم 1 حرف كبير`,
-  needAtLeast1CharacterFromN: (...v) =>
-    `يلزم على الأقل 1 حرف كبير من [${v[0]}]`,
+  needAtLeast1CharacterFromN: (...v) => `يلزم على الأقل 1 حرف كبير من [${v[0]}]`,
   needNCharacter: (...v) => `يلزم ${v[0]} حرف`,
   newAccount: `حساب جديد`,
   newArt: `عمل فني جديد`,
@@ -391,8 +388,7 @@ export const text: text = {
   pleaseRateYourOrder: `يرجى تقييم طلبك`,
   feelFreeToShareReferenceImagesAndMaterials: `لا تتردد في مشاركة الصور المرجعية والمواد لمساعدة الفنان في إنشاء عملك`,
   pleaseDoNotShareYourPrivateInformationToOthers: `يرجى عدم مشاركة معلوماتك الخاصة مع الآخرين`,
-  pleaseEnterANumberBetweenXandX: (...v) =>
-    `يرجى إدخال رقم بين ${v[0]} و ${v[1]}`,
+  pleaseEnterANumberBetweenXandX: (...v) => `يرجى إدخال رقم بين ${v[0]} و ${v[1]}`,
   pleaseEnterAtLeastNChars: (...v) => `الرجاء إدخال ${v[0]} أحرف على الأقل`,
   pleaseFillOutYourDetails: `الرجاء تعبئة بياناتك`,
   pleaseFixTheErrorsBeforeSubmitting: `يرجى تصحيح الأخطاء قبل الإرسال`,
@@ -403,8 +399,7 @@ export const text: text = {
   pleaseReviewTheBuyersReferenceFiles: `يرجى مراجعة ملفات المراجع الخاصة بالمشتري واتباعها كما هو موضح في وصف الطلب`,
   pleaseReviewTheDetailsCarefullyBeforeProceeding: `يرجى مراجعة التفاصيل بعناية قبل المتابعة`,
   pleaseRespondToTheOrderBy: (...v) => `يرجى الرد على الطلب قبل ${v[0]}`,
-  pleaseTryAgainOrClick: (...v) =>
-    `يرجى المحاولة مرة أخرى أو النقر فوق ${v[0]}`,
+  pleaseTryAgainOrClick: (...v) => `يرجى المحاولة مرة أخرى أو النقر فوق ${v[0]}`,
   pleaseVerifyYourAccount: `الرجاء تأكيد حسابك`,
   pressHereTo: `أضغط هنا من أجل`,
   price: `السعر`,
@@ -493,14 +488,12 @@ export const text: text = {
   timeConstraints: `قيود الوقت`,
   titleYourExtraService: `عنوان خدمتك الإضافية`,
   theMaximumQuantityThatACustomerCanAdd: `الحد الأقصى للكمية التي يمكن للعميل إضافتها`,
-  theReviewPeriodIsLimitedtoNdays: (...v) =>
-    `فترة المراجعة محدودة بـ ${v[0]} أيام`,
+  theReviewPeriodIsLimitedtoNdays: (...v) => `فترة المراجعة محدودة بـ ${v[0]} أيام`,
   toHelpTheCreatorCompleteYourOrder: `لمساعدة المنشئ في إكمال طلبك بما يرضيك، يرجى تقديم وصف تفصيلي لما تريده. قم بتضمين الموضوع المطلوب، النمط، وميزات الشخصية، وأي مواصفات مهمة أخرى`,
   today: `اليوم`,
   toGetWorkRelatedNotifications: `للحصول على إشعارات تتعلق بالعمل`,
   total: `الإجمالي`,
-  toViewThisDataYouNeedToUnblock: (...v) =>
-    `لعرض هذه البيانات، تحتاج إلى إلغاء حظر @${v[0]}`,
+  toViewThisDataYouNeedToUnblock: (...v) => `لعرض هذه البيانات، تحتاج إلى إلغاء حظر @${v[0]}`,
   trademarkViolation: `انتهاك العلامة التجارية`,
   typeYourTextHere: `ادخل النص هنا...`,
   theSellerHasUploadedTheseFilesForYou: `قام البائع برفع هذه الملفات لك`,
@@ -519,8 +512,7 @@ export const text: text = {
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> و ${v[1]} يتابعونك`,
   usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b> و${v[1]} آخرين تفاعلوا`,
   useThisEmailTo: `استخدم هذا البريد الإلكتروني للمصادقة وتلقي الإشعارات`,
-  unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
-    `للأسف، اضطر ${v[0]} لإلغاء هذا الطلب`,
+  unfortunatelyTheSellerHadToCancelThisOrder: (...v) => `للأسف، اضطر ${v[0]} لإلغاء هذا الطلب`,
   valueIsNotTheSame: `القيمة ليست هي نفسها`,
   verificationCode: `رمز التأكيد`,
   verifyCode: `أكد الرمز`,
@@ -547,8 +539,7 @@ export const text: text = {
   wrongEmailOrPassword: `البريد الإلكتروني أو كلمة المرور غير صحيحين`,
   yes: `نعم`,
   yesterday: `أمس`,
-  youReceivedANewOrderFrom: (...v) =>
-    `لقد تلقيت طلبًا جديدًا من <b>${v[0]}</b>`,
+  youReceivedANewOrderFrom: (...v) => `لقد تلقيت طلبًا جديدًا من <b>${v[0]}</b>`,
   youReceivedAReview: `لقد استلمت مراجعة`,
   youHaveSuccessfullyCreatedYourShop: `لقد أنشأت متجرك بنجاح`,
   youAreAlreadyAuthenticated: `سبق وقمنا بالتحقق من حسابك`,
@@ -576,4 +567,4 @@ export const text: text = {
   yourFansAreWaiting: `معجبيك في انتظارك`,
   yourFeedIsEmpty: `شريطك الإخباري فارغ`,
   yourSessionHasExpiredPleaseSignInAgain: `انتهت جلستك, الرجاء تسجيل الدخول مجددًا`,
-};
+}

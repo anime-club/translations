@@ -76,8 +76,7 @@ export const text: text = {
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   optionallyYouCanAddADescriptionToShareMoreAboutYourCreation: `(en) Optionally, you can add a description to share more about your creation`,
   pleaseProvideATitleForYourArtwork: `(en) Please provide a title for your artwork`,
-  usernameStartedFollowingYou: (...v) =>
-    `(en) <b>${v[0]}</b> started following you`,
+  usernameStartedFollowingYou: (...v) => `(en) <b>${v[0]}</b> started following you`,
   usernameLeftAReaction: (...v) => `(en) <b>${v[0]}</b> left a reaction`,
   vote: `(en) Vote`,
   tapAddToCreateOne: `(en) Tap “Add” to create one`,
@@ -137,8 +136,7 @@ export const text: text = {
   artAssociatedWithAnime: `Karya terkait anime`,
   artBy: (...v) => `Seni oleh ${v[0]}`,
   artCannotBeChanged: `Karya tidak dapat diubah`,
-  artworksAvailableToView: (...v) =>
-    `${v[0]} karya seni tersedia untuk dilihat`,
+  artworksAvailableToView: (...v) => `${v[0]} karya seni tersedia untuk dilihat`,
   authenticationFailed: `Autentikasi gagal`,
   autoPublishingToInstagramIsOnlyAvailableToInstagramBusinessAccounts: `Penerbitan otomatis ke Instagram hanya tersedia untuk akun bisnis Instagram`,
   attentionYourOrderHasBeenDisputed: `Perhatian! Pesanan Anda telah dipersengketakan. Silakan periksa detailnya`,
@@ -263,14 +261,10 @@ export const text: text = {
   greatNewsYourOrderIsNowInProgress: `Berita baik! Pesanan Anda sedang diproses`,
   harassment: `Pelecehan`,
   haveAnyQuestions: `Ada pertanyaan?`,
-  usernameHasCanceledTheOrder: (...v) =>
-    `<b>${v[0]}</b> telah membatalkan pesanan`,
-  usernameHasSubmittedTheWork: (...v) =>
-    `<b>${v[0]}</b> telah mengirimkan karya`,
-  hasNotAddedADescriptionFor: (...v) =>
-    `@${v[0]} belum menambahkan deskripsi untuk "${v[1]}"`,
-  hasNotSharedAnyPublicDetailsYet: (...v) =>
-    `@${v[0]} belum membagikan detail publik apa pun`,
+  usernameHasCanceledTheOrder: (...v) => `<b>${v[0]}</b> telah membatalkan pesanan`,
+  usernameHasSubmittedTheWork: (...v) => `<b>${v[0]}</b> telah mengirimkan karya`,
+  hasNotAddedADescriptionFor: (...v) => `@${v[0]} belum menambahkan deskripsi untuk "${v[1]}"`,
+  hasNotSharedAnyPublicDetailsYet: (...v) => `@${v[0]} belum membagikan detail publik apa pun`,
   hate: `Kebencian`,
   hereAreAFewWaysToGetThingsRolling: `Berikut beberapa cara untuk memulai`,
   hire: `Merekrut`,
@@ -336,8 +330,7 @@ export const text: text = {
   need1Lowercase: `Perlu 1 huruf kecil`,
   need1Number: `Perlu 1 angka`,
   need1Uppercase: `Perlu 1 huruf besar`,
-  needAtLeast1CharacterFromN: (...v) =>
-    `Perlu paling tidak 1 karakter dari [${v[0]}]`,
+  needAtLeast1CharacterFromN: (...v) => `Perlu paling tidak 1 karakter dari [${v[0]}]`,
   needNCharacter: (...v) => `Perlu ${v[0]} karakter`,
   newAccount: `Akun baru`,
   newArt: `Karya baru`,
@@ -395,10 +388,8 @@ export const text: text = {
   pleaseRateYourOrder: `Silakan beri peringkat pesanan Anda`,
   feelFreeToShareReferenceImagesAndMaterials: `Silakan bagikan gambar referensi dan materi untuk membantu seniman membuat karya Anda`,
   pleaseDoNotShareYourPrivateInformationToOthers: `Mohon jangan membagikan informasi pribadi Anda kepada orang lain`,
-  pleaseEnterANumberBetweenXandX: (...v) =>
-    `Silakan masukkan angka antara ${v[0]} dan ${v[1]}`,
-  pleaseEnterAtLeastNChars: (...v) =>
-    `Harap masukkan paling tidak ${v[0]} karakter`,
+  pleaseEnterANumberBetweenXandX: (...v) => `Silakan masukkan angka antara ${v[0]} dan ${v[1]}`,
+  pleaseEnterAtLeastNChars: (...v) => `Harap masukkan paling tidak ${v[0]} karakter`,
   pleaseFillOutYourDetails: `Silakan isi data lengkap Anda`,
   pleaseFixTheErrorsBeforeSubmitting: `Harap perbaiki kesalahan sebelum mengirimkan`,
   pleaseSignInToYourAccount: `Silakan masuk ke akun Anda`,
@@ -408,8 +399,7 @@ export const text: text = {
   pleaseReviewTheBuyersReferenceFiles: `Harap tinjau file referensi pembeli dan ikuti sesuai deskripsi pesanan`,
   pleaseReviewTheDetailsCarefullyBeforeProceeding: `Harap tinjau detailnya dengan cermat sebelum melanjutkan`,
   pleaseRespondToTheOrderBy: (...v) => `Harap tanggapi pesanan sebelum ${v[0]}`,
-  pleaseTryAgainOrClick: (...v) =>
-    `Silakan coba sekali lagi atau klik (${v[0]})`,
+  pleaseTryAgainOrClick: (...v) => `Silakan coba sekali lagi atau klik (${v[0]})`,
   pleaseVerifyYourAccount: `Silakan verifikasi akun Anda`,
   pressHereTo: `Tekan di sini untuk`,
   price: `Harga`,
@@ -498,8 +488,7 @@ export const text: text = {
   timeConstraints: `Keterbatasan waktu`,
   titleYourExtraService: `Beri judul pada layanan tambahan Anda`,
   theMaximumQuantityThatACustomerCanAdd: `Jumlah maksimum yang dapat ditambahkan oleh pelanggan`,
-  theReviewPeriodIsLimitedtoNdays: (...v) =>
-    `Periode ulasan dibatasi hingga ${v[0]} hari`,
+  theReviewPeriodIsLimitedtoNdays: (...v) => `Periode ulasan dibatasi hingga ${v[0]} hari`,
   toHelpTheCreatorCompleteYourOrder: `Untuk membantu pembuat menyelesaikan pesanan Anda dengan memuaskan, silakan berikan deskripsi rinci tentang apa yang Anda inginkan. Sertakan tema yang diinginkan, gaya, dan fitur karakter, serta spesifikasi penting lainnya`,
   today: `Hari ini`,
   toGetWorkRelatedNotifications: `Untuk mendapatkan pemberitahuan terkait pekerjaan`,
@@ -521,10 +510,8 @@ export const text: text = {
   pleaseUploadOnlyFinishedWorkHere: `Harap hanya unggah karya yang sudah selesai di sini`,
   allWIPRelatedFilesShouldBeUploadedInMessages: `Semua file terkait WIP harus diunggah di pesan`,
   usernameAlreadyExists: `Nama pengguna sudah ada`,
-  usernameAndXMoreFollowYou: (...v) =>
-    `<b>${v[0]}</b> dan ${v[1]} lagi mengikuti Anda`,
-  usernameAndXMoreReacted: (...v) =>
-    `<b>${v[0]}</b> dan ${v[1]} lainnya bereaksi`,
+  usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> dan ${v[1]} lagi mengikuti Anda`,
+  usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b> dan ${v[1]} lainnya bereaksi`,
   useThisEmailTo: `Gunakan email ini untuk: mengautentikasi, menerima notifikasi`,
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `Sayangnya, ${v[0]} harus membatalkan pesanan ini`,
@@ -554,8 +541,7 @@ export const text: text = {
   wrongEmailOrPassword: `Surel atau kata sandi salah`,
   yes: `Ya`,
   yesterday: `Kemarin`,
-  youReceivedANewOrderFrom: (...v) =>
-    `Anda menerima pesanan baru dari <b>${v[0]}</b>`,
+  youReceivedANewOrderFrom: (...v) => `Anda menerima pesanan baru dari <b>${v[0]}</b>`,
   youReceivedAReview: `Anda menerima ulasan`,
   youHaveSuccessfullyCreatedYourShop: `Anda telah berhasil membuat toko Anda`,
   youAreAlreadyAuthenticated: `Anda sudah terauntentikasi`,
@@ -583,4 +569,4 @@ export const text: text = {
   yourFansAreWaiting: `Penggemar anda sudah menunggu`,
   yourFeedIsEmpty: `Umpan anda kosong`,
   yourSessionHasExpiredPleaseSignInAgain: `Sesi anda sudah berakhir, silakan Login lagi`,
-};
+}

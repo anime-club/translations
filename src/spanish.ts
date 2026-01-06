@@ -76,8 +76,7 @@ export const text: text = {
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   optionallyYouCanAddADescriptionToShareMoreAboutYourCreation: `(en) Optionally, you can add a description to share more about your creation`,
   pleaseProvideATitleForYourArtwork: `(en) Please provide a title for your artwork`,
-  usernameStartedFollowingYou: (...v) =>
-    `(en) <b>${v[0]}</b> started following you`,
+  usernameStartedFollowingYou: (...v) => `(en) <b>${v[0]}</b> started following you`,
   usernameLeftAReaction: (...v) => `(en) <b>${v[0]}</b> left a reaction`,
   vote: `(en) Vote`,
   tapAddToCreateOne: `(en) Tap “Add” to create one`,
@@ -120,8 +119,7 @@ export const text: text = {
   allFilesYouUploadHereWillBeAvailableToTheBuyer: `Todos los archivos que subas aquí estarán disponibles para el comprador`,
   alreadySignedIn: `Sesión iniciada`,
   amount: `Cantidad`,
-  amountShouldNotBeLessThan: (...v) =>
-    `La cantidad no debe ser menor a ${v[0]}`,
+  amountShouldNotBeLessThan: (...v) => `La cantidad no debe ser menor a ${v[0]}`,
   animeArtByArtistsFromAllOverTheWorld: `Arte de anime por artistas de todo el mundo. El arte está curado para estar relacionado con el anime. La selección de arte es una lista infinita del mejor arte de anime.`,
   animeArtSubscribeToArtistsLikeAndCreate: `Arte de anime - suscríbete a artistas, dale me gusta y crea colecciones`,
   animeClubTheFirstPlatformToOfferArtistsPaymentsFromViews: `Anime.club - la primera plataforma que ofrece pagos a los artistas a partir de las vistas a través de Google AdSense. Apoye a los artistas viendo su contenido o comience a ganar dinero con las vistas`,
@@ -138,8 +136,7 @@ export const text: text = {
   artAssociatedWithAnime: `Arte asociado con el anime`,
   artBy: (...v) => `Arte por ${v[0]}`,
   artCannotBeChanged: `El arte no se puede cambiar`,
-  artworksAvailableToView: (...v) =>
-    `${v[0]} obras de arte disponibles para ver`,
+  artworksAvailableToView: (...v) => `${v[0]} obras de arte disponibles para ver`,
   authenticationFailed: `Error de autenticación`,
   autoPublishingToInstagramIsOnlyAvailableToInstagramBusinessAccounts: `La publicación automática en Instagram solo está disponible para cuentas comerciales de Instagram`,
   attentionYourOrderHasBeenDisputed: `¡Atención! Su pedido ha sido disputado. Por favor, verifique los detalles`,
@@ -264,14 +261,10 @@ export const text: text = {
   greatNewsYourOrderIsNowInProgress: `¡Buenas noticias! Su pedido está en progreso`,
   harassment: `Acoso`,
   haveAnyQuestions: `¿Tiene alguna pregunta?`,
-  usernameHasCanceledTheOrder: (...v) =>
-    `<b>${v[0]}</b> ha cancelado el pedido`,
-  usernameHasSubmittedTheWork: (...v) =>
-    `<b>${v[0]}</b> ha entregado el trabajo`,
-  hasNotAddedADescriptionFor: (...v) =>
-    `@${v[0]} no ha agregado una descripción para "${v[1]}"`,
-  hasNotSharedAnyPublicDetailsYet: (...v) =>
-    `@${v[0]} aún no ha compartido detalles públicos`,
+  usernameHasCanceledTheOrder: (...v) => `<b>${v[0]}</b> ha cancelado el pedido`,
+  usernameHasSubmittedTheWork: (...v) => `<b>${v[0]}</b> ha entregado el trabajo`,
+  hasNotAddedADescriptionFor: (...v) => `@${v[0]} no ha agregado una descripción para "${v[1]}"`,
+  hasNotSharedAnyPublicDetailsYet: (...v) => `@${v[0]} aún no ha compartido detalles públicos`,
   hate: `Odio`,
   hereAreAFewWaysToGetThingsRolling: `Aquí tienes algunas formas de empezar`,
   hire: `Contratar`,
@@ -337,8 +330,7 @@ export const text: text = {
   need1Lowercase: `Necesita 1 minúscula`,
   need1Number: `Necesita 1 número`,
   need1Uppercase: `Necesita 1 mayúscula`,
-  needAtLeast1CharacterFromN: (...v) =>
-    `Necesita al menos 1 carácter de [${v[0]}]`,
+  needAtLeast1CharacterFromN: (...v) => `Necesita al menos 1 carácter de [${v[0]}]`,
   needNCharacter: (...v) => `Debe tener ${v[0]} carácter`,
   newAccount: `Nueva cuenta`,
   newArt: `Arte nuevo`,
@@ -396,10 +388,8 @@ export const text: text = {
   pleaseRateYourOrder: `Por favor, califica tu pedido`,
   feelFreeToShareReferenceImagesAndMaterials: `Siéntete libre de compartir imágenes y materiales de referencia para ayudar al artista a crear tu pieza`,
   pleaseDoNotShareYourPrivateInformationToOthers: `Por favor, no compartas tu información privada con otros`,
-  pleaseEnterANumberBetweenXandX: (...v) =>
-    `Por favor, ingresa un número entre ${v[0]} y ${v[1]}`,
-  pleaseEnterAtLeastNChars: (...v) =>
-    `Por favor ingrese al menos ${v[0]} caracteres`,
+  pleaseEnterANumberBetweenXandX: (...v) => `Por favor, ingresa un número entre ${v[0]} y ${v[1]}`,
+  pleaseEnterAtLeastNChars: (...v) => `Por favor ingrese al menos ${v[0]} caracteres`,
   pleaseFillOutYourDetails: `Por favor complete sus datos`,
   pleaseFixTheErrorsBeforeSubmitting: `Por favor, corrige los errores antes de enviar`,
   pleaseSignInToYourAccount: `Por favor ingrese a su cuenta`,
@@ -456,8 +446,7 @@ export const text: text = {
   share: `Compartir`,
   shareYourRulesAndTheTypesOfRequestsYouDontAccept: `Comparte tus reglas y los tipos de solicitudes que no aceptas`,
   shareYourShopOnSocialMedia: `Comparte tu tienda en redes sociales`,
-  shareYourFavoritePiecesOn: (...v) =>
-    `Comparte tus piezas favoritas en ${v[0]}`,
+  shareYourFavoritePiecesOn: (...v) => `Comparte tus piezas favoritas en ${v[0]}`,
   shareYourArtWithTheWorld: `Comparte tu arte con el mundo`,
   shareYourStory: `¡Comparte tu historia!`,
   sharingPersonalInformation: `Compartir información personal`,
@@ -499,8 +488,7 @@ export const text: text = {
   timeConstraints: `Restricciones de tiempo`,
   titleYourExtraService: `Titula tu servicio adicional`,
   theMaximumQuantityThatACustomerCanAdd: `La cantidad máxima que un cliente puede agregar`,
-  theReviewPeriodIsLimitedtoNdays: (...v) =>
-    `El período de revisión está limitado a ${v[0]} días`,
+  theReviewPeriodIsLimitedtoNdays: (...v) => `El período de revisión está limitado a ${v[0]} días`,
   toHelpTheCreatorCompleteYourOrder: `Para ayudar al creador a completar su pedido a su satisfacción, proporcione una descripción detallada de lo que desea. Incluya el tema deseado, el estilo y las características del personaje, así como cualquier otra especificación importante`,
   today: `Hoy`,
   toGetWorkRelatedNotifications: `Para recibir notificaciones relacionadas con el trabajo`,
@@ -523,8 +511,7 @@ export const text: text = {
   allWIPRelatedFilesShouldBeUploadedInMessages: `Todos los archivos relacionados con WIP deben subirse en mensajes`,
   usernameAlreadyExists: `Nombre de usuario ya existe`,
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> y ${v[1]} más te siguen`,
-  usernameAndXMoreReacted: (...v) =>
-    `<b>${v[0]}</b> y ${v[1]} más reaccionaron`,
+  usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b> y ${v[1]} más reaccionaron`,
   useThisEmailTo: `Usa este correo electrónico para: autenticarte, recibir notificaciones`,
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `Desafortunadamente, ${v[0]} tuvo que cancelar este pedido`,
@@ -554,8 +541,7 @@ export const text: text = {
   wrongEmailOrPassword: `Correo electrónico o contraseña incorrecto`,
   yes: `si`,
   yesterday: `Ayer`,
-  youReceivedANewOrderFrom: (...v) =>
-    `Ha recibido un nuevo pedido de <b>${v[0]}</b>`,
+  youReceivedANewOrderFrom: (...v) => `Ha recibido un nuevo pedido de <b>${v[0]}</b>`,
   youReceivedAReview: `Has recibido una reseña`,
   youHaveSuccessfullyCreatedYourShop: `Ha creado su tienda con éxito`,
   youAreAlreadyAuthenticated: `Ya estas autenticado`,
@@ -583,4 +569,4 @@ export const text: text = {
   yourFansAreWaiting: `Tus fans están esperando`,
   yourFeedIsEmpty: `Tu feed está vacío`,
   yourSessionHasExpiredPleaseSignInAgain: `Su sesión ha expirado, por favor inicie sesión de nuevo`,
-};
+}

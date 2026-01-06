@@ -73,8 +73,7 @@ export const text: text = {
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   optionallyYouCanAddADescriptionToShareMoreAboutYourCreation: `(en) Optionally, you can add a description to share more about your creation`,
   pleaseProvideATitleForYourArtwork: `(en) Please provide a title for your artwork`,
-  usernameStartedFollowingYou: (...v) =>
-    `(en) <b>${v[0]}</b> started following you`,
+  usernameStartedFollowingYou: (...v) => `(en) <b>${v[0]}</b> started following you`,
   usernameLeftAReaction: (...v) => `(en) <b>${v[0]}</b> left a reaction`,
   vote: `(en) Vote`,
   tapAddToCreateOne: `(en) Tap “Add” to create one`,
@@ -264,10 +263,8 @@ export const text: text = {
   haveAnyQuestions: `У Вас есть вопросы?`,
   usernameHasCanceledTheOrder: (...v) => `<b>${v[0]}</b> отменил заказ`,
   usernameHasSubmittedTheWork: (...v) => `<b>${v[0]}</b> отправил работу`,
-  hasNotAddedADescriptionFor: (...v) =>
-    `@${v[0]} не добавил описание для "${v[1]}"`,
-  hasNotSharedAnyPublicDetailsYet: (...v) =>
-    `@${v[0]} ещё не поделился публичными данными`,
+  hasNotAddedADescriptionFor: (...v) => `@${v[0]} не добавил описание для "${v[1]}"`,
+  hasNotSharedAnyPublicDetailsYet: (...v) => `@${v[0]} ещё не поделился публичными данными`,
   hate: `Ненависть`,
   hereAreAFewWaysToGetThingsRolling: `Вот несколько способов начать`,
   hire: `Нанять`,
@@ -333,8 +330,7 @@ export const text: text = {
   need1Lowercase: `Требуется 1 строчная буква`,
   need1Number: `Требуется 1 число`,
   need1Uppercase: `Требуется 1 прописная буква`,
-  needAtLeast1CharacterFromN: (...v) =>
-    `Требуется не менее 1 символа из [${v[0]}]`,
+  needAtLeast1CharacterFromN: (...v) => `Требуется не менее 1 символа из [${v[0]}]`,
   needNCharacter: (...v) => `Требуется ${v[0]} символ`,
   newAccount: `Новый аккаунт`,
   newArt: `Новый арт`,
@@ -392,8 +388,7 @@ export const text: text = {
   pleaseRateYourOrder: `Пожалуйста, оцените ваш заказ`,
   feelFreeToShareReferenceImagesAndMaterials: `Не стесняйтесь делиться референсными изображениями и материалами, чтобы помочь художнику создать вашу работу`,
   pleaseDoNotShareYourPrivateInformationToOthers: `Пожалуйста, не сообщайте свою личную информацию другим`,
-  pleaseEnterANumberBetweenXandX: (...v) =>
-    `Введите число от ${v[0]} до ${v[1]}`,
+  pleaseEnterANumberBetweenXandX: (...v) => `Введите число от ${v[0]} до ${v[1]}`,
   pleaseEnterAtLeastNChars: (...v) => `Введите символов, не менее ${v[0]} `,
   pleaseFillOutYourDetails: `Заполните свои данные`,
   pleaseFixTheErrorsBeforeSubmitting: `Пожалуйста, исправьте ошибки перед отправкой`,
@@ -403,8 +398,7 @@ export const text: text = {
   pleaseTakeAMomentToReviewTheOrder: `Пожалуйста, уделите минуту, чтобы просмотреть заказ`,
   pleaseReviewTheBuyersReferenceFiles: `Пожалуйста, ознакомьтесь с референсными файлами покупателя и следуйте им, как указано в описании заказа`,
   pleaseReviewTheDetailsCarefullyBeforeProceeding: `Пожалуйста, внимательно ознакомьтесь с деталями перед продолжением`,
-  pleaseRespondToTheOrderBy: (...v) =>
-    `Пожалуйста, ответьте на заказ до ${v[0]}`,
+  pleaseRespondToTheOrderBy: (...v) => `Пожалуйста, ответьте на заказ до ${v[0]}`,
   pleaseTryAgainOrClick: (...v) => `Повторите или нажмите ${v[0]}`,
   pleaseVerifyYourAccount: `Подтвердите свой аккаунт`,
   pressHereTo: `Нажмите здесь, чтобы`,
@@ -452,8 +446,7 @@ export const text: text = {
   share: `Поделиться`,
   shareYourRulesAndTheTypesOfRequestsYouDontAccept: `Поделитесь своими правилами и типами запросов, которые вы не принимаете`,
   shareYourShopOnSocialMedia: `Поделитесь своим магазином в социальных сетях`,
-  shareYourFavoritePiecesOn: (...v) =>
-    `Поделитесь своими любимыми работами на ${v[0]}`,
+  shareYourFavoritePiecesOn: (...v) => `Поделитесь своими любимыми работами на ${v[0]}`,
   shareYourArtWithTheWorld: `Поделитесь своими творениями с миром`,
   shareYourStory: `Поделитесь своей историей!`,
   sharingPersonalInformation: `Раскрытие личной информации`,
@@ -496,8 +489,7 @@ export const text: text = {
   timeConstraints: `Ограничения по времени`,
   titleYourExtraService: `Назовите вашу дополнительную услугу`,
   theMaximumQuantityThatACustomerCanAdd: `Максимальное количество, которое покупатель может добавить`,
-  theReviewPeriodIsLimitedtoNdays: (...v) =>
-    `Период проверки ограничен ${v[0]} днями`,
+  theReviewPeriodIsLimitedtoNdays: (...v) => `Период проверки ограничен ${v[0]} днями`,
   toHelpTheCreatorCompleteYourOrder: `Для того чтобы продавец мог выполнить ваш заказ в соответствии с вашими пожеланиями, пожалуйста, укажите подробно, что именно вы хотели бы получить: укажите тему, стиль, особенности персонажа и другие важные детали.`,
   today: `Сегодня`,
   toGetWorkRelatedNotifications: `Для получения уведомлений, связанных с работой`,
@@ -519,10 +511,8 @@ export const text: text = {
   pleaseUploadOnlyFinishedWorkHere: `Пожалуйста, загружайте здесь только завершенные работы`,
   allWIPRelatedFilesShouldBeUploadedInMessages: `Все файлы, связанные с процессом работы, должны быть загружены в сообщения`,
   usernameAlreadyExists: `Такой логин уже используется`,
-  usernameAndXMoreFollowYou: (...v) =>
-    `<b>${v[0]}</b> и ещё ${v[1]} подписаны на вас`,
-  usernameAndXMoreReacted: (...v) =>
-    `<b>${v[0]}</b> и ещё ${v[1]} отреагировали`,
+  usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> и ещё ${v[1]} подписаны на вас`,
+  usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b> и ещё ${v[1]} отреагировали`,
   useThisEmailTo: `Используйте этот email для: аутентификации, получения уведомлений`,
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `К сожалению, ${v[0]} пришлось отменить этот заказ`,
@@ -552,8 +542,7 @@ export const text: text = {
   wrongEmailOrPassword: `Неправильный email или пароль`,
   yes: `да`,
   yesterday: `Вчера`,
-  youReceivedANewOrderFrom: (...v) =>
-    `Вы получили новый заказ от <b>${v[0]}</b>`,
+  youReceivedANewOrderFrom: (...v) => `Вы получили новый заказ от <b>${v[0]}</b>`,
   youReceivedAReview: `Вы получили отзыв`,
   youHaveSuccessfullyCreatedYourShop: `Вы успешно создали свой магазин`,
   youAreAlreadyAuthenticated: `Вы уже авторизованы`,
@@ -571,8 +560,7 @@ export const text: text = {
   youHaveReachedTheMaximumNumberOfFiles: `Вы достигли максимального количества файлов`,
   kindlyHoldOnForTheBuyersReview: `Пожалуйста, подождите, пока покупатель оставит отзыв`,
   yourAccountIsVerifiedPleaseSignIn: `Ваш аккаунт подтвержден. Теперь вы можете войти`,
-  yourAccountWillBeRemoved: (...v) =>
-    `Ваша учетная запись будет удалена ${v[0]}`,
+  yourAccountWillBeRemoved: (...v) => `Ваша учетная запись будет удалена ${v[0]}`,
   youHaveNoPurchases: `У Вас пока нет покупок`,
   couldYouPleaseProvideTheReasonForTheCancellation: `Могли бы вы, пожалуйста, указать причину отмены`,
   yourArts: `Ваши арты`,
@@ -582,4 +570,4 @@ export const text: text = {
   yourFansAreWaiting: `Ваши поклонники ждут`,
   yourFeedIsEmpty: `Ваша лента пуста`,
   yourSessionHasExpiredPleaseSignInAgain: `Срок действия вашей сессии истёк, повторите вход`,
-};
+}

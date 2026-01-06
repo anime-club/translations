@@ -76,8 +76,7 @@ export const text: text = {
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   optionallyYouCanAddADescriptionToShareMoreAboutYourCreation: `(en) Optionally, you can add a description to share more about your creation`,
   pleaseProvideATitleForYourArtwork: `(en) Please provide a title for your artwork`,
-  usernameStartedFollowingYou: (...v) =>
-    `(en) <b>${v[0]}</b> started following you`,
+  usernameStartedFollowingYou: (...v) => `(en) <b>${v[0]}</b> started following you`,
   usernameLeftAReaction: (...v) => `(en) <b>${v[0]}</b> left a reaction`,
   vote: `(en) Vote`,
   tapAddToCreateOne: `(en) Tap “Add” to create one`,
@@ -120,8 +119,7 @@ export const text: text = {
   allFilesYouUploadHereWillBeAvailableToTheBuyer: `Tous les fichiers que vous téléchargez ici seront disponibles pour l'acheteur`,
   alreadySignedIn: `Déjà connecté`,
   amount: `Montant`,
-  amountShouldNotBeLessThan: (...v) =>
-    `Le montant ne doit pas être inférieur à ${v[0]}`,
+  amountShouldNotBeLessThan: (...v) => `Le montant ne doit pas être inférieur à ${v[0]}`,
   animeArtByArtistsFromAllOverTheWorld: `L'art de l'anime par des artistes du monde entier. L'art est organisé pour être lié à l'anime. La sélection d'art est une liste infinie des meilleurs dessins animés`,
   animeArtSubscribeToArtistsLikeAndCreate: `L'art de l'anime - abonnez-vous à des artistes, aimez et créez des collections`,
   animeClubTheFirstPlatformToOfferArtistsPaymentsFromViews: `Anime.club - la première plate-forme à proposer aux artistes des paiements à partir de vues via Google AdSense. Soutenez les artistes en affichant leur contenu ou commencez à gagner des vues`,
@@ -138,8 +136,7 @@ export const text: text = {
   artAssociatedWithAnime: `Art associé à l'anime`,
   artBy: (...v) => `Art par ${v[0]}`,
   artCannotBeChanged: `L'art ne peut pas être changé`,
-  artworksAvailableToView: (...v) =>
-    `${v[0]} œuvres d'art disponibles à la visualisation`,
+  artworksAvailableToView: (...v) => `${v[0]} œuvres d'art disponibles à la visualisation`,
   authenticationFailed: `Authentification échouée`,
   autoPublishingToInstagramIsOnlyAvailableToInstagramBusinessAccounts: `La publication automatique sur Instagram n'est disponible que pour les comptes professionnels Instagram`,
   attentionYourOrderHasBeenDisputed: `Attention ! Votre commande a été contestée. Veuillez vérifier les détails`,
@@ -266,10 +263,8 @@ export const text: text = {
   haveAnyQuestions: `Avez-vous des questions ?`,
   usernameHasCanceledTheOrder: (...v) => `<b>${v[0]}</b> a annulé la commande`,
   usernameHasSubmittedTheWork: (...v) => `<b>${v[0]}</b> a soumis le travail`,
-  hasNotAddedADescriptionFor: (...v) =>
-    `@${v[0]} n'a pas ajouté de description pour "${v[1]}"`,
-  hasNotSharedAnyPublicDetailsYet: (...v) =>
-    `@${v[0]} n'a pas encore partagé de détails publics`,
+  hasNotAddedADescriptionFor: (...v) => `@${v[0]} n'a pas ajouté de description pour "${v[1]}"`,
+  hasNotSharedAnyPublicDetailsYet: (...v) => `@${v[0]} n'a pas encore partagé de détails publics`,
   hate: `Haine`,
   hereAreAFewWaysToGetThingsRolling: `Voici quelques façons de démarrer`,
   hire: `Embaucher`,
@@ -335,8 +330,7 @@ export const text: text = {
   need1Lowercase: `Besoin de 1 minuscule`,
   need1Number: `Besoin de 1 numéro`,
   need1Uppercase: `Besoin de 1 majuscule`,
-  needAtLeast1CharacterFromN: (...v) =>
-    `Besoin d'au moins 1 caractère de [${v[0]}]`,
+  needAtLeast1CharacterFromN: (...v) => `Besoin d'au moins 1 caractère de [${v[0]}]`,
   needNCharacter: (...v) => `Besoin de caractère ${v[0]}`,
   newAccount: `Nouveau compte`,
   newArt: `Nouvel art`,
@@ -394,10 +388,8 @@ export const text: text = {
   pleaseRateYourOrder: `Veuillez évaluer votre commande`,
   feelFreeToShareReferenceImagesAndMaterials: `N'hésitez pas à partager des images de référence et des matériaux pour aider l'artiste à créer votre œuvre`,
   pleaseDoNotShareYourPrivateInformationToOthers: `Veuillez ne pas partager vos informations privées avec d'autres personnes`,
-  pleaseEnterANumberBetweenXandX: (...v) =>
-    `Veuillez entrer un nombre entre ${v[0]} et ${v[1]}`,
-  pleaseEnterAtLeastNChars: (...v) =>
-    `Veuillez saisir au moins ${v[0]} caractères`,
+  pleaseEnterANumberBetweenXandX: (...v) => `Veuillez entrer un nombre entre ${v[0]} et ${v[1]}`,
+  pleaseEnterAtLeastNChars: (...v) => `Veuillez saisir au moins ${v[0]} caractères`,
   pleaseFillOutYourDetails: `Veuillez remplir vos coordonnées`,
   pleaseFixTheErrorsBeforeSubmitting: `Veuillez corriger les erreurs avant de soumettre`,
   pleaseSignInToYourAccount: `Veuillez vous-connecter à votre compte`,
@@ -406,8 +398,7 @@ export const text: text = {
   pleaseTakeAMomentToReviewTheOrder: `Veuillez prendre un moment pour examiner la commande`,
   pleaseReviewTheBuyersReferenceFiles: `Veuillez examiner les fichiers de référence de l'acheteur et les suivre comme indiqué dans la description de la commande`,
   pleaseReviewTheDetailsCarefullyBeforeProceeding: `Veuillez examiner attentivement les détails avant de continuer`,
-  pleaseRespondToTheOrderBy: (...v) =>
-    `Veuillez répondre à la commande avant le ${v[0]}`,
+  pleaseRespondToTheOrderBy: (...v) => `Veuillez répondre à la commande avant le ${v[0]}`,
   pleaseTryAgainOrClick: (...v) => `Veuillez réesayer ou cliquer sur ${v[0]}`,
   pleaseVerifyYourAccount: `Veuillez vérifier votre compte`,
   pressHereTo: `Cliquez ici pour`,
@@ -455,8 +446,7 @@ export const text: text = {
   share: `Partager`,
   shareYourRulesAndTheTypesOfRequestsYouDontAccept: `Partagez vos règles et les types de demandes que vous n'acceptez pas`,
   shareYourShopOnSocialMedia: `Partagez votre boutique sur les réseaux sociaux`,
-  shareYourFavoritePiecesOn: (...v) =>
-    `Partagez vos œuvres préférées sur ${v[0]}`,
+  shareYourFavoritePiecesOn: (...v) => `Partagez vos œuvres préférées sur ${v[0]}`,
   shareYourArtWithTheWorld: `Partagez votre art avec le monde`,
   shareYourStory: `Partagez votre histoire !`,
   sharingPersonalInformation: `Partage d'informations personnelles`,
@@ -498,14 +488,12 @@ export const text: text = {
   timeConstraints: `Contraintes de temps`,
   titleYourExtraService: `Nommez votre service supplémentaire`,
   theMaximumQuantityThatACustomerCanAdd: `La quantité maximale qu'un client peut ajouter`,
-  theReviewPeriodIsLimitedtoNdays: (...v) =>
-    `La période de révision est limitée à ${v[0]} jours`,
+  theReviewPeriodIsLimitedtoNdays: (...v) => `La période de révision est limitée à ${v[0]} jours`,
   toHelpTheCreatorCompleteYourOrder: `Pour aider le créateur à compléter votre commande à votre satisfaction, veuillez fournir une description détaillée de ce que vous voulez. Incluez le thème souhaité, le style et les caractéristiques du personnage, ainsi que toute autre spécification importante`,
   today: `Aujourd'hui`,
   toGetWorkRelatedNotifications: `Pour recevoir des notifications liées au travail`,
   total: `Total`,
-  toViewThisDataYouNeedToUnblock: (...v) =>
-    `Pour voir ces données, vous devez débloquer @${v[0]}`,
+  toViewThisDataYouNeedToUnblock: (...v) => `Pour voir ces données, vous devez débloquer @${v[0]}`,
   trademarkViolation: `Violation de marque`,
   typeYourTextHere: `Écrivez votre texte ici ...`,
   theSellerHasUploadedTheseFilesForYou: `Le vendeur a téléchargé ces fichiers pour vous`,
@@ -521,10 +509,8 @@ export const text: text = {
   pleaseUploadOnlyFinishedWorkHere: `Veuillez ne télécharger ici que le travail terminé`,
   allWIPRelatedFilesShouldBeUploadedInMessages: `Tous les fichiers en cours doivent être téléchargés dans les messages`,
   usernameAlreadyExists: `Ce nom d'utilisateur existe déjà`,
-  usernameAndXMoreFollowYou: (...v) =>
-    `<b>${v[0]}</b> et ${v[1]} autres vous suivent`,
-  usernameAndXMoreReacted: (...v) =>
-    `<b>${v[0]}</b> et ${v[1]} autres ont réagi`,
+  usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> et ${v[1]} autres vous suivent`,
+  usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b> et ${v[1]} autres ont réagi`,
   useThisEmailTo: `Utilisez cet e-mail pour : vous authentifier, recevoir des notifications`,
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `Malheureusement, ${v[0]} a dû annuler cette commande`,
@@ -554,8 +540,7 @@ export const text: text = {
   wrongEmailOrPassword: `E-mail ou mot de passe erroné`,
   yes: `oui`,
   yesterday: `Hier`,
-  youReceivedANewOrderFrom: (...v) =>
-    `Vous avez reçu une nouvelle commande de <b>${v[0]}</b>`,
+  youReceivedANewOrderFrom: (...v) => `Vous avez reçu une nouvelle commande de <b>${v[0]}</b>`,
   youReceivedAReview: `Vous avez reçu un avis`,
   youHaveSuccessfullyCreatedYourShop: `Vous avez créé votre boutique avec succès`,
   youAreAlreadyAuthenticated: `Vous êtes déjà authentifié`,
@@ -583,4 +568,4 @@ export const text: text = {
   yourFansAreWaiting: `Vos fans attendent`,
   yourFeedIsEmpty: `votre flux est vide`,
   yourSessionHasExpiredPleaseSignInAgain: `Votre session a expiré, veuillez vous reconnecter`,
-};
+}

@@ -76,8 +76,7 @@ export const text: text = {
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   optionallyYouCanAddADescriptionToShareMoreAboutYourCreation: `(en) Optionally, you can add a description to share more about your creation`,
   pleaseProvideATitleForYourArtwork: `(en) Please provide a title for your artwork`,
-  usernameStartedFollowingYou: (...v) =>
-    `(en) <b>${v[0]}</b> started following you`,
+  usernameStartedFollowingYou: (...v) => `(en) <b>${v[0]}</b> started following you`,
   usernameLeftAReaction: (...v) => `(en) <b>${v[0]}</b> left a reaction`,
   vote: `(en) Vote`,
   tapAddToCreateOne: `(en) Tap “Add” to create one`,
@@ -262,14 +261,10 @@ export const text: text = {
   greatNewsYourOrderIsNowInProgress: `좋은 소식입니다! 주문이 진행 중입니다`,
   harassment: `학대`,
   haveAnyQuestions: `질문이 있습니까?`,
-  usernameHasCanceledTheOrder: (...v) =>
-    `<b>${v[0]}</b>님이 주문을 취소했습니다`,
-  usernameHasSubmittedTheWork: (...v) =>
-    `<b>${v[0]}</b>님이 작업을 제출했습니다`,
-  hasNotAddedADescriptionFor: (...v) =>
-    `@${v[0]}님이 "${v[1]}"에 대한 설명을 추가하지 않았습니다.`,
-  hasNotSharedAnyPublicDetailsYet: (...v) =>
-    `@${v[0]}님이 아직 공개 정보를 공유하지 않았습니다.`,
+  usernameHasCanceledTheOrder: (...v) => `<b>${v[0]}</b>님이 주문을 취소했습니다`,
+  usernameHasSubmittedTheWork: (...v) => `<b>${v[0]}</b>님이 작업을 제출했습니다`,
+  hasNotAddedADescriptionFor: (...v) => `@${v[0]}님이 "${v[1]}"에 대한 설명을 추가하지 않았습니다.`,
+  hasNotSharedAnyPublicDetailsYet: (...v) => `@${v[0]}님이 아직 공개 정보를 공유하지 않았습니다.`,
   hate: `증오`,
   hereAreAFewWaysToGetThingsRolling: `시작하는 몇 가지 방법이 있습니다`,
   hire: `고용`,
@@ -393,8 +388,7 @@ export const text: text = {
   pleaseRateYourOrder: `주문을 평가해 주세요`,
   feelFreeToShareReferenceImagesAndMaterials: `아티스트가 작품을 만들 수 있도록 참고 이미지와 자료를 자유롭게 공유하세요`,
   pleaseDoNotShareYourPrivateInformationToOthers: `타인에게 개인 정보를 공유하지 마세요.`,
-  pleaseEnterANumberBetweenXandX: (...v) =>
-    `${v[0]}와(과) ${v[1]} 사이의 숫자를 입력해주세요.`,
+  pleaseEnterANumberBetweenXandX: (...v) => `${v[0]}와(과) ${v[1]} 사이의 숫자를 입력해주세요.`,
   pleaseEnterAtLeastNChars: (...v) => `${v[0]}자 이상 입력하세요.`,
   pleaseFillOutYourDetails: `세부 정보를 입력하십시오`,
   pleaseFixTheErrorsBeforeSubmitting: `제출 전에 오류를 수정해 주세요`,
@@ -494,14 +488,12 @@ export const text: text = {
   timeConstraints: `시간 제약`,
   titleYourExtraService: `추가 서비스 제목`,
   theMaximumQuantityThatACustomerCanAdd: `고객이 추가할 수 있는 최대 수량`,
-  theReviewPeriodIsLimitedtoNdays: (...v) =>
-    `검토 기간은 ${v[0]}일로 제한됩니다`,
+  theReviewPeriodIsLimitedtoNdays: (...v) => `검토 기간은 ${v[0]}일로 제한됩니다`,
   toHelpTheCreatorCompleteYourOrder: `창작자가 주문을 만족스럽게 완료할 수 있도록 원하는 주제, 스타일, 캐릭터 특징 및 기타 중요한 사양을 포함한 자세한 설명을 제공하십시오`,
   today: `오늘`,
   toGetWorkRelatedNotifications: `작업 관련 알림을 받으려면`,
   total: `합계`,
-  toViewThisDataYouNeedToUnblock: (...v) =>
-    `이 데이터를 보려면 @${v[0]}의 차단을 해제해야 합니다.`,
+  toViewThisDataYouNeedToUnblock: (...v) => `이 데이터를 보려면 @${v[0]}의 차단을 해제해야 합니다.`,
   trademarkViolation: `상표권 침해`,
   typeYourTextHere: `여기에 텍스트를 입력하세요 ...`,
   theSellerHasUploadedTheseFilesForYou: `판매자가 이 파일들을 업로드했습니다`,
@@ -517,10 +509,8 @@ export const text: text = {
   pleaseUploadOnlyFinishedWorkHere: `여기에는 완성된 작업만 업로드해 주세요`,
   allWIPRelatedFilesShouldBeUploadedInMessages: `진행 중인 파일은 메시지로 업로드해 주세요`,
   usernameAlreadyExists: `사용자 이름이 이미 존재합니다`,
-  usernameAndXMoreFollowYou: (...v) =>
-    `<b>${v[0]}</b>님과 ${v[1]}명이 팔로우합니다.`,
-  usernameAndXMoreReacted: (...v) =>
-    `<b>${v[0]}</b>님과 ${v[1]}명이 반응했습니다`,
+  usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b>님과 ${v[1]}명이 팔로우합니다.`,
+  usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b>님과 ${v[1]}명이 반응했습니다`,
   useThisEmailTo: `이 이메일을 사용하여 인증하고 알림을 받습니다.`,
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `안타깝게도 ${v[0]}님이 이 주문을 취소해야 했습니다`,
@@ -550,8 +540,7 @@ export const text: text = {
   wrongEmailOrPassword: `잘못된 이메일 또는 암호`,
   yes: `예 `,
   yesterday: `어제`,
-  youReceivedANewOrderFrom: (...v) =>
-    `<b>${v[0]}</b>님으로부터 새 주문을 받았습니다`,
+  youReceivedANewOrderFrom: (...v) => `<b>${v[0]}</b>님으로부터 새 주문을 받았습니다`,
   youReceivedAReview: `리뷰를 받았습니다`,
   youHaveSuccessfullyCreatedYourShop: `상점을 성공적으로 생성했습니다`,
   youAreAlreadyAuthenticated: `이미 인증되었습니다`,
@@ -579,4 +568,4 @@ export const text: text = {
   yourFansAreWaiting: `팬들이 기다리고 있습니다`,
   yourFeedIsEmpty: `피드가 비었습니다`,
   yourSessionHasExpiredPleaseSignInAgain: `세션이 만료되었습니다. 다시 로그인하십시오.`,
-};
+}

@@ -76,8 +76,7 @@ export const text: text = {
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   optionallyYouCanAddADescriptionToShareMoreAboutYourCreation: `(en) Optionally, you can add a description to share more about your creation`,
   pleaseProvideATitleForYourArtwork: `(en) Please provide a title for your artwork`,
-  usernameStartedFollowingYou: (...v) =>
-    `(en) <b>${v[0]}</b> started following you`,
+  usernameStartedFollowingYou: (...v) => `(en) <b>${v[0]}</b> started following you`,
   usernameLeftAReaction: (...v) => `(en) <b>${v[0]}</b> left a reaction`,
   vote: `(en) Vote`,
   tapAddToCreateOne: `(en) Tap “Add” to create one`,
@@ -120,8 +119,7 @@ export const text: text = {
   allFilesYouUploadHereWillBeAvailableToTheBuyer: `ここでアップロードしたすべてのファイルは購入者が利用できます`,
   alreadySignedIn: `サインイン済み`,
   amount: `金額`,
-  amountShouldNotBeLessThan: (...v) =>
-    `金額は${v[0]}以下にすることはできません`,
+  amountShouldNotBeLessThan: (...v) => `金額は${v[0]}以下にすることはできません`,
   animeArtByArtistsFromAllOverTheWorld: `世界中のアニメ作家によるアニメ アート。アニメとの関連性確認済みのアートです。アート セレクションは、選りすぐりのアートがずらりと続くリストです`,
   animeArtSubscribeToArtistsLikeAndCreate: `アニメ アート - アニメ作家にサブスクして、コレクションを作成してください`,
   animeClubTheFirstPlatformToOfferArtistsPaymentsFromViews: `Anime.club - アニメ作家が、Google AdSenseを介して、視聴に対する収益を得ることのできる初のプラットフォームです。アニメ作家のコンテンツを視聴して応援するか、視聴で稼いでください`,
@@ -263,14 +261,10 @@ export const text: text = {
   greatNewsYourOrderIsNowInProgress: `素晴らしいニュース！ご注文が進行中です`,
   harassment: `嫌がらせ`,
   haveAnyQuestions: `質問がありますか？`,
-  usernameHasCanceledTheOrder: (...v) =>
-    `<b>${v[0]}</b> が注文をキャンセルしました`,
-  usernameHasSubmittedTheWork: (...v) =>
-    `<b>${v[0]}</b> さんが作品を提出しました`,
-  hasNotAddedADescriptionFor: (...v) =>
-    `@${v[0]}は"${v[1]}"の説明を追加していません`,
-  hasNotSharedAnyPublicDetailsYet: (...v) =>
-    `@${v[0]}はまだ公開情報を共有していません`,
+  usernameHasCanceledTheOrder: (...v) => `<b>${v[0]}</b> が注文をキャンセルしました`,
+  usernameHasSubmittedTheWork: (...v) => `<b>${v[0]}</b> さんが作品を提出しました`,
+  hasNotAddedADescriptionFor: (...v) => `@${v[0]}は"${v[1]}"の説明を追加していません`,
+  hasNotSharedAnyPublicDetailsYet: (...v) => `@${v[0]}はまだ公開情報を共有していません`,
   hate: `憎しみ`,
   hereAreAFewWaysToGetThingsRolling: `始めるためのいくつかの方法はこちら`,
   hire: `雇う`,
@@ -394,8 +388,7 @@ export const text: text = {
   pleaseRateYourOrder: `ご注文の評価をお願いします`,
   feelFreeToShareReferenceImagesAndMaterials: `アーティストが作品を作るのに役立つ参考画像や資料を自由に共有してください`,
   pleaseDoNotShareYourPrivateInformationToOthers: `他の人とあなたの個人情報を共有しないでください`,
-  pleaseEnterANumberBetweenXandX: (...v) =>
-    `${v[0]}と${v[1]}の間の数字を入力してください`,
+  pleaseEnterANumberBetweenXandX: (...v) => `${v[0]}と${v[1]}の間の数字を入力してください`,
   pleaseEnterAtLeastNChars: (...v) => `${v[0]}文字以上入力してください`,
   pleaseFillOutYourDetails: `詳細情報を入力してください`,
   pleaseFixTheErrorsBeforeSubmitting: `送信前にエラーを修正してください`,
@@ -406,8 +399,7 @@ export const text: text = {
   pleaseReviewTheBuyersReferenceFiles: `購入者の参考ファイルを確認し、注文説明に従ってください`,
   pleaseReviewTheDetailsCarefullyBeforeProceeding: `続行する前に詳細をよくご確認ください`,
   pleaseRespondToTheOrderBy: (...v) => `${v[0]}までにご注文にご対応ください`,
-  pleaseTryAgainOrClick: (...v) =>
-    `もう一度試すか、${v[0]}をクリックしてください`,
+  pleaseTryAgainOrClick: (...v) => `もう一度試すか、${v[0]}をクリックしてください`,
   pleaseVerifyYourAccount: `アカウントを確認してください`,
   pressHereTo: `以下のためにはここを押します`,
   price: `価格`,
@@ -496,8 +488,7 @@ export const text: text = {
   timeConstraints: `時間の制約`,
   titleYourExtraService: `追加サービスのタイトルを付ける`,
   theMaximumQuantityThatACustomerCanAdd: `顧客が追加できる最大数量`,
-  theReviewPeriodIsLimitedtoNdays: (...v) =>
-    `レビュー期間は ${v[0]} 日間に制限されています`,
+  theReviewPeriodIsLimitedtoNdays: (...v) => `レビュー期間は ${v[0]} 日間に制限されています`,
   toHelpTheCreatorCompleteYourOrder: `クリエイターがご注文を満足のいく形で完了するために、希望するテーマ、スタイル、キャラクターの特徴、およびその他の重要な仕様を含む詳細な説明を提供してください`,
   today: `今日`,
   toGetWorkRelatedNotifications: `仕事に関する通知を受け取るには`,
@@ -521,8 +512,7 @@ export const text: text = {
   usernameAlreadyExists: `このユーザー名はすでに存在しています`,
   usernameAndXMoreFollowYou: (...v) =>
     `<b>${v[0]}</b>さんと他${v[1]}人があなたをフォローしています`,
-  usernameAndXMoreReacted: (...v) =>
-    `<b>${v[0]}</b>さんと他${v[1]}人がリアクションしました`,
+  usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b>さんと他${v[1]}人がリアクションしました`,
   useThisEmailTo: `このメールアドレスを使用して認証し、通知を受け取る`,
   unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `残念ながら${v[0]}がこの注文をキャンセルしました`,
@@ -552,8 +542,7 @@ export const text: text = {
   wrongEmailOrPassword: `誤ったメールまたはパスワード`,
   yes: `はい`,
   yesterday: `昨日`,
-  youReceivedANewOrderFrom: (...v) =>
-    `<b>${v[0]}</b> から新しい注文を受け取りました`,
+  youReceivedANewOrderFrom: (...v) => `<b>${v[0]}</b> から新しい注文を受け取りました`,
   youReceivedAReview: `レビューを受け取りました`,
   youHaveSuccessfullyCreatedYourShop: `ショップを正常に作成しました`,
   youAreAlreadyAuthenticated: `すでに認証されています`,
@@ -581,4 +570,4 @@ export const text: text = {
   yourFansAreWaiting: `ファンが待っています`,
   yourFeedIsEmpty: `フィードが空です`,
   yourSessionHasExpiredPleaseSignInAgain: `セッション切れになりました。もう一度ログインしてください`,
-};
+}

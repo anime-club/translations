@@ -76,8 +76,7 @@ export const text: text = {
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `(en) The reason you provide for cancelling this order will be shared with the buyer`,
   optionallyYouCanAddADescriptionToShareMoreAboutYourCreation: `(en) Optionally, you can add a description to share more about your creation`,
   pleaseProvideATitleForYourArtwork: `(en) Please provide a title for your artwork`,
-  usernameStartedFollowingYou: (...v) =>
-    `(en) <b>${v[0]}</b> started following you`,
+  usernameStartedFollowingYou: (...v) => `(en) <b>${v[0]}</b> started following you`,
   usernameLeftAReaction: (...v) => `(en) <b>${v[0]}</b> left a reaction`,
   vote: `(en) Vote`,
   tapAddToCreateOne: `(en) Tap “Add” to create one`,
@@ -264,10 +263,8 @@ export const text: text = {
   haveAnyQuestions: `Có câu hỏi nào không?`,
   usernameHasCanceledTheOrder: (...v) => `<b>${v[0]}</b> đã hủy đơn hàng`,
   usernameHasSubmittedTheWork: (...v) => `<b>${v[0]}</b> đã gửi tác phẩm`,
-  hasNotAddedADescriptionFor: (...v) =>
-    `@${v[0]} chưa thêm mô tả cho "${v[1]}"`,
-  hasNotSharedAnyPublicDetailsYet: (...v) =>
-    `@${v[0]} chưa chia sẻ bất kỳ chi tiết công khai nào`,
+  hasNotAddedADescriptionFor: (...v) => `@${v[0]} chưa thêm mô tả cho "${v[1]}"`,
+  hasNotSharedAnyPublicDetailsYet: (...v) => `@${v[0]} chưa chia sẻ bất kỳ chi tiết công khai nào`,
   hate: `Kinh tởm`,
   hereAreAFewWaysToGetThingsRolling: `Dưới đây là một số cách để bắt đầu`,
   hire: `Thuê`,
@@ -391,8 +388,7 @@ export const text: text = {
   pleaseRateYourOrder: `Vui lòng đánh giá đơn hàng của bạn`,
   feelFreeToShareReferenceImagesAndMaterials: `Bạn có thể chia sẻ hình ảnh và tài liệu tham khảo để giúp nghệ sĩ hoàn thành tác phẩm`,
   pleaseDoNotShareYourPrivateInformationToOthers: `Vui lòng không chia sẻ thông tin cá nhân của bạn cho người khác`,
-  pleaseEnterANumberBetweenXandX: (...v) =>
-    `Vui lòng nhập một số giữa ${v[0]} và ${v[1]}`,
+  pleaseEnterANumberBetweenXandX: (...v) => `Vui lòng nhập một số giữa ${v[0]} và ${v[1]}`,
   pleaseEnterAtLeastNChars: (...v) => `Vui lòng nhập ít nhất ${v[0]} nhân vật`,
   pleaseFillOutYourDetails: `Vui lòng điền thông tin của bạn`,
   pleaseFixTheErrorsBeforeSubmitting: `Vui lòng sửa lỗi trước khi gửi`,
@@ -402,8 +398,7 @@ export const text: text = {
   pleaseTakeAMomentToReviewTheOrder: `Vui lòng dành thời gian xem lại đơn hàng`,
   pleaseReviewTheBuyersReferenceFiles: `Vui lòng xem lại các tệp tham khảo của người mua và làm theo hướng dẫn trong mô tả`,
   pleaseReviewTheDetailsCarefullyBeforeProceeding: `Vui lòng kiểm tra kỹ các chi tiết trước khi tiếp tục`,
-  pleaseRespondToTheOrderBy: (...v) =>
-    `Vui lòng phản hồi đơn hàng trước ${v[0]}`,
+  pleaseRespondToTheOrderBy: (...v) => `Vui lòng phản hồi đơn hàng trước ${v[0]}`,
   pleaseTryAgainOrClick: (...v) => `Vui lòng thử lại hoặc nhấn ${v[0]}`,
   pleaseVerifyYourAccount: `Vui lòng xác nhận tài khoản của bạn`,
   pressHereTo: `Nhấn vào đây để`,
@@ -451,8 +446,7 @@ export const text: text = {
   share: `Chia sẻ`,
   shareYourRulesAndTheTypesOfRequestsYouDontAccept: `Chia sẻ quy tắc và các loại yêu cầu bạn không nhận`,
   shareYourShopOnSocialMedia: `Chia sẻ cửa hàng của bạn lên mạng xã hội`,
-  shareYourFavoritePiecesOn: (...v) =>
-    `Chia sẻ tác phẩm yêu thích của bạn trên ${v[0]}`,
+  shareYourFavoritePiecesOn: (...v) => `Chia sẻ tác phẩm yêu thích của bạn trên ${v[0]}`,
   shareYourArtWithTheWorld: `Chia sẻ nghệ thuật của bạn với thế giới`,
   shareYourStory: `Chia sẻ câu chuyện của bạn!`,
   sharingPersonalInformation: `Chia sẻ thông tin cá nhân`,
@@ -494,14 +488,12 @@ export const text: text = {
   timeConstraints: `Hạn chế thời gian`,
   titleYourExtraService: `Đặt tên cho dịch vụ bổ sung của bạn`,
   theMaximumQuantityThatACustomerCanAdd: `Số lượng tối đa mà khách hàng có thể thêm`,
-  theReviewPeriodIsLimitedtoNdays: (...v) =>
-    `Thời gian đánh giá được giới hạn trong ${v[0]} ngày`,
+  theReviewPeriodIsLimitedtoNdays: (...v) => `Thời gian đánh giá được giới hạn trong ${v[0]} ngày`,
   toHelpTheCreatorCompleteYourOrder: `Để giúp người tạo hoàn thành đơn hàng của bạn một cách hài lòng, vui lòng cung cấp mô tả chi tiết về những gì bạn muốn. Bao gồm chủ đề mong muốn, phong cách và các đặc điểm của nhân vật, cũng như bất kỳ thông số kỹ thuật quan trọng nào khác`,
   today: `Hôm nay`,
   toGetWorkRelatedNotifications: `Để nhận thông báo liên quan đến công việc`,
   total: `Tổng`,
-  toViewThisDataYouNeedToUnblock: (...v) =>
-    `Để xem dữ liệu này, bạn cần bỏ chặn @${v[0]}`,
+  toViewThisDataYouNeedToUnblock: (...v) => `Để xem dữ liệu này, bạn cần bỏ chặn @${v[0]}`,
   trademarkViolation: `Vi phạm thương hiệu`,
   typeYourTextHere: `Nhập văn bản của bạn vào đây...`,
   theSellerHasUploadedTheseFilesForYou: `Người bán đã tải lên các tệp này cho bạn`,
@@ -517,13 +509,10 @@ export const text: text = {
   pleaseUploadOnlyFinishedWorkHere: `Chỉ tải lên tác phẩm đã hoàn thành tại đây`,
   allWIPRelatedFilesShouldBeUploadedInMessages: `Tất cả các tệp đang làm nên được gửi qua tin nhắn`,
   usernameAlreadyExists: `Tên người dùng đã tồn tại`,
-  usernameAndXMoreFollowYou: (...v) =>
-    `<b>${v[0]}</b> và ${v[1]} người khác đang theo dõi bạn`,
-  usernameAndXMoreReacted: (...v) =>
-    `<b>${v[0]}</b> và ${v[1]} người khác đã phản hồi`,
+  usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> và ${v[1]} người khác đang theo dõi bạn`,
+  usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b> và ${v[1]} người khác đã phản hồi`,
   useThisEmailTo: `Sử dụng email này để: xác thực, nhận thông báo`,
-  unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
-    `Rất tiếc, ${v[0]} phải hủy đơn hàng này`,
+  unfortunatelyTheSellerHadToCancelThisOrder: (...v) => `Rất tiếc, ${v[0]} phải hủy đơn hàng này`,
   valueIsNotTheSame: `Giá trị không trùng khớp`,
   verificationCode: `Mã xác minh`,
   verifyCode: `Xác minh mã`,
@@ -550,8 +539,7 @@ export const text: text = {
   wrongEmailOrPassword: `Sai email hoặc mật khẩu`,
   yes: `có`,
   yesterday: `Hôm qua`,
-  youReceivedANewOrderFrom: (...v) =>
-    `Bạn đã nhận được đơn hàng mới từ <b>${v[0]}</b>`,
+  youReceivedANewOrderFrom: (...v) => `Bạn đã nhận được đơn hàng mới từ <b>${v[0]}</b>`,
   youReceivedAReview: `Bạn đã nhận được đánh giá`,
   youHaveSuccessfullyCreatedYourShop: `Bạn đã tạo cửa hàng của mình thành công`,
   youAreAlreadyAuthenticated: `Bạn đã được xác thực`,
@@ -579,4 +567,4 @@ export const text: text = {
   yourFansAreWaiting: `Người hâm mộ đang chờ bạn`,
   yourFeedIsEmpty: `bảng tin trống`,
   yourSessionHasExpiredPleaseSignInAgain: `Phiên của bạn đã hết hạn, vui lòng đăng nhập lại`,
-};
+}
