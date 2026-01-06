@@ -12,6 +12,7 @@ export const text: text = {
   needsYourReview: `(en) Needs Your Review`,
   awaitingSellersResponse: `(en) Awaiting seller's response`,
   buyersRequest: `(en) Buyer's request`,
+  comments: `(en) Comments`,
   awaitingClientReview: `(en) Awaiting Client Review`,
   copy: `(en) Copy`,
   thankYouForYourPurchase: `(en) Thank you for your purchase!`,
@@ -569,4 +570,4 @@ export const text: text = {
   yourFansAreWaiting: `您的粉丝正在等待`,
   yourFeedIsEmpty: `您的专线为空`,
   yourSessionHasExpiredPleaseSignInAgain: `您的会话已过期，请重新登录`,
-}
+};

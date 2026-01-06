@@ -12,6 +12,7 @@ export const text: text = {
   needsYourReview: `(en) Needs Your Review`,
   awaitingSellersResponse: `(en) Awaiting seller's response`,
   buyersRequest: `(en) Buyer's request`,
+  comments: `(en) Comments`,
   awaitingClientReview: `(en) Awaiting Client Review`,
   copy: `(en) Copy`,
   thankYouForYourPurchase: `(en) Thank you for your purchase!`,
@@ -578,4 +579,4 @@ export const text: text = {
   yourFansAreWaiting: `Người hâm mộ đang chờ bạn`,
   yourFeedIsEmpty: `bảng tin trống`,
   yourSessionHasExpiredPleaseSignInAgain: `Phiên của bạn đã hết hạn, vui lòng đăng nhập lại`,
-}
+};

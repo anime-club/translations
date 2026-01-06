@@ -12,6 +12,7 @@ export const text: text = {
   needsYourReview: `(en) Needs Your Review`,
   awaitingSellersResponse: `(en) Awaiting seller's response`,
   buyersRequest: `(en) Buyer's request`,
+  comments: `(en) Comments`,
   awaitingClientReview: `(en) Awaiting Client Review`,
   copy: `(en) Copy`,
   thankYouForYourPurchase: `(en) Thank you for your purchase!`,
@@ -578,4 +579,4 @@ export const text: text = {
   yourFansAreWaiting: `팬들이 기다리고 있습니다`,
   yourFeedIsEmpty: `피드가 비었습니다`,
   yourSessionHasExpiredPleaseSignInAgain: `세션이 만료되었습니다. 다시 로그인하십시오.`,
-}
+};

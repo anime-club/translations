@@ -12,6 +12,7 @@ export const text: text = {
   needsYourReview: `(en) Needs Your Review`,
   awaitingSellersResponse: `(en) Awaiting seller's response`,
   buyersRequest: `(en) Buyer's request`,
+  comments: `(en) Comments`,
   awaitingClientReview: `(en) Awaiting Client Review`,
   copy: `(en) Copy`,
   thankYouForYourPurchase: `(en) Thank you for your purchase!`,
@@ -582,4 +583,4 @@ export const text: text = {
   yourFansAreWaiting: `अपके प्रशंसक इंतजार कर रहे हैं`,
   yourFeedIsEmpty: `आपका फ़ीड खाली है`,
   yourSessionHasExpiredPleaseSignInAgain: `आपका सेशन समाप्त हो गया है, कृपया फिर से साइन इन करें`,
-}
+};
