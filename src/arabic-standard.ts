@@ -512,7 +512,8 @@ export const text: text = {
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> و ${v[1]} يتابعونك`,
   usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b> و${v[1]} آخرين تفاعلوا`,
   useThisEmailTo: `استخدم هذا البريد الإلكتروني للمصادقة وتلقي الإشعارات`,
-  unfortunatelyTheSellerHadToCancelThisOrder: (...v) => `للأسف، اضطر ${v[0]} لإلغاء هذا الطلب`,
+  unfortunatelyTheSellerHadToCancelThisOrder: (...v: string[]) =>
+    `للأسف، اضطر ${v[0]} لإلغاء هذا الطلب`,
   valueIsNotTheSame: `القيمة ليست هي نفسها`,
   verificationCode: `رمز التأكيد`,
   verifyCode: `أكد الرمز`,

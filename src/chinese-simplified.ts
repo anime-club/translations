@@ -511,7 +511,7 @@ export const text: text = {
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b>和${v[1]}个人关注了你`,
   usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b>和${v[1]}人有反应`,
   useThisEmailTo: `使用此电子邮件进行身份验证、接收通知`,
-  unfortunatelyTheSellerHadToCancelThisOrder: (...v) => `很遗憾，${v[0]}不得不取消此订单`,
+  unfortunatelyTheSellerHadToCancelThisOrder: (...v: string[]) => `很遗憾，${v[0]}不得不取消此订单`,
   valueIsNotTheSame: `两次输入不一致`,
   verificationCode: `验证码`,
   verifyCode: `验证码`,

@@ -514,7 +514,7 @@ export const text: text = {
     `<b>${v[0]}</b>さんと他${v[1]}人があなたをフォローしています`,
   usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b>さんと他${v[1]}人がリアクションしました`,
   useThisEmailTo: `このメールアドレスを使用して認証し、通知を受け取る`,
-  unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
+  unfortunatelyTheSellerHadToCancelThisOrder: (...v: string[]) =>
     `残念ながら${v[0]}がこの注文をキャンセルしました`,
   valueIsNotTheSame: `値が同じではありません`,
   verificationCode: `検証コード`,

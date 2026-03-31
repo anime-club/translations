@@ -513,7 +513,7 @@ export const text: text = {
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> dan ${v[1]} lagi mengikuti Anda`,
   usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b> dan ${v[1]} lainnya bereaksi`,
   useThisEmailTo: `Gunakan email ini untuk: mengautentikasi, menerima notifikasi`,
-  unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
+  unfortunatelyTheSellerHadToCancelThisOrder: (...v: string[]) =>
     `Sayangnya, ${v[0]} harus membatalkan pesanan ini`,
   valueIsNotTheSame: `Isian tidak sama`,
   verificationCode: `Verifikasi Kode`,

@@ -513,7 +513,8 @@ export const text: text = {
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> और ${v[1]} अन्य आपका अनुसरण करते हैं`,
   usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b> और ${v[1]} अन्य ने प्रतिक्रिया दी`,
   useThisEmailTo: `इस ईमेल का उपयोग करें: प्रमाणित करने के लिए, सूचनाएं प्राप्त करने के लिए`,
-  unfortunatelyTheSellerHadToCancelThisOrder: (...v) => `दुर्भाग्यवश, ${v[0]} को यह आदेश रद्द करना पड़ा`,
+  unfortunatelyTheSellerHadToCancelThisOrder: (...v: string[]) =>
+    `दुर्भाग्यवश, ${v[0]} को यह आदेश रद्द करना पड़ा`,
   valueIsNotTheSame: `दर्ज चीज़े सामान्य नहीं है `,
   verificationCode: `वेरीफिकेशन कोड`,
   verifyCode: `कोड वेरिफाए करें`,

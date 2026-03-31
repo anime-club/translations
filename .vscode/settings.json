@@ -17,12 +17,7 @@
   "typescript.implementationsCodeLens.enabled": true,
   "typescript.referencesCodeLens.enabled": true,
   "eslint.codeActionsOnSave.mode": "problems",
-  "eslint.validate": [
-    "typescript",
-    "typescriptreact",
-    "javascript",
-    "javascriptreact"
-  ],
+  "eslint.validate": ["typescript", "typescriptreact", "javascript", "javascriptreact"],
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.tsserver.maxTsServerMemory": 8192,
   "typescript.disableAutomaticTypeAcquisition": true,

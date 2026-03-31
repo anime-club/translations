@@ -512,7 +512,8 @@ export const text: text = {
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> và ${v[1]} người khác đang theo dõi bạn`,
   usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b> và ${v[1]} người khác đã phản hồi`,
   useThisEmailTo: `Sử dụng email này để: xác thực, nhận thông báo`,
-  unfortunatelyTheSellerHadToCancelThisOrder: (...v) => `Rất tiếc, ${v[0]} phải hủy đơn hàng này`,
+  unfortunatelyTheSellerHadToCancelThisOrder: (...v: string[]) =>
+    `Rất tiếc, ${v[0]} phải hủy đơn hàng này`,
   valueIsNotTheSame: `Giá trị không trùng khớp`,
   verificationCode: `Mã xác minh`,
   verifyCode: `Xác minh mã`,

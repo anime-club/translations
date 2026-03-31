@@ -43,8 +43,7 @@ export const text = {
   allFilesYouUploadHereWillBeAvailableToTheBuyer: `All files you upload here will be available to the buyer`,
   alreadySignedIn: `Already signed in`,
   amount: `Amount`,
-  amountShouldNotBeLessThan: (amount: number) =>
-    `Amount should not be less than ${amount}`,
+  amountShouldNotBeLessThan: (amount: number) => `Amount should not be less than ${amount}`,
   animeArtByArtistsFromAllOverTheWorld: `Anime art by artists from all over the world. Art is curated to be related to anime. The art selection is an infinite list of best anime art`,
   animeArtSubscribeToArtistsLikeAndCreate: `Anime art - subscribe to artists, like, and create collections`,
   animeClubTheFirstPlatformToOfferArtistsPaymentsFromViews: `Anime.club - the first platform to offer artists payments from views via Google AdSense. Support artists by viewing their content or start earning from views`,
@@ -195,10 +194,8 @@ export const text = {
     `Great news! ${buyerUsername} purchased your item. Time to celebrate!`,
   harassment: `Harassment`,
   haveAnyQuestions: `Have any questions?`,
-  usernameHasCanceledTheOrder: (username: string) =>
-    `<b>${username}</b> has canceled the order`,
-  usernameHasSubmittedTheWork: (username: string) =>
-    `<b>${username}</b> has submitted the work`,
+  usernameHasCanceledTheOrder: (username: string) => `<b>${username}</b> has canceled the order`,
+  usernameHasSubmittedTheWork: (username: string) => `<b>${username}</b> has submitted the work`,
   hasNotAddedADescriptionFor: (username: string, title: string) =>
     `@${username} has not added a description for "${title}"`,
   hasNotSharedAnyPublicDetailsYet: (username: string) =>
@@ -212,13 +209,10 @@ export const text = {
   hereAreAFewWaysToGetThingsRolling: `Here are a few ways to get things rolling`,
   hire: `Hire`,
   hideListing: `Hide listing`,
-  uploadUpToNumberFiles: (limit: number) =>
-    `Upload up to <b>${limit}</b> files`,
+  uploadUpToNumberFiles: (limit: number) => `Upload up to <b>${limit}</b> files`,
   supportedFormats: `Supported formats:`,
-  minimumDimensions: (width: number, height: number) =>
-    `Minimum size: ${width}×${height} pixels`,
-  maximumFileSize: (sizeMB: string) =>
-    `Maximum file size: <b>${sizeMB}</b> per file`,
+  minimumDimensions: (width: number, height: number) => `Minimum size: ${width}×${height} pixels`,
+  maximumFileSize: (sizeMB: string) => `Maximum file size: <b>${sizeMB}</b> per file`,
   thisListingWontBeVisibleToBuyersAnymore: `This listing won’t be visible to buyers anymore — but you can show it again whenever you’re ready`,
   buyersWillBeAbleToSeeThisListingYouCanHideItAgainAnytime: `Buyers will be able to see this listing. You can hide it again anytime`,
   listingHiddenFromBuyers: `Listing hidden from buyers`,
@@ -230,13 +224,9 @@ export const text = {
   iAgreeWith: `I agree with`,
   ifTheresNoResponseByTimeLimit: (reviewTimeLimit: string | number) =>
     `If there's no response by ${reviewTimeLimit}, the order will be marked as completed automatically`,
-  ifTheresNoResponseByTimeLimitOrderWillBeCanceled: (
-    timeLimit: string | number
-  ) =>
+  ifTheresNoResponseByTimeLimitOrderWillBeCanceled: (timeLimit: string | number) =>
     `If there's no response by ${timeLimit}, the order will be canceled automatically`,
-  ifNoReplyIsReceivedByTimeLimitYouWillReceiveFullRefund: (
-    timeLimit: string | number
-  ) =>
+  ifNoReplyIsReceivedByTimeLimitYouWillReceiveFullRefund: (timeLimit: string | number) =>
     `If no reply is received by ${timeLimit}, you'll automatically receive a full refund`,
   ifYouMissTheDeadlineBuyerCanCancelForFullRefund: `If you miss the deadline, the buyer can cancel the order for a full refund, and any associated Stripe fees will be deducted from your payout.`,
   id: `ID`,
@@ -381,8 +371,7 @@ export const text = {
   pleaseDoNotShareYourPrivateInformationToOthers: `Please do not share your private information to others`,
   pleaseEnterANumberBetweenXandX: (min: number, max: number) =>
     `Please enter a number between ${min} and ${max}`,
-  pleaseEnterAtLeastNChars: (num: number) =>
-    `Please enter at least ${num} characters `,
+  pleaseEnterAtLeastNChars: (num: number) => `Please enter at least ${num} characters `,
   pleaseFillOutYourDetails: `Please fill out your details`,
   pleaseFixTheErrorsBeforeSubmitting: `Please fix the errors before submitting`,
   pleaseSignInToYourAccount: `Please sign in to your account`,
@@ -394,10 +383,8 @@ export const text = {
   pleaseTakeAMomentToReviewTheOrder: `Please take a moment to review the order`,
   pleaseReviewTheBuyersReferenceFiles: `Please review the buyer's reference files and follow them as specified in the order's description`,
   pleaseReviewTheDetailsCarefullyBeforeProceeding: `Please review the details carefully before proceeding`,
-  pleaseRespondToTheOrderBy: (date: string) =>
-    `Please respond to the order by ${date}`,
-  pleaseTryAgainOrClick: (buttonName: string) =>
-    `Please try again or click ${buttonName}`,
+  pleaseRespondToTheOrderBy: (date: string) => `Please respond to the order by ${date}`,
+  pleaseTryAgainOrClick: (buttonName: string) => `Please try again or click ${buttonName}`,
   artGallery: `Art Gallery`,
   commission: `Commission`,
   commissions: `Commissions`,
@@ -448,8 +435,7 @@ export const text = {
   share: `Share`,
   shareYourRulesAndTheTypesOfRequestsYouDontAccept: `Share your rules and the types of requests you don’t accept`,
   shareYourShopOnSocialMedia: `Share your shop on social media`,
-  shareYourFavoritePiecesOn: (url: string) =>
-    `Share your favorite pieces on ${url}`,
+  shareYourFavoritePiecesOn: (url: string) => `Share your favorite pieces on ${url}`,
   shareYourArtWithTheWorld: `Share your art with the world`,
   shareYourStory: `Share your story!`,
   sharingPersonalInformation: `Sharing personal information`,
@@ -474,8 +460,7 @@ export const text = {
   changesSaved: `Changes saved!`,
   successfullyDownloaded: `Successfully downloaded!`,
   successfullyUploaded: `Successfully uploaded!`,
-  setUpStripeAccountToGetPaidWithAnimeClub:
-    "Set up a Stripe account to get paid with Anime.club",
+  setUpStripeAccountToGetPaidWithAnimeClub: "Set up a Stripe account to get paid with Anime.club",
   supportMeOn: `Support me on`,
   syncWithSystem: `Sync with system`,
   tellUsAboutYourself: `Tell us about yourself`,
@@ -526,12 +511,10 @@ export const text = {
     `<b>${username}</b> and ${numberOfNotifiers} more just followed you`,
   usernameAndXMoreReacted: (username: string, numberOfNotifiers: number) =>
     `<b>${username}</b> and ${numberOfNotifiers} more reacted`,
-  usernameStartedFollowingYou: (username: string) =>
-    `<b>${username}</b> started following you`,
-  usernameLeftAReaction: (username: string) =>
-    `<b>${username}</b> left a reaction`,
+  usernameStartedFollowingYou: (username: string) => `<b>${username}</b> started following you`,
+  usernameLeftAReaction: (username: string) => `<b>${username}</b> left a reaction`,
   useThisEmailTo: `Use this email to: authenticate, receive notifications`,
-  unfortunatelyTheSellerHadToCancelThisOrder: (user: unknown) =>
+  unfortunatelyTheSellerHadToCancelThisOrder: (user: string) =>
     `Unfortunately, ${user} had to cancel this order`,
   valueIsNotTheSame: `Value is not the same`,
   vote: `Vote`,
@@ -585,8 +568,7 @@ export const text = {
   youHaveReachedTheMaximumNumberOfFiles: `You have reached the maximum number of files`,
   kindlyHoldOnForTheBuyersReview: `Kindly hold on for the buyer's review of the order`,
   yourAccountIsVerifiedPleaseSignIn: `Your account is verified. Please sign in`,
-  yourAccountWillBeRemoved: (time: string) =>
-    `Your account will be removed ${time}`,
+  yourAccountWillBeRemoved: (time: string) => `Your account will be removed ${time}`,
   youHaveNoPurchases: `You have no purchases`,
   couldYouPleaseProvideTheReasonForTheCancellation: `Could you please provide the reason for the cancellation`,
   yourArts: `Your arts`,
@@ -596,5 +578,5 @@ export const text = {
   yourFansAreWaiting: `Your fans are waiting`,
   yourFeedIsEmpty: `your feed is empty`,
   yourSessionHasExpiredPleaseSignInAgain: `Your session has expired, please sign in again`,
-};
-export type english = typeof text;
+}
+export type english = typeof text

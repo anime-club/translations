@@ -512,7 +512,7 @@ export const text: text = {
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b>님과 ${v[1]}명이 팔로우합니다.`,
   usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b>님과 ${v[1]}명이 반응했습니다`,
   useThisEmailTo: `이 이메일을 사용하여 인증하고 알림을 받습니다.`,
-  unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
+  unfortunatelyTheSellerHadToCancelThisOrder: (...v: string[]) =>
     `안타깝게도 ${v[0]}님이 이 주문을 취소해야 했습니다`,
   valueIsNotTheSame: `값이 같지 않습니다`,
   verificationCode: `확인 코드`,

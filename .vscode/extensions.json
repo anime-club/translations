@@ -1,11 +1,8 @@
 {
-  "recommendations": [
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
-  ],
+  "recommendations": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
   "unwantedRecommendations": [
     "ms-vscode.vscode-typescript-tslint-plugin",
     "eg2.tslint",
-    "zuoez02.tslint-snippets",
+    "zuoez02.tslint-snippets"
   ]
 }

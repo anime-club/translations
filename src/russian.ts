@@ -514,7 +514,7 @@ export const text: text = {
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> и ещё ${v[1]} подписаны на вас`,
   usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b> и ещё ${v[1]} отреагировали`,
   useThisEmailTo: `Используйте этот email для: аутентификации, получения уведомлений`,
-  unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
+  unfortunatelyTheSellerHadToCancelThisOrder: (...v: string[]) =>
     `К сожалению, ${v[0]} пришлось отменить этот заказ`,
   valueIsNotTheSame: `Значение не совпадает`,
   verificationCode: `Проверочный код`,

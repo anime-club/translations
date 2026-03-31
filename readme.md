@@ -40,9 +40,7 @@ The process is easy as 1-2-3:
 
 - all languages are available in [/src](/src) directory
 - if a translation phrase is **not translated yet**:
-
   - it has a prefix `"(en) "`
-
     - for example if you see in [/src/japanese.ts](/src/japanese.ts):
 
       ```ts
@@ -52,7 +50,6 @@ The process is easy as 1-2-3:
       - it means we have **not** translated this phrase yet
 
 - the translation phrase might be either:
-
   - a static value:
 
     ```ts

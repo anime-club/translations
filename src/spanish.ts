@@ -513,7 +513,7 @@ export const text: text = {
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> y ${v[1]} más te siguen`,
   usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b> y ${v[1]} más reaccionaron`,
   useThisEmailTo: `Usa este correo electrónico para: autenticarte, recibir notificaciones`,
-  unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
+  unfortunatelyTheSellerHadToCancelThisOrder: (...v: string[]) =>
     `Desafortunadamente, ${v[0]} tuvo que cancelar este pedido`,
   valueIsNotTheSame: `Valor no es el mismo`,
   verificationCode: `Código de verificación`,
