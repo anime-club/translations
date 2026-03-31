@@ -1,8 +1,15 @@
 {
-  "recommendations": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
+  "recommendations": ["oxc.oxc-vscode"],
   "unwantedRecommendations": [
-    "ms-vscode.vscode-typescript-tslint-plugin",
+    "dbaeumer.jshint",
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.githistory",
     "eg2.tslint",
+    "esbenp.prettier-vscode",
+    "felipecaputo.git-project-manager",
+    "hookyqr.beautify",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode.vscode-typescript-tslint-plugin",
     "zuoez02.tslint-snippets"
   ]
 }

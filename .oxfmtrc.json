@@ -4,5 +4,11 @@
   "indentWidth": 2,
   "semi": false,
   "useTabs": false,
-  "bracketSpacing": true
+  "bracketSpacing": true,
+  "sortImports": {
+    "groups": ["builtin", "external", "internal", ["parent", "sibling", "index"], "unknown"],
+    "newlinesBetween": true,
+    "order": "asc",
+    "ignoreCase": true
+  }
 }

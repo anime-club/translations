@@ -10,7 +10,7 @@
     "access": "public"
   },
   "scripts": {
-    "config": "bun node_modules/.bin/config"
+    "prepare": "bunx config prepare"
   },
   "devDependencies": {
     "@10stars/config": "^15.2.4"
