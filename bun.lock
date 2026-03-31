@@ -5,12 +5,12 @@
     "": {
       "name": "@anime.club/translations",
       "devDependencies": {
-        "@10stars/config": "^15.2.4",
+        "@10stars/config": "^15.2.6",
       },
     },
   },
   "packages": {
-    "@10stars/config": ["@10stars/config@15.2.4", "", { "dependencies": { "@10stars/oxlint-plugin-react-hooks": "^1.0.5", "@oxc-node/core": "0.0.35", "@types/bun": "^1.0.0", "@types/node": "^24.0.0", "@types/react": "^19.0.0", "husky": "^9.0.0", "oxfmt": "^0.43.0", "oxlint": "^1.58.0", "oxlint-tsgolint": "^0.18.1", "tsx": "^4.21.0", "type-fest": "^5.0.0", "typescript": "~6.0.2" }, "bin": { "config": "src/index.ts" } }, "sha512-c8J6O8XzPnqbGGT2xfvh+GiM/e9JT/kJNe1tk3RLuF7WVFSCHI9w/TSQSkVYvTp/CFlelZ8dkbfIXecP61Db+A=="],
+    "@10stars/config": ["@10stars/config@15.2.6", "", { "dependencies": { "@10stars/oxlint-plugin-react-hooks": "^1.0.5", "@oxc-node/core": "0.0.35", "@types/bun": "^1.0.0", "@types/node": "^24.0.0", "@types/react": "^19.0.0", "husky": "^9.0.0", "oxfmt": "^0.43.0", "oxlint": "^1.58.0", "oxlint-tsgolint": "^0.18.1", "tsx": "^4.21.0", "type-fest": "^5.0.0", "typescript": "~6.0.2" }, "bin": { "config": "src/index.ts" } }, "sha512-qXO9ptnyL82yQdW/e89LDfhpeksaXfCFscNIAG5082MSVgt8nPXAEQRkOYEeU+0VFTbxxOnA3tWdIfYz6qrWow=="],
 
     "@10stars/oxlint-plugin-react-hooks": ["@10stars/oxlint-plugin-react-hooks@1.0.5", "", {}, "sha512-+Me7ngU8Y9tXINKbb7MQ4z0I+lLRCAXgKqnwkZMVZKBTIsp8RhKaGtDpohiny8CR8u68aeoIA5071PTBUvQ6NA=="],
 
