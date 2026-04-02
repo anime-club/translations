@@ -6,6 +6,10 @@
     "src",
     "types"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anime-club/translations"
+  },
   "publishConfig": {
     "access": "public"
   },
