@@ -1,4 +1,7 @@
 {
+  "ignorePatterns": [
+    "**/*.js" // .js files we have are built-files that should not be formatted
+  ],
   "arrowParentheses": "always",
   "trailingCommas": "all",
   "indentWidth": 2,

@@ -15,9 +15,9 @@
     "access": "public"
   },
   "scripts": {
-    "prepare": "bunx config prepare"
+    "postinstall": "bunx config prepare"
   },
   "devDependencies": {
-    "@10stars/config": "^15.2.7"
+    "@10stars/config": "^15.5.1"
   }
 }
