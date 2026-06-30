@@ -18,6 +18,12 @@
     "postinstall": "bunx config prepare"
   },
   "devDependencies": {
-    "@10stars/config": "^15.5.1"
+    "@10stars/config": "^15.6.1"
+  },
+  "overrides": {
+    "@types/node": "^25.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "type-fest": "^5.0.0"
   }
 }
