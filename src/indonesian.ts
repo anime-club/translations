@@ -455,6 +455,8 @@ export const text: text = {
   shopOrders: `Pesanan toko`,
   showLess: `Tunjukkan lebih sedikit`,
   showMore: `Tunjukkan lebih banyak`,
+  show: `Tampilkan`,
+  hide: `Sembunyikan`,
   signIn: `Masuk`,
   singleTheme: `Tema tunggal`,
   size: `Ukuran`,

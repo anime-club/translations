@@ -455,6 +455,8 @@ export const text: text = {
   shopOrders: `दुकान आदेश`,
   showLess: `कम दिखाएं`,
   showMore: `ज्यादा दिखाएं`,
+  show: `दिखाएं`,
+  hide: `छिपाएं`,
   signIn: `साइन इन करें`,
   singleTheme: `एकल थीम`,
   size: `आकार`,

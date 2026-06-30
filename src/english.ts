@@ -444,6 +444,8 @@ export const text = {
   shopOrders: `Shop orders`,
   showLess: `Show less`,
   showMore: `Show more`,
+  show: `Show`,
+  hide: `Hide`,
   signIn: `Sign in`,
   singleTheme: `Single theme`,
   size: `Size`,

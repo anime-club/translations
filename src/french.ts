@@ -455,6 +455,8 @@ export const text: text = {
   shopOrders: `Commandes de la boutique`,
   showLess: `Afficher moins`,
   showMore: `Afficher plus`,
+  show: `Afficher`,
+  hide: `Masquer`,
   signIn: `Se connecter`,
   singleTheme: `Thème unique`,
   size: `Taille`,

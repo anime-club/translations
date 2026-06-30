@@ -455,6 +455,8 @@ export const text: text = {
   shopOrders: `Đơn hàng cửa hàng`,
   showLess: `Ẩn bớt đi`,
   showMore: `Hiển thị thêm`,
+  show: `Hiển thị`,
+  hide: `Ẩn`,
   signIn: `Đăng nhập`,
   singleTheme: `Chủ đề đơn`,
   size: `Kích thước`,

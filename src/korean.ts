@@ -455,6 +455,8 @@ export const text: text = {
   shopOrders: `상점 주문`,
   showLess: `간략히 보기`,
   showMore: `더 보기`,
+  show: `표시`,
+  hide: `숨기기`,
   signIn: `로그인`,
   singleTheme: `단일 테마`,
   size: `크기`,

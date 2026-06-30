@@ -455,6 +455,8 @@ export const text: text = {
   shopOrders: `ショップの注文`,
   showLess: `表示を減らす`,
   showMore: `表示を増やす`,
+  show: `表示`,
+  hide: `非表示`,
   signIn: `ログイン`,
   singleTheme: `単一のテーマ`,
   size: `サイズ`,

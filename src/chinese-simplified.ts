@@ -454,6 +454,8 @@ export const text: text = {
   shopOrders: `商店订单`,
   showLess: `显示较少`,
   showMore: `展示更多`,
+  show: `显示`,
+  hide: `隐藏`,
   signIn: `登入`,
   singleTheme: `单个主题`,
   size: `大小`,
