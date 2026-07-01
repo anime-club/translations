@@ -1,4 +1,6 @@
 export const text: text = {
+  noCommentsJustYet: `لا توجد تعليقات بعد`,
+  beTheFirstToShareYourThoughts: `كن أول من يشارك أفكاره`,
   animeClubUsesToPayYouQuicklyAndKeepYourInfoSecure: (...v) =>
     `(en) Anime.club uses ${v[0]} to get you paid quickly and keep your personal and payment information secure`,
   clickTheButtonBelowToOpenYourStripeDashboard: `(en) Click the button below to open your Stripe dashboard and view your account details`,

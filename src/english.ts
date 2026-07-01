@@ -320,6 +320,8 @@ export const text = {
   noNotifications: `No notifications`,
   noResults: `No results`,
   noReviewsJustYet: `No reviews just yet`,
+  noCommentsJustYet: `No comments just yet`,
+  beTheFirstToShareYourThoughts: `Be the first to share your thoughts`,
   notifications: `Notifications`,
   noActiveOrdersToShow: `No active orders to show`,
   notAcceptingOrders: `Not accepting orders`,

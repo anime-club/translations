@@ -1,4 +1,6 @@
 export const text: text = {
+  noCommentsJustYet: `Пока нет комментариев`,
+  beTheFirstToShareYourThoughts: `Будьте первым, кто поделится мнением`,
   clickTheButtonBelowToOpenYourStripeDashboard: `(en) Click the button below to open your Stripe dashboard and view your account details`,
   visitStripeDashboard: `(en) Visit Stripe dashboard`,
   files: `(en) Files`,
