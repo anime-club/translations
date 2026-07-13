@@ -1,5 +1,5 @@
 {
-  "recommendations": ["TypeScriptTeam.native-preview", "oxc.oxc-vscode"],
+  "recommendations": ["oxc.oxc-vscode"],
   "unwantedRecommendations": [
     "dbaeumer.jshint",
     "dbaeumer.vscode-eslint",
@@ -9,6 +9,7 @@
     "felipecaputo.git-project-manager",
     "hookyqr.beautify",
     "ms-azuretools.vscode-docker",
+    "ms-vscode.vscode-typescript-next",
     "ms-vscode.vscode-typescript-tslint-plugin",
     "zuoez02.tslint-snippets"
   ]
