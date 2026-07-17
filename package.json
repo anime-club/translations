@@ -1,6 +1,6 @@
 {
   "name": "@anime.club/translations",
-  "version": "1.1.170",
+  "version": "1.1.171",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
     "postinstall": "bunx config prepare"
   },
   "devDependencies": {
-    "@10stars/config": "^17.0.2"
+    "@10stars/config": "^17.0.7"
   },
   "overrides": {
     "@types/node": "^26.0.0",
