@@ -1,6 +1,4 @@
 export const text: text = {
-  noCommentsJustYet: `Noch keine Kommentare`,
-  beTheFirstToShareYourThoughts: `Teile als Erster deine Gedanken`,
   animeClubUsesToPayYouQuicklyAndKeepYourInfoSecure: (...v) =>
     `(en) Anime.club uses ${v[0]} to get you paid quickly and keep your personal and payment information secure`,
   clickTheButtonBelowToOpenYourStripeDashboard: `(en) Click the button below to open your Stripe dashboard and view your account details`,
@@ -67,7 +65,6 @@ export const text: text = {
   youWillBeAbleToDownloadYourFilesImmediatelyAfterPurchase: `(en) You'll be able to download your files immediately after purchase—no waiting required!`,
   orderAOneOfAKindCustomPieceCraftedToMatchYourVision: `(en) Order a one-of-a-kind custom piece, crafted to match your vision`,
   youAreCoveredIfThereIsAProblem: `(en) You're covered! If there's a problem and the dispute is valid, you'll get 100% of your money back`,
-  thisIsACustomOrderNotAReadyMadeProduct: `Dies ist eine individuelle Bestellung – kein fertiges Produkt. Der Verkäufer beginnt erst nach deiner Bestellung mit der Arbeit`,
   whatWouldYouLikeToCreate: `(en) What would you like to create?`,
   shareYourArt: `(en) Share your art`,
   ifYourArtIsNsfwCheckThisToAvoidAWarningOrBan: `(en) If your art is NSFW, make sure to check this. Otherwise you may get a warning that could lead to a ban.`,
@@ -359,6 +356,8 @@ export const text: text = {
   noNotifications: `Keine Benachrichtigungen`,
   noResults: `Keine Ergebnisse`,
   noReviewsJustYet: `Noch keine Bewertungen`,
+  noCommentsJustYet: `Noch keine Kommentare`,
+  beTheFirstToShareYourThoughts: `Teile als Erster deine Gedanken`,
   notifications: `Benachrichtigungen`,
   noActiveOrdersToShow: `Keine aktiven Bestellungen zum Anzeigen`,
   notAcceptingOrders: `Nimmt keine Bestellungen an`,
@@ -404,6 +403,7 @@ export const text: text = {
   pleaseFixTheErrorsBeforeSubmitting: `Bitte beheben Sie die Fehler vor dem Absenden`,
   pleaseSignInToYourAccount: `Bitte melden Sie sich an Ihrem Konto`,
   platform: `Plattform`,
+  thisIsACustomOrderNotAReadyMadeProduct: `Dies ist eine individuelle Bestellung – kein fertiges Produkt. Der Verkäufer beginnt erst nach deiner Bestellung mit der Arbeit`,
   pleaseStartTyping: `Bitte beginnen Sie zu tippen`,
   pleaseTakeAMomentToReviewTheOrder: `Bitte nehmen Sie sich einen Moment Zeit, um die Bestellung zu überprüfen`,
   pleaseReviewTheBuyersReferenceFiles: `Bitte überprüfen Sie die Referenzdateien des Käufers und befolgen Sie die Angaben in der Bestellbeschreibung`,
@@ -525,7 +525,7 @@ export const text: text = {
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> und ${v[1]} weitere folgen dir`,
   usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b> und ${v[1]} weitere haben reagiert`,
   useThisEmailTo: `Verwenden Sie diese E-Mail-Adresse, um sich zu authentifizieren und Benachrichtigungen zu erhalten`,
-  unfortunatelyTheSellerHadToCancelThisOrder: (...v: string[]) =>
+  unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `Leider musste ${v[0]} diese Bestellung stornieren`,
   valueIsNotTheSame: `Wert ist nicht derselbe`,
   verificationCode: `Bestätigungscode`,

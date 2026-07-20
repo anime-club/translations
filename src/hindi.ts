@@ -1,6 +1,4 @@
 export const text: text = {
-  noCommentsJustYet: `अभी तक कोई टिप्पणी नहीं`,
-  beTheFirstToShareYourThoughts: `अपने विचार साझा करने वाले पहले व्यक्ति बनें`,
   animeClubUsesToPayYouQuicklyAndKeepYourInfoSecure: (...v) =>
     `(en) Anime.club uses ${v[0]} to get you paid quickly and keep your personal and payment information secure`,
   clickTheButtonBelowToOpenYourStripeDashboard: `(en) Click the button below to open your Stripe dashboard and view your account details`,
@@ -359,6 +357,8 @@ export const text: text = {
   noNotifications: `कोई सूचनाएं नहीं`,
   noResults: `कोई परिणाम नहीं`,
   noReviewsJustYet: `अभी तक कोई समीक्षा नहीं`,
+  noCommentsJustYet: `अभी तक कोई टिप्पणी नहीं`,
+  beTheFirstToShareYourThoughts: `अपने विचार साझा करने वाले पहले व्यक्ति बनें`,
   notifications: `नोटिफिकेशन्स`,
   noActiveOrdersToShow: `दिखाने के लिए कोई सक्रिय आदेश नहीं हैं`,
   notAcceptingOrders: `आदेश स्वीकार नहीं कर रहा है`,
@@ -524,8 +524,7 @@ export const text: text = {
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> और ${v[1]} अन्य आपका अनुसरण करते हैं`,
   usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b> और ${v[1]} अन्य ने प्रतिक्रिया दी`,
   useThisEmailTo: `इस ईमेल का उपयोग करें: प्रमाणित करने के लिए, सूचनाएं प्राप्त करने के लिए`,
-  unfortunatelyTheSellerHadToCancelThisOrder: (...v: string[]) =>
-    `दुर्भाग्यवश, ${v[0]} को यह आदेश रद्द करना पड़ा`,
+  unfortunatelyTheSellerHadToCancelThisOrder: (...v) => `दुर्भाग्यवश, ${v[0]} को यह आदेश रद्द करना पड़ा`,
   valueIsNotTheSame: `दर्ज चीज़े सामान्य नहीं है `,
   verificationCode: `वेरीफिकेशन कोड`,
   verifyCode: `कोड वेरिफाए करें`,

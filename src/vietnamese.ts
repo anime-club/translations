@@ -1,6 +1,4 @@
 export const text: text = {
-  noCommentsJustYet: `Chưa có bình luận nào`,
-  beTheFirstToShareYourThoughts: `Hãy là người đầu tiên chia sẻ suy nghĩ của bạn`,
   animeClubUsesToPayYouQuicklyAndKeepYourInfoSecure: (...v) =>
     `(en) Anime.club uses ${v[0]} to get you paid quickly and keep your personal and payment information secure`,
   clickTheButtonBelowToOpenYourStripeDashboard: `(en) Click the button below to open your Stripe dashboard and view your account details`,
@@ -359,6 +357,8 @@ export const text: text = {
   noNotifications: `Không có thông báo`,
   noResults: `Không có kết quả`,
   noReviewsJustYet: `Chưa có đánh giá nào`,
+  noCommentsJustYet: `Chưa có bình luận nào`,
+  beTheFirstToShareYourThoughts: `Hãy là người đầu tiên chia sẻ suy nghĩ của bạn`,
   notifications: `Thông báo`,
   noActiveOrdersToShow: `Không có đơn hàng hoạt động để hiển thị`,
   notAcceptingOrders: `Không nhận đơn hàng`,
@@ -523,8 +523,7 @@ export const text: text = {
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> và ${v[1]} người khác đang theo dõi bạn`,
   usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b> và ${v[1]} người khác đã phản hồi`,
   useThisEmailTo: `Sử dụng email này để: xác thực, nhận thông báo`,
-  unfortunatelyTheSellerHadToCancelThisOrder: (...v: string[]) =>
-    `Rất tiếc, ${v[0]} phải hủy đơn hàng này`,
+  unfortunatelyTheSellerHadToCancelThisOrder: (...v) => `Rất tiếc, ${v[0]} phải hủy đơn hàng này`,
   valueIsNotTheSame: `Giá trị không trùng khớp`,
   verificationCode: `Mã xác minh`,
   verifyCode: `Xác minh mã`,

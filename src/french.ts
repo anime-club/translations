@@ -1,6 +1,4 @@
 export const text: text = {
-  noCommentsJustYet: `Pas encore de commentaires`,
-  beTheFirstToShareYourThoughts: `Soyez le premier à partager votre avis`,
   animeClubUsesToPayYouQuicklyAndKeepYourInfoSecure: (...v) =>
     `(en) Anime.club uses ${v[0]} to get you paid quickly and keep your personal and payment information secure`,
   clickTheButtonBelowToOpenYourStripeDashboard: `(en) Click the button below to open your Stripe dashboard and view your account details`,
@@ -359,6 +357,8 @@ export const text: text = {
   noNotifications: `Aucune notification`,
   noResults: `Aucun résultat`,
   noReviewsJustYet: `Pas encore d'avis`,
+  noCommentsJustYet: `Pas encore de commentaires`,
+  beTheFirstToShareYourThoughts: `Soyez le premier à partager votre avis`,
   notifications: `Notifications`,
   noActiveOrdersToShow: `Aucune commande active à afficher`,
   notAcceptingOrders: `N'accepte pas les commandes`,
@@ -523,7 +523,7 @@ export const text: text = {
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> et ${v[1]} autres vous suivent`,
   usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b> et ${v[1]} autres ont réagi`,
   useThisEmailTo: `Utilisez cet e-mail pour : vous authentifier, recevoir des notifications`,
-  unfortunatelyTheSellerHadToCancelThisOrder: (...v: string[]) =>
+  unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `Malheureusement, ${v[0]} a dû annuler cette commande`,
   valueIsNotTheSame: `La valeur n'est pas la même`,
   verificationCode: `Code de vérification`,

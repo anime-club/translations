@@ -1,6 +1,4 @@
 export const text: text = {
-  noCommentsJustYet: `Пока нет комментариев`,
-  beTheFirstToShareYourThoughts: `Будьте первым, кто поделится мнением`,
   clickTheButtonBelowToOpenYourStripeDashboard: `(en) Click the button below to open your Stripe dashboard and view your account details`,
   visitStripeDashboard: `(en) Visit Stripe dashboard`,
   files: `(en) Files`,
@@ -359,6 +357,8 @@ export const text: text = {
   noNotifications: `Нет уведомлений`,
   noResults: `Нет результатов`,
   noReviewsJustYet: `Пока нет отзывов`,
+  noCommentsJustYet: `Пока нет комментариев`,
+  beTheFirstToShareYourThoughts: `Будьте первым, кто поделится мнением`,
   notifications: `Уведомления`,
   noActiveOrdersToShow: `Нет активных заказов для отображения`,
   notAcceptingOrders: `Не принимаю заказы`,
@@ -525,7 +525,7 @@ export const text: text = {
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> и ещё ${v[1]} подписаны на вас`,
   usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b> и ещё ${v[1]} отреагировали`,
   useThisEmailTo: `Используйте этот email для: аутентификации, получения уведомлений`,
-  unfortunatelyTheSellerHadToCancelThisOrder: (...v: string[]) =>
+  unfortunatelyTheSellerHadToCancelThisOrder: (...v) =>
     `К сожалению, ${v[0]} пришлось отменить этот заказ`,
   valueIsNotTheSame: `Значение не совпадает`,
   verificationCode: `Проверочный код`,

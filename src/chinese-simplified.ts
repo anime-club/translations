@@ -1,6 +1,4 @@
 export const text: text = {
-  noCommentsJustYet: `暂时还没有评论`,
-  beTheFirstToShareYourThoughts: `成为第一个分享想法的人吧`,
   animeClubUsesToPayYouQuicklyAndKeepYourInfoSecure: (...v) =>
     `(en) Anime.club uses ${v[0]} to get you paid quickly and keep your personal and payment information secure`,
   clickTheButtonBelowToOpenYourStripeDashboard: `(en) Click the button below to open your Stripe dashboard and view your account details`,
@@ -358,6 +356,8 @@ export const text: text = {
   noNotifications: `没有通知`,
   noResults: `没有结果`,
   noReviewsJustYet: `暂时还没有评价`,
+  noCommentsJustYet: `暂时还没有评论`,
+  beTheFirstToShareYourThoughts: `成为第一个分享想法的人吧`,
   notifications: `通知事项`,
   noActiveOrdersToShow: `没有活动订单显示`,
   notAcceptingOrders: `不接受订单`,
@@ -522,7 +522,7 @@ export const text: text = {
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b>和${v[1]}个人关注了你`,
   usernameAndXMoreReacted: (...v) => `<b>${v[0]}</b>和${v[1]}人有反应`,
   useThisEmailTo: `使用此电子邮件进行身份验证、接收通知`,
-  unfortunatelyTheSellerHadToCancelThisOrder: (...v: string[]) => `很遗憾，${v[0]}不得不取消此订单`,
+  unfortunatelyTheSellerHadToCancelThisOrder: (...v) => `很遗憾，${v[0]}不得不取消此订单`,
   valueIsNotTheSame: `两次输入不一致`,
   verificationCode: `验证码`,
   verifyCode: `验证码`,
