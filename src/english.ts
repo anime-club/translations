@@ -381,6 +381,7 @@ export const text = {
   youWillBeAbleToDownloadYourFilesImmediatelyAfterPurchase: `You'll be able to download your files immediately after purchase—no waiting required!`,
   orderAOneOfAKindCustomPieceCraftedToMatchYourVision: `Order a one-of-a-kind custom piece, crafted to match your vision`,
   youAreCoveredIfThereIsAProblem: `You're covered! If there's a problem and the dispute is valid, you'll get 100% of your money back`,
+  thisIsACustomOrderNotAReadyMadeProduct: `This is a custom order — not a ready-made product. The seller starts working on it after you order`,
   pleaseStartTyping: `Please start typing`,
   pleaseTakeAMomentToReviewTheOrder: `Please take a moment to review the order`,
   pleaseReviewTheBuyersReferenceFiles: `Please review the buyer's reference files and follow them as specified in the order's description`,
