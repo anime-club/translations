@@ -19,7 +19,7 @@
     "postinstall": "bunx config prepare"
   },
   "devDependencies": {
-    "@10stars/config": "^17.0.7"
+    "@10stars/config": "^17.0.9"
   },
   "overrides": {
     "@types/node": "^26.0.0",
