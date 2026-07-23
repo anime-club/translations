@@ -84,6 +84,11 @@ export const text: text = {
   pleaseProvideATitleForYourArtwork: `(en) Please provide a title for your artwork`,
   usernameStartedFollowingYou: (...v) => `(en) <b>${v[0]}</b> started following you`,
   usernameLeftAReaction: (...v) => `(en) <b>${v[0]}</b> left a reaction`,
+  usernameCommentedOnYourWork: (...v) => `(en) <b>${v[0]}</b> commented on your work`,
+  usernameAndXMoreCommented: (...v) => `(en) <b>${v[0]}</b> and ${v[1]} more commented`,
+  usernameRepliedToYourComment: (...v) => `(en) <b>${v[0]}</b> replied to your comment`,
+  usernameAndXMoreRepliedToYourComment: (...v) =>
+    `(en) <b>${v[0]}</b> and ${v[1]} more replied to your comment`,
   vote: `(en) Vote`,
   tapAddToCreateOne: `(en) Tap “Add” to create one`,
   reply: `(en) Reply`,

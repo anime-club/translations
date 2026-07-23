@@ -524,6 +524,12 @@ export const text = {
     `<b>${username}</b> and ${numberOfNotifiers} more reacted`,
   usernameStartedFollowingYou: (username: string) => `<b>${username}</b> started following you`,
   usernameLeftAReaction: (username: string) => `<b>${username}</b> left a reaction`,
+  usernameCommentedOnYourWork: (username: string) => `<b>${username}</b> commented on your work`,
+  usernameAndXMoreCommented: (username: string, numberOfNotifiers: number) =>
+    `<b>${username}</b> and ${numberOfNotifiers} more commented`,
+  usernameRepliedToYourComment: (username: string) => `<b>${username}</b> replied to your comment`,
+  usernameAndXMoreRepliedToYourComment: (username: string, numberOfNotifiers: number) =>
+    `<b>${username}</b> and ${numberOfNotifiers} more replied to your comment`,
   useThisEmailTo: `Use this email to: authenticate, receive notifications`,
   unfortunatelyTheSellerHadToCancelThisOrder: (user: string) =>
     `Unfortunately, ${user} had to cancel this order`,
