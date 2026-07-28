@@ -95,6 +95,8 @@ export const text: text = {
   reply: `(en) Reply`,
   replyToUsername: (...v) => `(en) Reply to ${v[0]}`,
   numOfReplies: (...v) => `(en) ${v[0]} replies`,
+  numOfNewComments: (...v) => `(en) ${v[0]} new comments`,
+  numOfNewReactions: (...v) => `(en) ${v[0]} new reactions`,
   replies: `(en) Replies`,
   youCanChooseFromTheListOrEnterACustomReason: `(en) You can choose from the list or enter a custom reason`,
   _colon: `: `,

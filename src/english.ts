@@ -564,6 +564,8 @@ export const text = {
   youHaveSuccessfullyCreatedYourShop: `You have successfully created your shop`,
   replyToUsername: (username: string) => `Reply to ${username}`,
   numOfReplies: (count: number) => `${count} ${count === 1 ? `reply` : `replies`}`,
+  numOfNewComments: (count: number) => `${count} new ${count === 1 ? `comment` : `comments`}`,
+  numOfNewReactions: (count: number) => `${count} new ${count === 1 ? `reaction` : `reactions`}`,
   replies: `Replies`,
   youAreAlreadyAuthenticated: `You are already authenticated`,
   youCanAutoPublishToYourSocialMediaAccount: `You can auto publish to your social media account`,
