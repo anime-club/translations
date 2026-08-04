@@ -67,6 +67,7 @@ export const text: text = {
   youWillBeAbleToDownloadYourFilesImmediatelyAfterPurchase: `(en) You'll be able to download your files immediately after purchase—no waiting required!`,
   thisIsACustomOrderNotAReadyMadeProduct: `คุณกำลังสั่งงานที่ทำขึ้นเฉพาะ ไม่ใช่สินค้าสำเร็จรูป`,
   nothingIsChargedUntilTheSellerAccepts: `จะไม่มีการเรียกเก็บเงินจนกว่าผู้ขายจะรับงาน และหากปฏิเสธ คุณจะไม่ถูกเรียกเก็บเงินเลย`,
+  orderCanceledTheBuyersPaymentWasReleased: `ยกเลิกคำสั่งซื้อแล้ว ยอดที่กันไว้บนบัตรของผู้ซื้อถูกปล่อยแล้ว`,
   whatWouldYouLikeToCreate: `(en) What would you like to create?`,
   shareYourArt: `(en) Share your art`,
   ifYourArtIsNsfwCheckThisToAvoidAWarningOrBan: `(en) If your art is NSFW, make sure to check this. Otherwise you may get a warning that could lead to a ban.`,

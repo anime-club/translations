@@ -65,6 +65,7 @@ export const text: text = {
   youWillBeAbleToDownloadYourFilesImmediatelyAfterPurchase: `(en) You'll be able to download your files immediately after purchase—no waiting required!`,
   thisIsACustomOrderNotAReadyMadeProduct: `Вы заказываете индивидуальную работу, а не готовый товар`,
   nothingIsChargedUntilTheSellerAccepts: `Деньги не списываются, пока продавец не примет заказ, а если он откажется, с вас ничего не спишут`,
+  orderCanceledTheBuyersPaymentWasReleased: `Заказ отменён. Блокировка средств на карте покупателя снята`,
   whatWouldYouLikeToCreate: `(en) What would you like to create?`,
   shareYourArt: `(en) Share your art`,
   ifYourArtIsNsfwCheckThisToAvoidAWarningOrBan: `(en) If your art is NSFW, make sure to check this. Otherwise you may get a warning that could lead to a ban.`,

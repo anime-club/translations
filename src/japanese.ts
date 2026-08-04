@@ -67,6 +67,7 @@ export const text: text = {
   youWillBeAbleToDownloadYourFilesImmediatelyAfterPurchase: `(en) You'll be able to download your files immediately after purchase—no waiting required!`,
   thisIsACustomOrderNotAReadyMadeProduct: `これはオーダーメイドの依頼で、既製品ではありません`,
   nothingIsChargedUntilTheSellerAccepts: `出品者が承諾するまで請求は発生せず、辞退された場合は一切請求されません`,
+  orderCanceledTheBuyersPaymentWasReleased: `注文をキャンセルしました。購入者のカードの与信枠は解放されました`,
   whatWouldYouLikeToCreate: `(en) What would you like to create?`,
   shareYourArt: `(en) Share your art`,
   ifYourArtIsNsfwCheckThisToAvoidAWarningOrBan: `(en) If your art is NSFW, make sure to check this. Otherwise you may get a warning that could lead to a ban.`,

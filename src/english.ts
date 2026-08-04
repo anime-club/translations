@@ -384,6 +384,7 @@ export const text = {
   youWillBeAbleToDownloadYourFilesImmediatelyAfterPurchase: `You'll be able to download your files immediately after purchase—no waiting required!`,
   thisIsACustomOrderNotAReadyMadeProduct: `You’re ordering custom work, not a ready-made product`,
   nothingIsChargedUntilTheSellerAccepts: `Nothing is charged until the seller accepts, and if they decline you’re not charged at all`,
+  orderCanceledTheBuyersPaymentWasReleased: `Order canceled. The hold on the buyer's card has been released`,
   pleaseStartTyping: `Please start typing`,
   pleaseTakeAMomentToReviewTheOrder: `Please take a moment to review the order`,
   pleaseReviewTheBuyersReferenceFiles: `Please review the buyer's reference files and follow them as specified in the order's description`,

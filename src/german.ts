@@ -416,6 +416,7 @@ export const text: text = {
   platform: `Plattform`,
   thisIsACustomOrderNotAReadyMadeProduct: `Du bestellst eine Auftragsarbeit, kein fertiges Produkt`,
   nothingIsChargedUntilTheSellerAccepts: `Es wird nichts abgebucht, bis der Verkäufer annimmt, und bei einer Ablehnung wird dir nichts berechnet`,
+  orderCanceledTheBuyersPaymentWasReleased: `Bestellung storniert. Die Reservierung auf der Karte des Käufers wurde freigegeben`,
   pleaseStartTyping: `Bitte beginnen Sie zu tippen`,
   pleaseTakeAMomentToReviewTheOrder: `Bitte nehmen Sie sich einen Moment Zeit, um die Bestellung zu überprüfen`,
   pleaseReviewTheBuyersReferenceFiles: `Bitte überprüfen Sie die Referenzdateien des Käufers und befolgen Sie die Angaben in der Bestellbeschreibung`,

@@ -67,6 +67,7 @@ export const text: text = {
   youWillBeAbleToDownloadYourFilesImmediatelyAfterPurchase: `(en) You'll be able to download your files immediately after purchase—no waiting required!`,
   thisIsACustomOrderNotAReadyMadeProduct: `기성품이 아닌 맞춤 제작을 주문하는 것입니다`,
   nothingIsChargedUntilTheSellerAccepts: `판매자가 수락할 때까지 결제되지 않으며, 거절하면 전혀 청구되지 않습니다`,
+  orderCanceledTheBuyersPaymentWasReleased: `주문이 취소되었습니다. 구매자 카드의 승인 보류가 해제되었습니다`,
   whatWouldYouLikeToCreate: `(en) What would you like to create?`,
   shareYourArt: `(en) Share your art`,
   ifYourArtIsNsfwCheckThisToAvoidAWarningOrBan: `(en) If your art is NSFW, make sure to check this. Otherwise you may get a warning that could lead to a ban.`,
