@@ -233,6 +233,7 @@ export const text: text = {
   displayName: `Nama tampilan`,
   disputed: `Disengketakan`,
   donations: `Donasi`,
+  documentation: `Dokumentasi`,
   done: `Selesai`,
   dragAndDropOrSelectFiles: `Seret dan lepaskan atau pilih file`,
   drawingContest: `Kontes menggambar`,

@@ -233,6 +233,7 @@ export const text: text = {
   displayName: `Tên hiển thị`,
   disputed: `Tranh chấp`,
   donations: `Quyên góp`,
+  documentation: `Tài liệu`,
   done: `Đã xong`,
   dragAndDropOrSelectFiles: `Kéo và thả hoặc chọn tệp`,
   drawingContest: `Cuộc thi vẽ`,

@@ -233,6 +233,7 @@ export const text: text = {
   displayName: `表示名`,
   disputed: `紛争中`,
   donations: `寄付`,
+  documentation: `ドキュメント`,
   done: `完了`,
   dragAndDropOrSelectFiles: `ドラッグ＆ドロップまたはファイルを選択する`,
   drawingContest: `アニメ作品コンテスト`,

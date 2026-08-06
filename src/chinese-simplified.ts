@@ -233,6 +233,7 @@ export const text: text = {
   displayName: `显示名称`,
   disputed: `有争议`,
   donations: `捐赠`,
+  documentation: `文档`,
   done: `完成了`,
   dragAndDropOrSelectFiles: `拖放或选择文件`,
   drawingContest: `绘画比赛`,

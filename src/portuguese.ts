@@ -233,6 +233,7 @@ export const text: text = {
   displayName: `Nome de exibição`,
   disputed: `Contestado`,
   donations: `Doações`,
+  documentation: `Documentação`,
   done: `Pronto`,
   dragAndDropOrSelectFiles: `Arraste e solte ou selecione arquivo(s)`,
   drawingContest: `Concurso de desenho`,
