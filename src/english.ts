@@ -150,6 +150,7 @@ export const text = {
   displayName: `Display name`,
   disputed: `Disputed`,
   donations: `Donations`,
+  documentation: `Documentation`,
   done: `Done`,
   dragAndDropOrSelectFiles: `Drag & Drop or Select file(s)`,
   drawingContest: `Drawing contest`,
