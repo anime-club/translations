@@ -38,7 +38,6 @@ export const text = {
   amountShouldNotBeLessThan: (amount: number) => `Amount should not be less than ${amount}`,
   animeArtByArtistsFromAllOverTheWorld: `Anime art by artists from all over the world. Art is curated to be related to anime. The art selection is an infinite list of best anime art`,
   animeArtSubscribeToArtistsLikeAndCreate: `Anime art - subscribe to artists, like, and create collections`,
-  animeClubTheFirstPlatformToOfferArtistsPaymentsFromViews: `Anime.club - the first platform to offer artists payments from views via Google AdSense. Support artists by viewing their content or start earning from views`,
   animeClubUsesToPayYouQuicklyAndKeepYourInfoSecure: (providerName: string) =>
     `Anime.club uses ${providerName} to get you paid quickly and keep your personal and payment information secure`,
   animeClubViewPostAndEarnFromAnimeContent: `Anime.club - view, post, and earn from anime content`,
@@ -154,6 +153,7 @@ export const text = {
   didntReceiveEmail: `Didn't receive email?`,
   digitalDownloads: `Digital Downloads`,
   digitalDownloadsExamples: `Brushes, assets, tutorials & more`,
+  discoverAnimeArtAndArtistsFromAroundTheWorld: `Discover anime art and artists from around the world on Anime.club. Follow creators, support their work, explore original art, or share your own`,
   displayName: `Display name`,
   disputed: `Disputed`,
   documentation: `Documentation`,
@@ -210,6 +210,7 @@ export const text = {
   greatNewsBuyerPurchasedYourItemTimeToCelebrate: (buyerUsername: string) =>
     `Great news! ${buyerUsername} purchased your item. Time to celebrate!`,
   greatNewsYourOrderIsNowInProgress: `Great news! Your order is now in progress`,
+  grid: `Grid`,
   guestView: `Guest view`,
   harassment: `Harassment`,
   hasNotAddedADescriptionFor: (username: string, title: string) =>
@@ -260,6 +261,7 @@ export const text = {
   lackOfInformation: `Lack of information`,
   language: `Language`,
   languages: `Languages`,
+  layout: `Layout`,
   leaveAReview: `Leave a review`,
   letBuyersKnowIfYouOfferRevisionsAndHowMany: `Let buyers know if you offer <b>revisions</b>, and how many`,
   letEveryoneKnowHowToDonateToYou: `Let everyone know how to donate to you`,
@@ -281,6 +283,7 @@ export const text = {
   makeSureToIncludeClearInstructions: `Make sure to include clear instructions on how each reference should be used`,
   makeSureYouFullyUnderstandTheRequirements: `Make sure you fully understand the requirements and can complete the order by the deadline`,
   makeSureYourProductsArePricedCompetitively: `Make sure your products are priced competitively`,
+  masonry: `Masonry`,
   maximumFileSize: (sizeMB: string) => `Maximum file size: <b>${sizeMB}</b> per file`,
   maximumNChars: (num: number) => `Maximum ${num} chars`,
   maximumNumberOfDaysToCompleteTheOrder: `Maximum number of days to complete the order`,
