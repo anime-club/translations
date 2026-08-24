@@ -292,6 +292,7 @@ export const text = {
   mentionYourDeliveryTimeInDays: `Mention your <b>delivery time</b> (in days)`,
   menu: `Menu`,
   message: `Message`,
+  messageDeleted: `Message deleted`,
   messages: `Messages`,
   minHeight: `Min height`,
   minimumDimensions: (width: number, height: number) => `Minimum size: ${width}×${height} pixels`,

@@ -290,6 +290,7 @@ export const text: text = {
   mentionYourDeliveryTimeInDays: `ระบุ<b>เวลาส่งมอบ</b>ของคุณ (เป็นวัน)`,
   menu: `เมนู`,
   message: `ข้อความ`,
+  messageDeleted: `ข้อความถูกลบแล้ว`,
   messages: `ข้อความ`,
   minHeight: `ความสูงขั้นต่ำ`,
   minimumDimensions: (...v) => `ขนาดขั้นต่ำ: ${v[0]}×${v[1]} พิกเซล`,

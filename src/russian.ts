@@ -291,6 +291,7 @@ export const text: text = {
   mentionYourDeliveryTimeInDays: `Укажите <b>срок доставки</b> в днях`,
   menu: `Меню`,
   message: `Сообщение`,
+  messageDeleted: `Сообщение удалено`,
   messages: `Сообщения`,
   minHeight: `Минимальная высота`,
   minimumDimensions: (...v) => `Минимальный размер: ${v[0]}×${v[1]} пикселей`,

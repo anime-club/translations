@@ -290,6 +290,7 @@ export const text: text = {
   mentionYourDeliveryTimeInDays: `اذكر <b>مدة التسليم</b> (بالأيام)`,
   menu: `القائمة`,
   message: `رسالة`,
+  messageDeleted: `تم حذف الرسالة`,
   messages: `الرسائل`,
   minHeight: `الارتفاع الأدنى`,
   minimumDimensions: (...v) => `الحد الأدنى للحجم: ${v[0]}×${v[1]} بكسل`,

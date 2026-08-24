@@ -289,6 +289,7 @@ export const text: text = {
   mentionYourDeliveryTimeInDays: `注明您的<b>交付时间</b>（天数）`,
   menu: `菜单`,
   message: `消息`,
+  messageDeleted: `消息已删除`,
   messages: `私信`,
   minHeight: `最小高度`,
   minimumDimensions: (...v) => `最小尺寸：${v[0]}×${v[1]} 像素`,

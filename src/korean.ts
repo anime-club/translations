@@ -290,6 +290,7 @@ export const text: text = {
   mentionYourDeliveryTimeInDays: `<b>작업 기간</b>(일수)을 작성하세요`,
   menu: `메뉴`,
   message: `메시지`,
+  messageDeleted: `메시지가 삭제되었습니다`,
   messages: `쪽지`,
   minHeight: `최소 높이`,
   minimumDimensions: (...v) => `최소 크기: ${v[0]}×${v[1]}픽셀`,

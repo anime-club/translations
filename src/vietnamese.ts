@@ -290,6 +290,7 @@ export const text: text = {
   mentionYourDeliveryTimeInDays: `Nêu rõ <b>thời gian giao hàng</b> (tính bằng ngày)`,
   menu: `Menu`,
   message: `Tin nhắn`,
+  messageDeleted: `Tin nhắn đã bị xóa`,
   messages: `Tin nhắn`,
   minHeight: `Chiều cao tối thiểu`,
   minimumDimensions: (...v) => `Kích thước tối thiểu: ${v[0]}×${v[1]} pixel`,

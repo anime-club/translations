@@ -291,6 +291,7 @@ export const text: text = {
   mentionYourDeliveryTimeInDays: `Informe seu <b>prazo de entrega</b> (em dias)`,
   menu: `Cardápio`,
   message: `Mensagem`,
+  messageDeleted: `Mensagem excluída`,
   messages: `Mensagens`,
   minHeight: `Altura mínima`,
   minimumDimensions: (...v) => `Tamanho mínimo: ${v[0]}×${v[1]} pixels`,

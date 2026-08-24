@@ -290,6 +290,7 @@ export const text: text = {
   mentionYourDeliveryTimeInDays: `<b>納期</b>（日数）を記載してください`,
   menu: `メニュー`,
   message: `メッセージ`,
+  messageDeleted: `メッセージは削除されました`,
   messages: `メッセージ`,
   minHeight: `最小長さ`,
   minimumDimensions: (...v) => `最小サイズ：${v[0]}×${v[1]}ピクセル`,
