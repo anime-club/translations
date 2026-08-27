@@ -333,6 +333,7 @@ export const text: text = {
   noReviewsJustYet: `Belum ada ulasan`,
   noSalesYetNoWorries: `Belum ada penjualan? Jangan khawatir, Anda baru memulai`,
   notAcceptingOrders: `Tidak menerima pesanan`,
+  notes: `Catatan`,
   nothingIsChargedUntilTheSellerAccepts: `Tidak ada biaya yang ditagih sampai penjual menerima, dan jika ditolak Anda tidak ditagih sama sekali`,
   notifications: `Notifikasi`,
   nsfwContent18Plus: `Konten NSFW (18+)`,

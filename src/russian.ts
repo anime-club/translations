@@ -334,6 +334,7 @@ export const text: text = {
   noReviewsJustYet: `Пока нет отзывов`,
   noSalesYetNoWorries: `Пока нет продаж? Не переживайте, вы только начинаете`,
   notAcceptingOrders: `Не принимаю заказы`,
+  notes: `Заметки`,
   nothingIsChargedUntilTheSellerAccepts: `Деньги не списываются, пока продавец не примет заказ, а если он откажется, с вас ничего не спишут`,
   notifications: `Уведомления`,
   nsfwContent18Plus: `Материалы для взрослых (18+)`,

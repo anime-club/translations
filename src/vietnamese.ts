@@ -333,6 +333,7 @@ export const text: text = {
   noReviewsJustYet: `Chưa có đánh giá nào`,
   noSalesYetNoWorries: `Chưa có đơn hàng? Đừng lo, bạn vừa mới bắt đầu thôi`,
   notAcceptingOrders: `Không nhận đơn hàng`,
+  notes: `Ghi chú`,
   nothingIsChargedUntilTheSellerAccepts: `Không có khoản nào bị trừ cho đến khi người bán chấp nhận, và nếu họ từ chối, bạn không bị trừ tiền`,
   notifications: `Thông báo`,
   nsfwContent18Plus: `Nội dung NSFW (18+)`,

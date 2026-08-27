@@ -332,6 +332,7 @@ export const text: text = {
   noReviewsJustYet: `暂时还没有评价`,
   noSalesYetNoWorries: `还没有销售？别担心，您才刚刚开始`,
   notAcceptingOrders: `不接受订单`,
+  notes: `备注`,
   nothingIsChargedUntilTheSellerAccepts: `卖家接受前不会扣款；如果卖家拒接，您不会被收取任何费用`,
   notifications: `通知事项`,
   nsfwContent18Plus: `NSFW内容（18+）`,

@@ -333,6 +333,7 @@ export const text: text = {
   noReviewsJustYet: `まだレビューはありません`,
   noSalesYetNoWorries: `まだ販売がありませんか？ご心配なく、始まったばかりです`,
   notAcceptingOrders: `注文を受け付けていません`,
+  notes: `メモ`,
   nothingIsChargedUntilTheSellerAccepts: `出品者が承諾するまで請求は発生せず、辞退された場合は一切請求されません`,
   notifications: `通知`,
   nsfwContent18Plus: `18歳以上向けのコンテンツ`,

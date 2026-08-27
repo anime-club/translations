@@ -333,6 +333,7 @@ export const text: text = {
   noReviewsJustYet: `Pas encore d'avis`,
   noSalesYetNoWorries: `Pas encore de ventes ? Pas d'inquiétude, vous débutez seulement`,
   notAcceptingOrders: `N'accepte pas les commandes`,
+  notes: `Notes`,
   nothingIsChargedUntilTheSellerAccepts: `Rien n’est débité tant que le vendeur n’a pas accepté, et s’il refuse, vous n’êtes pas débité`,
   notifications: `Notifications`,
   nsfwContent18Plus: `Contenu NSFW (18+)`,

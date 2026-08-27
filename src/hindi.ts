@@ -333,6 +333,7 @@ export const text: text = {
   noReviewsJustYet: `अभी तक कोई समीक्षा नहीं`,
   noSalesYetNoWorries: `अभी तक कोई बिक्री नहीं? चिंता न करें, आप अभी शुरुआत कर रहे हैं`,
   notAcceptingOrders: `आदेश स्वीकार नहीं कर रहा है`,
+  notes: `नोट्स`,
   nothingIsChargedUntilTheSellerAccepts: `विक्रेता स्वीकार करने तक कोई शुल्क नहीं लिया जाता, और मना करने पर आपसे कुछ भी नहीं लिया जाएगा`,
   notifications: `नोटिफिकेशन्स`,
   nsfwContent18Plus: `एनएसएफडब्ल्यू सामग्री (18+)`,
