@@ -494,6 +494,7 @@ export const text = {
   thankYouForYourPurchase: `Thank you for your purchase!`,
   thankYouForYourReview: `Thank you for your review!`,
   theBuyerAcceptedThemAtCheckout: `The buyer accepted them at checkout`,
+  theBuyerCanSeeTheseFilesRightAway: `The buyer can see these files right away`,
   theLinkIsBrokenOrPageHasBeenRemoved: `The link is broken or page has been removed`,
   theMaximumQuantityThatACustomerCanAdd: `The maximum quantity that a customer can add`,
   theReasonYouProvideForCancellingThisOrderWillBeSharedWithTheBuyer: `The reason you provide for cancelling this order will be shared with the buyer`,
@@ -501,6 +502,7 @@ export const text = {
   theReviewPeriodIsLimitedtoNdays: (numOfDays: number | string) =>
     `The review period is limited to <b>${numOfDays}</b> days`,
   theseAreYourTermsForThisItem: `These are your terms for this item`,
+  theSellerCanSeeTheseFilesRightAway: `The seller can see these files right away`,
   theSellerConfirmedYourOrderAndIsWorkingOnIt: `The seller has <b>confirmed</b> your order and is now busy working on it`,
   theSellerHasUploadedTheseFilesForYou: `The seller has uploaded these files for you`,
   theseRulesAreProvidedByTheSellerAndApplyOnlyToThisItem: `These rules are provided by the seller and apply only to this item`,
