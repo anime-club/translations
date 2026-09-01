@@ -159,7 +159,7 @@ export const text = {
   documentation: `Documentation`,
   donations: `Donations`,
   done: `Done`,
-  download: `Dowload`,
+  download: `Download`,
   downloadThemBelow: `Download them below`,
   dragAndDropOrSelectFiles: `Drag & Drop or Select file(s)`,
   drawingContest: `Drawing contest`,
