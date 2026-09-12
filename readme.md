@@ -23,6 +23,8 @@ The process is easy as 1-2-3:
 
 - [🇸🇦 Arabic (Modern standard)](https://github.com/anime-club/translations/edit/main/src/arabic-standard.ts)
 - [🇨🇳 Chinese (Simplified)](https://github.com/anime-club/translations/edit/main/src/chinese-simplified.ts)
+- [🇭🇰 Chinese (Traditional, Hong Kong)](https://github.com/anime-club/translations/edit/main/src/chinese-traditional-hong-kong.ts)
+- [🇹🇼 Chinese (Traditional, Taiwan)](https://github.com/anime-club/translations/edit/main/src/chinese-traditional-taiwan.ts)
 - [🇺🇸 English](https://github.com/anime-club/translations/edit/main/src/english.ts)
 - [🇫🇷 French](https://github.com/anime-club/translations/edit/main/src/french.ts)
 - [🇩🇪 German](https://github.com/anime-club/translations/edit/main/src/german.ts)
