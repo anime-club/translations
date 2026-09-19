@@ -598,6 +598,7 @@ export const text: text = {
   today: `오늘`,
   toGetWorkRelatedNotifications: `작업 관련 알림을 받으려면`,
   toHelpTheCreatorCompleteYourOrder: `창작자가 주문을 만족스럽게 완료할 수 있도록 원하는 주제, 스타일, 캐릭터 특징 및 기타 중요한 사양을 포함한 자세한 설명을 제공하십시오`,
+  tooManyAttempts: `시도 횟수가 너무 많습니다. 잠시 기다린 후 다시 시도해 주세요`,
   total: `합계`,
   toViewThisDataYouNeedToUnblock: (...v) => `이 데이터를 보려면 @${v[0]}의 차단을 해제해야 합니다.`,
   trademarkViolation: `상표권 침해`,

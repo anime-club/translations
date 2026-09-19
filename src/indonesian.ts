@@ -598,6 +598,7 @@ export const text: text = {
   today: `Hari ini`,
   toGetWorkRelatedNotifications: `Untuk mendapatkan pemberitahuan terkait pekerjaan`,
   toHelpTheCreatorCompleteYourOrder: `Untuk membantu pembuat menyelesaikan pesanan Anda dengan memuaskan, silakan berikan deskripsi rinci tentang apa yang Anda inginkan. Sertakan tema yang diinginkan, gaya, dan fitur karakter, serta spesifikasi penting lainnya`,
+  tooManyAttempts: `Terlalu banyak percobaan, mohon tunggu sejenak lalu coba lagi`,
   total: `Total`,
   toViewThisDataYouNeedToUnblock: (...v) =>
     `Untuk melihat data ini, Anda perlu membuka blokir @${v[0]}`,

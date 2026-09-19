@@ -598,6 +598,7 @@ export const text: text = {
   today: `今日`,
   toGetWorkRelatedNotifications: `仕事に関する通知を受け取るには`,
   toHelpTheCreatorCompleteYourOrder: `クリエイターがご注文を満足のいく形で完了するために、希望するテーマ、スタイル、キャラクターの特徴、およびその他の重要な仕様を含む詳細な説明を提供してください`,
+  tooManyAttempts: `試行回数が多すぎます。少し待ってからもう一度お試しください`,
   total: `合計`,
   toViewThisDataYouNeedToUnblock: (...v) =>
     `このデータを表示するには、@${v[0]} のブロックを解除する必要があります`,

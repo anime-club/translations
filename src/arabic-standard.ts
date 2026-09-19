@@ -598,6 +598,7 @@ export const text: text = {
   today: `اليوم`,
   toGetWorkRelatedNotifications: `للحصول على إشعارات تتعلق بالعمل`,
   toHelpTheCreatorCompleteYourOrder: `لمساعدة المنشئ في إكمال طلبك بما يرضيك، يرجى تقديم وصف تفصيلي لما تريده. قم بتضمين الموضوع المطلوب، النمط، وميزات الشخصية، وأي مواصفات مهمة أخرى`,
+  tooManyAttempts: `محاولات كثيرة جدًا، يُرجى الانتظار قليلًا ثم المحاولة مرة أخرى`,
   total: `الإجمالي`,
   toViewThisDataYouNeedToUnblock: (...v) => `لعرض هذه البيانات، تحتاج إلى إلغاء حظر @${v[0]}`,
   trademarkViolation: `انتهاك العلامة التجارية`,

@@ -603,6 +603,7 @@ export const text = {
   today: `Today`,
   toGetWorkRelatedNotifications: `To get work-related notifications`,
   toHelpTheCreatorCompleteYourOrder: `To help the creator complete your order to your satisfaction, please provide a detailed description of what you want. Include the desired theme, style, and character features, as well as any other important specifications`,
+  tooManyAttempts: `Too many attempts, please wait a moment and try again`,
   total: `Total`,
   toViewThisDataYouNeedToUnblock: (username: string) =>
     `To view this data, you need to unblock @${username}`,

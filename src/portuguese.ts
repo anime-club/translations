@@ -599,6 +599,7 @@ export const text: text = {
   today: `Hoje`,
   toGetWorkRelatedNotifications: `Para receber notificações relacionadas ao trabalho`,
   toHelpTheCreatorCompleteYourOrder: `Para ajudar o criador a concluir seu pedido de forma satisfatória, forneça uma descrição detalhada do que você deseja. Inclua o tema desejado, estilo e características do personagem, bem como quaisquer outras especificações importantes`,
+  tooManyAttempts: `Demasiadas tentativas, aguarde um momento e tente novamente`,
   total: `Total`,
   toViewThisDataYouNeedToUnblock: (...v) =>
     `Para visualizar esses dados, você precisa desbloquear @${v[0]}`,

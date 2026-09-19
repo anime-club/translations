@@ -597,6 +597,7 @@ export const text: text = {
   today: `今天`,
   toGetWorkRelatedNotifications: `获取与工作相关的通知`,
   toHelpTheCreatorCompleteYourOrder: `为了帮助创作者完成您的订单，请提供详细的描述。包括所需的主题、风格和角色特征，以及任何其他重要规格`,
+  tooManyAttempts: `尝试次数过多，请稍等片刻后重试`,
   total: `总计`,
   toViewThisDataYouNeedToUnblock: (...v) => `查看此数据，您需要解除对 @${v[0]} 的屏蔽`,
   trademarkViolation: `商标侵权`,

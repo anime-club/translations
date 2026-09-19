@@ -598,6 +598,7 @@ export const text: text = {
   today: `Hôm nay`,
   toGetWorkRelatedNotifications: `Để nhận thông báo liên quan đến công việc`,
   toHelpTheCreatorCompleteYourOrder: `Để giúp người tạo hoàn thành đơn hàng của bạn một cách hài lòng, vui lòng cung cấp mô tả chi tiết về những gì bạn muốn. Bao gồm chủ đề mong muốn, phong cách và các đặc điểm của nhân vật, cũng như bất kỳ thông số kỹ thuật quan trọng nào khác`,
+  tooManyAttempts: `Quá nhiều lần thử, vui lòng đợi một chút rồi thử lại`,
   total: `Tổng`,
   toViewThisDataYouNeedToUnblock: (...v) => `Để xem dữ liệu này, bạn cần bỏ chặn @${v[0]}`,
   trademarkViolation: `Vi phạm thương hiệu`,
