@@ -2,8 +2,7 @@
 
 This repository contains all translations for the [Anime.club](https://anime.club) website 😉
 
-Thank you for taking a look at the translations ❣️
-By making our translations available to everyone, we hope you could kindly help us to improve our translation efforts 🙏
+Thank you for taking a look at the translations ❣️ By making our translations available to everyone, we hope you could kindly help us to improve our translation efforts 🙏
 
 ## Quick links (Contents)
 
