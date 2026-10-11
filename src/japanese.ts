@@ -90,6 +90,7 @@ export const text: text = {
   browseShop: `ショップを閲覧`,
   buyer: `購入者`,
   buyerHasNotLeftAReviewYet: `購入者はまだレビューを残していません`,
+  buyersReason: `購入者の理由`,
   buyersRequest: `購入者のリクエスト`,
   buyersWillBeAbleToSeeThisListingYouCanHideItAgainAnytime: `購入者がこの出品を閲覧できるようになります。いつでも再び非表示にできます`,
   buyNow: `今すぐ購入`,
@@ -381,6 +382,7 @@ export const text: text = {
   noteOnlyVisibleToYou: `メモ（自分にのみ表示）`,
   notes: `メモ`,
   nothingIsChargedUntilTheSellerAccepts: `出品者が承諾するまで請求は発生せず、辞退された場合は一切請求されません`,
+  notificationDeleted: `通知を削除しました`,
   notifications: `通知`,
   nsfwCantBeChangedAfterPosting: `NSFWは投稿後に変更できません`,
   nsfwContent18Plus: `18歳以上向けのコンテンツ`,
@@ -511,7 +513,9 @@ export const text: text = {
   seller: `販売者`,
   sellerHasntResponded: `出品者から返答がない`,
   sellerNet: `販売者の手取り額`,
+  sellersReason: `販売者の理由`,
   sellerTermsOfService: `出品者向け利用規約`,
+  sellingReinstated: `販売が再開されました。未払い残高は清算され、商品が再び表示されています`,
   sellingSuspended: `アカウントに未払い残高があるため販売が停止されています。既存の注文は引き続き利用できます`,
   send: `送信`,
   sendEmail: `メールを送信する`,
@@ -623,6 +627,9 @@ export const text: text = {
   usernameAlreadyExists: `このユーザー名はすでに存在しています`,
   usernameAndXMoreFollowYou: (...v) =>
     `<b>${v[0]}</b>さんと他${v[1]}人があなたをフォローしています`,
+  usernameCanceledTheOrder: (...v) => `<b>${v[0]}</b>が注文をキャンセルしました`,
+  usernameCanceledTheOrderYourPaymentIsBeingRefunded: (...v) =>
+    `<b>${v[0]}</b>が注文をキャンセルしました。お支払いは自動的に返金されます。お手続きは不要です`,
   usernameChangedRecently: `最近ユーザー名を変更しました。古いユーザー名が解放されるまでは、元のユーザー名にのみ戻せます`,
   usernameCommentedOnYourWork: (...v) => `<b>${v[0]}</b>さんがあなたの作品にコメントしました`,
   usernameHasntAddedAnythingToTheirPortfolioYet: (...v) =>
@@ -676,6 +683,7 @@ export const text: text = {
   youCanAutoPublishToYourSocialMediaAccount: `ソーシャルメディアアカウントに自動投稿できます`,
   youCanceledTheOrder: `注文をキャンセルしました`,
   youCanChooseFromTheListOrEnterACustomReason: `リストから選択するか、その他の理由を入力できます`,
+  youCanComeBackAnytimeToDownloadYourFilesAgain: `いつでも戻ってファイルを再ダウンロードできます`,
   youCanModifyTheTypesOfNotificationsYouReceiveViaEmail: `メールで受け取る通知の種類を変更できます`,
   youCanRequestRemovalOfYourAccount: `アカウントとそのすべてのプロフィールおよびデータの削除をリクエストできます`,
   youCanStillNavigateToThePreviouslyOpenedPages: `前に開いたページには移動できます`,

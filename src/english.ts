@@ -90,6 +90,7 @@ export const text = {
   browseShop: `Browse shop`,
   buyer: `Buyer`,
   buyerHasNotLeftAReviewYet: `Buyer has not left a review yet`,
+  buyersReason: `Buyer's reason`,
   buyersRequest: `Buyer's request`,
   buyersWillBeAbleToSeeThisListingYouCanHideItAgainAnytime: `Buyers will be able to see this listing. You can hide it again anytime`,
   buyNow: `Buy now`,
@@ -384,6 +385,7 @@ export const text = {
   noteOnlyVisibleToYou: `Note (only visible to you)`,
   notes: `Notes`,
   nothingIsChargedUntilTheSellerAccepts: `Nothing is charged until the seller accepts, and if they decline you’re not charged at all`,
+  notificationDeleted: `Notification deleted`,
   notifications: `Notifications`,
   nsfwCantBeChangedAfterPosting: `NSFW can't be changed after posting`,
   nsfwContent18Plus: `NSFW Content (18+)`,
@@ -515,7 +517,9 @@ export const text = {
   seller: `Seller`,
   sellerHasntResponded: `Seller hasn't responded`,
   sellerNet: `Seller net`,
+  sellersReason: `Seller's reason`,
   sellerTermsOfService: `Seller Terms of Service`,
+  sellingReinstated: `Selling is restored. Your outstanding balance is settled and your products are visible again`,
   sellingSuspended: `Selling is suspended because your account has an outstanding balance. Existing orders remain available`,
   send: `Send`,
   sendEmail: `Send email`,
@@ -628,6 +632,9 @@ export const text = {
   usernameAlreadyExists: `Username already exists`,
   usernameAndXMoreFollowYou: (username: string, numberOfNotifiers: number) =>
     `<b>${username}</b> and ${numberOfNotifiers} more just followed you`,
+  usernameCanceledTheOrder: (user: string) => `<b>${user}</b> canceled the order`,
+  usernameCanceledTheOrderYourPaymentIsBeingRefunded: (user: string) =>
+    `<b>${user}</b> canceled the order. Your payment is being refunded automatically, no action is needed`,
   usernameChangedRecently: `You changed your username recently. Until the old one is released, you can only change back to it`,
   usernameCommentedOnYourWork: (username: string) => `<b>${username}</b> commented on your work`,
   usernameHasntAddedAnythingToTheirPortfolioYet: (username: string) =>
@@ -682,6 +689,7 @@ export const text = {
   youCanAutoPublishToYourSocialMediaAccount: `You can auto publish to your social media account`,
   youCanceledTheOrder: `You canceled the order`,
   youCanChooseFromTheListOrEnterACustomReason: `You can choose from the list or enter a custom reason`,
+  youCanComeBackAnytimeToDownloadYourFilesAgain: `You can come back anytime to download your files again`,
   youCanModifyTheTypesOfNotificationsYouReceiveViaEmail: `You can modify the types of notifications you receive via email`,
   youCanRequestRemovalOfYourAccount: `You can request removal of your account with all its profiles and data`,
   youCanStillNavigateToThePreviouslyOpenedPages: `You can still navigate to the previously opened pages`,
