@@ -225,7 +225,6 @@ export const text: text = {
   filter: `絞り込む`,
   filterBy: `以下の条件で絞り込む`,
   finishSettingUpYourShop: `ショップの設定を完了する`,
-  finishSettingUpYourShopToPublish: `公開するにはショップの設定を完了してください`,
   follow: `フォローする`,
   followers: `フォロワー`,
   following: `フォロー中`,

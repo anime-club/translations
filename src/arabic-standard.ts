@@ -225,7 +225,6 @@ export const text: text = {
   filter: `تصفية`,
   filterBy: `تصفية على حسب`,
   finishSettingUpYourShop: `إنهاء إعداد متجرك`,
-  finishSettingUpYourShopToPublish: `أكمل إعداد متجرك للنشر`,
   follow: `متابعة`,
   followers: `متابعون`,
   following: `تُتابع`,

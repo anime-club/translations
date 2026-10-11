@@ -225,7 +225,6 @@ export const text: text = {
   filter: `过滤`,
   filterBy: `过滤`,
   finishSettingUpYourShop: `完成商店设置`,
-  finishSettingUpYourShopToPublish: `完成商店设置后即可发布`,
   follow: `跟随`,
   followers: `追随者`,
   following: `下列的`,

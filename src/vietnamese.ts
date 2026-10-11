@@ -225,7 +225,6 @@ export const text: text = {
   filter: `Bộ lọc`,
   filterBy: `Lọc theo`,
   finishSettingUpYourShop: `Hoàn tất thiết lập cửa hàng của bạn`,
-  finishSettingUpYourShopToPublish: `Hoàn tất thiết lập cửa hàng của bạn để đăng`,
   follow: `Theo dõi`,
   followers: `Người theo dõi`,
   following: `Theo dõi`,

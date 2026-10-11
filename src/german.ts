@@ -225,7 +225,6 @@ export const text: text = {
   filter: `Filter`,
   filterBy: `Filter nach`,
   finishSettingUpYourShop: `Beenden Sie die Einrichtung Ihres Shops`,
-  finishSettingUpYourShopToPublish: `Schließen Sie die Einrichtung Ihres Shops ab, um zu veröffentlichen`,
   follow: `Folgen`,
   followers: `Followers`,
   following: `Folgen`,

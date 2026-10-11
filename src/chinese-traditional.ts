@@ -228,7 +228,6 @@ export const text: text = {
   filter: `過濾`,
   filterBy: `過濾`,
   finishSettingUpYourShop: `完成商店設定`,
-  finishSettingUpYourShopToPublish: `完成商店設定後即可發布`,
   follow: `跟隨`,
   followers: `追隨者`,
   following: `下列的`,

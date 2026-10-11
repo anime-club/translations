@@ -225,7 +225,6 @@ export const text: text = {
   filter: `필터`,
   filterBy: `필터링`,
   finishSettingUpYourShop: `상점 설정 완료`,
-  finishSettingUpYourShopToPublish: `게시하려면 상점 설정을 완료하세요`,
   follow: `팔로우하세요`,
   followers: `팔로워`,
   following: `팔로잉`,
