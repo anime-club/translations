@@ -1,9 +1,5 @@
 {
-  "ignorePatterns": [
-    // our ".js & .jsx" files are built-files that should not be formatted
-    "**/*.js",
-    "**/*.jsx"
-  ],
+  "ignorePatterns": ["**/*.js", "**/*.jsx"],
   "arrowParentheses": "always",
   "trailingCommas": "all",
   "indentWidth": 2,
