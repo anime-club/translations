@@ -645,6 +645,7 @@ export const text: text = {
   toGetWorkRelatedNotifications: `Um arbeitsbezogene Benachrichtigungen zu erhalten`,
   toHelpTheCreatorCompleteYourOrder: `Um dem Ersteller zu helfen, Ihre Bestellung zu Ihrer Zufriedenheit abzuschließen, geben Sie bitte eine detaillierte Beschreibung dessen, was Sie möchten. Geben Sie das gewünschte Thema, den Stil und die Charaktereigenschaften sowie alle anderen wichtigen Spezifikationen an`,
   tooManyAttempts: `Zu viele Versuche, bitte warten Sie einen Moment und versuchen Sie es erneut`,
+  topArtworks: `Top-Kunstwerke`,
   total: `Gesamt`,
   toViewThisDataYouNeedToUnblock: (...v) =>
     `Um diese Daten anzuzeigen, müssen Sie @${v[0]} freischalten`,

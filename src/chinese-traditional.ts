@@ -645,6 +645,7 @@ export const text: text = {
   toGetWorkRelatedNotifications: `獲取與工作相關的通知`,
   toHelpTheCreatorCompleteYourOrder: `為了幫助創作者完成您的訂單，請提供詳細的描述。包括所需的主題、風格和角色特徵，以及任何其他重要規格`,
   tooManyAttempts: `嘗試次數過多，請稍等片刻後重試`,
+  topArtworks: `熱門藝術品`,
   total: `總計`,
   toViewThisDataYouNeedToUnblock: (...v) => `查看此資料，您需要解除對 @${v[0]} 的封鎖`,
   trademarkViolation: `商標侵權`,
