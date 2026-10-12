@@ -2,6 +2,37 @@
  * Shared Traditional Chinese base
  */
 export const text: text = {
+  addOnHours: `(en) Extra time in hours`,
+  addOnHoursTooltip: `(en) Hours this add-on adds to delivery. If a buyer takes it 2 times, it adds the hours 2 times`,
+  addOnsDontFitIntoTheOrderTime: `(en) Delivery time and add-ons don't fit into the order's time. Lower the add-on hours or maximum quantity`,
+  addOnsTakeXHoursTooLong: (time: string) =>
+    `(en) Add-ons take ${time} too long. Lower their hours or maximum quantity`,
+  deadlineExtendedByX: (time: string) => `(en) Deadline extended by ${time}`,
+  deliveryTimeStartsWhenYouAcceptTheOrder: `(en) Delivery time counts from the day you accept the order, not from the day the buyer placed it. Add-on hours are added to it`,
+  extensionLimitExplained: (days: number, deadline: string, latest: string) =>
+    `(en) Your current deadline is <b>${deadline}</b>. You can move it to <b>${latest}</b> at the latest, because every order needs to be finished within <b>${days} days</b> of accepting it, add-ons included.<br><br><b>The buyer decides whether to accept.</b> Until they do, your current deadline stays the same. You can send one request per order`,
+  extensionRequestDeclined: `(en) The buyer declined your deadline extension request. The original deadline applies, and the order can't be extended again`,
+  extensionRequestSent: (time: string) =>
+    `(en) Request sent. If the buyer accepts, the deadline moves by ${time}`,
+  extraDays: `(en) Extra days`,
+  hoursLeftForAddOns: (time: string) => `(en) Time left for add-ons: ${time}`,
+  leaveEmptyToAllowOne: `(en) Optional. Leave empty to let a buyer take it once`,
+  leaveEmptyToMakeItFree: `(en) Leave empty to let buyers add it for free`,
+  newDeadline: `(en) New deadline`,
+  orderTimeBudget: (work: number) =>
+    `(en) Every order must be completed within ${work} days at most. Delivery time plus all add-ons (at their maximum quantity) must fit into these ${work} days`,
+  requestDeadlineExtension: `(en) Request deadline extension`,
+  sellerRequestsADeadlineExtensionOfX: (time: string) =>
+    `(en) The seller asks for ${time} more. You can decline to keep the original deadline, or ask the seller in the chat`,
+  sendRequest: `(en) Send request`,
+  usernameAcceptedYourDeadlineExtensionOfX: (username: string, time: string) =>
+    `(en) ${username} accepted your request. The deadline moved by ${time}`,
+  usernameDeclinedYourDeadlineExtensionRequest: (username: string) =>
+    `(en) ${username} declined your request to extend the deadline. The original deadline applies`,
+  usernameRequestsADeadlineExtensionOfX: (username: string, time: string) =>
+    `(en) ${username} requests ${time} more to finish your order`,
+  waitingForTheBuyerToAnswerYourRequestForX: (time: string) =>
+    `(en) Waiting for the buyer to answer your request for ${time} more`,
   _colon: `：`,
   _comma: `、`,
   _dot: `。`,
