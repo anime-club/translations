@@ -1,4 +1,14 @@
 export const text: text = {
+  accountSuspended: `アカウントが停止されています`,
+  accountSuspensionAbuse: `迷惑行為や攻撃的な行為。`,
+  accountSuspensionChargeback: `決済への異議申し立てによる支払いの取り消し（チャージバック）。`,
+  accountSuspensionContentViolationsLabel: `コンテンツルール違反`,
+  accountSuspensionContentViolations: (count: number) =>
+    `コンテンツルールに違反した投稿を${count}件削除したため、アカウントを停止しました。`,
+  accountSuspensionFraud: `不正行為。`,
+  accountSuspensionGeneric: `anime.club運営チームによる対応です。`,
+  accountSuspensionHelp: `誤りだと思われる場合は、お問い合わせから異議を申し立ててください。`,
+  accountSuspensionRestricted: `アカウントの停止中は、ログインやアカウント機能の利用はできません。`,
   addOnHours: `(en) Extra time in hours`,
   addOnHoursTooltip: `(en) Hours this add-on adds to delivery. If a buyer takes it 2 times, it adds the hours 2 times`,
   addOnsDontFitIntoTheOrderTime: `(en) Delivery time and add-ons don't fit into the order's time. Lower the add-on hours or maximum quantity`,
@@ -7,8 +17,8 @@ export const text: text = {
   deadlineExtendedByX: (time: string) => `(en) Deadline extended by ${time}`,
   deliveryTimeStartsWhenYouAcceptTheOrder: `(en) Delivery time counts from the day you accept the order, not from the day the buyer placed it. Add-on hours are added to it`,
   extensionLimitExplained: (days: number, deadline: string, latest: string) =>
-    `(en) Your current deadline is <b>${deadline}</b>. You can move it to <b>${latest}</b> at the latest, because every order needs to be finished within <b>${days} days</b> of accepting it, add-ons included.<br><br><b>The buyer decides whether to accept.</b> Until they do, your current deadline stays the same. You can send one request per order`,
-  extensionRequestDeclined: `(en) The buyer declined your deadline extension request. The original deadline applies, and the order can't be extended again`,
+    `(en) Your current deadline is <b>${deadline}</b>. You can move it to <b>${latest}</b> at the latest, because every order needs to be finished within <b>${days} days</b> of accepting it, add-ons included.<br><br><b>The buyer decides whether to accept.</b> Until they do, your current deadline stays the same`,
+  extensionRequestDeclined: `(en) The buyer declined your deadline extension request. The original deadline applies`,
   extensionRequestSent: (time: string) =>
     `(en) Request sent. If the buyer accepts, the deadline moves by ${time}`,
   extraDays: `(en) Extra days`,
@@ -20,7 +30,10 @@ export const text: text = {
     `(en) Every order must be completed within ${work} days at most. Delivery time plus all add-ons (at their maximum quantity) must fit into these ${work} days`,
   requestDeadlineExtension: `(en) Request deadline extension`,
   sellerRequestsADeadlineExtensionOfX: (time: string) =>
-    `(en) The seller asks for ${time} more. You can decline to keep the original deadline, or ask the seller in the chat`,
+    `(en) The seller asks for ${time} more to finish the work.`,
+  sellerRequestsNewDeadlineIfAcceptedX: (deadline: string) =>
+    `(en) If you accept, the new deadline is ${deadline}. You can decline to keep the original deadline.`,
+  sellerRequestsRefundIfDeadlineMissed: `(en) If the seller doesn't deliver the finished work by the deadline, you get a full refund and the seller pays all platform fees.`,
   sendRequest: `(en) Send request`,
   usernameAcceptedYourDeadlineExtensionOfX: (username: string, time: string) =>
     `(en) ${username} accepted your request. The deadline moved by ${time}`,
@@ -173,6 +186,8 @@ export const text: text = {
   contactSupport: `サポートに連絡`,
   contactUs: `お問い合わせ`,
   contentSuspended: `<b>あなたの作品が一時停止されました。</b>誤りだと思われる場合は、3日以内にメッセージに返信して異議を申し立ててください`,
+  contentRemovedForX: (title: string, reason: string) =>
+    `(en) <b>Your post “${title}” was suspended for a rule violation.</b> It is no longer listed on your profile and cannot be edited or deleted. Reason: ${reason}`,
   continue: `続ける`,
   continueWithFingerprintOrFace: `指紋または顔でログイン`,
   contractTitle: `契約タイトル`,

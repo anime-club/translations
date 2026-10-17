@@ -19,6 +19,10 @@ const regional = regionalize(traditional, [
 export const text: text = {
   ...regional,
   accountActivation: `帳號啟用`,
+  accountSuspended: `你的帳號已被暫停使用`,
+  accountSuspensionContentViolations: (count: number) =>
+    `由於你的 ${count} 篇貼文違反內容規則並被刪除，我們暫停了你的帳號。`,
+  accountSuspensionRestricted: `帳號暫停使用期間，你無法登入或使用帳號功能。`,
   advancedOptions: `進階選項`,
   appSettings: `應用程式設定`,
   appsVersionIs: `應用程式版本為`,

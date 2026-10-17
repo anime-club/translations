@@ -1,4 +1,14 @@
 export const text: text = {
+  accountSuspended: `계정이 정지되었습니다`,
+  accountSuspensionAbuse: `타인을 괴롭히거나 모욕하는 행위.`,
+  accountSuspensionChargeback: `결제 이의 제기에 따른 은행의 결제 취소(차지백).`,
+  accountSuspensionContentViolationsLabel: `콘텐츠 규정 위반`,
+  accountSuspensionContentViolations: (count: number) =>
+    `콘텐츠 규정을 위반한 게시물 ${count}개가 삭제되어 계정이 정지되었습니다.`,
+  accountSuspensionFraud: `사기 행위.`,
+  accountSuspensionGeneric: `anime.club 운영팀의 제재 결정.`,
+  accountSuspensionHelp: `잘못된 조치라고 생각되면 문의하여 이의를 제기해 주세요.`,
+  accountSuspensionRestricted: `계정이 정지된 동안에는 로그인하거나 계정 기능을 사용할 수 없습니다.`,
   addOnHours: `(en) Extra time in hours`,
   addOnHoursTooltip: `(en) Hours this add-on adds to delivery. If a buyer takes it 2 times, it adds the hours 2 times`,
   addOnsDontFitIntoTheOrderTime: `(en) Delivery time and add-ons don't fit into the order's time. Lower the add-on hours or maximum quantity`,
@@ -7,8 +17,8 @@ export const text: text = {
   deadlineExtendedByX: (time: string) => `(en) Deadline extended by ${time}`,
   deliveryTimeStartsWhenYouAcceptTheOrder: `(en) Delivery time counts from the day you accept the order, not from the day the buyer placed it. Add-on hours are added to it`,
   extensionLimitExplained: (days: number, deadline: string, latest: string) =>
-    `(en) Your current deadline is <b>${deadline}</b>. You can move it to <b>${latest}</b> at the latest, because every order needs to be finished within <b>${days} days</b> of accepting it, add-ons included.<br><br><b>The buyer decides whether to accept.</b> Until they do, your current deadline stays the same. You can send one request per order`,
-  extensionRequestDeclined: `(en) The buyer declined your deadline extension request. The original deadline applies, and the order can't be extended again`,
+    `(en) Your current deadline is <b>${deadline}</b>. You can move it to <b>${latest}</b> at the latest, because every order needs to be finished within <b>${days} days</b> of accepting it, add-ons included.<br><br><b>The buyer decides whether to accept.</b> Until they do, your current deadline stays the same`,
+  extensionRequestDeclined: `(en) The buyer declined your deadline extension request. The original deadline applies`,
   extensionRequestSent: (time: string) =>
     `(en) Request sent. If the buyer accepts, the deadline moves by ${time}`,
   extraDays: `(en) Extra days`,
@@ -20,7 +30,10 @@ export const text: text = {
     `(en) Every order must be completed within ${work} days at most. Delivery time plus all add-ons (at their maximum quantity) must fit into these ${work} days`,
   requestDeadlineExtension: `(en) Request deadline extension`,
   sellerRequestsADeadlineExtensionOfX: (time: string) =>
-    `(en) The seller asks for ${time} more. You can decline to keep the original deadline, or ask the seller in the chat`,
+    `(en) The seller asks for ${time} more to finish the work.`,
+  sellerRequestsNewDeadlineIfAcceptedX: (deadline: string) =>
+    `(en) If you accept, the new deadline is ${deadline}. You can decline to keep the original deadline.`,
+  sellerRequestsRefundIfDeadlineMissed: `(en) If the seller doesn't deliver the finished work by the deadline, you get a full refund and the seller pays all platform fees.`,
   sendRequest: `(en) Send request`,
   usernameAcceptedYourDeadlineExtensionOfX: (username: string, time: string) =>
     `(en) ${username} accepted your request. The deadline moved by ${time}`,
@@ -173,6 +186,8 @@ export const text: text = {
   contactSupport: `지원팀에게 연락하기`,
   contactUs: `문의하기`,
   contentSuspended: `<b>회원님의 콘텐츠가 일시 중지되었습니다.</b> 잘못된 조치라고 생각되면 3일 이내에 메시지에 답장하여 이의를 제기해 주세요`,
+  contentRemovedForX: (title: string, reason: string) =>
+    `(en) <b>Your post “${title}” was suspended for a rule violation.</b> It is no longer listed on your profile and cannot be edited or deleted. Reason: ${reason}`,
   continue: `계속하기`,
   continueWithFingerprintOrFace: `지문 또는 얼굴로 로그인`,
   contractTitle: `계약 제목`,

@@ -15,6 +15,16 @@ export const text = {
   accountManagment: `Account management`,
   accountRecovery: `Account recovery`,
   accountRemoval: `Account removal`,
+  accountSuspended: `Your account is suspended`,
+  accountSuspensionAbuse: `Abusive behavior.`,
+  accountSuspensionChargeback: `A payment chargeback.`,
+  accountSuspensionContentViolationsLabel: `Content rule violations`,
+  accountSuspensionContentViolations: (count: number) =>
+    `We suspended your account after removing ${count} of your posts for breaking our content rules.`,
+  accountSuspensionFraud: `Fraudulent activity.`,
+  accountSuspensionGeneric: `A moderation decision by the anime.club team.`,
+  accountSuspensionHelp: `If you think this is a mistake, contact us to appeal.`,
+  accountSuspensionRestricted: `You cannot sign in or use account features while your account is suspended.`,
   actionRequired: `Action required`,
   add: `Add`,
   addAComment: `Add a comment`,
@@ -147,6 +157,8 @@ export const text = {
   contactSupport: `Contact support`,
   contactUs: `Contact us`,
   contentSuspended: `<b>Some of your content is suspended.</b> If you think it's a mistake, appeal by replying to our message within 3 days`,
+  contentRemovedForX: (title: string, reason: string) =>
+    `<b>Your post “${title}” was suspended for a rule violation.</b> It is no longer listed on your profile and cannot be edited or deleted. Reason: ${reason}`,
   continue: `Continue`,
   continueWithFingerprintOrFace: `Sign in with fingerprint or face`,
   contractTitle: `Contract Title`,
@@ -221,8 +233,8 @@ export const text = {
   eventGraphics: `Event graphics`,
   exitWithoutSaving: `Exit without saving`,
   extensionLimitExplained: (days: number, deadline: string, latest: string) =>
-    `Your current deadline is <b>${deadline}</b>. You can move it to <b>${latest}</b> at the latest, because every order needs to be finished within <b>${days} days</b> of accepting it, add-ons included.<br><br><b>The buyer decides whether to accept.</b> Until they do, your current deadline stays the same. You can send one request per order`,
-  extensionRequestDeclined: `The buyer declined your deadline extension request. The original deadline applies, and the order can't be extended again`,
+    `Your current deadline is <b>${deadline}</b>. You can move it to <b>${latest}</b> at the latest, because every order needs to be finished within <b>${days} days</b> of accepting it, add-ons included.<br><br><b>The buyer decides whether to accept.</b> Until they do, your current deadline stays the same`,
+  extensionRequestDeclined: `The buyer declined your deadline extension request. The original deadline applies`,
   extensionRequestSent: (time: string) =>
     `Request sent. If the buyer accepts, the deadline moves by ${time}`,
   extensions: `Extensions`,
@@ -549,7 +561,10 @@ export const text = {
   sellerHasntResponded: `Seller hasn't responded`,
   sellerNet: `Seller net`,
   sellerRequestsADeadlineExtensionOfX: (time: string) =>
-    `The seller asks for ${time} more. You can decline to keep the original deadline, or ask the seller in the chat`,
+    `The seller asks for ${time} more to finish the work.`,
+  sellerRequestsNewDeadlineIfAcceptedX: (deadline: string) =>
+    `If you accept, the new deadline is ${deadline}. You can decline to keep the original deadline.`,
+  sellerRequestsRefundIfDeadlineMissed: `If the seller doesn't deliver the finished work by the deadline, you get a full refund and the seller pays all platform fees.`,
   sellersReason: `Seller's reason`,
   sellerTermsOfService: `Seller Terms of Service`,
   sellingReinstated: `Selling is restored. Your outstanding balance is settled and your products are visible again`,

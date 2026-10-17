@@ -1,4 +1,14 @@
 export const text: text = {
+  accountSuspended: `Tu cuenta está suspendida`,
+  accountSuspensionAbuse: `Comportamiento abusivo.`,
+  accountSuspensionChargeback: `Un pago reclamado y revertido a través del banco.`,
+  accountSuspensionContentViolationsLabel: `Infracciones de las normas de contenido`,
+  accountSuspensionContentViolations: (count: number) =>
+    `Suspendimos tu cuenta después de eliminar ${count} de tus publicaciones por infringir nuestras normas de contenido.`,
+  accountSuspensionFraud: `Actividad fraudulenta.`,
+  accountSuspensionGeneric: `Una decisión de moderación del equipo de anime.club.`,
+  accountSuspensionHelp: `Si crees que se trata de un error, ponte en contacto con nosotros para apelar la decisión.`,
+  accountSuspensionRestricted: `No puedes iniciar sesión ni usar las funciones de tu cuenta mientras esté suspendida.`,
   addOnHours: `(en) Extra time in hours`,
   addOnHoursTooltip: `(en) Hours this add-on adds to delivery. If a buyer takes it 2 times, it adds the hours 2 times`,
   addOnsDontFitIntoTheOrderTime: `(en) Delivery time and add-ons don't fit into the order's time. Lower the add-on hours or maximum quantity`,
@@ -7,8 +17,8 @@ export const text: text = {
   deadlineExtendedByX: (time: string) => `(en) Deadline extended by ${time}`,
   deliveryTimeStartsWhenYouAcceptTheOrder: `(en) Delivery time counts from the day you accept the order, not from the day the buyer placed it. Add-on hours are added to it`,
   extensionLimitExplained: (days: number, deadline: string, latest: string) =>
-    `(en) Your current deadline is <b>${deadline}</b>. You can move it to <b>${latest}</b> at the latest, because every order needs to be finished within <b>${days} days</b> of accepting it, add-ons included.<br><br><b>The buyer decides whether to accept.</b> Until they do, your current deadline stays the same. You can send one request per order`,
-  extensionRequestDeclined: `(en) The buyer declined your deadline extension request. The original deadline applies, and the order can't be extended again`,
+    `(en) Your current deadline is <b>${deadline}</b>. You can move it to <b>${latest}</b> at the latest, because every order needs to be finished within <b>${days} days</b> of accepting it, add-ons included.<br><br><b>The buyer decides whether to accept.</b> Until they do, your current deadline stays the same`,
+  extensionRequestDeclined: `(en) The buyer declined your deadline extension request. The original deadline applies`,
   extensionRequestSent: (time: string) =>
     `(en) Request sent. If the buyer accepts, the deadline moves by ${time}`,
   extraDays: `(en) Extra days`,
@@ -20,7 +30,10 @@ export const text: text = {
     `(en) Every order must be completed within ${work} days at most. Delivery time plus all add-ons (at their maximum quantity) must fit into these ${work} days`,
   requestDeadlineExtension: `(en) Request deadline extension`,
   sellerRequestsADeadlineExtensionOfX: (time: string) =>
-    `(en) The seller asks for ${time} more. You can decline to keep the original deadline, or ask the seller in the chat`,
+    `(en) The seller asks for ${time} more to finish the work.`,
+  sellerRequestsNewDeadlineIfAcceptedX: (deadline: string) =>
+    `(en) If you accept, the new deadline is ${deadline}. You can decline to keep the original deadline.`,
+  sellerRequestsRefundIfDeadlineMissed: `(en) If the seller doesn't deliver the finished work by the deadline, you get a full refund and the seller pays all platform fees.`,
   sendRequest: `(en) Send request`,
   usernameAcceptedYourDeadlineExtensionOfX: (username: string, time: string) =>
     `(en) ${username} accepted your request. The deadline moved by ${time}`,
@@ -173,6 +186,8 @@ export const text: text = {
   contactSupport: `Contactar soporte`,
   contactUs: `Contáctenos`,
   contentSuspended: `<b>Uno de tus contenidos está suspendido.</b> Si crees que es un error, apela respondiendo a nuestro mensaje en 3 días`,
+  contentRemovedForX: (title: string, reason: string) =>
+    `(en) <b>Your post “${title}” was suspended for a rule violation.</b> It is no longer listed on your profile and cannot be edited or deleted. Reason: ${reason}`,
   continue: `Continuar`,
   continueWithFingerprintOrFace: `Inicia sesión con huella o rostro`,
   contractTitle: `Título del contrato`,
