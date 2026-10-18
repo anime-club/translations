@@ -1,48 +1,4 @@
 export const text: text = {
-  accountSuspended: `Dein Konto wurde gesperrt`,
-  accountSuspensionAbuse: `Missbräuchliches Verhalten.`,
-  accountSuspensionChargeback: `Eine über die Bank veranlasste Rückbuchung einer Zahlung.`,
-  accountSuspensionContentViolationsLabel: `Verstöße gegen Inhaltsregeln`,
-  accountSuspensionContentViolations: (count: number) =>
-    `Wir haben dein Konto gesperrt, nachdem wir ${count} deiner Beiträge wegen Verstößen gegen unsere Inhaltsregeln entfernt haben.`,
-  accountSuspensionFraud: `Betrügerische Aktivitäten.`,
-  accountSuspensionGeneric: `Eine Moderationsentscheidung des anime.club-Teams.`,
-  accountSuspensionHelp: `Wenn du glaubst, dass dies ein Fehler ist, kontaktiere uns, um Einspruch einzulegen.`,
-  accountSuspensionRestricted: `Solange dein Konto gesperrt ist, kannst du dich nicht anmelden und keine Kontofunktionen nutzen.`,
-  addOnHours: `(en) Extra time in hours`,
-  addOnHoursTooltip: `(en) Hours this add-on adds to delivery. If a buyer takes it 2 times, it adds the hours 2 times`,
-  addOnsDontFitIntoTheOrderTime: `(en) Delivery time and add-ons don't fit into the order's time. Lower the add-on hours or maximum quantity`,
-  addOnsTakeXHoursTooLong: (time: string) =>
-    `(en) Add-ons take ${time} too long. Lower their hours or maximum quantity`,
-  deadlineExtendedByX: (time: string) => `(en) Deadline extended by ${time}`,
-  deliveryTimeStartsWhenYouAcceptTheOrder: `(en) Delivery time counts from the day you accept the order, not from the day the buyer placed it. Add-on hours are added to it`,
-  extensionLimitExplained: (days: number, deadline: string, latest: string) =>
-    `(en) Your current deadline is <b>${deadline}</b>. You can move it to <b>${latest}</b> at the latest, because every order needs to be finished within <b>${days} days</b> of accepting it, add-ons included.<br><br><b>The buyer decides whether to accept.</b> Until they do, your current deadline stays the same`,
-  extensionRequestDeclined: `(en) The buyer declined your deadline extension request. The original deadline applies`,
-  extensionRequestSent: (time: string) =>
-    `(en) Request sent. If the buyer accepts, the deadline moves by ${time}`,
-  extraDays: `(en) Extra days`,
-  hoursLeftForAddOns: (time: string) => `(en) Time left for add-ons: ${time}`,
-  leaveEmptyToAllowOne: `(en) Optional. Leave empty to let a buyer take it once`,
-  leaveEmptyToMakeItFree: `(en) Leave empty to let buyers add it for free`,
-  newDeadline: `(en) New deadline`,
-  orderTimeBudget: (work: number) =>
-    `(en) Every order must be completed within ${work} days at most. Delivery time plus all add-ons (at their maximum quantity) must fit into these ${work} days`,
-  requestDeadlineExtension: `(en) Request deadline extension`,
-  sellerRequestsADeadlineExtensionOfX: (time: string) =>
-    `(en) The seller asks for ${time} more to finish the work.`,
-  sellerRequestsNewDeadlineIfAcceptedX: (deadline: string) =>
-    `(en) If you accept, the new deadline is ${deadline}. You can decline to keep the original deadline.`,
-  sellerRequestsRefundIfDeadlineMissed: `(en) If the seller doesn't deliver the finished work by the deadline, you get a full refund and the seller pays all platform fees.`,
-  sendRequest: `(en) Send request`,
-  usernameAcceptedYourDeadlineExtensionOfX: (username: string, time: string) =>
-    `(en) ${username} accepted your request. The deadline moved by ${time}`,
-  usernameDeclinedYourDeadlineExtensionRequest: (username: string) =>
-    `(en) ${username} declined your request to extend the deadline. The original deadline applies`,
-  usernameRequestsADeadlineExtensionOfX: (username: string, time: string) =>
-    `(en) ${username} requests ${time} more to finish your order`,
-  waitingForTheBuyerToAnswerYourRequestForX: (time: string) =>
-    `(en) Waiting for the buyer to answer your request for ${time} more`,
   _colon: `: `,
   _comma: `, `,
   _dot: `. `,
@@ -59,15 +15,30 @@ export const text: text = {
   accountManagment: `Kontoverwaltung`,
   accountRecovery: `Kontowiederherstellung`,
   accountRemoval: `Kontolöschung`,
+  accountSuspended: `Dein Konto wurde gesperrt`,
+  accountSuspensionAbuse: `Missbräuchliches Verhalten.`,
+  accountSuspensionChargeback: `Eine über die Bank veranlasste Rückbuchung einer Zahlung.`,
+  accountSuspensionContentViolations: (count: number) =>
+    `Wir haben dein Konto gesperrt, nachdem wir ${count} deiner Beiträge wegen Verstößen gegen unsere Inhaltsregeln entfernt haben.`,
+  accountSuspensionContentViolationsLabel: `Verstöße gegen Inhaltsregeln`,
+  accountSuspensionFraud: `Betrügerische Aktivitäten.`,
+  accountSuspensionGeneric: `Eine Moderationsentscheidung des anime.club-Teams.`,
+  accountSuspensionHelp: `Wenn du glaubst, dass dies ein Fehler ist, kontaktiere uns, um Einspruch einzulegen.`,
+  accountSuspensionRestricted: `Solange dein Konto gesperrt ist, kannst du dich nicht anmelden und keine Kontofunktionen nutzen.`,
   actionRequired: `Handlung erforderlich`,
   add: `Hinzufügen`,
   addAComment: `Kommentar hinzufügen`,
   addBlog: `Blog hinzufügen`,
   addMore: `Mehr hinzufügen`,
   addMoreProductsToYourShop: `Fügen Sie Ihrem Shop weitere Produkte hinzu`,
+  addOnHours: `Zusätzliche Zeit in Stunden`,
+  addOnHoursTooltip: `Stunden, die diese Zusatzleistung zur Lieferzeit hinzufügt. Wählt ein Käufer sie 2-mal, kommen die Stunden 2-mal hinzu`,
   addOns: `Zusatzleistungen`,
   addOnsAreOptionalEnhancementsToYourProduct: `Zusatzleistungen sind optionale Erweiterungen für dein Produkt`,
+  addOnsDontFitIntoTheOrderTime: `Lieferzeit und Zusatzleistungen passen nicht in die Bestellzeit. Verringere die Stunden der Zusatzleistungen oder die maximale Menge`,
   addOnsHelpBoostIncome: `Mit Zusatzleistungen können Käufer ihre Bestellung anpassen und du kannst mehr verdienen`,
+  addOnsTakeXHoursTooLong: (...v) =>
+    `Die Zusatzleistungen sind ${v[0]} zu lang. Verringere ihre Stunden oder die maximale Menge`,
   addsABadgeInvitingConstructiveCritique: `Fügt ein Abzeichen hinzu, das andere zu konstruktiver Kritik einlädt. Feedback hilft dir, dich zu verbessern, und bringt mehr Kommentare zu deinem Werk`,
   addSignInVia: `Anmeldung hinzufügen über`,
   addToCart: `Zum Warenkorb hinzufügen`,
@@ -185,9 +156,9 @@ export const text: text = {
   contactSeller: `Verkäufer kontaktieren`,
   contactSupport: `Support kontaktieren`,
   contactUs: `Kontaktieren Sie uns`,
+  contentRemovedForX: (...v) =>
+    `<b>Dein Beitrag „${v[0]}“ wurde wegen eines Regelverstoßes gesperrt.</b> Er wird nicht mehr in deinem Profil angezeigt und kann weder bearbeitet noch gelöscht werden. Grund: ${v[1]}`,
   contentSuspended: `<b>Einer deiner Inhalte ist gesperrt.</b> Wenn du denkst, dass das ein Fehler ist, lege innerhalb von 3 Tagen Einspruch ein, indem du auf unsere Nachricht antwortest`,
-  contentRemovedForX: (title: string, reason: string) =>
-    `(en) <b>Your post “${title}” was suspended for a rule violation.</b> It is no longer listed on your profile and cannot be edited or deleted. Reason: ${reason}`,
   continue: `Weiter`,
   continueWithFingerprintOrFace: `Mit Fingerabdruck oder Gesicht anmelden`,
   contractTitle: `Vertragstitel`,
@@ -207,6 +178,7 @@ export const text: text = {
   daily: `Täglich`,
   dark: `Dunkel`,
   date: `Datum`,
+  deadlineExtendedByX: (...v) => `Frist um ${v[0]} verlängert`,
   debtRepayment: `Schuldenrückzahlung`,
   decline: `Ablehnen`,
   deductedForDebtRepayment: (amount: string) =>
@@ -219,6 +191,7 @@ export const text: text = {
   deleteProduct: `Produkt löschen`,
   deleteShop: `Shop löschen`,
   deliveryTime: `Lieferzeit`,
+  deliveryTimeStartsWhenYouAcceptTheOrder: `Die Lieferzeit zählt ab dem Tag, an dem du die Bestellung annimmst, nicht ab dem Tag, an dem der Käufer sie aufgegeben hat. Die Stunden der Zusatzleistungen kommen hinzu`,
   describeTheDetailsOfYourAddOn: `Beschreibe die Details deiner Zusatzleistung`,
   describeWhatsIncludedAndWhatTheBuyerCanExpectAfterPurchase: `Beschreibe, was enthalten ist und was der Käufer nach dem Kauf erwarten kann`,
   description: `Beschreibung`,
@@ -260,7 +233,13 @@ export const text: text = {
   errorPleaseContactCustomerSupport: `Error! Bitte wenden Sie sich an den Kundendienst...`,
   eventGraphics: `Eventgrafiken`,
   exitWithoutSaving: `Ohne Speichern verlassen`,
+  extensionLimitExplained: (...v) =>
+    `Deine aktuelle Frist: <b>${v[1]}</b>. Du kannst sie höchstens bis <b>${v[2]}</b> verschieben, denn jede Bestellung muss innerhalb von <b>${v[0]} Tagen</b> nach der Annahme fertig sein, Zusatzleistungen eingeschlossen.<br><br><b>Der Käufer entscheidet, ob er zustimmt.</b> Bis dahin bleibt deine aktuelle Frist bestehen`,
+  extensionRequestDeclined: `Der Käufer hat deine Anfrage zur Fristverlängerung abgelehnt. Es gilt die ursprüngliche Frist`,
+  extensionRequestSent: (...v) =>
+    `Anfrage gesendet. Stimmt der Käufer zu, verschiebt sich die Frist um ${v[0]}`,
   extensions: `Erweiterungen`,
+  extraDays: `Zusätzliche Tage`,
   failed: `Fehlgeschlagen`,
   fee: `Gebühr`,
   feedback: `Feedback`,
@@ -302,6 +281,7 @@ export const text: text = {
   hideListing: `Angebot ausblenden`,
   hire: `Einstellen`,
   homepage: `Startseite`,
+  hoursLeftForAddOns: (...v) => `Verbleibende Zeit für Zusatzleistungen: ${v[0]}`,
   howToContactYou: `Wie man dich kontaktieren kann`,
   howToFindYouOnOtherSocialNetworks: `Wie man dich auf anderen sozialen Netzwerken finden kann`,
   iAgreeWith: `Ich bin einverstanden mit`,
@@ -339,6 +319,8 @@ export const text: text = {
   languages: `Sprachen`,
   layout: `Anordnung`,
   leaveAReview: `Eine Bewertung hinterlassen`,
+  leaveEmptyToAllowOne: `Optional. Leer lassen, damit ein Käufer sie einmal wählen kann`,
+  leaveEmptyToMakeItFree: `Leer lassen, damit Käufer sie kostenlos hinzufügen können`,
   legal: `Rechtliches`,
   legalIntro: `Lies die rechtlichen Dokumente, die für anime.club gelten und erklären, wie personenbezogene Daten verarbeitet werden`,
   letBuyersKnowIfYouOfferRevisionsAndHowMany: `Gib an, ob du <b>Überarbeitungen</b> anbietest und wie viele`,
@@ -370,6 +352,7 @@ export const text: text = {
   masonry: `Mauerwerk`,
   maximumFileSize: (...v) => `Maximale Dateigröße: <b>${v[0]}</b> pro Datei`,
   maximumNChars: (...v) => `Maximal ${v[0]} Zeichen`,
+  maximumNHashtags: (...v) => `Maximal ${v[0]} Hashtags`,
   maximumNumberOfDaysToCompleteTheOrder: `Maximale Anzahl von Tagen, um die Bestellung abzuschließen`,
   maximumQuantity: `Maximale Menge`,
   maxSize: `Maximale Größe`,
@@ -411,6 +394,7 @@ export const text: text = {
   newArtworks: `Neue Kunstwerke`,
   newBlog: `Neuer Blog`,
   newCommission: `Neuer Auftrag`,
+  newDeadline: `Neue Frist`,
   newOrder: `Neue Bestellung`,
   newProduct: `Neues Produkt`,
   newsFeed: `Newsfeed`,
@@ -472,6 +456,8 @@ export const text: text = {
   ordered: (...v) => `Bestellt ${v[0]}`,
   orderedByMistake: `Versehentlich bestellt`,
   orderStatus: `Bestellstatus`,
+  orderTimeBudget: (...v) =>
+    `Jede Bestellung muss innerhalb von höchstens ${v[0]} Tagen abgeschlossen sein. Lieferzeit plus alle Zusatzleistungen (in maximaler Menge) müssen in diese ${v[0]} Tage passen`,
   originalAnimation: `Originalanimation`,
   originalMusic: `Originalmusik`,
   otherOrderIssue: `Anderes Problem mit der Bestellung`,
@@ -549,6 +535,7 @@ export const text: text = {
   reply: `Antworten`,
   replyToUsername: (...v) => `Antwort an ${v[0]}`,
   report: `Melden`,
+  requestDeadlineExtension: `Fristverlängerung anfragen`,
   requestDetails: `Anfragedetails`,
   review: `Bewertung`,
   reviewed: `Bewertet`,
@@ -563,6 +550,7 @@ export const text: text = {
   saveChanges: `Änderungen speichern`,
   schedulesAndSocialGraphics: `Zeitpläne und Social-Media-Grafiken`,
   search: `Suchen`,
+  searchArtworks: `Kunstwerke suchen`,
   searchProducts: `Produkte suchen`,
   selectAnime: `Wählen Sie Anime`,
   selectAppearanceContrastAndColorTheme: `Erscheinungsbild, Kontrast und Farbthema auswählen`,
@@ -572,12 +560,18 @@ export const text: text = {
   seller: `Verkäufer`,
   sellerHasntResponded: `Verkäufer hat nicht reagiert`,
   sellerNet: `Nettoerlös des Verkäufers`,
+  sellerRequestsADeadlineExtensionOfX: (...v) =>
+    `Der Verkäufer bittet um ${v[0]} mehr, um die Arbeit fertigzustellen.`,
+  sellerRequestsNewDeadlineIfAcceptedX: (...v) =>
+    `Wenn du zustimmst, ist die neue Frist ${v[0]}. Du kannst ablehnen, um die ursprüngliche Frist zu behalten.`,
+  sellerRequestsRefundIfDeadlineMissed: `Liefert der Verkäufer die fertige Arbeit nicht bis zur Frist, bekommst du den vollen Betrag erstattet und der Verkäufer zahlt alle Plattformgebühren.`,
   sellersReason: `Grund des Verkäufers`,
   sellerTermsOfService: `Nutzungsbedingungen für Verkäufer`,
   sellingReinstated: `Der Verkauf ist wiederhergestellt. Dein offener Saldo ist ausgeglichen und deine Produkte sind wieder sichtbar`,
   sellingSuspended: `Der Verkauf ist ausgesetzt, weil dein Konto einen offenen Saldo hat. Bestehende Bestellungen bleiben verfügbar`,
   send: `Senden`,
   sendEmail: `E-Mail senden`,
+  sendRequest: `Anfrage senden`,
   sendSuggestion: `Vorschlag senden`,
   sessions: `Sitzungen`,
   settings: `Einstellungen`,
@@ -686,6 +680,8 @@ export const text: text = {
   uploadTheFilesYourBuyerWillGet: `Lade die Dateien hoch, die dein <b>Käufer erhält</b>`,
   uploadUpToNumberFiles: (...v) => `Lade bis zu <b>${v[0]}</b> Dateien hoch`,
   username: `Nutzername`,
+  usernameAcceptedYourDeadlineExtensionOfX: (...v) =>
+    `${v[0]} hat deine Anfrage angenommen. Die Frist wurde um ${v[1]} verschoben`,
   usernameAlreadyExists: `Benutzername existiert bereits`,
   usernameAndXMoreFollowYou: (...v) => `<b>${v[0]}</b> und ${v[1]} weitere folgen dir`,
   usernameCanceledTheOrder: (...v) => `<b>${v[0]}</b> hat die Bestellung storniert`,
@@ -693,6 +689,8 @@ export const text: text = {
     `<b>${v[0]}</b> hat die Bestellung storniert. Deine Zahlung wird automatisch erstattet, du musst nichts tun`,
   usernameChangedRecently: `Du hast deinen Benutzernamen kürzlich geändert. Bis der alte freigegeben ist, kannst du nur zu ihm zurückwechseln`,
   usernameCommentedOnYourWork: (...v) => `<b>${v[0]}</b> hat dein Werk kommentiert`,
+  usernameDeclinedYourDeadlineExtensionRequest: (...v) =>
+    `${v[0]} hat deine Anfrage zur Fristverlängerung abgelehnt. Es gilt die ursprüngliche Frist`,
   usernameHasntAddedAnythingToTheirPortfolioYet: (...v) =>
     `@${v[0]} hat dem Portfolio noch nichts hinzugefügt`,
   usernameHasntListedAnyProductsForSaleYet: (...v) =>
@@ -701,6 +699,8 @@ export const text: text = {
   usernameLeftAReaction: (...v) =>
     `<b>${v[0]}</b> hat eine Reaktion hinterlassen${v[1] ? ` ${v[1]}` : ``}`,
   usernameRepliedToYourComment: (...v) => `<b>${v[0]}</b> hat auf deinen Kommentar geantwortet`,
+  usernameRequestsADeadlineExtensionOfX: (...v) =>
+    `${v[0]} bittet um ${v[1]} mehr, um deine Bestellung fertigzustellen`,
   usernameStartedFollowingYou: (...v) => `<b>${v[0]}</b> folgt dir jetzt`,
   useThisEmailTo: `Verwenden Sie diese E-Mail-Adresse, um sich zu authentifizieren und Benachrichtigungen zu erhalten`,
   useYourFingerprintFaceOrScreenLock: `Verwenden Sie Ihren Fingerabdruck, Ihr Gesicht oder Ihre Bildschirmsperre`,
@@ -717,6 +717,8 @@ export const text: text = {
   voiceOver: `Voice-over`,
   vote: `Abstimmen`,
   vroidAnd3DAddOns: `VRoid- und 3D-Erweiterungen`,
+  waitingForTheBuyerToAnswerYourRequestForX: (...v) =>
+    `Warten auf die Antwort des Käufers zu deiner Anfrage über ${v[0]} mehr`,
   weAreExcitedToSeeYourProgressKeepItUp: `Wir sind gespannt auf Ihre Fortschritte. Machen Sie weiter so!`,
   weAreWorkingOnIt: `Wir arbeiten daran`,
   weDoNotDisplayNSFWContentYet: `Wir zeigen noch keine NSFW-Inhalte an`,
