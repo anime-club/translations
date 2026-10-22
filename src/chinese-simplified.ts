@@ -578,7 +578,7 @@ export const text: text = {
   sessions: `会话`,
   settings: `设定值`,
   settingUpAShopIsFreeAndOnlyTakesAFewMinutes: `设置商店是免费的，只需几分钟`,
-  setUpStripeAccountToGetPaidWithAnimeClub: `设置 Stripe 账户以通过 Anime.club 收款`,
+  setUpPayoutAccountToGetPaidWithAnimeClub: `设置收款账户以通过 Anime.club 收款`,
   share: `分享`,
   sharedFilesAreNotConsideredDelivery: `共享的文件不视为交付`,
   shareYourArt: `分享您的艺术作品`,

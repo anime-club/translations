@@ -582,7 +582,7 @@ export const text: text = {
   sessions: `सत्र`,
   settings: `सेटिंग्स`,
   settingUpAShopIsFreeAndOnlyTakesAFewMinutes: `एक दुकान सेट करना मुफ्त है और कुछ ही मिनटों में हो जाता है`,
-  setUpStripeAccountToGetPaidWithAnimeClub: `Anime.club से भुगतान पाने के लिए Stripe खाता सेट अप करें`,
+  setUpPayoutAccountToGetPaidWithAnimeClub: `Anime.club से भुगतान पाने के लिए पेआउट खाता सेट अप करें`,
   share: `शेयर`,
   sharedFilesAreNotConsideredDelivery: `साझा की गई फ़ाइलें डिलीवरी नहीं मानी जाती हैं`,
   shareYourArt: `अपनी कला साझा करें`,

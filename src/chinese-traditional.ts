@@ -581,7 +581,7 @@ export const text: text = {
   sessions: `工作階段`,
   settings: `設定值`,
   settingUpAShopIsFreeAndOnlyTakesAFewMinutes: `設定商店是免費的，只需幾分鐘`,
-  setUpStripeAccountToGetPaidWithAnimeClub: `設定 Stripe 帳戶以通過 Anime.club 收款`,
+  setUpPayoutAccountToGetPaidWithAnimeClub: `設定收款帳戶以透過 Anime.club 收款`,
   share: `分享`,
   sharedFilesAreNotConsideredDelivery: `共享的文件不視為交付`,
   shareYourArt: `分享您的藝術作品`,

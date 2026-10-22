@@ -581,7 +581,7 @@ export const text: text = {
   sessions: `الجلسات`,
   settings: `الإعدادات`,
   settingUpAShopIsFreeAndOnlyTakesAFewMinutes: `إعداد متجر مجاني ويستغرق بضع دقائق فقط`,
-  setUpStripeAccountToGetPaidWithAnimeClub: `أنشئ حسابًا على Stripe لتلقي مستحقاتك من Anime.club`,
+  setUpPayoutAccountToGetPaidWithAnimeClub: `أنشئ حساب استلام المدفوعات لتلقي مستحقاتك من Anime.club`,
   share: `مشاركة`,
   sharedFilesAreNotConsideredDelivery: `الملفات المشاركة لا تُعد تسليمًا`,
   shareYourArt: `شارك فنك`,

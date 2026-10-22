@@ -579,7 +579,7 @@ export const text: text = {
   sessions: `เซสชัน`,
   settings: `การตั้งค่า`,
   settingUpAShopIsFreeAndOnlyTakesAFewMinutes: `การตั้งค่าร้านค้าฟรีและใช้เวลาเพียงไม่กี่นาทีเท่านั้น`,
-  setUpStripeAccountToGetPaidWithAnimeClub: `ตั้งค่าบัญชี Stripe เพื่อรับเงินจาก Anime.club`,
+  setUpPayoutAccountToGetPaidWithAnimeClub: `ตั้งค่าบัญชีรับเงินเพื่อรับรายได้จาก Anime.club`,
   share: `แชร์`,
   sharedFilesAreNotConsideredDelivery: `ไฟล์ที่แชร์ไม่ถือเป็นการส่งมอบงาน`,
   shareYourArt: `แชร์ผลงานของคุณ`,

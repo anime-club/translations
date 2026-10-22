@@ -584,7 +584,7 @@ export const text: text = {
   sessions: `Sesi`,
   settings: `Pengaturan`,
   settingUpAShopIsFreeAndOnlyTakesAFewMinutes: `Mendirikan toko gratis dan hanya membutuhkan beberapa menit`,
-  setUpStripeAccountToGetPaidWithAnimeClub: `Siapkan akun Stripe untuk menerima pembayaran dari Anime.club`,
+  setUpPayoutAccountToGetPaidWithAnimeClub: `Siapkan akun pencairan untuk menerima pembayaran dari Anime.club`,
   share: `Bagikan`,
   sharedFilesAreNotConsideredDelivery: `File yang dibagikan tidak dianggap sebagai pengiriman`,
   shareYourArt: `Bagikan karya Anda`,

@@ -582,7 +582,7 @@ export const text: text = {
   sessions: `Phiên`,
   settings: `Cài đặt`,
   settingUpAShopIsFreeAndOnlyTakesAFewMinutes: `Thiết lập cửa hàng miễn phí và chỉ mất vài phút`,
-  setUpStripeAccountToGetPaidWithAnimeClub: `Thiết lập tài khoản Stripe để nhận thanh toán qua Anime.club`,
+  setUpPayoutAccountToGetPaidWithAnimeClub: `Thiết lập tài khoản nhận tiền để nhận thanh toán qua Anime.club`,
   share: `Chia sẻ`,
   sharedFilesAreNotConsideredDelivery: `Tệp đã chia sẻ không được coi là bàn giao`,
   shareYourArt: `Chia sẻ tác phẩm của bạn`,

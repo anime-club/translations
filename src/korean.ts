@@ -67,7 +67,7 @@ export const text: text = {
   animeArtSubscribeToArtistsLikeAndCreate: `애니메이션 아트-아티스트 구독, 좋아요 및 컬렉션 만들기`,
   animeClubFee: `Anime.club 수수료`,
   animeClubUsesToPayYouQuicklyAndKeepYourInfoSecure: (...v) =>
-    `Anime.club은 ${v[0]}을 통해 빠르게 정산하고 개인 정보와 결제 정보를 안전하게 보호합니다`,
+    `Anime.club은 ${v[0]}를 통해 빠르게 정산하고 개인 정보와 결제 정보를 안전하게 보호합니다`,
   animeClubViewPostAndEarnFromAnimeContent: `Anime.club-애니메이션 콘텐츠보기, 게시 및 수익`,
   animeDotclubNeverAsksForYourRecoveryCodes: `Anime.club은 복구 코드를 요청하지 않습니다.`,
   animeShopBuyAndSellProducts: `애니메이션 상점 - 상품 구매 및 판매`,
@@ -583,7 +583,7 @@ export const text: text = {
   sessions: `세션`,
   settings: `설정`,
   settingUpAShopIsFreeAndOnlyTakesAFewMinutes: `상점 설정은 무료이며 몇 분만에 완료됩니다.`,
-  setUpStripeAccountToGetPaidWithAnimeClub: `Anime.club에서 정산받을 Stripe 계정을 설정하세요`,
+  setUpPayoutAccountToGetPaidWithAnimeClub: `Anime.club에서 정산받으려면 정산 계정을 설정하세요`,
   share: `공유`,
   sharedFilesAreNotConsideredDelivery: `공유한 파일은 납품으로 간주되지 않습니다`,
   shareYourArt: `작품 공유`,
