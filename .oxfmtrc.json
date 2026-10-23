@@ -1,8 +1,8 @@
 {
   "ignorePatterns": ["**/*.js", "**/*.jsx"],
-  "arrowParentheses": "always",
-  "trailingCommas": "all",
-  "indentWidth": 2,
+  "arrowParens": "always",
+  "trailingComma": "all",
+  "tabWidth": 2,
   "semi": false,
   "useTabs": false,
   "bracketSpacing": true,

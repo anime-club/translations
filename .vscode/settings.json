@@ -40,7 +40,7 @@
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "typescript.preferences.importModuleSpecifierEnding": "minimal",
   "typescript.referencesCodeLens.enabled": true,
-  "typescript.tsdk": "node_modules/typescript",
+  "typescript.tsdk": "node_modules/.tsdk",
   "typescript.tsserver.log": "off",
   "typescript.tsserver.maxTsServerMemory": 8192,
   "typescript.tsserver.useSyntaxServer": "auto",
